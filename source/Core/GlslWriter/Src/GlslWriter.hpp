@@ -307,6 +307,7 @@ namespace GLSL
 		template< typename T > inline T GetFragData( Castor::String const & p_name, uint32_t p_index );
 		template< typename T > inline Array< T > GetAttribute( Castor::String const & p_name, uint32_t p_dimension );
 		template< typename T > inline Array< T > GetOutput( Castor::String const & p_name, uint32_t p_dimension );
+		template< typename T > inline Array< T > GetOutputArray( Castor::String const & p_name );
 		template< typename T > inline Array< T > GetInput( Castor::String const & p_name, uint32_t p_dimension );
 		template< typename T > inline Array< T > GetInputArray( Castor::String const & p_name );
 		template< typename T > inline Array< T > GetLocale( Castor::String const & p_name, uint32_t p_dimension );

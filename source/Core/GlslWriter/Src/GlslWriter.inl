@@ -286,6 +286,13 @@ namespace GLSL
 	}
 
 	template< typename T >
+	inline Array< T > GlslWriter::GetOutputArray( Castor::String const & p_name )
+	{
+		*this << OutputGetter< T >() << T().m_type << p_name << cuT( "[];" ) << Endl();
+		return Array< T >( this, p_name, 32u );
+	}
+
+	template< typename T >
 	inline T GlslWriter::GetInput( Castor::String const & p_name )
 	{
 		*this << InputGetter< T >() << T().m_type << p_name << cuT( ";" ) << Endl();

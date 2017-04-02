@@ -154,6 +154,36 @@ namespace Castor3D
 			, SceneFlags const & p_sceneFlags )const;
 		/**
 		 *\~english
+		 *\brief		Retrieves the tessellation control shader source matching the given flags.
+		 *\param[in]	p_textureFlags	A combination of TextureChannel.
+		 *\param[in]	p_programFlags	A combination of ProgramFlag.
+		 *\param[in]	p_sceneFlags	Scene related flags.
+		 *\~french
+		 *\brief		Récupère le source du tessellation control shader qui correspond aux indicateurs donnés.
+		 *\param[in]	p_textureFlags	Une combinaison de TextureChannel.
+		 *\param[in]	p_programFlags	Une combinaison de ProgramFlag.
+		 *\param[in]	p_sceneFlags	Les indicateurs relatifs à la scène.
+		 */
+		C3D_API Castor::String GetTessellationControlShaderSource( TextureChannels const & p_textureFlags
+			,ProgramFlags const & p_programFlags
+			, SceneFlags const & p_sceneFlags )const;
+		/**
+		 *\~english
+		 *\brief		Retrieves the tessellation evaluation shader source matching the given flags.
+		 *\param[in]	p_textureFlags	A combination of TextureChannel.
+		 *\param[in]	p_programFlags	A combination of ProgramFlag.
+		 *\param[in]	p_sceneFlags	Scene related flags.
+		 *\~french
+		 *\brief		Récupère le source du tessellation evaluation shader qui correspond aux indicateurs donnés.
+		 *\param[in]	p_textureFlags	Une combinaison de TextureChannel.
+		 *\param[in]	p_programFlags	Une combinaison de ProgramFlag.
+		 *\param[in]	p_sceneFlags	Les indicateurs relatifs à la scène.
+		 */
+		C3D_API Castor::String GetTessellationEvaluationShaderSource( TextureChannels const & p_textureFlags
+			,ProgramFlags const & p_programFlags
+			, SceneFlags const & p_sceneFlags )const;
+		/**
+		 *\~english
 		 *\brief		Retrieves the geometry shader source matching the given flags.
 		 *\param[in]	p_textureFlags	A combination of TextureChannel.
 		 *\param[in]	p_programFlags	A combination of ProgramFlag.
@@ -779,21 +809,6 @@ namespace Castor3D
 		C3D_API virtual void DoUpdate( RenderQueueArray & p_queues ) = 0;
 		/**
 		 *\~english
-		 *\brief		Retrieves the pixel shader source matching the given flags.
-		 *\param[in]	p_textureFlags	A combination of TextureChannel.
-		 *\param[in]	p_programFlags	A combination of ProgramFlag.
-		 *\param[in]	p_sceneFlags	Scene related flags.
-		 *\~french
-		 *\brief		Récupère le source du pixel shader correspondant aux indicateurs donnés.
-		 *\param[in]	p_textureFlags	Une combinaison de TextureChannel.
-		 *\param[in]	p_programFlags	Une combinaison de ProgramFlag.
-		 *\param[in]	p_sceneFlags	Les indicateurs relatifs à la scène.
-		 */
-		C3D_API virtual Castor::String DoGetPixelShaderSource( TextureChannels const & p_textureFlags
-			, ProgramFlags const & p_programFlags
-			, SceneFlags const & p_sceneFlags )const = 0;
-		/**
-		 *\~english
 		 *\brief		Retrieves the vertex shader source matching the given flags.
 		 *\param[in]	p_textureFlags	Bitwise ORed TextureChannel.
 		 *\param[in]	p_programFlags	Bitwise ORed ProgramFlag.
@@ -812,6 +827,36 @@ namespace Castor3D
 			, bool p_invertNormals )const;
 		/**
 		 *\~english
+		 *\brief		Retrieves the tessellation control shader source matching the given flags.
+		 *\param[in]	p_textureFlags	A combination of TextureChannel.
+		 *\param[in]	p_programFlags	A combination of ProgramFlag.
+		 *\param[in]	p_sceneFlags	Scene related flags.
+		 *\~french
+		 *\brief		Récupère le source du tessellation control shader qui correspond aux indicateurs donnés.
+		 *\param[in]	p_textureFlags	Une combinaison de TextureChannel.
+		 *\param[in]	p_programFlags	Une combinaison de ProgramFlag.
+		 *\param[in]	p_sceneFlags	Les indicateurs relatifs à la scène.
+		 */
+		C3D_API virtual Castor::String DoGetTessellationControlShaderSource( TextureChannels const & p_textureFlags
+			,ProgramFlags const & p_programFlags
+			, SceneFlags const & p_sceneFlags )const;
+		/**
+		 *\~english
+		 *\brief		Retrieves the tessellation evaluation shader source matching the given flags.
+		 *\param[in]	p_textureFlags	A combination of TextureChannel.
+		 *\param[in]	p_programFlags	A combination of ProgramFlag.
+		 *\param[in]	p_sceneFlags	Scene related flags.
+		 *\~french
+		 *\brief		Récupère le source du tessellation evaluation shader qui correspond aux indicateurs donnés.
+		 *\param[in]	p_textureFlags	Une combinaison de TextureChannel.
+		 *\param[in]	p_programFlags	Une combinaison de ProgramFlag.
+		 *\param[in]	p_sceneFlags	Les indicateurs relatifs à la scène.
+		 */
+		C3D_API virtual Castor::String DoGetTessellationEvaluationShaderSource( TextureChannels const & p_textureFlags
+			,ProgramFlags const & p_programFlags
+			, SceneFlags const & p_sceneFlags )const;
+		/**
+		 *\~english
 		 *\brief		Retrieves the geometry shader source matching the given flags.
 		 *\param[in]	p_textureFlags	A combination of TextureChannel.
 		 *\param[in]	p_programFlags	A combination of ProgramFlag.
@@ -823,6 +868,21 @@ namespace Castor3D
 		 *\param[in]	p_sceneFlags	Les indicateurs relatifs à la scène.
 		 */
 		C3D_API virtual Castor::String DoGetGeometryShaderSource( TextureChannels const & p_textureFlags
+			, ProgramFlags const & p_programFlags
+			, SceneFlags const & p_sceneFlags )const = 0;
+		/**
+		 *\~english
+		 *\brief		Retrieves the pixel shader source matching the given flags.
+		 *\param[in]	p_textureFlags	A combination of TextureChannel.
+		 *\param[in]	p_programFlags	A combination of ProgramFlag.
+		 *\param[in]	p_sceneFlags	Scene related flags.
+		 *\~french
+		 *\brief		Récupère le source du pixel shader correspondant aux indicateurs donnés.
+		 *\param[in]	p_textureFlags	Une combinaison de TextureChannel.
+		 *\param[in]	p_programFlags	Une combinaison de ProgramFlag.
+		 *\param[in]	p_sceneFlags	Les indicateurs relatifs à la scène.
+		 */
+		C3D_API virtual Castor::String DoGetPixelShaderSource( TextureChannels const & p_textureFlags
 			, ProgramFlags const & p_programFlags
 			, SceneFlags const & p_sceneFlags )const = 0;
 		/**

@@ -1,4 +1,4 @@
-#include "ShaderCache.hpp"
+﻿#include "ShaderCache.hpp"
 
 #include "Engine.hpp"
 
@@ -6,6 +6,7 @@
 #include "Event/Frame/InitialiseEvent.hpp"
 #include "Render/RenderPipeline.hpp"
 #include "Render/RenderPass.hpp"
+#include "Shader/ShaderObject.hpp"
 #include "Shader/ShaderProgram.hpp"
 
 #include <GlslSource.hpp>
@@ -203,6 +204,25 @@ namespace Castor3D
 				AddFlag( l_matrixUboShaderMask, ShaderTypeFlag::eGeometry );
 				l_return->CreateObject( ShaderType::eGeometry );
 				l_return->SetSource( ShaderType::eGeometry, l_model, l_geometry );
+			}
+
+			auto l_control = p_renderPass.GetTessellationControlShaderSource( p_textureFlags, p_programFlags, p_sceneFlags );
+
+			if ( !l_control.empty() )
+			{
+				AddFlag( l_matrixUboShaderMask, ShaderTypeFlag::eHull );
+				auto l_shader = l_return->CreateObject( ShaderType::eHull );
+				l_return->SetSource( ShaderType::eHull, l_model, l_control );
+				l_shader->SetPatchVtxCount( 3u );
+			}
+
+			auto l_evaluation = p_renderPass.GetTessellationEvaluationShaderSource( p_textureFlags, p_programFlags, p_sceneFlags );
+
+			if ( !l_evaluation.empty() )
+			{
+				AddFlag( l_matrixUboShaderMask, ShaderTypeFlag::eDomain );
+				l_return->CreateObject( ShaderType::eDomain );
+				l_return->SetSource( ShaderType::eDomain, l_model, l_evaluation );
 			}
 
 			CreateTextureVariables( *l_return, p_textureFlags, p_programFlags );

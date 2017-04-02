@@ -373,12 +373,12 @@ namespace Castor3D
 			pxl_v4FragColor = vec4( 0.0_f, 0.0f, 0.0f, 0.0f );
 			auto l_texCoord = l_writer.GetLocale( cuT( "l_texCoord" ), vtx_texture );
 
-			if ( CheckFlag( p_textureFlags, TextureChannel::eHeight )
-				&& CheckFlag( p_textureFlags, TextureChannel::eNormal ) )
-			{
-				auto l_viewDir = -l_writer.GetLocale( cuT( "l_viewDir" ), normalize( vtx_tangentSpaceFragPosition - vtx_tangentSpaceViewPosition ) );
-				l_texCoord.xy() = l_parallaxMapping( l_texCoord.xy(), l_viewDir );
-			}
+			//if ( CheckFlag( p_textureFlags, TextureChannel::eHeight )
+			//	&& CheckFlag( p_textureFlags, TextureChannel::eNormal ) )
+			//{
+			//	auto l_viewDir = -l_writer.GetLocale( cuT( "l_viewDir" ), normalize( vtx_tangentSpaceFragPosition - vtx_tangentSpaceViewPosition ) );
+			//	l_texCoord.xy() = l_parallaxMapping( l_texCoord.xy(), l_viewDir );
+			//}
 
 			ComputePreLightingMapContributions( l_writer, l_v3Normal, l_fMatShininess, p_textureFlags, p_programFlags, p_sceneFlags );
 

@@ -1,4 +1,4 @@
-﻿#include "Common/OpenGl.hpp"
+#include "Common/OpenGl.hpp"
 
 #include "Render/GlRenderSystem.hpp"
 
@@ -160,6 +160,7 @@ namespace GlRender
 		PrimitiveTypes[uint32_t( Castor3D::Topology::eQuads )] = GlTopology::eQuads;
 		PrimitiveTypes[uint32_t( Castor3D::Topology::eQuadStrips )] = GlTopology::eQuadStrip;
 		PrimitiveTypes[uint32_t( Castor3D::Topology::ePolygon )] = GlTopology::ePolygon;
+		PrimitiveTypes[uint32_t( Castor3D::Topology::ePatches )] = GlTopology::ePatches;
 
 		TextureDimensions[uint32_t( Castor3D::TextureType::eBuffer )] = GlTexDim::eBuffer;
 		TextureDimensions[uint32_t( Castor3D::TextureType::eOneDimension )] = GlTexDim::e1D;

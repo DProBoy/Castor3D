@@ -1,4 +1,4 @@
-/*
+﻿/*
 This source file is part of Castor3D (http://castor3d.developpez.com/castor3d.html)
 Copyright (c) 2016 dragonjoker59@hotmail.com
 
@@ -218,6 +218,8 @@ namespace Castor3D
 		eQuadStrips,
 		//! Display quad strips
 		ePolygon,
+		//! Display patches
+		ePatches,
 		CASTOR_SCOPED_ENUM_BOUNDS( ePoints )
 	};
 	/*!

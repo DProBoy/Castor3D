@@ -1,4 +1,4 @@
-#include "RenderPass.hpp"
+﻿#include "RenderPass.hpp"
 
 #include "Engine.hpp"
 
@@ -381,6 +381,19 @@ namespace Castor3D
 		return DoGetPixelShaderSource( p_textureFlags, p_programFlags, p_sceneFlags );
 	}
 
+	String RenderPass::GetTessellationControlShaderSource( TextureChannels const & p_textureFlags
+		, ProgramFlags const & p_programFlags
+		, SceneFlags const & p_sceneFlags )const
+	{
+		return DoGetTessellationControlShaderSource( p_textureFlags, p_programFlags, p_sceneFlags );
+	}
+
+	String RenderPass::GetTessellationEvaluationShaderSource( TextureChannels const & p_textureFlags
+		, ProgramFlags const & p_programFlags
+		, SceneFlags const & p_sceneFlags )const
+	{
+		return DoGetTessellationEvaluationShaderSource( p_textureFlags, p_programFlags, p_sceneFlags );
+	}
 	String RenderPass::GetGeometryShaderSource( TextureChannels const & p_textureFlags
 		, ProgramFlags const & p_programFlags
 		, SceneFlags const & p_sceneFlags )const
@@ -979,14 +992,39 @@ namespace Castor3D
 		UBO_SCENE( l_writer );
 
 		// Outputs
-		auto vtx_position = l_writer.GetOutput< Vec3 >( cuT( "vtx_position" ) );
-		auto vtx_tangentSpaceFragPosition = l_writer.GetOutput< Vec3 >( cuT( "vtx_tangentSpaceFragPosition" ) );
-		auto vtx_tangentSpaceViewPosition = l_writer.GetOutput< Vec3 >( cuT( "vtx_tangentSpaceViewPosition" ) );
-		auto vtx_normal = l_writer.GetOutput< Vec3 >( cuT( "vtx_normal" ) );
-		auto vtx_tangent = l_writer.GetOutput< Vec3 >( cuT( "vtx_tangent" ) );
-		auto vtx_bitangent = l_writer.GetOutput< Vec3 >( cuT( "vtx_bitangent" ) );
-		auto vtx_texture = l_writer.GetOutput< Vec3 >( cuT( "vtx_texture" ) );
-		auto vtx_instance = l_writer.GetOutput< Int >( cuT( "vtx_instance" ) );
+		Vec3 vtx_position;
+		Vec3 vtx_tangentSpaceFragPosition;
+		Vec3 vtx_tangentSpaceViewPosition;
+		Vec3 vtx_normal;
+		Vec3 vtx_tangent;
+		Vec3 vtx_bitangent;
+		Vec3 vtx_texture;
+		Int vtx_instance;
+
+		if ( !CheckFlag( p_textureFlags, TextureChannel::eNormal )
+			|| !CheckFlag( p_textureFlags, TextureChannel::eHeight ) )
+		{
+			vtx_position = l_writer.GetOutput< Vec3 >( cuT( "vtx_position" ) );
+			vtx_tangentSpaceFragPosition = l_writer.GetOutput< Vec3 >( cuT( "vtx_tangentSpaceFragPosition" ) );
+			vtx_tangentSpaceViewPosition = l_writer.GetOutput< Vec3 >( cuT( "vtx_tangentSpaceViewPosition" ) );
+			vtx_normal = l_writer.GetOutput< Vec3 >( cuT( "vtx_normal" ) );
+			vtx_tangent = l_writer.GetOutput< Vec3 >( cuT( "vtx_tangent" ) );
+			vtx_bitangent = l_writer.GetOutput< Vec3 >( cuT( "vtx_bitangent" ) );
+			vtx_texture = l_writer.GetOutput< Vec3 >( cuT( "vtx_texture" ) );
+			vtx_instance = l_writer.GetOutput< Int >( cuT( "vtx_instance" ) );
+		}
+		else
+		{
+			vtx_position = l_writer.GetOutput< Vec3 >( cuT( "out_position" ) );
+			vtx_tangentSpaceFragPosition = l_writer.GetOutput< Vec3 >( cuT( "out_tangentSpaceFragPosition" ) );
+			vtx_tangentSpaceViewPosition = l_writer.GetOutput< Vec3 >( cuT( "out_tangentSpaceViewPosition" ) );
+			vtx_normal = l_writer.GetOutput< Vec3 >( cuT( "out_normal" ) );
+			vtx_tangent = l_writer.GetOutput< Vec3 >( cuT( "out_tangent" ) );
+			vtx_bitangent = l_writer.GetOutput< Vec3 >( cuT( "out_bitangent" ) );
+			vtx_texture = l_writer.GetOutput< Vec3 >( cuT( "out_texture" ) );
+			vtx_instance = l_writer.GetOutput< Int >( cuT( "out_instance" ) );
+		}
+
 		auto gl_Position = l_writer.GetBuiltin< Vec4 >( cuT( "gl_Position" ) );
 
 		std::function< void() > l_main = [&]()
@@ -1031,7 +1069,15 @@ namespace Castor3D
 			vtx_texture = l_v3Texture;
 			l_v4Vertex = l_mtxModel * l_v4Vertex;
 			vtx_position = l_v4Vertex.xyz();
-			l_v4Vertex = c3d_mtxView * l_v4Vertex;
+
+			if ( !CheckFlag( p_textureFlags, TextureChannel::eNormal )
+				|| !CheckFlag( p_textureFlags, TextureChannel::eHeight ) )
+			{
+				l_v4Vertex = c3d_mtxView * l_v4Vertex;
+				gl_Position = c3d_mtxProjection * l_v4Vertex;
+			}
+
+			vtx_instance = gl_InstanceID;
 			l_mtxModel = transpose( inverse( l_mtxModel ) );
 
 			if ( p_invertNormals )
@@ -1046,8 +1092,6 @@ namespace Castor3D
 			vtx_tangent = normalize( l_writer.Paren( l_mtxModel * l_v4Tangent ).xyz() );
 			vtx_tangent = normalize( vtx_tangent - vtx_normal * dot( vtx_tangent, vtx_normal ) );
 			vtx_bitangent = cross( vtx_normal, vtx_tangent );
-			vtx_instance = gl_InstanceID;
-			gl_Position = c3d_mtxProjection * l_v4Vertex;
 
 			auto l_tbn = l_writer.GetLocale( cuT( "l_tbn" ), transpose( mat3( vtx_tangent, vtx_bitangent, vtx_normal ) ) );
 			vtx_tangentSpaceFragPosition = l_tbn * vtx_position;
@@ -1056,5 +1100,228 @@ namespace Castor3D
 
 		l_writer.ImplementFunction< void >( cuT( "main" ), l_main );
 		return l_writer.Finalise();
+	}
+
+	struct BezierPatch
+	{
+		BezierPatch( GLSL::GlslWriter & p_writer, String const & p_name )
+			: m_struct{ p_writer, p_name }
+			, m_wpB030{ m_struct.GetMember< GLSL::Vec3 >( cuT( "m_wpB030" ) ) }
+			, m_wpB021{ m_struct.GetMember< GLSL::Vec3 >( cuT( "m_wpB021" ) ) }
+			, m_wpB012{ m_struct.GetMember< GLSL::Vec3 >( cuT( "m_wpB012" ) ) }
+			, m_wpB003{ m_struct.GetMember< GLSL::Vec3 >( cuT( "m_wpB003" ) ) }
+			, m_wpB102{ m_struct.GetMember< GLSL::Vec3 >( cuT( "m_wpB102" ) ) }
+			, m_wpB201{ m_struct.GetMember< GLSL::Vec3 >( cuT( "m_wpB201" ) ) }
+			, m_wpB300{ m_struct.GetMember< GLSL::Vec3 >( cuT( "m_wpB300" ) ) }
+			, m_wpB210{ m_struct.GetMember< GLSL::Vec3 >( cuT( "m_wpB210" ) ) }
+			, m_wpB120{ m_struct.GetMember< GLSL::Vec3 >( cuT( "m_wpB120" ) ) }
+			, m_wpB111{ m_struct.GetMember< GLSL::Vec3 >( cuT( "m_wpB111" ) ) }
+		{
+			m_struct.End();
+		}
+
+		GLSL::Struct m_struct;
+		GLSL::Vec3 m_wpB030;
+		GLSL::Vec3 m_wpB021;
+		GLSL::Vec3 m_wpB012;
+		GLSL::Vec3 m_wpB003;
+		GLSL::Vec3 m_wpB102;
+		GLSL::Vec3 m_wpB201;
+		GLSL::Vec3 m_wpB300;
+		GLSL::Vec3 m_wpB210;
+		GLSL::Vec3 m_wpB120;
+		GLSL::Vec3 m_wpB111;
+	};
+
+	String RenderPass::DoGetTessellationControlShaderSource( TextureChannels const & p_textureFlags
+		, ProgramFlags const & p_programFlags
+		, SceneFlags const & p_sceneFlags )const
+	{
+		String l_result;
+
+		if ( CheckFlag( p_textureFlags, TextureChannel::eNormal )
+			&& CheckFlag( p_textureFlags, TextureChannel::eHeight ) )
+		{
+			using namespace GLSL;
+			auto l_writer = GetEngine()->GetRenderSystem()->CreateGlslWriter();
+
+			l_writer.OutputGeometryLayout( cuT( "vertices = 3" ) );
+
+			// TCS inputs
+			UBO_MATRIX( l_writer );
+			UBO_SCENE( l_writer );
+			auto out_position = l_writer.GetInputArray< Vec3 >( cuT( "out_position" ) );
+			auto out_tangentSpaceFragPosition = l_writer.GetInputArray< Vec3 >( cuT( "out_tangentSpaceFragPosition" ) );
+			auto out_tangentSpaceViewPosition = l_writer.GetInputArray< Vec3 >( cuT( "out_tangentSpaceViewPosition" ) );
+			auto out_normal = l_writer.GetInputArray< Vec3 >( cuT( "out_normal" ) );
+			auto out_tangent = l_writer.GetInputArray< Vec3 >( cuT( "out_tangent" ) );
+			auto out_bitangent = l_writer.GetInputArray< Vec3 >( cuT( "out_bitangent" ) );
+			auto out_texture = l_writer.GetInputArray< Vec3 >( cuT( "out_texture" ) );
+			auto out_instance = l_writer.GetInputArray< Int >( cuT( "out_instance" ) );
+			auto gl_InvocationID = l_writer.GetBuiltin< Int >( cuT( "gl_InvocationID" ) );
+
+			// TCS outputs
+			//auto l_outputPatch = l_writer.GetOutput< BezierPatch >( cuT( "tcs_controlPoints" ) );
+			auto tcs_position = l_writer.GetOutputArray< Vec3 >( cuT( "tcs_position" ) );
+			auto tcs_tangentSpaceFragPosition = l_writer.GetOutputArray< Vec3 >( cuT( "tcs_tangentSpaceFragPosition" ) );
+			auto tcs_tangentSpaceViewPosition = l_writer.GetOutputArray< Vec3 >( cuT( "tcs_tangentSpaceViewPosition" ) );
+			auto tcs_normal = l_writer.GetOutputArray< Vec3 >( cuT( "tcs_normal" ) );
+			auto tcs_tangent = l_writer.GetOutputArray< Vec3 >( cuT( "tcs_tangent" ) );
+			auto tcs_bitangent = l_writer.GetOutputArray< Vec3 >( cuT( "tcs_bitangent" ) );
+			auto tcs_texture = l_writer.GetOutputArray< Vec3 >( cuT( "tcs_texture" ) );
+			auto tcs_instance = l_writer.GetOutputArray< Int >( cuT( "tcs_instance" ) );
+			auto gl_TessLevelOuter = l_writer.GetBuiltin< Float >( cuT( "gl_TessLevelOuter" ), 4u );
+			auto gl_TessLevelInner = l_writer.GetBuiltin< Float >( cuT( "gl_TessLevelInner" ), 2u );
+			
+			auto l_getTessLevel = l_writer.ImplementFunction< Float >( cuT( "GetTessLevel" )
+				, [&]( Float const & p_a, Float const & p_b )
+				{
+					auto l_avgDistance = l_writer.GetLocale( cuT( "l_avgDistance" )
+						, l_writer.Paren( p_a + p_b ) / 2.0 );
+
+					IF( l_writer, l_avgDistance <= 20.0 )
+					{
+						l_writer.Return( 256.0_f );
+					}
+					ELSEIF( l_writer, l_avgDistance <= 50.0 )
+					{
+						l_writer.Return( 128.0_f );
+					}
+					ELSEIF( l_writer, l_avgDistance <= 100.0_f )
+					{
+						l_writer.Return( 64.0_f );
+					}
+					FI;
+
+					l_writer.Return( 16.0_f );
+				}, InFloat{ &l_writer, cuT( "p_a" ) }
+				, InFloat{ &l_writer, cuT( "p_b" ) } );
+
+			l_writer.ImplementFunction< Void >( cuT( "main" )
+				, [&]()
+				{
+					tcs_position[gl_InvocationID] = out_position[gl_InvocationID];
+					tcs_tangentSpaceFragPosition[gl_InvocationID] = out_tangentSpaceFragPosition[gl_InvocationID];
+					tcs_tangentSpaceViewPosition[gl_InvocationID] = out_tangentSpaceViewPosition[gl_InvocationID];
+					tcs_normal[gl_InvocationID] = out_normal[gl_InvocationID];
+					tcs_tangent[gl_InvocationID] = out_tangent[gl_InvocationID];
+					tcs_bitangent[gl_InvocationID] = out_bitangent[gl_InvocationID];
+					tcs_texture[gl_InvocationID] = out_texture[gl_InvocationID];
+					tcs_instance[gl_InvocationID] = out_instance[gl_InvocationID];
+
+					// Calculate the distance from the camera to the three control points
+					auto l_eyeToVertexDistance0 = l_writer.GetLocale( cuT( "l_eyeToVertexDistance0" )
+						, distance( c3d_v3CameraPosition, tcs_position[0] ) );
+					auto l_eyeToVertexDistance1 = l_writer.GetLocale( cuT( "l_eyeToVertexDistance1" )
+						, distance( c3d_v3CameraPosition, tcs_position[1] ) );
+					auto l_eyeToVertexDistance2 = l_writer.GetLocale( cuT( "l_eyeToVertexDistance2" )
+						, distance( c3d_v3CameraPosition, tcs_position[2] ) );
+
+					// Calculate the tessellation levels
+					gl_TessLevelOuter[0] = l_getTessLevel( l_eyeToVertexDistance1, l_eyeToVertexDistance2 );
+					gl_TessLevelOuter[1] = l_getTessLevel( l_eyeToVertexDistance2, l_eyeToVertexDistance0 );
+					gl_TessLevelOuter[2] = l_getTessLevel( l_eyeToVertexDistance0, l_eyeToVertexDistance1 );
+					gl_TessLevelInner[0] = gl_TessLevelOuter[2];
+				} );
+			l_result = l_writer.Finalise();
+		}
+
+		return l_result;
+	}
+
+	String RenderPass::DoGetTessellationEvaluationShaderSource( TextureChannels const & p_textureFlags
+		, ProgramFlags const & p_programFlags
+		, SceneFlags const & p_sceneFlags )const
+	{
+		String l_result;
+
+		if ( CheckFlag( p_textureFlags, TextureChannel::eNormal )
+			&& CheckFlag( p_textureFlags, TextureChannel::eHeight ) )
+		{
+			using namespace GLSL;
+			auto l_writer = GetEngine()->GetRenderSystem()->CreateGlslWriter();
+
+			l_writer.InputGeometryLayout( cuT( "triangles, equal_spacing, ccw" ) );
+
+			// ECS inputs
+			UBO_MATRIX( l_writer );
+			auto c3d_mapHeight( l_writer.GetUniform< Sampler2D >( ShaderProgram::MapHeight, CheckFlag( p_textureFlags, TextureChannel::eHeight ) ) );
+			auto tcs_position = l_writer.GetInputArray< Vec3 >( cuT( "tcs_position" ) );
+			auto tcs_tangentSpaceFragPosition = l_writer.GetInputArray< Vec3 >( cuT( "tcs_tangentSpaceFragPosition" ) );
+			auto tcs_tangentSpaceViewPosition = l_writer.GetInputArray< Vec3 >( cuT( "tcs_tangentSpaceViewPosition" ) );
+			auto tcs_normal = l_writer.GetInputArray< Vec3 >( cuT( "tcs_normal" ) );
+			auto tcs_tangent = l_writer.GetInputArray< Vec3 >( cuT( "tcs_tangent" ) );
+			auto tcs_bitangent = l_writer.GetInputArray< Vec3 >( cuT( "tcs_bitangent" ) );
+			auto tcs_texture = l_writer.GetInputArray< Vec3 >( cuT( "tcs_texture" ) );
+			auto tcs_instance = l_writer.GetInputArray< Int >( cuT( "tcs_instance" ) );
+			auto gl_TessCoord = l_writer.GetBuiltin< Vec3 >( cuT( "gl_TessCoord" ) );
+
+			// ECS outputs
+			auto vtx_position = l_writer.GetOutput< Vec3 >( cuT( "vtx_position" ) );
+			auto vtx_tangentSpaceFragPosition = l_writer.GetOutput< Vec3 >( cuT( "vtx_tangentSpaceFragPosition" ) );
+			auto vtx_tangentSpaceViewPosition = l_writer.GetOutput< Vec3 >( cuT( "vtx_tangentSpaceViewPosition" ) );
+			auto vtx_normal = l_writer.GetOutput< Vec3 >( cuT( "vtx_normal" ) );
+			auto vtx_tangent = l_writer.GetOutput< Vec3 >( cuT( "vtx_tangent" ) );
+			auto vtx_bitangent = l_writer.GetOutput< Vec3 >( cuT( "vtx_bitangent" ) );
+			auto vtx_texture = l_writer.GetOutput< Vec3 >( cuT( "vtx_texture" ) );
+			auto vtx_instance = l_writer.GetOutput< Int >( cuT( "vtx_instance" ) );
+			auto gl_Position = l_writer.GetBuiltin< Vec4 >( cuT( "gl_Position" ) );
+
+			auto l_interpolate1D = l_writer.ImplementFunction< Int >( cuT( "Interpolate1D" )
+				, [&]( Int const & p_v0, Int const & p_v1, Int const & p_v2 )
+				{
+					l_writer.Return( l_writer.Cast< Int >( gl_TessCoord.x() * p_v0
+						+ gl_TessCoord.y() * p_v1
+						+ gl_TessCoord.z() * p_v2 ) );
+				}, InInt{ &l_writer, cuT( "p_v0" ) }
+				, InInt{ &l_writer, cuT( "p_v1" ) }
+				, InInt{ &l_writer, cuT( "p_v2" ) } );
+
+			auto l_interpolate2D = l_writer.ImplementFunction< Vec2 >( cuT( "Interpolate2D" )
+				, [&]( Vec2 const & p_v0, Vec2 const & p_v1, Vec2 const & p_v2 )
+				{
+					l_writer.Return( vec2( gl_TessCoord.x() ) * p_v0
+						+ vec2( gl_TessCoord.y() ) * p_v1
+						+ vec2( gl_TessCoord.z() ) * p_v2 );
+				}, InVec2{ &l_writer, cuT( "p_v0" ) }
+				, InVec2{ &l_writer, cuT( "p_v1" ) } 
+				, InVec2{ &l_writer, cuT( "p_v2" ) } );
+
+			auto l_interpolate3D = l_writer.ImplementFunction< Vec3 >( cuT( "Interpolate3D" )
+				, [&]( Vec3 const & p_v0, Vec3 const & p_v1, Vec3 const & p_v2 )
+				{
+					l_writer.Return( vec3( gl_TessCoord.x() ) * p_v0
+						+ vec3( gl_TessCoord.y() ) * p_v1
+						+ vec3( gl_TessCoord.z() ) * p_v2 );
+				}, InVec3{ &l_writer, cuT( "p_v0" ) }
+				, InVec3{ &l_writer, cuT( "p_v1" ) } 
+				, InVec3{ &l_writer, cuT( "p_v2" ) } );
+
+			l_writer.ImplementFunction< Void >( cuT( "main" )
+				, [&]()
+				{
+					// Interpolate the attributes of the output vertex using the barycentric coordinates
+					vtx_position = l_interpolate3D( tcs_position[0], tcs_position[1], tcs_position[2] );
+					vtx_tangentSpaceFragPosition = l_interpolate3D( tcs_tangentSpaceFragPosition[0], tcs_tangentSpaceFragPosition[1], tcs_tangentSpaceFragPosition[2] );
+					vtx_tangentSpaceViewPosition = l_interpolate3D( tcs_tangentSpaceViewPosition[0], tcs_tangentSpaceViewPosition[1], tcs_tangentSpaceViewPosition[2] );
+					vtx_normal = l_interpolate3D( tcs_normal[0], tcs_normal[1], tcs_normal[2] );
+					vtx_tangent = l_interpolate3D( tcs_tangent[0], tcs_tangent[1], tcs_tangent[2] );
+					vtx_bitangent = l_interpolate3D( tcs_bitangent[0], tcs_bitangent[1], tcs_bitangent[2] );
+					vtx_texture = l_interpolate3D( tcs_texture[0], tcs_texture[1], tcs_texture[2] );
+					vtx_instance = l_interpolate1D( tcs_instance[0], tcs_instance[1], tcs_instance[2] );
+					vtx_normal = normalize( vtx_normal );
+					vtx_tangent = normalize( vtx_tangent );
+					vtx_bitangent = normalize( vtx_bitangent );
+
+					// Displace the vertex along the normal
+					auto l_displacement = l_writer.GetLocale( cuT( "l_displacement" )
+						, texture( c3d_mapHeight, vtx_texture.xy() ).x() );
+					vtx_position += vtx_normal * l_writer.Paren( 1.0 - l_displacement );
+					gl_Position = c3d_mtxProjection * c3d_mtxView * vec4( vtx_position, 1.0 );
+				} );
+			l_result = l_writer.Finalise();
+		}
+
+		return l_result;
 	}
 }

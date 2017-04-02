@@ -1,4 +1,4 @@
-#include "Mesh/GlGeometryBuffers.hpp"
+﻿#include "Mesh/GlGeometryBuffers.hpp"
 
 #include "Common/OpenGl.hpp"
 #include "Mesh/GlAttribute.hpp"
@@ -25,6 +25,10 @@ namespace GlRender
 		, m_program{ p_program }
 		, m_glTopology{ p_gl.Get( p_topology ) }
 	{
+		if ( p_program.HasObject( ShaderType::eDomain ) )
+		{
+			m_glTopology = p_gl.Get( Topology::ePatches );
+		}
 	}
 
 	GlGeometryBuffers::~GlGeometryBuffers()
