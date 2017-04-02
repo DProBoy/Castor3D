@@ -1,4 +1,4 @@
-namespace GLSL
+﻿namespace GLSL
 {
 	//***********************************************************************************************
 
@@ -204,17 +204,27 @@ namespace GLSL
 	//***********************************************************************************************
 
 	template< typename T >
-	inline T Struct::GetMember( Castor::String const & p_name )
+	inline void Struct::DeclareMember( Castor::String const & p_name )
 	{
 		m_writer << T().m_type << p_name << cuT( ";" ) << Endl();
-		return T( &m_writer, m_name + cuT( "." ) + p_name );
+	}
+
+	template< typename T >
+	inline void Struct::DeclareMember( Castor::String const & p_name, uint32_t p_dimension )
+	{
+		m_writer << T().m_type << p_name << cuT( "[" ) << p_dimension << cuT( "];" ) << Endl();
+	}
+
+	template< typename T >
+	inline T Struct::GetMember( Castor::String const & p_name )
+	{
+		return T( &m_writer, m_instName + cuT( "." ) + p_name );
 	}
 
 	template< typename T >
 	inline Array< T > Struct::GetMember( Castor::String const & p_name, uint32_t p_dimension )
 	{
-		m_writer << T().m_type << p_name << cuT( "[" ) << p_dimension << cuT( "];" ) << Endl();
-		return Array< T >( &m_writer, m_name + cuT( "." ) + p_name, p_dimension );
+		return Array< T >( &m_writer, m_instName + cuT( "." ) + p_name, p_dimension );
 	}
 
 	//***********************************************************************************************
@@ -286,6 +296,13 @@ namespace GLSL
 	}
 
 	template< typename T >
+	inline T GlslWriter::GetOutputPatch( Castor::String const & p_name )
+	{
+		*this << OutputGetter< T >() << cuT( "patch " ) << T().m_type << p_name << cuT( ";" ) << Endl();
+		return T( this, p_name );
+	}
+
+	template< typename T >
 	inline Array< T > GlslWriter::GetOutputArray( Castor::String const & p_name )
 	{
 		*this << OutputGetter< T >() << T().m_type << p_name << cuT( "[];" ) << Endl();
@@ -296,6 +313,13 @@ namespace GLSL
 	inline T GlslWriter::GetInput( Castor::String const & p_name )
 	{
 		*this << InputGetter< T >() << T().m_type << p_name << cuT( ";" ) << Endl();
+		return T( this, p_name );
+	}
+
+	template< typename T >
+	inline T GlslWriter::GetInputPatch( Castor::String const & p_name )
+	{
+		*this << InputGetter< T >() << cuT( "patch " ) << T().m_type << p_name << cuT( ";" ) << Endl();
 		return T( this, p_name );
 	}
 

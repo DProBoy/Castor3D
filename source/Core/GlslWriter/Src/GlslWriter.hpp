@@ -107,12 +107,16 @@ namespace GLSL
 	struct Struct
 	{
 		GlslWriter_API Struct( GlslWriter & p_writer, Castor::String const & p_name );
+		GlslWriter_API Struct( GlslWriter & p_writer, Castor::String const & p_name, Castor::String const & p_instName );
 		GlslWriter_API void End();
+		template< typename T > inline void DeclareMember( Castor::String const & p_name );
+		template< typename T > inline void DeclareMember( Castor::String const & p_name, uint32_t p_dimension );
 		template< typename T > inline T GetMember( Castor::String const & p_name );
 		template< typename T > inline Array< T > GetMember( Castor::String const & p_name, uint32_t p_dimension );
 		IndentBlock * m_block;
 		GlslWriter & m_writer;
 		Castor::String m_name;
+		Castor::String m_instName;
 	};
 
 	struct GlslWriterConfig
@@ -298,7 +302,9 @@ namespace GLSL
 		template< typename T > inline T Cast( Type const & p_from );
 		template< typename T > inline T GetAttribute( Castor::String const & p_name );
 		template< typename T > inline T GetOutput( Castor::String const & p_name );
+		template< typename T > inline T GetOutputPatch( Castor::String const & p_name );
 		template< typename T > inline T GetInput( Castor::String const & p_name );
+		template< typename T > inline T GetInputPatch( Castor::String const & p_name );
 		template< typename T > inline T GetLocale( Castor::String const & p_name );
 		template< typename T > inline T GetLocale( Castor::String const & p_name, T const & p_rhs );
 		template< typename T > inline T GetBuiltin( Castor::String const & p_name );
