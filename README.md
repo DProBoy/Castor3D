@@ -69,7 +69,7 @@ Implemented Plug-ins
 Links
 -----
 
-- [Building Castor3D](http://DragonJoker.github.com/Castor3D/img/build)
+- [Building Castor3D](http://DragonJoker.github.com/Castor3D/pages/build)
 - [Playlist on YouTube](https://www.youtube.com/playlist?list=PLKA1SVXuAbMNaFbSJyAN_4yD2bzNlgES3)
 
 General Questions
