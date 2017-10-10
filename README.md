@@ -47,7 +47,9 @@ Implemented Plug-ins
 **PostEffects**
 - Bloom.
 - GrayScale.
-- FXAA.
+- FXAA anti aliasing (low quality).
+- SMAA anti aliasing (high quality, 1X and T2X supported so far).
+- Film Grain.
 
 **Generators**
 - DiamondSquareTerrain: to generate terrains inside Castor3D scenes, using diamond-quare algorithm.
