@@ -1,0 +1,8 @@
+<map id="castor::FileParser::getContext" name="castor::FileParser::getContext">
+<area shape="rect" id="node2" href="$dc/d83/a01254.html#a41511021fbcadf99fc47fe6586bf2167" title="Nettoyage spécifique. " alt="" coords="185,5,315,47"/>
+<area shape="rect" id="node3" href="$dc/d83/a01254.html#af25ac0b4fd4a7a5116b8b336f06dd6f5" title="Fonction appelée lorsque la section courante est hors limites. " alt="" coords="183,71,317,112"/>
+<area shape="rect" id="node4" href="$dc/d83/a01254.html#ab26d9072c6dffc30a42be31e2bbee800" title="Fonction appelée si aucun analyseur n&#39;est trouvé pour traiter la ligne. " alt="" coords="187,136,313,177"/>
+<area shape="rect" id="node5" href="$dc/d83/a01254.html#ac6cfae484d0198122d814af64c1990f6" title="donne le nom associé à l&#39;ID de section. " alt="" coords="179,201,321,243"/>
+<area shape="rect" id="node6" href="$dc/d83/a01254.html#ac94b3b4f455b0f151550d96e5d943001" title="Initialisation spécifique. " alt="" coords="185,267,315,308"/>
+<area shape="rect" id="node7" href="$dc/d83/a01254.html#a8f9c4ede9cb458d9c6eeadd31e06d42d" title="Fonction appelée si l&#39;analyse est complétée sans erreurs. " alt="" coords="187,332,313,373"/>
+</map>

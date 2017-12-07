@@ -1,0 +1,5 @@
+<map id="castor3d::shader::BaseMaterial" name="castor3d::shader::BaseMaterial">
+<area shape="rect" id="node3" href="$d9/df4/a03070.html" title="castor3d::shader::Legacy\lMaterial" alt="" coords="359,5,529,47"/>
+<area shape="rect" id="node4" href="$d1/d44/a03074.html" title="castor3d::shader::Metallic\lRoughnessMaterial" alt="" coords="358,71,530,112"/>
+<area shape="rect" id="node5" href="$df/db9/a03078.html" title="castor3d::shader::Specular\lGlossinessMaterial" alt="" coords="355,136,533,177"/>
+</map>

@@ -1,0 +1,26 @@
+<map id="castor3d::RenderPass" name="castor3d::RenderPass">
+<area shape="rect" id="node7" href="$d1/d03/a02560.html" title="The render system representation. " alt="" coords="801,144,968,171"/>
+<area shape="rect" id="node31" href="$d2/d4c/a02828.html" title="Scene handler class. " alt="" coords="826,812,943,839"/>
+<area shape="rect" id="node4" href="$de/dae/a03028.html" title="Model Uniform buffer management. " alt="" coords="2005,209,2158,236"/>
+<area shape="rect" id="node5" href="$d7/db8/a03060.html" title="Scene Uniform buffer management. " alt="" coords="2011,260,2151,287"/>
+<area shape="rect" id="node6" href="$de/d38/a03064.html" title="Matrices Uniform buffer management. " alt="" coords="2005,311,2158,337"/>
+<area shape="rect" id="node8" href="$d5/d2c/a02012.html" title="Buddy allocator implementation. " alt="" coords="389,232,552,259"/>
+<area shape="rect" id="node12" href="$df/d4a/a02204.html" title="Holds GPU informations. " alt="" coords="383,64,558,91"/>
+<area shape="rect" id="node17" href="$d5/d04/a02428.html" title="Pipeline flags. " alt="" coords="1597,427,1756,453"/>
+<area shape="rect" id="node18" href="$d4/d15/a03052.html" title="Matrices Uniform buffer management. " alt="" coords="2003,492,2159,519"/>
+<area shape="rect" id="node19" href="$de/d0b/a03040.html" title="Matrices Uniform buffer management. " alt="" coords="2012,543,2151,569"/>
+<area shape="rect" id="node20" href="$dc/d92/a03048.html" title="Model Uniform buffer management. " alt="" coords="2012,593,2151,620"/>
+<area shape="rect" id="node22" href="$dc/d32/a02556.html" title="Render technique base class. " alt="" coords="2002,719,2161,745"/>
+<area shape="rect" id="node25" href="$de/d48/a02552.html" title="The render nodes for a specific scene. " alt="" coords="1260,667,1455,693"/>
+<area shape="rect" id="node26" href="$da/dc4/a02548.html" title="castor3d::RenderNodesT\l\&lt; MorphingRenderNode,\l MorphingRenderNodesByPipelineMap \&gt;" alt="" coords="757,863,1013,919"/>
+<area shape="rect" id="node27" href="$da/dc4/a02548.html" title="castor3d::RenderNodesT\l\&lt; SkinningRenderNode,\l SubmeshSkinningRenderNodesByPipelineMap \&gt;" alt="" coords="731,412,1039,468"/>
+<area shape="rect" id="node28" href="$da/dc4/a02548.html" title="castor3d::RenderNodesT\l\&lt; SkinningRenderNode,\l SkinningRenderNodesByPipelineMap \&gt;" alt="" coords="758,492,1011,548"/>
+<area shape="rect" id="node29" href="$da/dc4/a02548.html" title="castor3d::RenderNodesT\l\&lt; StaticRenderNode, SubmeshStatic\lRenderNodesByPipelineMap \&gt;" alt="" coords="767,572,1003,628"/>
+<area shape="rect" id="node30" href="$da/dc4/a02548.html" title="castor3d::RenderNodesT\l\&lt; BillboardRenderNode,\l BillboardRenderNodesByPipelineMap \&gt;" alt="" coords="758,652,1011,708"/>
+<area shape="rect" id="node35" href="$df/de1/a02844.html" title="The scene node handler class. " alt="" coords="811,1033,958,1060"/>
+<area shape="rect" id="node41" href="$df/de4/a02780.html" title="Movable object class. " alt="" coords="1275,943,1440,969"/>
+<area shape="rect" id="node34" href="$da/dc4/a02548.html" title="castor3d::RenderNodesT\l\&lt; StaticRenderNode, StaticRender\lNodesByPipelineMap \&gt;" alt="" coords="773,732,996,788"/>
+<area shape="rect" id="node42" href="$d2/d48/a01472.html" title="Animable public interface. " alt="" coords="817,1144,952,1171"/>
+<area shape="rect" id="node40" href="$df/dc7/a02712.html" title="Class which represents a Camera. " alt="" coords="1614,905,1739,932"/>
+<area shape="rect" id="node43" href="$d7/d98/a03044.html" title="Matrices Uniform buffer management. " alt="" coords="1994,769,2169,796"/>
+</map>

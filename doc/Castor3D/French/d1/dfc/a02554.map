@@ -1,0 +1,14 @@
+<map id="castor3d::RenderQueue" name="castor3d::RenderQueue">
+<area shape="rect" id="node4" href="$de/d48/a02552.html" title="Les noeuds de rendu pour une scène spécifique. " alt="" coords="845,307,1040,334"/>
+<area shape="rect" id="node5" href="$da/dc4/a02548.html" title="castor3d::RenderNodesT\l\&lt; MorphingRenderNode,\l MorphingRenderNodesByPipelineMap \&gt;" alt="" coords="342,173,598,229"/>
+<area shape="rect" id="node6" href="$da/dc4/a02548.html" title="castor3d::RenderNodesT\l\&lt; SkinningRenderNode,\l SubmeshSkinningRenderNodesByPipelineMap \&gt;" alt="" coords="316,253,624,309"/>
+<area shape="rect" id="node7" href="$da/dc4/a02548.html" title="castor3d::RenderNodesT\l\&lt; SkinningRenderNode,\l SkinningRenderNodesByPipelineMap \&gt;" alt="" coords="343,333,597,389"/>
+<area shape="rect" id="node8" href="$da/dc4/a02548.html" title="castor3d::RenderNodesT\l\&lt; StaticRenderNode, SubmeshStatic\lRenderNodesByPipelineMap \&gt;" alt="" coords="352,413,588,469"/>
+<area shape="rect" id="node9" href="$da/dc4/a02548.html" title="castor3d::RenderNodesT\l\&lt; BillboardRenderNode,\l BillboardRenderNodesByPipelineMap \&gt;" alt="" coords="343,493,597,549"/>
+<area shape="rect" id="node10" href="$d2/d4c/a02828.html" title="Classe de gestion d&#39;un scène. " alt="" coords="411,42,529,69"/>
+<area shape="rect" id="node15" href="$df/de1/a02844.html" title="La classe de gestion de noeud de scène. " alt="" coords="397,665,543,691"/>
+<area shape="rect" id="node21" href="$df/de4/a02780.html" title="Classe d&#39;objet déplaçable. " alt="" coords="860,695,1025,722"/>
+<area shape="rect" id="node14" href="$da/dc4/a02548.html" title="castor3d::RenderNodesT\l\&lt; StaticRenderNode, StaticRender\lNodesByPipelineMap \&gt;" alt="" coords="359,93,581,149"/>
+<area shape="rect" id="node22" href="$d2/d48/a01472.html" title="interface publique d&#39;animable " alt="" coords="403,762,537,789"/>
+<area shape="rect" id="node20" href="$df/dc7/a02712.html" title="Classe de représentation de Camera. " alt="" coords="1199,695,1325,722"/>
+</map>

@@ -1,0 +1,3 @@
+<map id="castor::ParserParameter&lt; Type, typename std::enable_if&lt; !HasBaseParameterType&lt; Type &gt;::value &amp;&amp;!IsArithmeticType&lt; Type &gt;::value &gt;::type &gt;" name="castor::ParserParameter&lt; Type, typename std::enable_if&lt; !HasBaseParameterType&lt; Type &gt;::value &amp;&amp;!IsArithmeticType&lt; Type &gt;::value &gt;::type &gt;">
+<area shape="rect" id="node2" href="$d4/d34/a01298.html" title="Template structure holding parameter specific data. " alt="" coords="25,5,219,32"/>
+</map>

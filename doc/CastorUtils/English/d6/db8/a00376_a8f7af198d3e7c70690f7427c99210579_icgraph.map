@@ -1,0 +1,4 @@
+<map id="castor::isBigEndian" name="castor::isBigEndian">
+<area shape="rect" id="node2" href="$d6/db8/a00376.html#af8eda628b552209314f15c03aecbdbcc" title="Convert the given big endian value to system endian if needed. " alt="" coords="188,5,371,47"/>
+<area shape="rect" id="node3" href="$d6/db8/a00376.html#a49c5061a2adfa3a80300f8d644780828" title="Convert the given value to big endian if needed. " alt="" coords="188,71,371,112"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="Graphe hiérarchique des classes" name="Graphe hiérarchique des classes">
+<area shape="rect" id="node2" href="$d4/df3/a03066.html" title="castor3d::shader::BaseMaterial" alt="" coords="104,78,307,105"/>
+<area shape="rect" id="node6" href="$d9/dbf/a03042.html" title="castor3d::shader::Directional\lLight" alt="" coords="111,129,299,171"/>
+<area shape="rect" id="node7" href="$d8/d23/a03038.html" title="castor3d::shader::Light" alt="" coords="128,195,283,222"/>
+<area shape="rect" id="node8" href="$d1/dff/a03046.html" title="castor3d::shader::PointLight" alt="" coords="113,246,298,273"/>
+<area shape="rect" id="node9" href="$d4/d47/a03050.html" title="castor3d::shader::SpotLight" alt="" coords="114,297,297,323"/>
+<area shape="rect" id="node3" href="$d9/df4/a03070.html" title="castor3d::shader::Legacy\lMaterial" alt="" coords="359,5,529,47"/>
+<area shape="rect" id="node4" href="$d1/d44/a03074.html" title="castor3d::shader::Metallic\lRoughnessMaterial" alt="" coords="358,71,530,112"/>
+<area shape="rect" id="node5" href="$df/db9/a03078.html" title="castor3d::shader::Specular\lGlossinessMaterial" alt="" coords="355,136,533,177"/>
+</map>

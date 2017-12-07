@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$d2/db9/a01926.html" title="Render buffer base class. " alt="" coords="5,35,160,61"/>
+<area shape="rect" id="node2" href="$d4/dff/a01910.html" title="Render buffer receiving colour PixelComponents. " alt="" coords="210,5,401,32"/>
+<area shape="rect" id="node3" href="$dc/d18/a01914.html" title="Render buffer receiving depth and/or stencil PixelComponents. " alt="" coords="208,57,403,98"/>
+</map>

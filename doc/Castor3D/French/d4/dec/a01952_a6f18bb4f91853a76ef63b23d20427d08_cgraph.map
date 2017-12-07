@@ -1,0 +1,6 @@
+<map id="castor3d::Pass::setSubsurfaceScattering" name="castor3d::Pass::setSubsurfaceScattering">
+<area shape="rect" id="node2" href="$d4/dec/a01952.html#ade99e9a40e6b6433ed6bcbc6e823fad0" title="Prépare le canal d&#39;opacité. " alt="" coords="255,5,432,47"/>
+<area shape="rect" id="node3" href="$d4/dec/a01952.html#aa0aa07d7e98e01823f27d1e333492859" title="Prépare une texture à être intégrée à la passe. " alt="" coords="255,71,432,112"/>
+<area shape="rect" id="node4" href="$d4/dec/a01952.html#a7a9c83a1c02f598fea69edab082f8fa3" title="Réduit la texture au canal donné dans le format de pixels donné. " alt="" coords="255,136,431,177"/>
+<area shape="rect" id="node5" href="$d4/dec/a01952.html#ad8e7d12c886aff346ffe111557e2ca92" title="Met à jour les indicateurs de texture en fonction des unités de texture. " alt="" coords="257,201,430,243"/>
+</map>

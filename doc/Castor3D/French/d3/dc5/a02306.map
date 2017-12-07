@@ -1,0 +1,18 @@
+<map id="castor3d::OverlayRenderer" name="castor3d::OverlayRenderer">
+<area shape="rect" id="node15" href="$d1/df6/a02544.html" title="Le pipeline de rendu. " alt="" coords="1050,556,1217,583"/>
+<area shape="rect" id="node18" href="$da/dad/a02928.html" title="Implémentation de base d&#39;un programme de shader, utilisé afin d&#39;exposer les fonctions communes aux la..." alt="" coords="722,219,893,245"/>
+<area shape="rect" id="node3" href="$d4/d90/a03056.html" title="Gestion du tampon de variables uniformes pour les matrices. " alt="" coords="1060,465,1207,492"/>
+<area shape="rect" id="node10" href="$df/d73/a02312.html" title="Contient les données nécessaires au dessin d&#39;une incrustation. " alt="" coords="1377,549,1552,590"/>
+<area shape="rect" id="node6" href="$d3/d01/a02316.html" title="Contient les deux geometry buffers utilisés pour dessiner les overlays. " alt="" coords="1377,195,1552,237"/>
+<area shape="rect" id="node7" href="$de/d0b/a03040.html" title="Gestion du tampon de variables uniformes pour les matrices. " alt="" coords="1733,352,1871,379"/>
+<area shape="rect" id="node11" href="$d2/dab/a02516.html" title="Structure d&#39;aide utilisée pour lier une passe et un programme shader. " alt="" coords="1043,768,1224,795"/>
+<area shape="rect" id="node13" href="$d4/dec/a01952.html" title="Classe de base d&#39;une passe d&#39;un matériau. " alt="" coords="752,851,863,877"/>
+<area shape="rect" id="node16" href="$d0/ded/a03276.html" title="Classe de configuration du rasteriser. " alt="" coords="722,663,893,689"/>
+<area shape="rect" id="node17" href="$d5/d04/a02428.html" title="Indicateurs de pipeline. " alt="" coords="728,713,887,740"/>
+<area shape="rect" id="node22" href="$d9/da1/a01976.html" title="Description de tous les éléments dans un tampon de sommets. " alt="" coords="292,21,471,48"/>
+<area shape="rect" id="node25" href="$d3/d55/a03256.html" title="Classe regroupant les configurations de blend. " alt="" coords="735,612,879,639"/>
+<area shape="rect" id="node27" href="$d1/dda/a03260.html" title="castor3d::BlendState\l::stRT_BLEND_STATE" alt="" coords="5,626,160,667"/>
+<area shape="rect" id="node28" href="$d4/d1c/a03272.html" title="Classe regroupant les configurations de multi&#45;échantillonnage. " alt="" coords="717,460,898,487"/>
+<area shape="rect" id="node29" href="$d4/d1a/a03264.html" title="Classe de configuration des buffers de profondeur et stencil. " alt="" coords="715,561,900,588"/>
+<area shape="rect" id="node30" href="$d4/dcb/a03268.html" title="Fonction et opérations de stencil. " alt="" coords="289,553,474,594"/>
+</map>

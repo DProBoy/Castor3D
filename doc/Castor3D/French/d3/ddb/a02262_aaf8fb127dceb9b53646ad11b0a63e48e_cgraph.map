@@ -1,0 +1,5 @@
+<map id="castor3d::Vertex::getTexCoord" name="castor3d::Vertex::getTexCoord">
+<area shape="rect" id="node2" href="$d0/d48/a02014.html#a2660f74882e10ad6db6858c1d76811f8" title="Récupère un pointeur constant sur le tampon de données. " alt="" coords="219,5,415,47"/>
+<area shape="rect" id="node3" href="$d3/ddb/a02262.html#a4c2d95258d175e72b733e8f404c8db5d" title="Récupère les coordonnées de texture du sommet. " alt="" coords="234,71,399,112"/>
+<area shape="rect" id="node4" href="$d0/d48/a02014.html#aac50c11edcd6ea9b86a945edf30f9f62" title="Récupère un pointeur sur le tampon de données. " alt="" coords="463,78,681,105"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="castor::PF::convertPixel" name="castor::PF::convertPixel">
+<area shape="rect" id="node2" href="$d4/d3f/a01600.html#a57dea8001492d8da2cb090ef64bb4bbf" title="Récupère le pixel aux coordonnées données. " alt="" coords="225,5,381,32"/>
+<area shape="rect" id="node3" href="$db/d7e/a00372.html#ae5743cc5e0ba74cf972c9d49f832dcf8" title="Fonction de définition de la composante stencil d&#39;un pixel, en octet. " alt="" coords="215,56,391,83"/>
+<area shape="rect" id="node4" href="$d4/d3f/a01600.html#ad88abff529a4af3a5116d67e96ce8995" title="Définit le pixel demandé avec le pixel donné " alt="" coords="225,107,381,133"/>
+</map>

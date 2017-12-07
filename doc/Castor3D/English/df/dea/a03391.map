@@ -1,0 +1,6 @@
+<map id="castor3d::RenderTechniquePass" name="castor3d::RenderTechniquePass">
+<area shape="rect" id="node5" href="$d6/d25/a03284.html" title="Forward render technique pass class. " alt="" coords="697,5,953,32"/>
+<area shape="rect" id="node6" href="$da/dcf/a03344.html" title="Deferred lighting Render technique pass. " alt="" coords="748,56,903,83"/>
+<area shape="rect" id="node7" href="$dc/da7/a03404.html" title="Transparent nodes pass using Weighted Blend OIT. " alt="" coords="736,107,915,133"/>
+<area shape="rect" id="node2" href="$d6/d24/a02536.html" title="Render pass base class. " alt="" coords="240,56,391,83"/>
+</map>

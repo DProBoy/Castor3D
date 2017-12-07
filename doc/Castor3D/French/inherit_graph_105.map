@@ -1,0 +1,5 @@
+<map id="Graphe hiérarchique des classes" name="Graphe hiérarchique des classes">
+<area shape="rect" id="node1" href="$da/da6/a01522.html" title="Classe modèle pour gérer les interpolations (de point, quaternion, real, ...) " alt="" coords="5,53,149,94"/>
+<area shape="rect" id="node2" href="$dc/d2d/a01534.html" title="Spécialisation partielle de Interpolator, pour eINTERPOLATOR_MODE_LINEAR. " alt="" coords="197,5,360,61"/>
+<area shape="rect" id="node3" href="$d7/d90/a01530.html" title="Spécialisation partielle de Interpolator, pour eINTERPOLATOR_MODE_NONE. " alt="" coords="197,85,360,141"/>
+</map>

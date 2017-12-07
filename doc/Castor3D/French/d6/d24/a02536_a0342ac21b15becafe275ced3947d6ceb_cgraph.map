@@ -1,0 +1,8 @@
+<map id="castor3d::RenderPass::getSceneUbo" name="castor3d::RenderPass::getSceneUbo">
+<area shape="rect" id="node2" href="$d6/d24/a02536.html#a9cdbe217fd5fdeb61e262fdb7a11165b" title="Copie les matrices de noeuds skinnés instanciés dans le tampon de matrices donné. ..." alt="" coords="224,5,375,47"/>
+<area shape="rect" id="node3" href="$d6/d24/a02536.html#a2e05e1353b979332d77b7eeb4c77abba" title="Copie les matrices de noeuds instanciés dans le tampon de matrices donné. " alt="" coords="219,71,380,112"/>
+<area shape="rect" id="node4" href="$d6/d24/a02536.html#ac68d7957f80f83307679202b0ed42fcb" title="Crée un noeud de rendu. " alt="" coords="208,136,391,177"/>
+<area shape="rect" id="node5" href="$d6/d24/a02536.html#a908c8d0f310aeb4b9b1eeed20dbe51e7" title="Crée un noeud de rendu de scène. " alt="" coords="204,201,395,243"/>
+<area shape="rect" id="node6" href="$d6/d24/a02536.html#a030f90f016beee6c1de927bb5052a9d1" title="Récupère le programme shader correspondant aux flags donnés. " alt="" coords="224,267,375,308"/>
+<area shape="rect" id="node7" href="$d6/d24/a02536.html#ad1fa77da5b062d5fff6948cce72a83b8" title="Dessine des sous maillages instanciés. " alt="" coords="224,332,375,373"/>
+</map>

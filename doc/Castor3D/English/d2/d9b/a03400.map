@@ -1,0 +1,8 @@
+<map id="castor3d::LightPass" name="castor3d::LightPass">
+<area shape="rect" id="node2" href="$d5/dbf/a03130.html" title="castor3d::GpInfoUbo" alt="" coords="299,17,439,44"/>
+<area shape="rect" id="node3" href="$dc/d63/a01918.html" title="Frame buffer class. " alt="" coords="293,68,444,95"/>
+<area shape="rect" id="node7" href="$d6/d15/a03406.html" title="Base class for all light pass programs. " alt="" coords="29,122,168,163"/>
+<area shape="rect" id="node8" href="$db/d09/a01838.html" title="Main System. " alt="" coords="309,176,429,203"/>
+<area shape="rect" id="node10" href="$dd/d19/a01922.html" title="Description of an attachment between a frame buffer and a render buffer. " alt="" coords="260,227,477,253"/>
+<area shape="rect" id="node11" href="$d0/d7e/a03138.html" title="Matrices Uniform buffer management. " alt="" coords="299,277,438,304"/>
+</map>

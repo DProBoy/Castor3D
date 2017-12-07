@@ -1,0 +1,20 @@
+<map id="castor::operator/" name="castor::operator/">
+<area shape="rect" id="node2" href="$d3/d30/a00370.html#a6c731973eb666fca03666bea6b5e860e" title="Stores a colour&#39;s components into a point in ABGR format. " alt="" coords="179,5,321,32"/>
+<area shape="rect" id="node3" href="$d3/d30/a00370.html#a0336e900fc99b9921c2f4a45783aff76" title="Stores a colour&#39;s components into a point in ABGR format. " alt="" coords="179,56,321,83"/>
+<area shape="rect" id="node4" href="$d3/d30/a00370.html#a73e238ac0cb6ef3529a00b00c7559d09" title="Packs a colour&#39;s components into an uint32_t in the ABGR format (0xAABBGGRR). " alt="" coords="171,107,329,133"/>
+<area shape="rect" id="node5" href="$d3/d30/a00370.html#a202e7c990661b704db02032eae520527" title="Stores a colour&#39;s components into a point in ARGB format. " alt="" coords="179,157,321,184"/>
+<area shape="rect" id="node6" href="$d3/d30/a00370.html#a264ebc41017f9b742e910b9f59b98bfb" title="Stores a colour&#39;s components into a point in ARGB format. " alt="" coords="179,208,321,235"/>
+<area shape="rect" id="node7" href="$d3/d30/a00370.html#af9a98d0f055c32b3b9c8954ddf8e278e" title="Packs a colour&#39;s components into an uint32_t in the ARGB format (0xAARRGGBB). " alt="" coords="171,259,329,285"/>
+<area shape="rect" id="node8" href="$d3/d30/a00370.html#a4b7b709943f6ffb30a0d49aca7751d4a" title="Stores a colour&#39;s components into a point in BGRA format. " alt="" coords="179,309,321,336"/>
+<area shape="rect" id="node9" href="$d3/d30/a00370.html#ad9f372de5d3e9ffd32ac8ee08932fed1" title="Stores a colour&#39;s components into a point in BGRA format. " alt="" coords="179,360,321,387"/>
+<area shape="rect" id="node10" href="$d3/d30/a00370.html#af932f5fa7aa645e9f286b58c4dfe77ed" title="Packs a colour&#39;s components into an uint32_t in the BGRA format (0xBBGGRRAA). " alt="" coords="171,411,329,437"/>
+<area shape="rect" id="node11" href="$d3/d30/a00370.html#aed67e46ad6b5ae779abe14a6dd501314" title="Stores a colour&#39;s components into a point in BGR format. " alt="" coords="184,461,316,488"/>
+<area shape="rect" id="node12" href="$d3/d30/a00370.html#adec30c240c9783e191b32b8b927161f6" title="Stores a colour&#39;s components into a point in BGR format. " alt="" coords="183,512,317,539"/>
+<area shape="rect" id="node13" href="$d3/d30/a00370.html#a6e309cf8530e49927d5a952c1f42c3b7" title="Packs a colour&#39;s components into an uint32_t in the BGR format (0x00BBGGRR). " alt="" coords="175,563,325,589"/>
+<area shape="rect" id="node14" href="$d3/d30/a00370.html#a4f636cf17ff3ee85cdda571bcf05dd9a" title="Stores a colour&#39;s components into a point in RGBA format. " alt="" coords="179,613,321,640"/>
+<area shape="rect" id="node15" href="$d3/d30/a00370.html#a25fe802335c067399c73f3705438af08" title="Stores a colour&#39;s components into a point in RGBA format. " alt="" coords="179,664,321,691"/>
+<area shape="rect" id="node16" href="$d3/d30/a00370.html#ac097f7858e6cee2c98521966659dc630" title="Packs a colour&#39;s components into an uint32_t in the RGBA format (0xRRGGBBAA). " alt="" coords="171,715,329,741"/>
+<area shape="rect" id="node17" href="$d3/d30/a00370.html#afbce1b848961ff05a76c43738d645415" title="Stores a colour&#39;s components into a point in RGB format. " alt="" coords="184,765,316,792"/>
+<area shape="rect" id="node18" href="$d3/d30/a00370.html#afac19bc545da5241b26c89856a8849c4" title="Stores a colour&#39;s components into a point in RGB format. " alt="" coords="183,816,317,843"/>
+<area shape="rect" id="node19" href="$d3/d30/a00370.html#a31dab730894e4e0bdb09fd198d027d4d" title="Packs a colour&#39;s components into an uint32_t in the RGB format (0x00RRGGBB). " alt="" coords="175,867,325,893"/>
+</map>

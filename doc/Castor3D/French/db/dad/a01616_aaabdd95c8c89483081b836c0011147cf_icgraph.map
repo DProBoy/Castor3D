@@ -1,0 +1,10 @@
+<map id="castor3d::BinaryChunk::checkAvailable" name="castor3d::BinaryChunk::checkAvailable">
+<area shape="rect" id="node2" href="$da/df2/a01620.html#ac9e1e2d6817a85d3ed9d687e46cd8a62" title="Récupère un sous&#45;chunk. " alt="" coords="208,5,408,47"/>
+<area shape="rect" id="node3" href="$da/df2/a01620.html#a37522319f44d10afdf9b5ae0a14ead29" title="Lit le chunk d&#39;en&#45;tête. " alt="" coords="211,71,405,112"/>
+<area shape="rect" id="node4" href="$da/df2/a01620.html#aabf36425715d1c704960f7bb03909155" title="Fonction de lecture à partir d&#39;un fichier. " alt="" coords="215,136,401,177"/>
+<area shape="rect" id="node5" href="$dd/d40/a01636.html#a98e70745053499eec720fb6f8bdb283e" title="Récupère un tableau de valeurs à partir d&#39;un chunk. " alt="" coords="215,253,401,295"/>
+<area shape="rect" id="node8" href="$d3/d3e/a01644.html#a1b04807e7d2c0c00fdaca6e276d7a915" title="Récupère une valeur à partir d&#39;un chunk. " alt="" coords="456,188,620,229"/>
+<area shape="rect" id="node9" href="$da/ddf/a01648.html#a56fbba2c9d97da2a5645443bf91cdcb4" title="Récupère une valeur à partir d&#39;un chunk. " alt="" coords="459,319,617,360"/>
+<area shape="rect" id="node6" href="$de/d14/a01640.html#ad45733f91e4b3d985508fc9bf77d006b" title="Récupère un tableau de valeurs à partir d&#39;un chunk. " alt="" coords="461,253,615,295"/>
+<area shape="rect" id="node7" href="$da/df2/a01620.html#ab63aa5be6a9a9e7bb72259c513497b4b" title="Récupère un tableau de valeurs à partir d&#39;un chunk. " alt="" coords="668,253,859,295"/>
+</map>

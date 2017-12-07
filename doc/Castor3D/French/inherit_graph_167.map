@@ -1,0 +1,5 @@
+<map id="Graphe hiérarchique des classes" name="Graphe hiérarchique des classes">
+<area shape="rect" id="node1" href="$d2/db9/a01926.html" title="Classe de base d&#39;un tampon de rendu. " alt="" coords="5,35,160,61"/>
+<area shape="rect" id="node2" href="$d4/dff/a01910.html" title="Tampon de rendu recevant une composante de couleur. " alt="" coords="210,5,401,32"/>
+<area shape="rect" id="node3" href="$dc/d18/a01914.html" title="Render tampon recevant une composante de profondeur et/ou de stencil. " alt="" coords="208,57,403,98"/>
+</map>

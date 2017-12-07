@@ -1,0 +1,148 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$d3/d77/a01870.html" title="Description of an event handler, class that can receive event. " alt="" coords="11,195,167,221"/>
+<area shape="rect" id="node2" href="$de/dfb/a01874.html" title="Description of an event handler, class that can receive event. " alt="" coords="253,187,421,229"/>
+<area shape="rect" id="node4" href="$de/d06/a02938.html" title="CSCN file parser. " alt="" coords="249,253,425,280"/>
+<area shape="rect" id="node6" href="$d2/d83/a02754.html" title="Represents the animated objects. " alt="" coords="251,56,424,83"/>
+<area shape="rect" id="node9" href="$d2/d93/a02758.html" title="Class which represents the animated object groups. " alt="" coords="251,1014,424,1055"/>
+<area shape="rect" id="node10" href="$db/d57/a01506.html" title="Animation base class. " alt="" coords="268,456,407,483"/>
+<area shape="rect" id="node13" href="$da/da0/a02126.html" title="Class holding bone data. " alt="" coords="282,355,393,381"/>
+<area shape="rect" id="node14" href="$d8/dce/a01714.html" title="View on a resource cache. " alt="" coords="240,107,435,163"/>
+<area shape="rect" id="node15" href="$d4/d7f/a01858.html" title="User event synchronisation class. " alt="" coords="256,304,419,331"/>
+<area shape="rect" id="node16" href="$da/d61/a02878.html" title="Movable object class. " alt="" coords="529,1291,695,1317"/>
+<area shape="rect" id="node22" href="$d0/dff/a02506.html" title="Post render effect base class. " alt="" coords="267,861,407,888"/>
+<area shape="rect" id="node23" href="$df/d0c/a02634.html" title="Render pass base class. " alt="" coords="262,507,413,533"/>
+<area shape="rect" id="node34" href="$d8/dab/a02638.html" title="Class that holds data needed to compute a render pass times. " alt="" coords="246,5,429,32"/>
+<area shape="rect" id="node35" href="$d1/d07/a03482.html" title="Render technique base class. " alt="" coords="247,811,427,837"/>
+<area shape="rect" id="node36" href="$dc/d64/a02678.html" title="Render window representation. " alt="" coords="254,963,421,989"/>
+<area shape="rect" id="node37" href="$d6/d61/a03510.html" title="Defines a sampler for a texture. " alt="" coords="273,659,401,685"/>
+<area shape="rect" id="node38" href="$d1/d75/a02926.html" title="Scene handler class. " alt="" coords="279,709,396,736"/>
+<area shape="rect" id="node39" href="$d3/d99/a02942.html" title="The scene node handler class. " alt="" coords="264,760,411,787"/>
+<area shape="rect" id="node40" href="$d5/dd0/a01938.html" title="Tone mapping base class. " alt="" coords="259,912,416,939"/>
+<area shape="rect" id="node41" href="$dd/d7a/a03306.html" title="Shader variables buffer. " alt="" coords="259,608,416,635"/>
+<area shape="rect" id="node7" href="$d7/d14/a02750.html" title="Represents the animated submeshes. " alt="" coords="529,31,695,57"/>
+<area shape="rect" id="node8" href="$dd/deb/a02766.html" title="Represents the animated objects. " alt="" coords="519,81,705,108"/>
+<area shape="rect" id="node11" href="$d9/da1/a01546.html" title="Submesh animation class. " alt="" coords="527,456,697,483"/>
+<area shape="rect" id="node12" href="$d1/d88/a01578.html" title="Skeleton animation class. " alt="" coords="517,507,707,533"/>
+<area shape="rect" id="node17" href="$d5/dd8/a02802.html" title="Billboards list. " alt="" coords="822,481,973,508"/>
+<area shape="rect" id="node18" href="$d6/d59/a02810.html" title="Class which represents a Camera. " alt="" coords="835,1291,960,1317"/>
+<area shape="rect" id="node19" href="$d9/dff/a02826.html" title="Geometry handler class. " alt="" coords="829,975,966,1001"/>
+<area shape="rect" id="node20" href="$dd/dd1/a02842.html" title="Light source implementation. " alt="" coords="843,1341,951,1368"/>
+<area shape="rect" id="node21" href="$d5/d1c/a02902.html" title="Particle system implementation. " alt="" coords="813,1240,982,1267"/>
+<area shape="rect" id="node24" href="$dd/dbb/a03378.html" title="Deferred lighting Render technique pass. " alt="" coords="540,557,684,584"/>
+<area shape="rect" id="node25" href="$d2/dd9/a02314.html" title="Picking pass, using FBO. " alt="" coords="535,608,689,635"/>
+<area shape="rect" id="node26" href="$d3/d87/a03490.html" title="Render technique pass base class. " alt="" coords="507,304,717,331"/>
+<area shape="rect" id="node30" href="$de/d93/a03330.html" title="Shadow mapping implementation. " alt="" coords="521,659,703,685"/>
+<area shape="rect" id="node27" href="$de/d83/a03382.html" title="Forward render technique pass class. " alt="" coords="769,304,1025,331"/>
+<area shape="rect" id="node28" href="$d7/d5e/a03442.html" title="Deferred lighting Render technique pass. " alt="" coords="820,355,975,381"/>
+<area shape="rect" id="node29" href="$d1/d5e/a03502.html" title="Transparent nodes pass using Weighted Blend OIT. " alt="" coords="808,253,987,280"/>
+<area shape="rect" id="node31" href="$d2/db9/a03334.html" title="Shadow mapping implementation for spot lights. " alt="" coords="776,608,1019,635"/>
+<area shape="rect" id="node32" href="$db/dee/a03338.html" title="Shadow mapping implementation. " alt="" coords="792,659,1003,685"/>
+<area shape="rect" id="node33" href="$dd/dc8/a03342.html" title="Shadow mapping implementation for spot lights. " alt="" coords="793,709,1001,736"/>
+<area shape="rect" id="node43" href="$de/dc6/a01502.html" title="Animable public interface. " alt="" coords="270,2261,405,2288"/>
+<area shape="rect" id="node46" href="$d6/d92/a02770.html" title="Animation instance class. " alt="" coords="244,4385,431,4412"/>
+<area shape="rect" id="node49" href="$d6/d0c/a02962.html" title="Atomic counter buffer interface. " alt="" coords="238,4689,437,4716"/>
+<area shape="rect" id="node50" href="$d3/d6c/a02446.html" title="Class used to render colour equirectangular textures to cube maps. " alt="" coords="264,1552,411,1579"/>
+<area shape="rect" id="node51" href="$d4/de7/a02270.html" title="The computing pipeline. " alt="" coords="248,1603,427,1629"/>
+<area shape="rect" id="node52" href="$dc/db2/a02574.html" title="Class which holds the rendering context. " alt="" coords="275,1653,400,1680"/>
+<area shape="rect" id="node53" href="$da/d2d/a02018.html" title="3D Buffer management class " alt="" coords="254,1704,421,1731"/>
+<area shape="rect" id="node54" href="$d9/d94/a02358.html" title="Debug overlays class. " alt="" coords="254,1755,421,1781"/>
+<area shape="rect" id="node55" href="$db/d5a/a01842.html" title="Reflection mapping implementation. " alt="" coords="249,1805,425,1832"/>
+<area shape="rect" id="node56" href="$d4/df4/a01846.html" title="Reflection mapping pass implementation. " alt="" coords="234,1856,441,1883"/>
+<area shape="rect" id="node57" href="$d8/db7/a02450.html" title="Class used to render colour equirectangular textures to cube maps. " alt="" coords="240,1907,435,1933"/>
+<area shape="rect" id="node58" href="$d5/d43/a02378.html" title="Contains the font and the texture assiated to this font. " alt="" coords="263,1957,412,1984"/>
+<area shape="rect" id="node59" href="$dc/d63/a01918.html" title="Frame buffer class. " alt="" coords="262,1299,413,1325"/>
+<area shape="rect" id="node61" href="$d9/dba/a02278.html" title="Gaussian blur pass. " alt="" coords="258,2008,417,2035"/>
+<area shape="rect" id="node62" href="$dc/ddb/a02034.html" title="Base class for renderer dependant buffers. " alt="" coords="269,2059,406,2085"/>
+<area shape="rect" id="node63" href="$d1/dc4/a02042.html" title="Buddy allocator implementation. " alt="" coords="256,2109,419,2136"/>
+<area shape="rect" id="node64" href="$d3/d58/a02302.html" title="GPU query implementation. " alt="" coords="268,2160,407,2187"/>
+<area shape="rect" id="node65" href="$d1/d9a/a02454.html" title="Holds environment maps used in IBL. " alt="" coords="266,2211,409,2237"/>
+<area shape="rect" id="node66" href="$d7/deb/a02090.html" title="Base class for external file import. " alt="" coords="274,2480,401,2507"/>
+<area shape="rect" id="node68" href="$db/d84/a02686.html" title="Render API specific viewport implementation. " alt="" coords="259,2312,416,2339"/>
+<area shape="rect" id="node69" href="$d7/dfb/a01966.html" title="Definition of a material. " alt="" coords="274,1248,401,1275"/>
+<area shape="rect" id="node70" href="$dc/db0/a02778.html" title="Class which represents the moving things. " alt="" coords="228,2363,447,2405"/>
+<area shape="rect" id="node71" href="$d2/dc1/a01562.html" title="Class which represents the mesh animation submeshes. " alt="" coords="225,1080,450,1107"/>
+<area shape="rect" id="node72" href="$dc/d4b/a02382.html" title="The overlay class. " alt="" coords="276,1131,399,1157"/>
+<area shape="rect" id="node73" href="$d5/da6/a02406.html" title="The overlay renderer. " alt="" coords="250,2429,425,2456"/>
+<area shape="rect" id="node74" href="$d2/d3d/a01982.html" title="Base class of a material pass. " alt="" coords="282,2531,393,2557"/>
+<area shape="rect" id="node78" href="$d2/df5/a02482.html" title="Plugin Base class. " alt="" coords="279,3048,395,3075"/>
+<area shape="rect" id="node88" href="$d7/de1/a03006.html" title="ProgramInputLayout class. " alt="" coords="239,2581,435,2608"/>
+<area shape="rect" id="node89" href="$de/d91/a02458.html" title="Class used to render colour equirectangular textures to cube maps. " alt="" coords="242,2632,433,2659"/>
+<area shape="rect" id="node90" href="$d5/d35/a03454.html" title="The post lighting reflection pass. " alt="" coords="254,2683,421,2709"/>
+<area shape="rect" id="node91" href="$da/d22/a02698.html" title="Class used to render a colour cube texture. " alt="" coords="243,2734,431,2775"/>
+<area shape="rect" id="node92" href="$d7/d94/a02702.html" title="Class used to render a colour cube texture array layer. " alt="" coords="242,2799,433,2841"/>
+<area shape="rect" id="node93" href="$d1/dc1/a02706.html" title="Class used to render a colour texture array&#39;s layer. " alt="" coords="242,2865,433,2906"/>
+<area shape="rect" id="node94" href="$d9/d6c/a02710.html" title="Class used to render colour equirectangular textures to cube maps. " alt="" coords="236,2931,439,2957"/>
+<area shape="rect" id="node95" href="$d1/d3c/a02714.html" title="Class used to render colour textures. " alt="" coords="251,2982,423,3023"/>
+<area shape="rect" id="node96" href="$d9/db1/a02718.html" title="Class used to render a depth cube texture. " alt="" coords="245,3099,430,3141"/>
+<area shape="rect" id="node97" href="$df/d84/a02722.html" title="Class used to render a depth cube texture array layer. " alt="" coords="244,3165,431,3206"/>
+<area shape="rect" id="node98" href="$d6/d95/a02726.html" title="Class used to render a depth texture array&#39;s layer. " alt="" coords="244,3230,431,3271"/>
+<area shape="rect" id="node99" href="$df/db6/a02730.html" title="Class used to render depth textures. " alt="" coords="231,3296,443,3323"/>
+<area shape="rect" id="node100" href="$d1/d03/a02582.html" title="Render loop base class. " alt="" coords="263,3732,412,3759"/>
+<area shape="rect" id="node103" href="$d5/d96/a02642.html" title="The rendering pipeline. " alt="" coords="254,3347,421,3373"/>
+<area shape="rect" id="node104" href="$db/d4d/a02654.html" title="Render technique base class. " alt="" coords="258,3397,417,3424"/>
+<area shape="rect" id="node105" href="$df/d14/a02658.html" title="The render system representation. " alt="" coords="254,3448,421,3475"/>
+<area shape="rect" id="node106" href="$d1/d0c/a02666.html" title="Render target class. " alt="" coords="259,1349,416,1376"/>
+<area shape="rect" id="node107" href="$d6/dfc/a01814.html" title="RenderTarget cache. " alt="" coords="240,3499,435,3525"/>
+<area shape="rect" id="node108" href="$d6/d87/a02734.html" title="Class used to render a variance cube texture. " alt="" coords="251,3550,423,3591"/>
+<area shape="rect" id="node109" href="$d9/db0/a02742.html" title="Class used to render variance textures. " alt="" coords="251,3615,423,3657"/>
+<area shape="rect" id="node110" href="$dd/da3/a03026.html" title="Base shader program implementation, used to share functions through the supported shader languages..." alt="" coords="252,1451,423,1477"/>
+<area shape="rect" id="node111" href="$df/d3a/a01810.html" title="Cache used to hold the shader programs. Holds it, destroys it during a rendering loop. " alt="" coords="234,3681,441,3708"/>
+<area shape="rect" id="node112" href="$da/d5b/a03322.html" title="Shadow mapping implementation. " alt="" coords="262,3783,413,3809"/>
+<area shape="rect" id="node116" href="$d0/dc9/a02794.html" title="Class which represents the moving things. " alt="" coords="243,3834,432,3875"/>
+<area shape="rect" id="node119" href="$dd/d90/a01626.html" title="Class which represents the skeleton animation objects. " alt="" coords="243,1182,432,1223"/>
+<area shape="rect" id="node122" href="$d4/dbc/a02954.html" title="Skybox implementation. " alt="" coords="275,4031,399,4057"/>
+<area shape="rect" id="node124" href="$d6/d6e/a02174.html" title="The submesh representation. " alt="" coords="270,1501,405,1528"/>
+<area shape="rect" id="node125" href="$d4/d48/a02250.html" title="Component for a submesh. " alt="" coords="237,4233,438,4260"/>
+<area shape="rect" id="node133" href="$de/df7/a03478.html" title="Gaussian blur pass. " alt="" coords="220,4081,455,4108"/>
+<area shape="rect" id="node134" href="$d3/d7f/a03522.html" title="Texture image. " alt="" coords="258,4132,417,4159"/>
+<area shape="rect" id="node135" href="$d0/de9/a03530.html" title="Texture base class. " alt="" coords="256,4183,419,4209"/>
+<area shape="rect" id="node136" href="$d4/da5/a02746.html" title="Class used to render colour equirectangular textures to cube maps. " alt="" coords="247,4284,428,4311"/>
+<area shape="rect" id="node137" href="$d6/de6/a03534.html" title="GPU texture storage base class. " alt="" coords="253,4335,421,4361"/>
+<area shape="rect" id="node138" href="$d4/d8b/a03538.html" title="Texture unit representation. " alt="" coords="264,4436,411,4463"/>
+<area shape="rect" id="node139" href="$d4/d42/a02330.html" title="Transform feedback implementation. " alt="" coords="240,4487,435,4513"/>
+<area shape="rect" id="node140" href="$da/d6e/a03314.html" title="Represents the binding between a uniform buffer and a program. " alt="" coords="237,4537,437,4564"/>
+<area shape="rect" id="node141" href="$d2/dd7/a01902.html" title="Class used to to manage the user input events. " alt="" coords="247,4588,428,4615"/>
+<area shape="rect" id="node142" href="$df/d5e/a02690.html" title="Class to represent a viewport. " alt="" coords="272,4639,403,4665"/>
+<area shape="rect" id="node143" href="$da/d2d/a02018.html" title="castor3d::CpuBuffer\l\&lt; uint32_t \&gt;" alt="" coords="269,3899,405,3941"/>
+<area shape="rect" id="node145" href="$da/d2d/a02018.html" title="castor3d::CpuBuffer\l\&lt; uint8_t \&gt;" alt="" coords="269,3965,405,4006"/>
+<area shape="rect" id="node44" href="$d9/d6e/a02098.html" title="The mesh representation. " alt="" coords="556,1805,668,1832"/>
+<area shape="rect" id="node45" href="$d8/de7/a02146.html" title="The skeleton, holds each bone. " alt="" coords="547,2261,677,2288"/>
+<area shape="rect" id="node47" href="$df/d91/a02774.html" title="Mesh animation instance. " alt="" coords="503,4397,721,4424"/>
+<area shape="rect" id="node48" href="$da/de9/a02782.html" title="Skeleton animation instance. " alt="" coords="517,4449,707,4490"/>
+<area shape="rect" id="node60" href="$d3/d1b/a01906.html" title="Back buffers class. " alt="" coords="537,1240,687,1267"/>
+<area shape="rect" id="node67" href="$d7/d38/a02054.html" title="Used to import meshes from cmsh files. " alt="" coords="531,2443,693,2469"/>
+<area shape="rect" id="node75" href="$d3/df9/a01942.html" title="Definition of a traditional (pre&#45;PBR) pass. " alt="" coords="536,2560,688,2587"/>
+<area shape="rect" id="node76" href="$d0/db6/a01974.html" title="Definition of a PBR Metallic/Roughness pass. " alt="" coords="517,2611,707,2653"/>
+<area shape="rect" id="node77" href="$d3/dc4/a01990.html" title="Definition of a PBR Metallic/Roughness pass. " alt="" coords="514,2494,710,2535"/>
+<area shape="rect" id="node79" href="$df/d89/a02462.html" title="Divider Plugin class. " alt="" coords="535,3048,689,3075"/>
+<area shape="rect" id="node80" href="$dc/dd2/a02466.html" title="Generator Plugin class. " alt="" coords="525,3099,699,3125"/>
+<area shape="rect" id="node81" href="$df/ddf/a02470.html" title="Generic Plugin class. " alt="" coords="531,3149,693,3176"/>
+<area shape="rect" id="node82" href="$d5/d61/a02474.html" title="Importer Plugin class. " alt="" coords="531,3200,693,3227"/>
+<area shape="rect" id="node83" href="$d4/deb/a02478.html" title="Particle plug&#45;in class. " alt="" coords="532,3251,692,3277"/>
+<area shape="rect" id="node84" href="$d5/ddd/a02490.html" title="Post effect plug&#45;in class. " alt="" coords="533,2845,691,2872"/>
+<area shape="rect" id="node85" href="$dc/d28/a02494.html" title="Renderer Plugin class. " alt="" coords="528,2896,696,2923"/>
+<area shape="rect" id="node86" href="$dd/dd4/a02498.html" title="Render technique plug&#45;in class. " alt="" coords="525,2947,699,2973"/>
+<area shape="rect" id="node87" href="$db/d09/a02502.html" title="Tone mapping plug&#45;in class. " alt="" coords="515,2997,709,3024"/>
+<area shape="rect" id="node101" href="$df/d44/a02586.html" title="Main System. " alt="" coords="519,3591,705,3617"/>
+<area shape="rect" id="node102" href="$df/d57/a02590.html" title="Synchronous render loop. " alt="" coords="523,3540,701,3567"/>
+<area shape="rect" id="node113" href="$dc/de3/a03326.html" title="Shadow mapping implementation for spot lights. " alt="" coords="506,3692,718,3719"/>
+<area shape="rect" id="node114" href="$d6/d1c/a03346.html" title="Shadow mapping implementation. " alt="" coords="521,3743,703,3769"/>
+<area shape="rect" id="node115" href="$d6/d18/a03350.html" title="Shadow mapping implementation for spot lights. " alt="" coords="523,3641,701,3668"/>
+<area shape="rect" id="node117" href="$de/d69/a02786.html" title="Implementation of SkeletonAnimationObject for Bones. " alt="" coords="517,3859,707,3901"/>
+<area shape="rect" id="node118" href="$dc/da5/a02790.html" title="Implementation of SkeletonAnimationNode for abstract nodes. " alt="" coords="517,3794,707,3835"/>
+<area shape="rect" id="node120" href="$dc/def/a01594.html" title="Implementation of SkeletonAnimationObject for Bones. " alt="" coords="503,1139,721,1165"/>
+<area shape="rect" id="node121" href="$d9/dfd/a01610.html" title="Implementation of SkeletonAnimationObject for abstract nodes. " alt="" coords="503,1189,721,1216"/>
+<area shape="rect" id="node123" href="$d5/d85/a02818.html" title="A skybox with no image but a colour. " alt="" coords="531,4077,693,4104"/>
+<area shape="rect" id="node126" href="$dc/dc3/a02190.html" title="The submesh component used for skinning. " alt="" coords="521,4280,703,4307"/>
+<area shape="rect" id="node127" href="$d5/dfe/a02206.html" title="The submesh component used for instantiated submeshes with bones. " alt="" coords="519,4331,705,4373"/>
+<area shape="rect" id="node128" href="$d3/d10/a02226.html" title="A submesh component for faces. " alt="" coords="532,4128,692,4155"/>
+<area shape="rect" id="node131" href="$dd/d67/a02230.html" title="The submesh component used for hardware instantiation. " alt="" coords="504,4179,720,4205"/>
+<area shape="rect" id="node132" href="$de/db2/a02246.html" title="The submesh component used for morphing. " alt="" coords="521,4229,703,4256"/>
+<area shape="rect" id="node129" href="$d1/d44/a02242.html" title="The submesh component for lines. " alt="" coords="817,4103,977,4129"/>
+<area shape="rect" id="node130" href="$dc/d5a/a02254.html" title="The submesh component for triangular faces. " alt="" coords="811,4153,983,4180"/>
+<area shape="rect" id="node144" href="$d2/dd9/a02046.html" title="Index buffer representation. " alt="" coords="540,3925,684,3952"/>
+<area shape="rect" id="node146" href="$dc/d00/a03118.html" title="Shader storage buffer interface. " alt="" coords="513,4027,711,4053"/>
+<area shape="rect" id="node147" href="$d0/d3d/a02050.html" title="Vertex buffer representation. " alt="" coords="537,3976,687,4003"/>
+<area shape="rect" id="node150" href="$d4/db9/a02918.html" title="Handles object&#39;s visibility, and behavior with shadows. " alt="" coords="251,405,424,432"/>
+<area shape="rect" id="node151" href="$d9/da4/a02798.html" title="Billboards list. " alt="" coords="532,355,692,381"/>
+</map>

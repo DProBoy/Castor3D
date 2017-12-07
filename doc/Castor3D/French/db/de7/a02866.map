@@ -1,0 +1,6 @@
+<map id="castor3d::LegacyPassBuffer" name="castor3d::LegacyPassBuffer">
+<area shape="rect" id="node2" href="$d8/d93/a02884.html" title="ShaderBuffer contenant les données des Pass. " alt="" coords="807,113,949,139"/>
+<area shape="rect" id="node5" href="$d4/dec/a01952.html" title="Classe de base d&#39;une passe d&#39;un matériau. " alt="" coords="265,115,375,142"/>
+<area shape="rect" id="node8" href="$dd/d3f/a02912.html" title="Classe permettant de choisir entre SSBO et TBO. " alt="" coords="505,202,659,229"/>
+<area shape="rect" id="node9" href="$df/d89/a03440.html" title="Représentation d&#39;une unité de texture. " alt="" coords="247,202,393,229"/>
+</map>

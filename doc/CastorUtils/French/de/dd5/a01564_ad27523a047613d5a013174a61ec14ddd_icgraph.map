@@ -1,0 +1,12 @@
+<map id="castor::ColourComponent::value" name="castor::ColourComponent::value">
+<area shape="rect" id="node2" href="$de/dd5/a01564.html#a23a2a28b00006270250726651d38cbb7" title="Opérateur de conversion vers int8_t. " alt="" coords="223,74,392,115"/>
+<area shape="rect" id="node7" href="$de/dd5/a01564.html#a584a583a333c2aa52f0da16f03160ef6" title="Opérateur d&#39;affectation par multiplication. " alt="" coords="223,139,392,181"/>
+<area shape="rect" id="node8" href="$de/dd5/a01564.html#a1489dfffbc896e93bf9b4e81fb8e23f8" title="Opérateur d&#39;affectation par addition. " alt="" coords="223,205,392,246"/>
+<area shape="rect" id="node9" href="$de/dd5/a01564.html#a0cad8e157a6df607c87f413ff68c4501" title="Opérateur d&#39;affectation par soustraction. " alt="" coords="223,270,392,311"/>
+<area shape="rect" id="node10" href="$de/dd5/a01564.html#a9799ddf64c235a9cd8e40dee23bcf54e" title="Opérateur d&#39;affectation par division. " alt="" coords="223,335,392,377"/>
+<area shape="rect" id="node11" href="$de/dd5/a01564.html#a9540f0d4488c1bac90f5e92521bf4980" title="Récupère la valeur de la composante. " alt="" coords="223,401,392,442"/>
+<area shape="rect" id="node3" href="$d3/d30/a00370.html#a489c358054eabe9864bfb289b318832f" title="Opérateur d&#39;affectation par multiplication. " alt="" coords="441,5,560,32"/>
+<area shape="rect" id="node4" href="$d3/d30/a00370.html#a143fc33d8b4a751ba2b43a4f992b5117" title="Opérateur d&#39;affectation par addition. " alt="" coords="440,56,561,83"/>
+<area shape="rect" id="node5" href="$d3/d30/a00370.html#ab443bf4a1d1bc1e5aeab33e9c0d49f28" title="Opérateur d&#39;affectation par soustraction. " alt="" coords="442,107,559,133"/>
+<area shape="rect" id="node6" href="$d3/d30/a00370.html#a1bbf1d3f4f54e52711f22eb71341eca3" title="Opérateur d&#39;affectation par division. " alt="" coords="442,157,559,184"/>
+</map>

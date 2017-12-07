@@ -1,0 +1,10 @@
+<map id="castor3d::Animable" name="castor3d::Animable">
+<area shape="rect" id="node3" href="$d9/d6e/a02098.html" title="The mesh representation. " alt="" coords="445,56,557,83"/>
+<area shape="rect" id="node4" href="$da/d61/a02878.html" title="Movable object class. " alt="" coords="419,107,584,133"/>
+<area shape="rect" id="node10" href="$d8/de7/a02146.html" title="The skeleton, holds each bone. " alt="" coords="436,157,567,184"/>
+<area shape="rect" id="node5" href="$d5/dd8/a02802.html" title="Billboards list. " alt="" coords="641,5,792,32"/>
+<area shape="rect" id="node6" href="$d6/d59/a02810.html" title="Class which represents a Camera. " alt="" coords="654,56,779,83"/>
+<area shape="rect" id="node7" href="$d9/dff/a02826.html" title="Geometry handler class. " alt="" coords="648,107,785,133"/>
+<area shape="rect" id="node8" href="$dd/dd1/a02842.html" title="Light source implementation. " alt="" coords="663,157,771,184"/>
+<area shape="rect" id="node9" href="$d5/d1c/a02902.html" title="Particle system implementation. " alt="" coords="632,208,801,235"/>
+</map>

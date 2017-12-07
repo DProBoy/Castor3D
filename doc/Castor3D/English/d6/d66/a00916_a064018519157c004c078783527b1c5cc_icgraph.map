@@ -1,0 +1,10 @@
+<map id="castor3d::prepareChunkData" name="castor3d::prepareChunkData">
+<area shape="rect" id="node2" href="$db/dad/a01616.html#a08e242acd79584a8c061b89c14f68452" title="Retrieves the chunk data size. " alt="" coords="256,71,411,112"/>
+<area shape="rect" id="node5" href="$de/d14/a01640.html#ad45733f91e4b3d985508fc9bf77d006b" title="Retrieves a value array from a chunk. " alt="" coords="256,136,411,177"/>
+<area shape="rect" id="node7" href="$d6/d66/a00916.html#a4402543edf553c47dc6a256669b88072" title="sets given value to big endian. " alt="" coords="240,202,427,229"/>
+<area shape="rect" id="node8" href="$d5/d8d/a01656.html#a798090b3326835cd125af96f5494e66d" title="Writes a subchunk value into a chunk. " alt="" coords="257,253,409,295"/>
+<area shape="rect" id="node3" href="$da/df2/a01620.html#a2742bf23b29af4ccfd61be0e26f3fa6f" title="From chunk reader function. " alt="" coords="479,5,665,47"/>
+<area shape="rect" id="node4" href="$da/df2/a01620.html#a37522319f44d10afdf9b5ae0a14ead29" title="Parses the header chunk. " alt="" coords="475,71,669,112"/>
+<area shape="rect" id="node6" href="$da/df2/a01620.html#ab63aa5be6a9a9e7bb72259c513497b4b" title="Retrieves a value array from a chunk. " alt="" coords="477,136,667,177"/>
+<area shape="rect" id="node9" href="$dd/deb/a01628.html#abd7a11c227c8c4295f74b67b332b1356" title="Writes a subchunk value into a chunk. " alt="" coords="479,253,665,295"/>
+</map>

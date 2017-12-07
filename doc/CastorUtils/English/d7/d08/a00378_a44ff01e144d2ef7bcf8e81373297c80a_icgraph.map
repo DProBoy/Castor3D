@@ -1,0 +1,9 @@
+<map id="castor::PF::setFloatComponent" name="castor::PF::setFloatComponent">
+<area shape="rect" id="node2" href="$d7/d08/a00378.html#a9bae36619a960d9919859bddebc1940e" title="Function to define pixel alpha PixelComponents in float. " alt="" coords="273,5,443,32"/>
+<area shape="rect" id="node3" href="$d7/d08/a00378.html#aa4525492d0359164edfa7ccf76b47bb6" title="Function to define pixel blue PixelComponents in float. " alt="" coords="276,56,440,83"/>
+<area shape="rect" id="node4" href="$d7/d08/a00378.html#a1971d88d6d78e81a19d3b280a70ea0da" title="Function to define pixel depth PixelComponents in float. " alt="" coords="272,107,444,133"/>
+<area shape="rect" id="node5" href="$d7/d08/a00378.html#a796d3cb8be4231e12e689ad00f742727" title="Function to define pixel green PixelComponents in float. " alt="" coords="271,157,445,184"/>
+<area shape="rect" id="node6" href="$d7/d08/a00378.html#ae4be223848ad777339e59ec514a35bfa" title="Function to define pixel luminance PixelComponents in float. " alt="" coords="257,208,459,235"/>
+<area shape="rect" id="node7" href="$d7/d08/a00378.html#ab06081e8674eab32b3e02dcc29dcef94" title="Function to define pixel colour PixelComponents in float. " alt="" coords="277,259,439,285"/>
+<area shape="rect" id="node8" href="$d7/d08/a00378.html#a80dd689211aff0a487939b21381d4c89" title="Function to define pixel depth stencil in float. " alt="" coords="269,309,447,336"/>
+</map>

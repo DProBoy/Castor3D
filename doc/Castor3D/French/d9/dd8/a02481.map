@@ -1,0 +1,11 @@
+<map id="castor3d::Plugin" name="castor3d::Plugin">
+<area shape="rect" id="node3" href="$df/d89/a02462.html" title="Classe de plug&#45;in de subdivision. " alt="" coords="423,5,578,32"/>
+<area shape="rect" id="node4" href="$dc/dd2/a02466.html" title="Classe de plug&#45;in de générateur procédural. " alt="" coords="414,56,587,83"/>
+<area shape="rect" id="node5" href="$df/ddf/a02470.html" title="Classe de plug&#45;in générique. " alt="" coords="420,107,581,133"/>
+<area shape="rect" id="node6" href="$d5/d61/a02474.html" title="Classe de plug&#45;in d&#39;import. " alt="" coords="419,157,582,184"/>
+<area shape="rect" id="node7" href="$d4/deb/a02478.html" title="Classe de plug&#45;in de particules. " alt="" coords="421,208,581,235"/>
+<area shape="rect" id="node8" href="$d5/ddd/a02490.html" title="Classe de plug&#45;in d&#39;effets post rendu. " alt="" coords="421,259,580,285"/>
+<area shape="rect" id="node9" href="$dc/d28/a02494.html" title="Classe de plug&#45;in de rendu. " alt="" coords="417,309,585,336"/>
+<area shape="rect" id="node10" href="$dd/dd4/a02498.html" title="Classe de plug&#45;in de techniques de rendu. " alt="" coords="413,360,588,387"/>
+<area shape="rect" id="node11" href="$db/d09/a02502.html" title="Classe de plug&#45;in de mappage de tons. " alt="" coords="404,411,597,437"/>
+</map>

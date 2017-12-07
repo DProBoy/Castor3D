@@ -1,0 +1,342 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>CastorUtils: Référence du fichier Z:/Projets/C++/Castor3D/source/Core/CastorUtils/Src/Data/MiniZip/crypt.h</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">CastorUtils
+   &#160;<span id="projectnumber">..</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.13 -->
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('../../',false,false,'search.php','Recherche');
+});
+</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="../../dir_b2f33c71d4aa5e7af42a1ca61ff5af1b.html">source</a></li><li class="navelem"><a class="el" href="../../dir_1f10682fec53f0772108851bfcef2e4d.html">Core</a></li><li class="navelem"><a class="el" href="../../dir_bec1f136f42df0ef070b8bd368146ae4.html">CastorUtils</a></li><li class="navelem"><a class="el" href="../../dir_681dea217631aed13e6cc8e851cd0b5b.html">Src</a></li><li class="navelem"><a class="el" href="../../dir_8eb3b427f539cb305b15780a19e98807.html">Data</a></li><li class="navelem"><a class="el" href="../../dir_fb1753822ca2624f66169f20af2f6553.html">MiniZip</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#define-members">Macros</a> &#124;
+<a href="#func-members">Fonctions</a>  </div>
+  <div class="headertitle">
+<div class="title">Référence du fichier crypt.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a9f548005c00fa0754e9c23b7726bf741"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d2e/a00056.html#a9f548005c00fa0754e9c23b7726bf741">CRC32</a>(c,  b)&#160;&#160;&#160;((*(pcrc_32_tab+(((<a class="el" href="../../d3/d8b/a00059.html#a787fa3cf048117ba7123753c1e74fcd6">int</a>)(c) ^ (b)) &amp; 0xff))) ^ ((c) &gt;&gt; 8))</td></tr>
+<tr class="separator:a9f548005c00fa0754e9c23b7726bf741"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ac0d8ec3c867c44d730a188d8b0418e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d2e/a00056.html#a2ac0d8ec3c867c44d730a188d8b0418e">zdecode</a>(pkeys,  pcrc_32_tab,  c)&#160;&#160;&#160;(<a class="el" href="../../d9/d2e/a00056.html#a02bf289cd0d1f899311675e0b3e508d0">update_keys</a>(pkeys,pcrc_32_tab,c ^= <a class="el" href="../../d9/d2e/a00056.html#a8d03722799f8c0c3e0bc1647907e29ab">decrypt_byte</a>(pkeys,pcrc_32_tab)))</td></tr>
+<tr class="separator:a2ac0d8ec3c867c44d730a188d8b0418e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9d6a91abe3a1127f8b5476ba9ee9316"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d2e/a00056.html#ab9d6a91abe3a1127f8b5476ba9ee9316">zencode</a>(pkeys,  pcrc_32_tab,  c,  t)&#160;&#160;&#160;(t=<a class="el" href="../../d9/d2e/a00056.html#a8d03722799f8c0c3e0bc1647907e29ab">decrypt_byte</a>(pkeys,pcrc_32_tab), <a class="el" href="../../d9/d2e/a00056.html#a02bf289cd0d1f899311675e0b3e508d0">update_keys</a>(pkeys,pcrc_32_tab,c), t^(c))</td></tr>
+<tr class="separator:ab9d6a91abe3a1127f8b5476ba9ee9316"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Fonctions</h2></td></tr>
+<tr class="memitem:a8d03722799f8c0c3e0bc1647907e29ab"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d3/d8b/a00059.html#a787fa3cf048117ba7123753c1e74fcd6">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d2e/a00056.html#a8d03722799f8c0c3e0bc1647907e29ab">decrypt_byte</a> (unsigned <a class="el" href="../../d3/d8b/a00059.html#a3c7b35ad9dab18b8310343c201f7b27e">long</a> *pkeys, const unsigned <a class="el" href="../../d3/d8b/a00059.html#a3c7b35ad9dab18b8310343c201f7b27e">long</a> *pcrc_32_tab)</td></tr>
+<tr class="separator:a8d03722799f8c0c3e0bc1647907e29ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02bf289cd0d1f899311675e0b3e508d0"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d3/d8b/a00059.html#a787fa3cf048117ba7123753c1e74fcd6">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d2e/a00056.html#a02bf289cd0d1f899311675e0b3e508d0">update_keys</a> (unsigned <a class="el" href="../../d3/d8b/a00059.html#a3c7b35ad9dab18b8310343c201f7b27e">long</a> *pkeys, const unsigned <a class="el" href="../../d3/d8b/a00059.html#a3c7b35ad9dab18b8310343c201f7b27e">long</a> *pcrc_32_tab, <a class="el" href="../../d3/d8b/a00059.html#a787fa3cf048117ba7123753c1e74fcd6">int</a> c)</td></tr>
+<tr class="separator:a02bf289cd0d1f899311675e0b3e508d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94fdfecb4e9befa8cebfca6a04ed67b3"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d2e/a00056.html#a94fdfecb4e9befa8cebfca6a04ed67b3">init_keys</a> (const char *passwd, unsigned <a class="el" href="../../d3/d8b/a00059.html#a3c7b35ad9dab18b8310343c201f7b27e">long</a> *pkeys, const unsigned <a class="el" href="../../d3/d8b/a00059.html#a3c7b35ad9dab18b8310343c201f7b27e">long</a> *pcrc_32_tab)</td></tr>
+<tr class="separator:a94fdfecb4e9befa8cebfca6a04ed67b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Documentation des macros</h2>
+<a id="a9f548005c00fa0754e9c23b7726bf741"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f548005c00fa0754e9c23b7726bf741">&#9670;&nbsp;</a></span>CRC32</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CRC32</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">c, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">b&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;((*(pcrc_32_tab+(((<a class="el" href="../../d3/d8b/a00059.html#a787fa3cf048117ba7123753c1e74fcd6">int</a>)(c) ^ (b)) &amp; 0xff))) ^ ((c) &gt;&gt; 8))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Référencé par <a class="el" href="../../d9/d2e/a00056.html#a02bf289cd0d1f899311675e0b3e508d0">update_keys()</a>.</p>
+
+</div>
+</div>
+<a id="a2ac0d8ec3c867c44d730a188d8b0418e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ac0d8ec3c867c44d730a188d8b0418e">&#9670;&nbsp;</a></span>zdecode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define zdecode</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">pkeys, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">pcrc_32_tab, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">c&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;(<a class="el" href="../../d9/d2e/a00056.html#a02bf289cd0d1f899311675e0b3e508d0">update_keys</a>(pkeys,pcrc_32_tab,c ^= <a class="el" href="../../d9/d2e/a00056.html#a8d03722799f8c0c3e0bc1647907e29ab">decrypt_byte</a>(pkeys,pcrc_32_tab)))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab9d6a91abe3a1127f8b5476ba9ee9316"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9d6a91abe3a1127f8b5476ba9ee9316">&#9670;&nbsp;</a></span>zencode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define zencode</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">pkeys, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">pcrc_32_tab, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">c, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">t&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;(t=<a class="el" href="../../d9/d2e/a00056.html#a8d03722799f8c0c3e0bc1647907e29ab">decrypt_byte</a>(pkeys,pcrc_32_tab), <a class="el" href="../../d9/d2e/a00056.html#a02bf289cd0d1f899311675e0b3e508d0">update_keys</a>(pkeys,pcrc_32_tab,c), t^(c))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Documentation des fonctions</h2>
+<a id="a8d03722799f8c0c3e0bc1647907e29ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d03722799f8c0c3e0bc1647907e29ab">&#9670;&nbsp;</a></span>decrypt_byte()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="../../d3/d8b/a00059.html#a787fa3cf048117ba7123753c1e74fcd6">int</a> decrypt_byte </td>
+          <td>(</td>
+          <td class="paramtype">unsigned <a class="el" href="../../d3/d8b/a00059.html#a3c7b35ad9dab18b8310343c201f7b27e">long</a> *&#160;</td>
+          <td class="paramname"><em>pkeys</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const unsigned <a class="el" href="../../d3/d8b/a00059.html#a3c7b35ad9dab18b8310343c201f7b27e">long</a> *&#160;</td>
+          <td class="paramname"><em>pcrc_32_tab</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a94fdfecb4e9befa8cebfca6a04ed67b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94fdfecb4e9befa8cebfca6a04ed67b3">&#9670;&nbsp;</a></span>init_keys()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void init_keys </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>passwd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned <a class="el" href="../../d3/d8b/a00059.html#a3c7b35ad9dab18b8310343c201f7b27e">long</a> *&#160;</td>
+          <td class="paramname"><em>pkeys</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const unsigned <a class="el" href="../../d3/d8b/a00059.html#a3c7b35ad9dab18b8310343c201f7b27e">long</a> *&#160;</td>
+          <td class="paramname"><em>pcrc_32_tab</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Références <a class="el" href="../../d9/d2e/a00056.html#a02bf289cd0d1f899311675e0b3e508d0">update_keys()</a>.</p>
+<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Voici le graphe d'appel pour cette fonction :</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="../../d9/d2e/a00056_a94fdfecb4e9befa8cebfca6a04ed67b3_cgraph.png" border="0" usemap="#d9/d2e/a00056_a94fdfecb4e9befa8cebfca6a04ed67b3_cgraph" alt=""/></div>
+<map name="d9/d2e/a00056_a94fdfecb4e9befa8cebfca6a04ed67b3_cgraph" id="d9/d2e/a00056_a94fdfecb4e9befa8cebfca6a04ed67b3_cgraph">
+<area shape="rect" id="node2" href="../../d9/d2e/a00056.html#a02bf289cd0d1f899311675e0b3e508d0" title="update_keys" alt="" coords="128,5,224,32"/>
+<area shape="rect" id="node3" href="../../d3/d8b/a00059.html#a787fa3cf048117ba7123753c1e74fcd6" title="int" alt="" coords="272,5,311,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a02bf289cd0d1f899311675e0b3e508d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02bf289cd0d1f899311675e0b3e508d0">&#9670;&nbsp;</a></span>update_keys()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="../../d3/d8b/a00059.html#a787fa3cf048117ba7123753c1e74fcd6">int</a> update_keys </td>
+          <td>(</td>
+          <td class="paramtype">unsigned <a class="el" href="../../d3/d8b/a00059.html#a3c7b35ad9dab18b8310343c201f7b27e">long</a> *&#160;</td>
+          <td class="paramname"><em>pkeys</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const unsigned <a class="el" href="../../d3/d8b/a00059.html#a3c7b35ad9dab18b8310343c201f7b27e">long</a> *&#160;</td>
+          <td class="paramname"><em>pcrc_32_tab</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d3/d8b/a00059.html#a787fa3cf048117ba7123753c1e74fcd6">int</a>&#160;</td>
+          <td class="paramname"><em>c</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Références <a class="el" href="../../d4/d13/a00377.html#af1be1428c27b6d7188025d4c9c71b722">castor::details::c</a>, <a class="el" href="../../d9/d2e/a00056.html#a9f548005c00fa0754e9c23b7726bf741">CRC32</a>, et <a class="el" href="../../d3/d8b/a00059.html#a787fa3cf048117ba7123753c1e74fcd6">int()</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d9/d2e/a00056.html#a94fdfecb4e9befa8cebfca6a04ed67b3">init_keys()</a>.</p>
+<div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Voici le graphe d'appel pour cette fonction :</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="../../d9/d2e/a00056_a02bf289cd0d1f899311675e0b3e508d0_cgraph.png" border="0" usemap="#d9/d2e/a00056_a02bf289cd0d1f899311675e0b3e508d0_cgraph" alt=""/></div>
+<map name="d9/d2e/a00056_a02bf289cd0d1f899311675e0b3e508d0_cgraph" id="d9/d2e/a00056_a02bf289cd0d1f899311675e0b3e508d0_cgraph">
+<area shape="rect" id="node2" href="../../d3/d8b/a00059.html#a787fa3cf048117ba7123753c1e74fcd6" title="int" alt="" coords="149,5,188,32"/>
+</map>
+</div>
+<div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Voici le graphe des appelants de cette fonction :</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="../../d9/d2e/a00056_a02bf289cd0d1f899311675e0b3e508d0_icgraph.png" border="0" usemap="#d9/d2e/a00056_a02bf289cd0d1f899311675e0b3e508d0_icgraph" alt=""/></div>
+<map name="d9/d2e/a00056_a02bf289cd0d1f899311675e0b3e508d0_icgraph" id="d9/d2e/a00056_a02bf289cd0d1f899311675e0b3e508d0_icgraph">
+<area shape="rect" id="node2" href="../../d9/d2e/a00056.html#a94fdfecb4e9befa8cebfca6a04ed67b3" title="init_keys" alt="" coords="149,5,224,32"/>
+</map>
+</div>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré le Jeudi 7 Décembre 2017 10:19:33 pour CastorUtils par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="../../doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

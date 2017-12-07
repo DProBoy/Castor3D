@@ -1,0 +1,4 @@
+<map id="castor::ContainerBox::operator=" name="castor::ContainerBox::operator=">
+<area shape="rect" id="node2" href="$dd/d11/a00960.html#a4d328376ec991ea318d8ac7bb8bc315f" title="Tests if a vertex is on the limits of this container, and not within. " alt="" coords="197,5,341,47"/>
+<area shape="rect" id="node3" href="$dd/d11/a00960.html#a0027ac827f2f5fd2161951dd0241e4a3" title="Tests if a vertex is within the container, id est inside it but not on it&#39;s limits. " alt="" coords="197,71,341,112"/>
+</map>

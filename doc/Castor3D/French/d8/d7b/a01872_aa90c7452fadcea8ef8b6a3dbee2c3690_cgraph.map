@@ -1,0 +1,20 @@
+<map id="castor3d::UserInputListener::getFocusedControl" name="castor3d::UserInputListener::getFocusedControl">
+<area shape="rect" id="node2" href="$d8/d7b/a01872.html#af0bd18a095e2e981986105b6ea43bc8f" title="castor3d::UserInputListener\l::fireChar" alt="" coords="235,5,416,47"/>
+<area shape="rect" id="node3" href="$d8/d7b/a01872.html#a0d80d75cc0af68af9daa19a85a114ff8" title="castor3d::UserInputListener\l::fireKeydown" alt="" coords="235,71,416,112"/>
+<area shape="rect" id="node4" href="$d8/d7b/a01872.html#a657daab195aa1e25cfaa9e046174476d" title="castor3d::UserInputListener\l::fireKeyUp" alt="" coords="235,136,416,177"/>
+<area shape="rect" id="node5" href="$d8/d7b/a01872.html#a66c90734238a1549340560145e570e73" title="castor3d::UserInputListener\l::fireMaterialEvent" alt="" coords="235,201,416,243"/>
+<area shape="rect" id="node6" href="$d8/d7b/a01872.html#a204f8e22a42c266931fe06de0f4a205d" title="castor3d::UserInputListener\l::fireMouseButtonPushed" alt="" coords="235,267,416,308"/>
+<area shape="rect" id="node7" href="$d8/d7b/a01872.html#a928f3e3040d31b83e5d910253ea58fe8" title="castor3d::UserInputListener\l::fireMouseButtonReleased" alt="" coords="235,332,416,373"/>
+<area shape="rect" id="node8" href="$d8/d7b/a01872.html#a8fe6710d656b155f5620e82def391d91" title="castor3d::UserInputListener\l::fireMouseMove" alt="" coords="235,397,416,439"/>
+<area shape="rect" id="node9" href="$d8/d7b/a01872.html#a6021cb1b791529b03fdf3332e752b950" title="castor3d::UserInputListener\l::fireMouseWheel" alt="" coords="235,463,416,504"/>
+<area shape="rect" id="node10" href="$d8/d7b/a01872.html#a40fdc6660bc4ba67c675f17b6d62c203" title="castor3d::UserInputListener\l::fireTextEvent" alt="" coords="235,528,416,569"/>
+<area shape="rect" id="node11" href="$d8/d7b/a01872.html#a857c38902bd6a79cf65ca5579920184a" title="castor3d::UserInputListener\l::onClickAction" alt="" coords="235,593,416,635"/>
+<area shape="rect" id="node12" href="$d8/d7b/a01872.html#a40cd60ec3a1827ac3af25b5e2fe92ed1" title="castor3d::UserInputListener\l::onSelectAction" alt="" coords="235,659,416,700"/>
+<area shape="rect" id="node13" href="$d8/d7b/a01872.html#aa9b7e4a8ebe7f41b7c83ddf031c346da" title="castor3d::UserInputListener\l::onTextAction" alt="" coords="235,724,416,765"/>
+<area shape="rect" id="node14" href="$d8/d7b/a01872.html#a00c3d05545814d8d7369beb774f90cfe" title="castor3d::UserInputListener\l::registerClickAction" alt="" coords="235,789,416,831"/>
+<area shape="rect" id="node15" href="$d8/d7b/a01872.html#adff1b570488d0a3552a2efa9eb92f42b" title="castor3d::UserInputListener\l::registerSelectAction" alt="" coords="235,855,416,896"/>
+<area shape="rect" id="node16" href="$d8/d7b/a01872.html#a89a386f43f9bd8761ac3552e714969f8" title="castor3d::UserInputListener\l::registerTextAction" alt="" coords="235,920,416,961"/>
+<area shape="rect" id="node17" href="$d8/d7b/a01872.html#aead413f65e546595fdd265be9e419bd8" title="castor3d::UserInputListener\l::unregisterClickAction" alt="" coords="235,985,416,1027"/>
+<area shape="rect" id="node18" href="$d8/d7b/a01872.html#a0bd4beab5d49542faca3a8ea9eb88a37" title="castor3d::UserInputListener\l::unregisterSelectAction" alt="" coords="235,1051,416,1092"/>
+<area shape="rect" id="node19" href="$d8/d7b/a01872.html#af8a726e83222ac05d9724f5edd4212a7" title="castor3d::UserInputListener\l::unregisterTextAction" alt="" coords="235,1116,416,1157"/>
+</map>

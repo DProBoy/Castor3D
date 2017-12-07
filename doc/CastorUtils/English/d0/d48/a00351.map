@@ -1,0 +1,21 @@
+<map id="Z:/Projets/C++/Castor3D/source/Core/CastorUtils/Src/Pool/UniqueObjectPool.hpp" name="Z:/Projets/C++/Castor3D/source/Core/CastorUtils/Src/Pool/UniqueObjectPool.hpp">
+<area shape="rect" id="node2" href="$d3/d93/a00341.html" title="ObjectPool.hpp" alt="" coords="903,109,1014,136"/>
+<area shape="rect" id="node3" href="$dc/d84/a00338.html" title="MemoryDataTyper.hpp" alt="" coords="882,273,1035,300"/>
+<area shape="rect" id="node35" href="$d8/d23/a00326.html" title="FixedGrowingSizeMarkedMemory\lData.hpp" alt="" coords="606,184,823,225"/>
+<area shape="rect" id="node38" href="$dd/d4e/a00329.html" title="FixedGrowingSizeMemoryData.hpp" alt="" coords="355,191,581,218"/>
+<area shape="rect" id="node39" href="$dc/d50/a00332.html" title="FixedSizeMarkedMemoryData.hpp" alt="" coords="847,191,1070,218"/>
+<area shape="rect" id="node40" href="$df/d91/a00335.html" title="FixedSizeMemoryData.hpp" alt="" coords="1095,191,1273,218"/>
+<area shape="rect" id="node4" href="$d8/d8e/a00344.html" title="PoolException.hpp" alt="" coords="1379,497,1509,524"/>
+<area shape="rect" id="node30" href="$dd/dad/a00005.html" title="Align/AlignedMemoryAllocator.hpp" alt="" coords="679,348,900,375"/>
+<area shape="rect" id="node34" href="$d4/dee/a00008.html" title="Align/NonAlignedMemoryAllocator.hpp" alt="" coords="837,423,1081,449"/>
+<area shape="rect" id="node5" href="$d4/d51/a00017.html" title="CastorUtilsPrerequisites.hpp" alt="" coords="732,572,919,599"/>
+<area shape="rect" id="node27" href="$d9/db6/a00146.html" title="Exception/Exception.hpp" alt="" coords="1301,572,1467,599"/>
+<area shape="rect" id="node20" href="$dc/d87/a00032.html" title="Config/SmartPtr.hpp" alt="" coords="996,647,1135,673"/>
+<area shape="rect" id="node25" href="$d1/da8/a00230.html" title="Log/ELogType.hpp" alt="" coords="1159,647,1289,673"/>
+<area shape="rect" id="node26" href="$df/d95/a00299.html" title="Miscellaneous/Debug.hpp" alt="" coords="5,647,176,673"/>
+<area shape="rect" id="node21" href="$d3/d52/a00023.html" title="Macros.hpp" alt="" coords="1020,721,1111,748"/>
+<area shape="rect" id="node23" href="$d5/d16/a00029.html" title="PlatformConfig.hpp" alt="" coords="1000,796,1131,823"/>
+<area shape="rect" id="node24" href="$db/db2/a00020.html" title="CompilerConfig.hpp" alt="" coords="1155,796,1290,823"/>
+<area shape="rect" id="node31" href="$d7/d46/a00002.html" title="Aligned.hpp" alt="" coords="721,423,812,449"/>
+<area shape="rect" id="node32" href="$d1/d5d/a00311.html" title="Miscellaneous/Utils.hpp" alt="" coords="628,497,788,524"/>
+</map>

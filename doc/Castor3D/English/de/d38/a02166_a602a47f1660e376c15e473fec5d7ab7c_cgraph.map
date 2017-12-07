@@ -1,0 +1,9 @@
+<map id="castor3d::Subdivider::setSubdivisionEndCallback" name="castor3d::Subdivider::setSubdivisionEndCallback">
+<area shape="rect" id="node2" href="$de/d38/a02166.html#acef226a9a746a2bc1877ff61aaebbf2f" title="Adds generated faces to the submesh. " alt="" coords="240,5,403,47"/>
+<area shape="rect" id="node3" href="$de/d38/a02166.html#a494b1a74ff12e4b0f4bc98829093ab6e" title="Initialisation function. " alt="" coords="252,71,391,112"/>
+<area shape="rect" id="node4" href="$de/d38/a02166.html#a061f7afbac5180bdfa96777073e6edc6" title="Computes the texture coordinates for given vertices, creates the faces. " alt="" coords="252,136,391,177"/>
+<area shape="rect" id="node5" href="$de/d38/a02166.html#a40b004309bf916ffa887641c256ae817" title="Effectively subdivides the submesh. " alt="" coords="252,201,391,243"/>
+<area shape="rect" id="node6" href="$de/d38/a02166.html#a7ae8a7529f4fe8f7e39415bc7ab454bd" title="Threaded subdivision function. " alt="" coords="245,267,397,308"/>
+<area shape="rect" id="node7" href="$de/d38/a02166.html#a1b145d17db1503c3dfd88614751e049f" title="Swaps the internal faces with the submeshes ones. " alt="" coords="252,332,391,373"/>
+<area shape="rect" id="node8" href="$de/d38/a02166.html#a24b217b77ce56b5b8f1a0371ff5a1825" title="Checks if the given point is in my list and if not creates and adds it. " alt="" coords="252,397,391,439"/>
+</map>

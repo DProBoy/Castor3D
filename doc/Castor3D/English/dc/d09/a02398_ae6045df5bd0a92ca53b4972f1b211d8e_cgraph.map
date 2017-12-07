@@ -1,0 +1,14 @@
+<map id="castor3d::OverlayCategory::TextWriter::writeInto" name="castor3d::OverlayCategory::TextWriter::writeInto">
+<area shape="rect" id="node2" href="$d6/dff/a02390.html#a8c43b9aff9ecebba686a212551a6f518" title="Creates an OverlayCategory specific TextLoader. " alt="" coords="228,5,403,47"/>
+<area shape="rect" id="node3" href="$d6/dff/a02390.html#a0e18c7032ece1f9fabb21621f54f27c7" title="Retrieves the absolute overlay position. " alt="" coords="228,71,403,112"/>
+<area shape="rect" id="node4" href="$d6/dff/a02390.html#af5c16e73f89fa5f438bf2df8f9eb56fc" title="Retrieves the absolute overlay size. " alt="" coords="228,136,403,177"/>
+<area shape="rect" id="node5" href="$d6/dff/a02390.html#a4c7d4774b122b2f3d7a84892b5cfff78" title="Retrieves the overlay name. " alt="" coords="228,201,403,243"/>
+<area shape="rect" id="node6" href="$d6/dff/a02390.html#ad2268e51289922bdd13cec10ae9084ca" title="castor3d::OverlayCategory\l::getRenderRatio" alt="" coords="228,267,403,308"/>
+<area shape="rect" id="node7" href="$d6/dff/a02390.html#a0836f09c4f8ffbd2b185863e150196b4" title="castor3d::OverlayCategory\l::isPositionChanged" alt="" coords="228,332,403,373"/>
+<area shape="rect" id="node8" href="$d6/dff/a02390.html#a5a5577d603b35fc1dae496989669d598" title="castor3d::OverlayCategory\l::isSizeChanged" alt="" coords="228,397,403,439"/>
+<area shape="rect" id="node9" href="$d6/dff/a02390.html#a5322170808dee9b7da8c7a0452efa9c2" title="Constructor. " alt="" coords="228,463,403,504"/>
+<area shape="rect" id="node10" href="$d6/dff/a02390.html#a36220a9c7d7246cdcdec0c004c19b2dd" title="Draws the overlay. " alt="" coords="228,528,403,569"/>
+<area shape="rect" id="node11" href="$d6/dff/a02390.html#a6b0b2f9ce1737dc8c74a67ed90b17dfd" title="sets the material " alt="" coords="228,593,403,635"/>
+<area shape="rect" id="node12" href="$d6/dff/a02390.html#a8ce5d2b8d1801233be16bc3bc4faf0d1" title="Updates the overlay position, size... " alt="" coords="228,659,403,700"/>
+<area shape="rect" id="node13" href="$d6/dff/a02390.html#aff0ea758ff18dd648a7e1c9aa6cf8689" title="Destructor. " alt="" coords="228,724,403,765"/>
+</map>

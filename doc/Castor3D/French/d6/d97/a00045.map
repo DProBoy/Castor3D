@@ -1,0 +1,19 @@
+<map id="Z:/Projets/C++/Castor3D/source/Core/Castor3D/Src/Binary/ChunkParser.hpp" name="Z:/Projets/C++/Castor3D/source/Core/Castor3D/Src/Binary/ChunkParser.hpp">
+<area shape="rect" id="node2" href="$dc/d87/a00032.html" title="BinaryChunk.hpp" alt="" coords="1411,109,1533,136"/>
+<area shape="rect" id="node27" href="$dd/d32/a00041.html" title="ChunkData.hpp" alt="" coords="2830,184,2941,211"/>
+<area shape="rect" id="node3" href="$d4/d3e/a00116.html" title="Castor3DPrerequisites.hpp" alt="" coords="2219,348,2397,375"/>
+<area shape="rect" id="node13" href="$db/d8e/a00482.html" title="Prerequisites/Castor3DPrerequisites\l_Animation.hpp" alt="" coords="3312,423,3544,464"/>
+<area shape="rect" id="node15" href="$d6/d1a/a00485.html" title="Prerequisites/Castor3DPrerequisites\l_Camera.hpp" alt="" coords="1819,423,2051,464"/>
+<area shape="rect" id="node16" href="$d6/d60/a00491.html" title="Prerequisites/Castor3DPrerequisites\l_Geometry.hpp" alt="" coords="2075,423,2307,464"/>
+<area shape="rect" id="node17" href="$d5/d0f/a00494.html" title="Prerequisites/Castor3DPrerequisites\l_Light.hpp" alt="" coords="965,423,1197,464"/>
+<area shape="rect" id="node19" href="$d4/d1e/a00497.html" title="Prerequisites/Castor3DPrerequisites\l_Material.hpp" alt="" coords="2544,423,2776,464"/>
+<area shape="rect" id="node20" href="$de/d4e/a00500.html" title="Prerequisites/Castor3DPrerequisites\l_Overlay.hpp" alt="" coords="3056,423,3288,464"/>
+<area shape="rect" id="node21" href="$d4/d1f/a00506.html" title="Prerequisites/Castor3DPrerequisites\l_Scene.hpp" alt="" coords="27,423,259,464"/>
+<area shape="rect" id="node22" href="$df/db6/a00509.html" title="Prerequisites/Castor3DPrerequisites\l_Shader.hpp" alt="" coords="283,423,515,464"/>
+<area shape="rect" id="node23" href="$d4/de5/a00503.html" title="Prerequisites/Castor3DPrerequisites\l_Render.hpp" alt="" coords="2800,423,3032,464"/>
+<area shape="rect" id="node25" href="$d4/ddf/a00488.html" title="Prerequisites/Castor3DPrerequisites\l_Event.hpp" alt="" coords="709,423,941,464"/>
+<area shape="rect" id="node14" href="$db/d10/a00350.html" title="Mesh/VertexGroup.hpp" alt="" coords="3745,512,3901,539"/>
+<area shape="rect" id="node28" href="$d0/d39/a00314.html" title="Mesh/SubmeshComponent\l/FaceIndices.hpp" alt="" coords="2219,259,2397,300"/>
+<area shape="rect" id="node29" href="$d6/d82/a00293.html" title="Mesh/Skeleton/VertexBone\lData.hpp" alt="" coords="2421,259,2603,300"/>
+<area shape="rect" id="node30" href="$da/d45/a00011.html" title="Animation/KeyFrame.hpp" alt="" coords="2627,266,2797,293"/>
+</map>

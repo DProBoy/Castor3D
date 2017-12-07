@@ -1,0 +1,30 @@
+<map id="castor3d::ShadowMapPassSpot" name="castor3d::ShadowMapPassSpot">
+<area shape="rect" id="node2" href="$de/d93/a03330.html" title="Implémentation du mappage d&#39;ombres. " alt="" coords="2548,963,2729,989"/>
+<area shape="rect" id="node3" href="$df/d0c/a02634.html" title="Classe de base d&#39;une passe de rendu. " alt="" coords="2348,963,2499,989"/>
+<area shape="rect" id="node9" href="$df/d14/a02658.html" title="Représentation du système de rendu. " alt="" coords="801,833,968,860"/>
+<area shape="rect" id="node33" href="$d1/d75/a02926.html" title="Classe de gestion d&#39;un scène. " alt="" coords="826,303,943,329"/>
+<area shape="rect" id="node46" href="$da/d5b/a03322.html" title="Implémentation du mappage d&#39;ombres. " alt="" coords="1282,1123,1433,1149"/>
+<area shape="rect" id="node47" href="$d4/d8b/a03538.html" title="Représentation d&#39;une unité de texture. " alt="" coords="811,1084,958,1111"/>
+<area shape="rect" id="node6" href="$d9/d44/a03126.html" title="Gestion du tampon de variables uniformes pour le modèle. " alt="" coords="2005,912,2158,939"/>
+<area shape="rect" id="node7" href="$da/d8d/a03158.html" title="Gestion du tampon de variables uniformes pour la scène. " alt="" coords="2011,963,2151,989"/>
+<area shape="rect" id="node8" href="$d8/d29/a03162.html" title="Gestion du tampon de variables uniformes pour les matrices. " alt="" coords="2005,1013,2158,1040"/>
+<area shape="rect" id="node10" href="$d1/dc4/a02042.html" title="Implémentation d&#39;un buddy allocator. " alt="" coords="389,716,552,743"/>
+<area shape="rect" id="node14" href="$d7/da1/a02290.html" title="Contient des informations sur le GPU. " alt="" coords="383,884,558,911"/>
+<area shape="rect" id="node19" href="$d9/d76/a02526.html" title="Indicateurs de pipeline. " alt="" coords="1597,1079,1756,1105"/>
+<area shape="rect" id="node20" href="$db/d7f/a03150.html" title="Gestion du tampon de variables uniformes pour les matrices. " alt="" coords="2003,1144,2159,1171"/>
+<area shape="rect" id="node21" href="$d0/d7e/a03138.html" title="Gestion du tampon de variables uniformes pour les matrices. " alt="" coords="2012,1195,2151,1221"/>
+<area shape="rect" id="node22" href="$dc/df0/a03146.html" title="Gestion du tampon de variables uniformes pour le modèle. " alt="" coords="2012,1245,2151,1272"/>
+<area shape="rect" id="node24" href="$db/d4d/a02654.html" title="Classe de base d&#39;une technique de rendu. " alt="" coords="2002,204,2161,231"/>
+<area shape="rect" id="node27" href="$d5/d9a/a02650.html" title="Les noeuds de rendu pour une scène spécifique. " alt="" coords="1260,488,1455,515"/>
+<area shape="rect" id="node28" href="$d3/d23/a02646.html" title="castor3d::RenderNodesT\l\&lt; MorphingRenderNode,\l MorphingRenderNodesByPipelineMap \&gt;" alt="" coords="757,353,1013,409"/>
+<area shape="rect" id="node29" href="$d3/d23/a02646.html" title="castor3d::RenderNodesT\l\&lt; SkinningRenderNode,\l SubmeshSkinningRenderNodesByPipelineMap \&gt;" alt="" coords="731,433,1039,489"/>
+<area shape="rect" id="node30" href="$d3/d23/a02646.html" title="castor3d::RenderNodesT\l\&lt; SkinningRenderNode,\l SkinningRenderNodesByPipelineMap \&gt;" alt="" coords="758,513,1011,569"/>
+<area shape="rect" id="node31" href="$d3/d23/a02646.html" title="castor3d::RenderNodesT\l\&lt; StaticRenderNode, SubmeshStatic\lRenderNodesByPipelineMap \&gt;" alt="" coords="767,593,1003,649"/>
+<area shape="rect" id="node32" href="$d3/d23/a02646.html" title="castor3d::RenderNodesT\l\&lt; BillboardRenderNode,\l BillboardRenderNodesByPipelineMap \&gt;" alt="" coords="758,673,1011,729"/>
+<area shape="rect" id="node37" href="$d3/d99/a02942.html" title="La classe de gestion de noeud de scène. " alt="" coords="811,137,958,164"/>
+<area shape="rect" id="node43" href="$da/d61/a02878.html" title="Classe d&#39;objet déplaçable. " alt="" coords="1275,95,1440,121"/>
+<area shape="rect" id="node36" href="$d3/d23/a02646.html" title="castor3d::RenderNodesT\l\&lt; StaticRenderNode, StaticRender\lNodesByPipelineMap \&gt;" alt="" coords="773,753,996,809"/>
+<area shape="rect" id="node44" href="$de/dc6/a01502.html" title="interface publique d&#39;animable " alt="" coords="817,25,952,52"/>
+<area shape="rect" id="node42" href="$d6/d59/a02810.html" title="Classe de représentation de Camera. " alt="" coords="1614,95,1739,121"/>
+<area shape="rect" id="node45" href="$d0/d22/a03142.html" title="Gestion du tampon de variables uniformes pour les matrices. " alt="" coords="1994,709,2169,736"/>
+</map>

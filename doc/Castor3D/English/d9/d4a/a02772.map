@@ -1,0 +1,9 @@
+<map id="castor3d::MeshAnimationInstance" name="castor3d::MeshAnimationInstance">
+<area shape="rect" id="node2" href="$d6/d92/a02770.html" title="Animation instance class. " alt="" coords="803,208,989,235"/>
+<area shape="rect" id="node4" href="$db/d57/a01506.html" title="Animation base class. " alt="" coords="512,155,651,181"/>
+<area shape="rect" id="node14" href="$d9/da1/a01546.html" title="Submesh animation class. " alt="" coords="811,148,981,175"/>
+<area shape="rect" id="node9" href="$d2/d83/a02754.html" title="Represents the animated objects. " alt="" coords="495,103,668,129"/>
+<area shape="rect" id="node8" href="$d7/d14/a02750.html" title="Represents the animated submeshes. " alt="" coords="813,97,979,124"/>
+<area shape="rect" id="node10" href="$d9/d6e/a02098.html" title="The mesh representation. " alt="" coords="525,52,637,79"/>
+<area shape="rect" id="node12" href="$de/dc6/a01502.html" title="Animable public interface. " alt="" coords="270,5,405,32"/>
+</map>

@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>CastorUtils: Référence du modèle de la structure castor::CallTraits&lt; T &gt;</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">CastorUtils
+   &#160;<span id="projectnumber">..</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.13 -->
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('../../',false,false,'search.php','Recherche');
+});
+</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="../../d6/db8/a00376.html">castor</a></li><li class="navelem"><a class="el" href="../../dc/d9e/a01206.html">CallTraits</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#pub-types">Types publics</a> &#124;
+<a href="../../da/d1f/a01203.html">Liste de tous les membres</a>  </div>
+  <div class="headertitle">
+<div class="title">Référence du modèle de la structure castor::CallTraits&lt; T &gt;</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Structure utilisée pour récupéerer la meilleure façon de passer T en paramètre : valeur ou référence constante.  
+ <a href="../../dc/d9e/a01206.html#details">Plus de détails...</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Types publics</h2></td></tr>
+<tr class="memitem:a152b711d96f4d659987b7472c171d44d"><td class="memItemLeft" align="right" valign="top">typedef CallTraitsHelper&lt; T,(sizeof(T) &gt; sizeof(void *)) &gt;::<a class="el" href="../../dc/d9e/a01206.html#a152b711d96f4d659987b7472c171d44d">const_param_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d9e/a01206.html#a152b711d96f4d659987b7472c171d44d">const_param_type</a></td></tr>
+<tr class="memdesc:a152b711d96f4d659987b7472c171d44d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Typedef sur la meilleure façon de passer T en paramètre : valeur ou référence constante.  <a href="#a152b711d96f4d659987b7472c171d44d">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a152b711d96f4d659987b7472c171d44d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0c9c462fc719e005c2f9eb448350818"><td class="memItemLeft" align="right" valign="top">typedef CallTraitsHelper&lt; T,(sizeof(T) &gt; sizeof(void *)) &gt;::<a class="el" href="../../dc/d9e/a01206.html#ab0c9c462fc719e005c2f9eb448350818">param_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d9e/a01206.html#ab0c9c462fc719e005c2f9eb448350818">param_type</a></td></tr>
+<tr class="separator:ab0c9c462fc719e005c2f9eb448350818"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Description détaillée</h2>
+<div class="textblock"><h3>template&lt;typename T&gt;<br />
+struct castor::CallTraits&lt; T &gt;</h3>
+
+<p>Structure utilisée pour récupéerer la meilleure façon de passer T en paramètre : valeur ou référence constante. </p>
+<dl class="section author"><dt>Auteur</dt><dd>Sylvain DOREMUS </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>0.6.1.0 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>19/10/2011 </dd></dl>
+</div><h2 class="groupheader">Documentation des définitions de type membres</h2>
+<a id="a152b711d96f4d659987b7472c171d44d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a152b711d96f4d659987b7472c171d44d">&#9670;&nbsp;</a></span>const_param_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef CallTraitsHelper&lt; T, ( sizeof( T ) &gt; sizeof( void * ) ) &gt;::<a class="el" href="../../dc/d9e/a01206.html#a152b711d96f4d659987b7472c171d44d">const_param_type</a> <a class="el" href="../../dc/d9e/a01206.html">castor::CallTraits</a>&lt; T &gt;::<a class="el" href="../../dc/d9e/a01206.html#a152b711d96f4d659987b7472c171d44d">const_param_type</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Typedef sur la meilleure façon de passer T en paramètre : valeur ou référence constante. </p>
+<dl class="section author"><dt>Auteur</dt><dd>Sylvain DOREMUS </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>0.6.1.0 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>19/10/2011 </dd></dl>
+
+</div>
+</div>
+<a id="ab0c9c462fc719e005c2f9eb448350818"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0c9c462fc719e005c2f9eb448350818">&#9670;&nbsp;</a></span>param_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef CallTraitsHelper&lt; T, ( sizeof( T ) &gt; sizeof( void * ) ) &gt;::<a class="el" href="../../dc/d9e/a01206.html#ab0c9c462fc719e005c2f9eb448350818">param_type</a> <a class="el" href="../../dc/d9e/a01206.html">castor::CallTraits</a>&lt; T &gt;::<a class="el" href="../../dc/d9e/a01206.html#ab0c9c462fc719e005c2f9eb448350818">param_type</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>La documentation de cette structure a été générée à partir du fichier suivant :<ul>
+<li>Z:/Projets/C++/Castor3D/source/Core/CastorUtils/Src/Design/<a class="el" href="../../d7/d06/a00131.html">Templates.hpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré le Jeudi 7 Décembre 2017 10:19:37 pour CastorUtils par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="../../doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

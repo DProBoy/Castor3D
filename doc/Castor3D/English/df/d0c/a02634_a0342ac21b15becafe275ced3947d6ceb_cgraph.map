@@ -1,0 +1,8 @@
+<map id="castor3d::RenderPass::getSceneUbo" name="castor3d::RenderPass::getSceneUbo">
+<area shape="rect" id="node2" href="$df/d0c/a02634.html#a9cdbe217fd5fdeb61e262fdb7a11165b" title="Copies the instanced skinned nodes model matrices into given matrix buffer. " alt="" coords="224,5,375,47"/>
+<area shape="rect" id="node3" href="$df/d0c/a02634.html#a2e05e1353b979332d77b7eeb4c77abba" title="Copies the instanced nodes model matrices into given matrix buffer. " alt="" coords="219,71,380,112"/>
+<area shape="rect" id="node4" href="$df/d0c/a02634.html#ac68d7957f80f83307679202b0ed42fcb" title="Creates a render node. " alt="" coords="208,136,391,177"/>
+<area shape="rect" id="node5" href="$df/d0c/a02634.html#a908c8d0f310aeb4b9b1eeed20dbe51e7" title="Creates a scene render node. " alt="" coords="204,201,395,243"/>
+<area shape="rect" id="node6" href="$df/d0c/a02634.html#a030f90f016beee6c1de927bb5052a9d1" title="Retrieves the shader program matching the given flags. " alt="" coords="224,267,375,308"/>
+<area shape="rect" id="node7" href="$df/d0c/a02634.html#ad1fa77da5b062d5fff6948cce72a83b8" title="Renders instanced submeshes. " alt="" coords="224,332,375,373"/>
+</map>

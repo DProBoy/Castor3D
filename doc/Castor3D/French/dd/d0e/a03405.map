@@ -1,0 +1,6 @@
+<map id="castor3d::LightPass::Program" name="castor3d::LightPass::Program">
+<area shape="rect" id="node2" href="$d0/d2b/a03394.html" title="Programme de passe de lumière directionnelle. " alt="" coords="5,95,175,136"/>
+<area shape="rect" id="node3" href="$d6/d7f/a03438.html" title="Classe de base pour les programmes de passe d&#39;éclairage nécessitant un maillage plutôt qu&#39;un quad..." alt="" coords="199,95,370,136"/>
+<area shape="rect" id="node4" href="$d1/d82/a03450.html" title="Programme de passe de lumière omnidirectionnelle. " alt="" coords="105,184,273,225"/>
+<area shape="rect" id="node5" href="$d7/db0/a03466.html" title="Programme de passe de lumière projecteur. " alt="" coords="297,184,462,225"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="castor::systemEndianToBigEndian" name="castor::systemEndianToBigEndian">
+<area shape="rect" id="node2" href="$d3/d30/a00370.html#a8f7af198d3e7c70690f7427c99210579" title="Détecte si le système courant est big endian. " alt="" coords="254,5,389,32"/>
+<area shape="rect" id="node3" href="$d3/d30/a00370.html#aee2d3403ba1dc32de98f5458cc1c2189" title="Change le boutisme du paramètre. " alt="" coords="236,56,407,83"/>
+</map>

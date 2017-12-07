@@ -1,0 +1,5 @@
+<map id="castor::switchEndianness" name="castor::switchEndianness">
+<area shape="rect" id="node2" href="$d3/d30/a00370.html#af8eda628b552209314f15c03aecbdbcc" title="Convertit la valeur donnée de big endian à l&#39;endianness du système si nécessaire. ..." alt="" coords="224,5,407,47"/>
+<area shape="rect" id="node3" href="$d3/d30/a00370.html#a6372e03d4ffab1373923e445c6f6de0f" title="Change le boutisme du paramètre. " alt="" coords="230,71,401,98"/>
+<area shape="rect" id="node4" href="$d3/d30/a00370.html#a49c5061a2adfa3a80300f8d644780828" title="Convertit la valeur donnée en big endian si nécessaire. " alt="" coords="224,123,407,164"/>
+</map>

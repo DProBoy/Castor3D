@@ -1,0 +1,7 @@
+<map id="castor3d::GpuQuery::getInfos" name="castor3d::GpuQuery::getInfos">
+<area shape="rect" id="node2" href="$d8/d5f/a02216.html#ab72a44b36018999021dc52249af220d0" title="Démarre la requête. " alt="" coords="192,5,331,47"/>
+<area shape="rect" id="node3" href="$d8/d5f/a02216.html#a4bd4e0b2a75ea23f9eb57ac1b363e7d3" title="Détruit la requête sur le GPU. " alt="" coords="192,71,331,112"/>
+<area shape="rect" id="node4" href="$d8/d5f/a02216.html#a27144bd2f8af249c90b8496591b3b2db" title="Termine la requête. " alt="" coords="192,136,331,177"/>
+<area shape="rect" id="node5" href="$d8/d5f/a02216.html#a8d38911f15495d85cc97e2d2f9b740d6" title="Récupère une information sur la requête. " alt="" coords="192,201,331,243"/>
+<area shape="rect" id="node6" href="$d8/d5f/a02216.html#af130249600f64535557032a99cae8e88" title="Crée la requête sur le GPU. " alt="" coords="192,267,331,308"/>
+</map>

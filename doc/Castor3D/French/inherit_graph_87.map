@@ -1,0 +1,6 @@
+<map id="Graphe hiérarchique des classes" name="Graphe hiérarchique des classes">
+<area shape="rect" id="node1" href="$d7/d97/a01854.html" title="Interface représentant un évènement de frame. " alt="" coords="5,64,155,91"/>
+<area shape="rect" id="node2" href="$da/d18/a01850.html" title="Evènement de nettoyage. " alt="" coords="203,5,393,32"/>
+<area shape="rect" id="node3" href="$d0/d4a/a01862.html" title="Evènement foncteur. " alt="" coords="220,57,376,98"/>
+<area shape="rect" id="node4" href="$d3/d7e/a01866.html" title="Evènement d&#39;initialisation. " alt="" coords="203,123,393,149"/>
+</map>
