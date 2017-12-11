@@ -1,4 +1,5 @@
-<map id="castor3d::Camera" name="castor3d::Camera">
-<area shape="rect" id="node2" href="$da/d61/a02878.html" title="Movable object class. " alt="" coords="75,155,241,181"/>
-<area shape="rect" id="node3" href="$de/dc6/a01502.html" title="Animable public interface. " alt="" coords="29,80,164,107"/>
+<map id="castor3d::SkeletonAnimationInstance" name="castor3d::SkeletonAnimationInstance">
+<area shape="rect" id="node2" href="$d0/dda/a02799.html" title="Animation instance class. " alt="" coords="660,85,847,111"/>
+<area shape="rect" id="node4" href="$d2/de0/a01515.html" title="Animation base class. " alt="" coords="361,71,500,98"/>
+<area shape="rect" id="node10" href="$d6/d6c/a02819.html" title="The class which manages key frames. " alt="" coords="336,177,525,219"/>
 </map>

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Castor3D: Member List</title>
+<title>Castor3D: castor3d::HdrConfig Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -38,23 +38,180 @@ $(function() {
 <div id="main-nav"></div>
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="../../de/d49/a00952.html">glsl</a></li><li class="navelem"><a class="el" href="../../d9/d66/a02562.html">TypeTraits&lt; castor3d::shader::LegacyMaterial &gt;</a></li>  </ul>
+<li class="navelem"><a class="el" href="../../dc/db6/a00955.html">castor3d</a></li><li class="navelem"><a class="el" href="../../d3/d80/a02559.html">HdrConfig</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="../../dc/d32/a02556.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">glsl::TypeTraits&lt; castor3d::shader::LegacyMaterial &gt; Member List</div>  </div>
+<div class="title">castor3d::HdrConfig Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d9/d66/a02562.html">glsl::TypeTraits&lt; castor3d::shader::LegacyMaterial &gt;</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d9/d66/a02562.html#a2989d069f40089af04f2a121be9ee6af">Name</a></td><td class="entry"><a class="el" href="../../d9/d66/a02562.html">glsl::TypeTraits&lt; castor3d::shader::LegacyMaterial &gt;</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d9/d66/a02562.html#a6a4415e69924a0b9e50905a11241597b">TypeEnum</a></td><td class="entry"><a class="el" href="../../d9/d66/a02562.html">glsl::TypeTraits&lt; castor3d::shader::LegacyMaterial &gt;</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-</table></div><!-- contents -->
+<p>HDR configuration (expsure and gamma correction).  
+ <a href="../../d3/d80/a02559.html#details">More...</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a62f6e0be873161fd11aa483593cd3f64"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d80/a02559.html#a62f6e0be873161fd11aa483593cd3f64">setExposure</a> (float p_value)</td></tr>
+<tr class="memdesc:a62f6e0be873161fd11aa483593cd3f64"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the exposure value.  <a href="#a62f6e0be873161fd11aa483593cd3f64">More...</a><br /></td></tr>
+<tr class="separator:a62f6e0be873161fd11aa483593cd3f64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00f346217287552093faa85a74a92385"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d80/a02559.html#a00f346217287552093faa85a74a92385">setGamma</a> (float p_value)</td></tr>
+<tr class="memdesc:a00f346217287552093faa85a74a92385"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the gamma correction value.  <a href="#a00f346217287552093faa85a74a92385">More...</a><br /></td></tr>
+<tr class="separator:a00f346217287552093faa85a74a92385"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50e9bc662a6b1743c82bd564007e2d91"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d80/a02559.html#a50e9bc662a6b1743c82bd564007e2d91">getExposure</a> () const</td></tr>
+<tr class="separator:a50e9bc662a6b1743c82bd564007e2d91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a193ed09e48f7a0f32190e5d47e5f34f7"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d80/a02559.html#a193ed09e48f7a0f32190e5d47e5f34f7">getGamma</a> () const</td></tr>
+<tr class="separator:a193ed09e48f7a0f32190e5d47e5f34f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>HDR configuration (expsure and gamma correction). </p>
+<dl class="section author"><dt>Author</dt><dd>Sylvain DOREMUS </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>0.10.0 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>09/04/2017 </dd></dl>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a50e9bc662a6b1743c82bd564007e2d91"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50e9bc662a6b1743c82bd564007e2d91">&#9670;&nbsp;</a></span>getExposure()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float castor3d::HdrConfig::getExposure </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>The exposure value. </dd></dl>
+
+</div>
+</div>
+<a id="a193ed09e48f7a0f32190e5d47e5f34f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a193ed09e48f7a0f32190e5d47e5f34f7">&#9670;&nbsp;</a></span>getGamma()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float castor3d::HdrConfig::getGamma </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>The gamma correction value. </dd></dl>
+
+<p class="reference">References <a class="el" href="../../dc/db6/a00955.html#a2c4ab9d29f598c4860a6d1ccdf049c30">castor3d::DECLARE_MAP()</a>, and <a class="el" href="../../dc/db6/a00955.html#ace34e20ebd352ca26544066c24a08b80">castor3d::DECLARE_SMART_PTR()</a>.</p>
+<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="../../d3/d80/a02559_a193ed09e48f7a0f32190e5d47e5f34f7_cgraph.png" border="0" usemap="#d3/d80/a02559_a193ed09e48f7a0f32190e5d47e5f34f7_cgraph" alt=""/></div>
+<map name="d3/d80/a02559_a193ed09e48f7a0f32190e5d47e5f34f7_cgraph" id="d3/d80/a02559_a193ed09e48f7a0f32190e5d47e5f34f7_cgraph">
+<area shape="rect" id="node2" href="../../dc/db6/a00955.html#a2c4ab9d29f598c4860a6d1ccdf049c30" title="FrameListener pointer map, sorted by name. " alt="" coords="213,5,391,32"/>
+<area shape="rect" id="node3" href="../../dc/db6/a00955.html#ace34e20ebd352ca26544066c24a08b80" title="castor3d::DECLARE_SMART_PTR" alt="" coords="189,56,415,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a62f6e0be873161fd11aa483593cd3f64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62f6e0be873161fd11aa483593cd3f64">&#9670;&nbsp;</a></span>setExposure()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void castor3d::HdrConfig::setExposure </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>p_value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>sets the exposure value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">p_value</td><td>The new value. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a00f346217287552093faa85a74a92385"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00f346217287552093faa85a74a92385">&#9670;&nbsp;</a></span>setGamma()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void castor3d::HdrConfig::setGamma </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>p_value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>sets the gamma correction value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">p_value</td><td>The new value. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>Z:/Projets/C++/Castor3D/source/Core/Castor3D/Src/Prerequisites/<a class="el" href="../../df/db6/a00509.html">Castor3DPrerequisites_Render.hpp</a></li>
+</ul>
+</div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Dec 7 2017 09:56:16 for Castor3D by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Dec 11 2017 11:16:32 for Castor3D by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

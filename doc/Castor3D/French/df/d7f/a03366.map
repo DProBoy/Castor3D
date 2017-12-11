@@ -1,4 +1,4 @@
-<map id="castor3d::SpotLightPass::Program" name="castor3d::SpotLightPass::Program">
-<area shape="rect" id="node2" href="$d2/d5b/a03340.html" title="Classe de base pour les programmes de passe d&#39;éclairage nécessitant un maillage plutôt qu&#39;un quad..." alt="" coords="5,95,176,136"/>
-<area shape="rect" id="node3" href="$d0/de4/a03308.html" title="Classe de base pour tous les programmes des passes d&#39;éclairage. " alt="" coords="21,5,160,47"/>
+<map id="castor3d::ShadowMapPassDirectional" name="castor3d::ShadowMapPassDirectional">
+<area shape="rect" id="node2" href="$d0/dbf/a03363.html" title="Implémentation du mappage d&#39;ombres. " alt="" coords="93,155,275,181"/>
+<area shape="rect" id="node3" href="$db/d86/a02663.html" title="Classe de base d&#39;une passe de rendu. " alt="" coords="109,80,259,107"/>
 </map>

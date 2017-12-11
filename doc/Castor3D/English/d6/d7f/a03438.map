@@ -1,2 +1,6 @@
-<map id="castor3d::TextureUnit" name="castor3d::TextureUnit">
+<map id="castor3d::LightPass::Program" name="castor3d::LightPass::Program">
+<area shape="rect" id="node2" href="$d3/da7/a03427.html" title="Directional light pass program. " alt="" coords="5,95,175,136"/>
+<area shape="rect" id="node3" href="$db/db8/a03471.html" title="Base class for light passe programs that need a mesh instead of a quad. " alt="" coords="199,95,370,136"/>
+<area shape="rect" id="node4" href="$dc/d5c/a03483.html" title="Point light pass program. " alt="" coords="105,184,273,225"/>
+<area shape="rect" id="node5" href="$d5/d70/a03499.html" title="Spot light pass program. " alt="" coords="297,184,462,225"/>
 </map>

@@ -1,3 +1,152 @@
 <map id="Graphe hiérarchique des classes" name="Graphe hiérarchique des classes">
-<area shape="rect" id="node1" href="$d9/de8/a02006.html" title="Description de tous les éléments dans un tampon de sommets. " alt="" coords="5,5,184,32"/>
+<area shape="rect" id="node1" href="$d4/d62/a01531.html" title="Les key frames sont les frames auxquelles une animation est dans un état précis. " alt="" coords="5,315,204,342"/>
+<area shape="rect" id="node2" href="$d5/d10/a01571.html" title="Une keyframe pour une animation de maillage. " alt="" coords="273,340,466,381"/>
+<area shape="rect" id="node3" href="$d2/dcc/a01623.html" title="Classe qui gère une key frame. " alt="" coords="275,275,464,316"/>
+<area shape="rect" id="node4" href="$d9/d32/a01899.html" title="Description d&#39;un gestionnaire d&#39;évènements, classe pouvant recevoir des évènements. " alt="" coords="27,13,183,39"/>
+<area shape="rect" id="node5" href="$d6/d4c/a01903.html" title="Description d&#39;un gestionnaire d&#39;évènements, classe pouvant recevoir des évènements. " alt="" coords="285,5,453,47"/>
+<area shape="rect" id="node7" href="$dd/d4e/a02971.html" title="Analyseur de fichiers CSCN. " alt="" coords="281,406,457,433"/>
+<area shape="rect" id="node9" href="$d7/d69/a02783.html" title="Représente les objets animés. " alt="" coords="283,827,456,854"/>
+<area shape="rect" id="node12" href="$da/d37/a02787.html" title="Représente un groupe d&#39;objets animés. " alt="" coords="283,1465,456,1507"/>
+<area shape="rect" id="node13" href="$d2/de0/a01515.html" title="Classe de base des animations. " alt="" coords="300,1211,439,1238"/>
+<area shape="rect" id="node16" href="$d0/d89/a02155.html" title="Classe contenant les données d&#39;un bone. " alt="" coords="314,223,425,250"/>
+<area shape="rect" id="node17" href="$d5/d34/a01743.html" title="Vue sur un cache de ressources. " alt="" coords="272,929,467,985"/>
+<area shape="rect" id="node18" href="$db/dbe/a01887.html" title="Classe de synchronisation des évènements. " alt="" coords="288,1009,451,1035"/>
+<area shape="rect" id="node19" href="$d9/d08/a02911.html" title="Classe d&#39;objet déplaçable. " alt="" coords="561,1338,727,1365"/>
+<area shape="rect" id="node25" href="$d6/d51/a02535.html" title="Classe de base d&#39;effet post rendu. " alt="" coords="299,1582,439,1609"/>
+<area shape="rect" id="node26" href="$db/d86/a02663.html" title="Classe de base d&#39;une passe de rendu. " alt="" coords="294,1161,445,1187"/>
+<area shape="rect" id="node37" href="$dc/d58/a02667.html" title="Classe englobant les données nécessaires au calcul des temps d&#39;une passe de rendu. " alt="" coords="278,625,461,651"/>
+<area shape="rect" id="node38" href="$de/d3d/a03515.html" title="Classe de base d&#39;une technique de rendu. " alt="" coords="279,1633,459,1659"/>
+<area shape="rect" id="node39" href="$d8/d0f/a02707.html" title="Implémentation d&#39;une fenêtre de rendu. " alt="" coords="286,1313,453,1339"/>
+<area shape="rect" id="node40" href="$df/d18/a03543.html" title="Définit un sampler pour une texture. " alt="" coords="305,1531,433,1558"/>
+<area shape="rect" id="node41" href="$d3/de2/a02959.html" title="Classe de gestion d&#39;un scène. " alt="" coords="311,777,428,803"/>
+<area shape="rect" id="node42" href="$d1/d24/a02975.html" title="La classe de gestion de noeud de scène. " alt="" coords="296,878,443,905"/>
+<area shape="rect" id="node43" href="$de/d46/a01967.html" title="Classe de base de mappage de ton. " alt="" coords="291,1363,448,1390"/>
+<area shape="rect" id="node44" href="$d1/d13/a03339.html" title="Buffer de variables de shader. " alt="" coords="291,1414,448,1441"/>
+<area shape="rect" id="node10" href="$dc/d6a/a02779.html" title="Représente les sous&#45;maillages animés. " alt="" coords="561,853,727,879"/>
+<area shape="rect" id="node11" href="$de/d05/a02795.html" title="Représente les objets animés. " alt="" coords="551,802,737,829"/>
+<area shape="rect" id="node14" href="$d6/dd7/a01555.html" title="Classe d&#39;animation de sous&#45;maillage. " alt="" coords="559,1287,729,1314"/>
+<area shape="rect" id="node15" href="$dc/d42/a01591.html" title="Classe d&#39;animation de squelette. " alt="" coords="549,1237,739,1263"/>
+<area shape="rect" id="node20" href="$d6/d97/a02835.html" title="Liste de billboards. " alt="" coords="854,513,1005,539"/>
+<area shape="rect" id="node21" href="$d0/d45/a02843.html" title="Classe de représentation de Camera. " alt="" coords="867,1338,992,1365"/>
+<area shape="rect" id="node22" href="$d1/d39/a02859.html" title="Classe de gestion d&#39;une géométrie affichable. " alt="" coords="861,285,998,311"/>
+<area shape="rect" id="node23" href="$d2/d80/a02875.html" title="Implémentation d&#39;une source lumineuse. " alt="" coords="875,1389,983,1415"/>
+<area shape="rect" id="node24" href="$d9/da5/a02935.html" title="Implémentation d&#39;un système de particules. " alt="" coords="845,1287,1014,1314"/>
+<area shape="rect" id="node27" href="$d3/d74/a03411.html" title="Classe de passe de technique de rendu implémentant le Deferred lighting. " alt="" coords="572,1135,716,1162"/>
+<area shape="rect" id="node28" href="$da/db3/a02343.html" title="Passe de picking, utilisant les FBO. " alt="" coords="567,1085,721,1111"/>
+<area shape="rect" id="node29" href="$dd/da8/a03523.html" title="Classe de base d&#39;une passe de technique de rendu. " alt="" coords="539,1034,749,1061"/>
+<area shape="rect" id="node33" href="$d0/dbf/a03363.html" title="Implémentation du mappage d&#39;ombres. " alt="" coords="553,933,735,959"/>
+<area shape="rect" id="node30" href="$d0/d4b/a03415.html" title="Classe de passe de technique de rendu de type forward. " alt="" coords="801,1009,1057,1035"/>
+<area shape="rect" id="node31" href="$d1/def/a03475.html" title="Classe de passe de technique de rendu implémentant le Deferred lighting. " alt="" coords="852,1059,1007,1086"/>
+<area shape="rect" id="node32" href="$d3/d52/a03535.html" title="Passe pour les noeuds transparents, utilisant le Weighted Blend OIT. " alt="" coords="840,1110,1019,1137"/>
+<area shape="rect" id="node34" href="$dc/d7f/a03367.html" title="Implémentation du mappage d&#39;ombres pour les lumières spot. " alt="" coords="808,857,1051,883"/>
+<area shape="rect" id="node35" href="$d9/d58/a03371.html" title="Implémentation du mappage d&#39;ombres. " alt="" coords="824,907,1035,934"/>
+<area shape="rect" id="node36" href="$d1/d01/a03375.html" title="Implémentation du mappage d&#39;ombres pour les lumières spot. " alt="" coords="825,958,1033,985"/>
+<area shape="rect" id="node46" href="$da/d50/a01511.html" title="interface publique d&#39;animable " alt="" coords="302,1683,437,1710"/>
+<area shape="rect" id="node49" href="$d0/dda/a02799.html" title="Classe d&#39;instance d&#39;animation. " alt="" coords="276,3641,463,3667"/>
+<area shape="rect" id="node52" href="$de/d4f/a02995.html" title="Interface de tampon de compteur atomique. " alt="" coords="270,3691,469,3718"/>
+<area shape="rect" id="node53" href="$d2/d70/a02475.html" title="Classe utilisée pour rendre les textures couleur équirectangulaires dans des cube maps..." alt="" coords="296,3742,443,3769"/>
+<area shape="rect" id="node54" href="$db/d90/a02299.html" title="Le pipeline de calcul. " alt="" coords="280,3793,459,3819"/>
+<area shape="rect" id="node55" href="$d1/d23/a02603.html" title="Classe contenant le contexte de rendu. " alt="" coords="307,3843,432,3870"/>
+<area shape="rect" id="node56" href="$dc/d92/a02047.html" title="Classe de gestion de tampon 3D. " alt="" coords="286,3894,453,3921"/>
+<area shape="rect" id="node57" href="$d8/deb/a02387.html" title="Classe de gestion des incrustations de debogage. " alt="" coords="286,3945,453,3971"/>
+<area shape="rect" id="node58" href="$da/d8b/a01871.html" title="Implémentation du reflection mapping. " alt="" coords="281,3995,457,4022"/>
+<area shape="rect" id="node59" href="$dc/d1e/a01875.html" title="Implémentation d&#39;une passe de reflection mapping. " alt="" coords="266,4046,473,4073"/>
+<area shape="rect" id="node60" href="$d7/dc4/a02479.html" title="Classe utilisée pour rendre les textures couleur équirectangulaires dans des cube maps..." alt="" coords="272,4097,467,4123"/>
+<area shape="rect" id="node61" href="$d4/dad/a02407.html" title="Contient la polica et la texture associée. " alt="" coords="295,4147,444,4174"/>
+<area shape="rect" id="node62" href="$d6/d19/a01947.html" title="Classe de tampon d&#39;image. " alt="" coords="294,523,445,550"/>
+<area shape="rect" id="node64" href="$d2/d40/a02307.html" title="Passe flou gaussien. " alt="" coords="290,4198,449,4225"/>
+<area shape="rect" id="node65" href="$d2/d8a/a02063.html" title="Classe de base pour les tampons dépendants du renderer. " alt="" coords="301,4249,438,4275"/>
+<area shape="rect" id="node66" href="$d5/d14/a02071.html" title="Implémentation d&#39;un buddy allocator. " alt="" coords="288,4299,451,4326"/>
+<area shape="rect" id="node67" href="$d5/d1b/a02331.html" title="Implémentation d&#39;une requête GPU. " alt="" coords="300,4350,439,4377"/>
+<area shape="rect" id="node68" href="$d3/de3/a02483.html" title="Contient les textures d&#39;environnement utilisées dans l&#39;IBL. " alt="" coords="298,4401,441,4427"/>
+<area shape="rect" id="node69" href="$dd/d54/a02119.html" title="Classe de base pour l&#39;import de fichiers externes. " alt="" coords="306,4619,433,4646"/>
+<area shape="rect" id="node71" href="$d1/db4/a02715.html" title="Implémentation de viewport spécifique à l&#39;API de rendu. " alt="" coords="291,4451,448,4478"/>
+<area shape="rect" id="node72" href="$d3/dd8/a01995.html" title="Définition d&#39;un matériau. " alt="" coords="306,173,433,199"/>
+<area shape="rect" id="node73" href="$d9/daf/a02807.html" title="Classe de représentation de choses mouvantes. " alt="" coords="260,4503,479,4544"/>
+<area shape="rect" id="node74" href="$d6/d91/a01587.html" title="Classe de représentation de sous&#45;maillages d&#39;animations de maillage. " alt="" coords="257,675,482,702"/>
+<area shape="rect" id="node75" href="$d8/df6/a02411.html" title="La classe d&#39;incrustation. " alt="" coords="308,726,431,753"/>
+<area shape="rect" id="node76" href="$d1/de1/a02435.html" title="Le renderer d&#39;incrustation. " alt="" coords="282,4569,457,4595"/>
+<area shape="rect" id="node77" href="$d5/db4/a02011.html" title="Classe de base d&#39;une passe d&#39;un matériau. " alt="" coords="314,4670,425,4697"/>
+<area shape="rect" id="node81" href="$d0/d01/a02511.html" title="Classe de base des plug&#45;ins. " alt="" coords="311,2615,427,2642"/>
+<area shape="rect" id="node91" href="$d4/df1/a03039.html" title="Classe ProgramInputLayout. " alt="" coords="271,4721,467,4747"/>
+<area shape="rect" id="node92" href="$d1/d50/a02487.html" title="Classe utilisée pour rendre les textures couleur équirectangulaires dans des cube maps..." alt="" coords="274,4771,465,4798"/>
+<area shape="rect" id="node93" href="$de/d67/a03487.html" title="La passe de réflexion post éclairage. " alt="" coords="286,4822,453,4849"/>
+<area shape="rect" id="node94" href="$de/d3e/a02727.html" title="Classe utilisée pour rendre une texture cube couleur. " alt="" coords="275,4873,463,4915"/>
+<area shape="rect" id="node95" href="$d1/d58/a02731.html" title="Classe utilisée pour rendre une couche d&#39;un tableau de textures cube couleur. " alt="" coords="274,1735,465,1776"/>
+<area shape="rect" id="node96" href="$d6/df4/a02735.html" title="Classe utilisée pour rendre une couche d&#39;un tableau de textures couleur. " alt="" coords="274,1800,465,1841"/>
+<area shape="rect" id="node97" href="$d1/d89/a02739.html" title="Classe utilisée pour rendre les textures couleur équirectangulaires dans des cube maps..." alt="" coords="268,1866,471,1893"/>
+<area shape="rect" id="node98" href="$df/dee/a02743.html" title="Classe utilisée pour rendre les textures couleur. " alt="" coords="283,1917,455,1959"/>
+<area shape="rect" id="node99" href="$de/d8c/a02747.html" title="Classe utilisée pour rendre une texture cube profonedur. " alt="" coords="277,1983,462,2024"/>
+<area shape="rect" id="node100" href="$df/d23/a02751.html" title="Classe utilisée pour rendre une couche d&#39;un tableau de textures cube profonedur. " alt="" coords="276,2048,463,2089"/>
+<area shape="rect" id="node101" href="$df/d02/a02755.html" title="Classe utilisée pour rendre une couche d&#39;un tableau de textures profondeur. " alt="" coords="276,2113,463,2155"/>
+<area shape="rect" id="node102" href="$da/d8e/a02759.html" title="Classe utilisée pour rendre les textures profondeur. " alt="" coords="263,2179,475,2206"/>
+<area shape="rect" id="node103" href="$d6/d79/a02611.html" title="Classe de base d&#39;une boucle de rendu. " alt="" coords="295,2666,444,2693"/>
+<area shape="rect" id="node106" href="$d8/dc9/a02671.html" title="Le pipeline de rendu. " alt="" coords="286,2230,453,2257"/>
+<area shape="rect" id="node107" href="$d3/d25/a02683.html" title="Classe de base d&#39;une technique de rendu. " alt="" coords="290,2281,449,2307"/>
+<area shape="rect" id="node108" href="$d5/d25/a02687.html" title="Représentation du système de rendu. " alt="" coords="286,2331,453,2358"/>
+<area shape="rect" id="node109" href="$de/dde/a02695.html" title="Classe de cible de rendu (render target) " alt="" coords="291,1059,448,1086"/>
+<area shape="rect" id="node110" href="$d9/d75/a01843.html" title="Cache de RenderTarget. " alt="" coords="272,2382,467,2409"/>
+<area shape="rect" id="node111" href="$d5/d4d/a02763.html" title="Classe utilisée pour rendre une texture cube variance. " alt="" coords="283,2433,455,2475"/>
+<area shape="rect" id="node112" href="$d0/dbd/a02771.html" title="Classe utilisée pour rendre les textures de variance. " alt="" coords="283,2499,455,2540"/>
+<area shape="rect" id="node113" href="$da/d9e/a03059.html" title="Implémentation de base d&#39;un programme de shader, utilisé afin d&#39;exposer les fonctions communes aux la..." alt="" coords="284,1110,455,1137"/>
+<area shape="rect" id="node114" href="$d2/d2c/a01839.html" title="Cache utilisé pour garder les programmes de shaders. Il les garde et permet leur destruction au cours..." alt="" coords="266,2565,473,2591"/>
+<area shape="rect" id="node115" href="$d4/d90/a03355.html" title="Implémentation du mappage d&#39;ombres. " alt="" coords="294,2783,445,2810"/>
+<area shape="rect" id="node119" href="$d6/d6c/a02819.html" title="Classe qui gère une key frame. " alt="" coords="275,2717,464,2759"/>
+<area shape="rect" id="node120" href="$d3/df5/a02827.html" title="Classe de représentation de choses mouvantes. " alt="" coords="275,2835,464,2876"/>
+<area shape="rect" id="node123" href="$df/ddd/a01655.html" title="Classe de représentation d&#39;objets d&#39;animations de squelette. " alt="" coords="275,457,464,499"/>
+<area shape="rect" id="node126" href="$da/dcd/a02987.html" title="Implémentation de Skybox. " alt="" coords="307,2901,431,2927"/>
+<area shape="rect" id="node128" href="$d3/d0f/a02203.html" title="Representation d&#39;un sous&#45;maillage. " alt="" coords="302,574,437,601"/>
+<area shape="rect" id="node129" href="$d2/dd2/a02279.html" title="Composant pour un sous&#45;maillage. " alt="" coords="269,3357,470,3383"/>
+<area shape="rect" id="node137" href="$d9/d25/a03511.html" title="Passe flou gaussien. " alt="" coords="252,2951,487,2978"/>
+<area shape="rect" id="node138" href="$d1/df9/a03555.html" title="Classe d&#39;image de texture. " alt="" coords="290,3002,449,3029"/>
+<area shape="rect" id="node139" href="$d4/dbd/a03563.html" title="Class de base d&#39;une texture. " alt="" coords="288,3053,451,3079"/>
+<area shape="rect" id="node140" href="$d4/d72/a02775.html" title="Classe utilisée pour rendre les textures couleur équirectangulaires dans des cube maps..." alt="" coords="279,3103,460,3130"/>
+<area shape="rect" id="node141" href="$d4/dd1/a03567.html" title="Class de base du stockage GPU d&#39;une texture. " alt="" coords="285,3154,453,3181"/>
+<area shape="rect" id="node142" href="$d3/da4/a03571.html" title="Représentation d&#39;une unité de texture. " alt="" coords="296,3205,443,3231"/>
+<area shape="rect" id="node143" href="$d4/d8c/a02359.html" title="Implémentation du Transform feedback. " alt="" coords="272,3255,467,3282"/>
+<area shape="rect" id="node144" href="$d9/dc9/a03347.html" title="Représente la liaison entre un tampon d&#39;uniformes et un programme. " alt="" coords="269,3306,469,3333"/>
+<area shape="rect" id="node145" href="$d5/d31/a01931.html" title="Classe utilisée pour gérer les évènements utilisateur. " alt="" coords="279,3407,460,3434"/>
+<area shape="rect" id="node146" href="$d5/d55/a02719.html" title="Classe de représentation de viewport. " alt="" coords="304,3458,435,3485"/>
+<area shape="rect" id="node147" href="$dc/d92/a02047.html" title="castor3d::CpuBuffer\l\&lt; uint32_t \&gt;" alt="" coords="301,3509,437,3551"/>
+<area shape="rect" id="node149" href="$dc/d92/a02047.html" title="castor3d::CpuBuffer\l\&lt; uint8_t \&gt;" alt="" coords="301,3575,437,3616"/>
+<area shape="rect" id="node47" href="$d1/d90/a02127.html" title="Représentation d&#39;un maillage. " alt="" coords="588,1186,700,1213"/>
+<area shape="rect" id="node48" href="$de/d92/a02175.html" title="Le squelette, contient chaque bone. " alt="" coords="579,1683,709,1710"/>
+<area shape="rect" id="node50" href="$d6/daf/a02803.html" title="Instance d&#39;animation de maillage. " alt="" coords="535,3717,753,3743"/>
+<area shape="rect" id="node51" href="$d7/d5a/a02811.html" title="Instance d&#39;animation de squelette. " alt="" coords="549,3651,739,3692"/>
+<area shape="rect" id="node63" href="$d0/d43/a01935.html" title="Classe de tampons d&#39;image de fenêtre. " alt="" coords="569,523,719,550"/>
+<area shape="rect" id="node70" href="$d3/d79/a02083.html" title="Utilisé pour importer les maillages depuis des fichiers cmsh. " alt="" coords="563,4582,725,4609"/>
+<area shape="rect" id="node78" href="$d5/d1b/a01971.html" title="Définition d&#39;une passe traditionnelle (pré&#45;PBR). " alt="" coords="568,4699,720,4726"/>
+<area shape="rect" id="node79" href="$d7/d98/a02003.html" title="Définition d&#39;une passe PBR Metallic/Roughness. " alt="" coords="549,4751,739,4792"/>
+<area shape="rect" id="node80" href="$df/d78/a02019.html" title="Définition d&#39;une passe PBR Metallic/Roughness. " alt="" coords="546,4633,742,4675"/>
+<area shape="rect" id="node82" href="$d6/d9a/a02491.html" title="Classe de plug&#45;in de subdivision. " alt="" coords="567,2631,721,2658"/>
+<area shape="rect" id="node83" href="$d5/d56/a02495.html" title="Classe de plug&#45;in de générateur procédural. " alt="" coords="557,2226,731,2253"/>
+<area shape="rect" id="node84" href="$d0/d7c/a02499.html" title="Classe de plug&#45;in générique. " alt="" coords="563,2277,725,2303"/>
+<area shape="rect" id="node85" href="$d1/d5d/a02503.html" title="Classe de plug&#45;in d&#39;import. " alt="" coords="563,2327,725,2354"/>
+<area shape="rect" id="node86" href="$de/dbd/a02507.html" title="Classe de plug&#45;in de particules. " alt="" coords="564,2378,724,2405"/>
+<area shape="rect" id="node87" href="$d9/dce/a02519.html" title="Classe de plug&#45;in d&#39;effets post rendu. " alt="" coords="565,2429,723,2455"/>
+<area shape="rect" id="node88" href="$d7/d8d/a02523.html" title="Classe de plug&#45;in de rendu. " alt="" coords="560,2479,728,2506"/>
+<area shape="rect" id="node89" href="$d7/d7d/a02527.html" title="Classe de plug&#45;in de techniques de rendu. " alt="" coords="557,2530,731,2557"/>
+<area shape="rect" id="node90" href="$d9/dc8/a02531.html" title="Classe de plug&#45;in de mappage de tons. " alt="" coords="547,2581,741,2607"/>
+<area shape="rect" id="node104" href="$dc/dcf/a02615.html" title="Moteur principal. " alt="" coords="551,2733,737,2759"/>
+<area shape="rect" id="node105" href="$da/dfd/a02619.html" title="Boucle de rendu synchrone. " alt="" coords="555,2682,733,2709"/>
+<area shape="rect" id="node116" href="$d9/dd9/a03359.html" title="Implémentation du mappage d&#39;ombres pour les lumières spot. " alt="" coords="538,2783,750,2810"/>
+<area shape="rect" id="node117" href="$d0/d79/a03379.html" title="Implémentation du mappage d&#39;ombres. " alt="" coords="553,2834,735,2861"/>
+<area shape="rect" id="node118" href="$dc/d58/a03383.html" title="Implémentation du mappage d&#39;ombres pour les lumières spot. " alt="" coords="555,2885,733,2911"/>
+<area shape="rect" id="node121" href="$d3/da7/a02815.html" title="Implémentation de SkeletonAnimationObject pour les Bones. " alt="" coords="549,3001,739,3043"/>
+<area shape="rect" id="node122" href="$df/d37/a02823.html" title="Implémentation de SkeletonAnimationNode pour des noeuds abstraits. " alt="" coords="549,2936,739,2977"/>
+<area shape="rect" id="node124" href="$d6/d82/a01607.html" title="Implémentation de SkeletonAnimationObject pour les Bones. " alt="" coords="535,469,753,495"/>
+<area shape="rect" id="node125" href="$db/dca/a01639.html" title="Implémentation de SkeletonAnimationObject pour des noeuds abstraits. " alt="" coords="535,418,753,445"/>
+<area shape="rect" id="node127" href="$d0/de4/a02851.html" title="Une skybox sans image mais avec une couleur. " alt="" coords="563,3067,725,3094"/>
+<area shape="rect" id="node130" href="$de/d59/a02219.html" title="Le composant de sous&#45;maillage pour le skinning. " alt="" coords="553,3381,735,3407"/>
+<area shape="rect" id="node131" href="$d5/d5b/a02235.html" title="Le composant de sous&#45;maillage utilisé pour les sous&#45;maillages avec des bones et instanciés. " alt="" coords="551,3432,737,3473"/>
+<area shape="rect" id="node132" href="$d1/dda/a02255.html" title="Un composant de sous&#45;maillage pour les faces. " alt="" coords="564,3229,724,3255"/>
+<area shape="rect" id="node135" href="$d3/d3a/a02259.html" title="Le composant de sous&#45;maillage pour l&#39;instantiation matérielle. " alt="" coords="536,3279,752,3306"/>
+<area shape="rect" id="node136" href="$dc/db5/a02275.html" title="Le composant de sous&#45;maillage pour le morphing. " alt="" coords="553,3330,735,3357"/>
+<area shape="rect" id="node133" href="$df/d39/a02271.html" title="Composant de sous&#45;maillage pour les lignes. " alt="" coords="849,3254,1009,3281"/>
+<area shape="rect" id="node134" href="$dd/d29/a02283.html" title="Composant de sous&#45;maillage pour les faces triangulaires. " alt="" coords="843,3203,1015,3230"/>
+<area shape="rect" id="node148" href="$d9/d95/a02075.html" title="Représentation d&#39;un tampon d&#39;indices. " alt="" coords="572,3498,716,3525"/>
+<area shape="rect" id="node150" href="$d3/dd4/a03151.html" title="Interface de tampon de stockage shader. " alt="" coords="545,3599,743,3626"/>
+<area shape="rect" id="node151" href="$dc/d21/a02079.html" title="Représentation d&#39;un tampon de sommets. " alt="" coords="569,3549,719,3575"/>
+<area shape="rect" id="node154" href="$d4/d32/a02951.html" title="Gère la visibilité de l&#39;objet, ainsi que son comportement avec les ombres. " alt="" coords="283,71,456,98"/>
+<area shape="rect" id="node155" href="$d0/d82/a02831.html" title="Liste de billboards. " alt="" coords="564,245,724,271"/>
 </map>

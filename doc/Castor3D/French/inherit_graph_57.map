@@ -1,3 +1,6 @@
 <map id="Graphe hiérarchique des classes" name="Graphe hiérarchique des classes">
-<area shape="rect" id="node1" href="$db/d6c/a02130.html" title="Classe d&#39;aide pour récupéer un ChunkType depuis un type. " alt="" coords="5,5,155,47"/>
+<area shape="rect" id="node1" href="$dc/dc8/a01695.html" title="Analyseur de chunk. " alt="" coords="5,64,191,91"/>
+<area shape="rect" id="node2" href="$d9/df7/a01699.html" title="Analyseur de chunk. " alt="" coords="239,5,425,32"/>
+<area shape="rect" id="node3" href="$d0/d42/a01707.html" title="Spécialisation de ChunkParser pour castor::Path. " alt="" coords="255,57,409,98"/>
+<area shape="rect" id="node4" href="$df/d12/a01703.html" title="Spécialisation de ChunkParser pour castor::String. " alt="" coords="255,122,409,163"/>
 </map>

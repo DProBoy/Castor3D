@@ -1,6 +1,3 @@
 <map id="Graphe hiérarchique des classes" name="Graphe hiérarchique des classes">
-<area shape="rect" id="node1" href="$d3/d3b/a02910.html" title="Classe de base de l&#39;implémentation d&#39;un système de particules. " alt="" coords="5,71,199,98"/>
-<area shape="rect" id="node2" href="$d6/d78/a02886.html" title="Implémentation d&#39;un système de particules utilisant un compute shader. " alt="" coords="256,5,432,47"/>
-<area shape="rect" id="node3" href="$d6/d92/a02890.html" title="Implémentation d&#39;un système de particules CPU. " alt="" coords="248,71,440,98"/>
-<area shape="rect" id="node4" href="$d7/da7/a02914.html" title="Implémentation d&#39;un système de particules utilisant le transform feedback. " alt="" coords="247,123,441,164"/>
+<area shape="rect" id="node1" href="$d4/d30/a02335.html" title="Paramètres de configuration. " alt="" coords="5,5,152,32"/>
 </map>

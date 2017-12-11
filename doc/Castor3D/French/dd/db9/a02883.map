@@ -1,5 +1,0 @@
-<map id="castor3d::PassBuffer" name="castor3d::PassBuffer">
-<area shape="rect" id="node2" href="$d9/df0/a02868.html" title="SSBO contenant les données des LegacyPass. " alt="" coords="201,5,387,32"/>
-<area shape="rect" id="node3" href="$d7/d65/a02876.html" title="SSBO contenant les données des Pass. " alt="" coords="199,57,389,98"/>
-<area shape="rect" id="node4" href="$d3/d5d/a02900.html" title="SSBO contenant les données des SpecularGlossinessPbrPass. " alt="" coords="196,122,392,163"/>
-</map>

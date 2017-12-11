@@ -1,3 +1,4 @@
-<map id="castor3d::LegacyPassBuffer" name="castor3d::LegacyPassBuffer">
-<area shape="rect" id="node2" href="$d2/d34/a02982.html" title="ShaderBuffer holding the Passes data. " alt="" coords="27,5,169,32"/>
+<map id="castor3d::SceneFileContext" name="castor3d::SceneFileContext">
+<area shape="rect" id="node3" href="$dd/d4e/a02971.html" title="CSCN file parser. " alt="" coords="200,81,376,108"/>
+<area shape="rect" id="node6" href="$dd/d1b/a02351.html" title="SSAO configuration values. " alt="" coords="400,81,547,108"/>
 </map>

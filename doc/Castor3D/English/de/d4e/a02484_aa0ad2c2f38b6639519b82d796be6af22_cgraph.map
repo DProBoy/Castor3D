@@ -1,5 +1,0 @@
-<map id="castor3d::RenderLoop::hasDebugOverlays" name="castor3d::RenderLoop::hasDebugOverlays">
-<area shape="rect" id="node2" href="$de/d4e/a02484.html#a0e42926bf45b279fbbba5408c7a66dfb" title="Asks for render context creation. " alt="" coords="205,5,355,47"/>
-<area shape="rect" id="node3" href="$de/d4e/a02484.html#a03c0866bad30d4424a5c5d4309696d6d" title="Asks for main render context creation. " alt="" coords="203,71,357,112"/>
-<area shape="rect" id="node4" href="$de/d4e/a02484.html#a7494d87a1917ff3fdd87aee05042ac67" title="Starts threaded render loop. " alt="" coords="205,136,355,177"/>
-</map>

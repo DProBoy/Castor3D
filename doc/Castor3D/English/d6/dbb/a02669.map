@@ -1,2 +1,15 @@
-<map id="castor3d::RenderTarget::TextWriter" name="castor3d::RenderTarget::TextWriter">
+<map id="castor3d::RenderPipeline" name="castor3d::RenderPipeline">
+<area shape="rect" id="node13" href="$da/d9e/a03059.html" title="Base shader program implementation, used to share functions through the supported shader languages..." alt="" coords="998,216,1169,243"/>
+<area shape="rect" id="node3" href="$da/dc7/a03407.html" title="Rasteriser configuration class. " alt="" coords="998,267,1169,293"/>
+<area shape="rect" id="node4" href="$d8/d1b/a02555.html" title="Pipeline flags. " alt="" coords="1004,317,1163,344"/>
+<area shape="rect" id="node6" href="$d0/d82/a02831.html" title="Billboards list. " alt="" coords="577,400,737,427"/>
+<area shape="rect" id="node7" href="$d4/d32/a02951.html" title="Handles object&#39;s visibility, and behavior with shadows. " alt="" coords="258,321,431,348"/>
+<area shape="rect" id="node9" href="$d3/de2/a02959.html" title="Scene handler class. " alt="" coords="286,408,403,435"/>
+<area shape="rect" id="node17" href="$d9/d1f/a02035.html" title="Description of all elements in a vertex buffer. " alt="" coords="568,283,747,309"/>
+<area shape="rect" id="node20" href="$d3/d0f/a02203.html" title="The submesh representation. " alt="" coords="590,463,725,489"/>
+<area shape="rect" id="node24" href="$de/d11/a03387.html" title="Blending configurations grouping class. " alt="" coords="1011,595,1155,621"/>
+<area shape="rect" id="node26" href="$df/dea/a03391.html" title="castor3d::BlendState\l::stRT_BLEND_STATE" alt="" coords="267,587,422,629"/>
+<area shape="rect" id="node27" href="$d5/dff/a03403.html" title="Multisample configurations grouping class. " alt="" coords="993,645,1174,672"/>
+<area shape="rect" id="node28" href="$d6/d0e/a03395.html" title="Depth and stencil buffers configurations class. " alt="" coords="991,696,1176,723"/>
+<area shape="rect" id="node29" href="$d0/d87/a03399.html" title="Stencil function and operations description. " alt="" coords="565,689,750,730"/>
 </map>

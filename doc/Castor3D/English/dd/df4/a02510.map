@@ -1,18 +1,11 @@
-<map id="castor3d::ObjectRenderNode&lt; DataTypeT, InstanceTypeT &gt;" name="castor3d::ObjectRenderNode&lt; DataTypeT, InstanceTypeT &gt;">
-<area shape="rect" id="node2" href="$d6/d33/a01992.html" title="Geometry buffers holder. " alt="" coords="1045,441,1222,468"/>
-<area shape="rect" id="node3" href="$da/dad/a02928.html" title="Base shader program implementation, used to share functions through the supported shader languages..." alt="" coords="722,376,893,403"/>
-<area shape="rect" id="node15" href="$d1/df6/a02544.html" title="The rendering pipeline. " alt="" coords="1050,215,1217,241"/>
-<area shape="rect" id="node8" href="$d9/da1/a01976.html" title="Description of all elements in a vertex buffer. " alt="" coords="292,451,471,477"/>
-<area shape="rect" id="node11" href="$d2/dab/a02516.html" title="Helper structure used link a pass and a shader program. " alt="" coords="1043,540,1224,567"/>
-<area shape="rect" id="node13" href="$d4/dec/a01952.html" title="Base class of a material pass. " alt="" coords="752,577,863,604"/>
-<area shape="rect" id="node16" href="$d0/ded/a03276.html" title="Rasteriser configuration class. " alt="" coords="722,105,893,132"/>
-<area shape="rect" id="node17" href="$d5/d04/a02428.html" title="Pipeline flags. " alt="" coords="728,156,887,183"/>
-<area shape="rect" id="node19" href="$d3/d55/a03256.html" title="Blending configurations grouping class. " alt="" coords="735,55,879,81"/>
-<area shape="rect" id="node21" href="$d1/dda/a03260.html" title="castor3d::BlendState\l::stRT_BLEND_STATE" alt="" coords="5,65,160,106"/>
-<area shape="rect" id="node22" href="$d4/d1c/a03272.html" title="Multisample configurations grouping class. " alt="" coords="717,324,898,351"/>
-<area shape="rect" id="node23" href="$d4/d1a/a03264.html" title="Depth and stencil buffers configurations class. " alt="" coords="715,273,900,300"/>
-<area shape="rect" id="node24" href="$d4/dcb/a03268.html" title="Stencil function and operations description. " alt="" coords="289,159,474,201"/>
-<area shape="rect" id="node25" href="$dc/d92/a03048.html" title="Model Uniform buffer management. " alt="" coords="1064,591,1203,617"/>
-<area shape="rect" id="node26" href="$df/de1/a02844.html" title="The scene node handler class. " alt="" coords="1060,695,1207,721"/>
-<area shape="rect" id="node32" href="$d7/d98/a03044.html" title="Matrices Uniform buffer management. " alt="" coords="1046,745,1221,772"/>
+<map id="castor3d::Plugin" name="castor3d::Plugin">
+<area shape="rect" id="node3" href="$d6/d9a/a02491.html" title="Divider Plugin class. " alt="" coords="423,5,578,32"/>
+<area shape="rect" id="node4" href="$d5/d56/a02495.html" title="Generator Plugin class. " alt="" coords="414,56,587,83"/>
+<area shape="rect" id="node5" href="$d0/d7c/a02499.html" title="Generic Plugin class. " alt="" coords="420,107,581,133"/>
+<area shape="rect" id="node6" href="$d1/d5d/a02503.html" title="Importer Plugin class. " alt="" coords="419,157,582,184"/>
+<area shape="rect" id="node7" href="$de/dbd/a02507.html" title="Particle plug&#45;in class. " alt="" coords="421,208,581,235"/>
+<area shape="rect" id="node8" href="$d9/dce/a02519.html" title="Post effect plug&#45;in class. " alt="" coords="421,259,580,285"/>
+<area shape="rect" id="node9" href="$d7/d8d/a02523.html" title="Renderer Plugin class. " alt="" coords="417,309,585,336"/>
+<area shape="rect" id="node10" href="$d7/d7d/a02527.html" title="Render technique plug&#45;in class. " alt="" coords="413,360,588,387"/>
+<area shape="rect" id="node11" href="$d9/dc8/a02531.html" title="Tone mapping plug&#45;in class. " alt="" coords="404,411,597,437"/>
 </map>

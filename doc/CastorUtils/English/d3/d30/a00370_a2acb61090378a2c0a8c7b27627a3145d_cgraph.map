@@ -1,8 +1,0 @@
-<map id="castor::operator*" name="castor::operator*">
-<area shape="rect" id="node2" href="$dd/d70/a01596.html#ac6d1146d7d6eb0a0cda1cf7e4a5c8d2b" title="int8_t conversion operator " alt="" coords="172,5,361,47"/>
-<area shape="rect" id="node4" href="$d3/d30/a00370.html#a25fe2f6b20b52b0e9b69a9148df8805c" title="castor::operator*" alt="" coords="207,71,326,98"/>
-<area shape="rect" id="node5" href="$d3/d30/a00370.html#afde26a5d5d184690785efe6808488310" title="addition operator " alt="" coords="206,122,327,149"/>
-<area shape="rect" id="node6" href="$d3/d30/a00370.html#ac00e7869073a7ec3e8b2a3021d331407" title="Substraction operator. " alt="" coords="208,173,325,199"/>
-<area shape="rect" id="node7" href="$d3/d30/a00370.html#aee762e4c5b74e09e0d4136fa8047a382" title="Appends 2 paths. adds the separator if needed. " alt="" coords="208,223,325,250"/>
-<area shape="rect" id="node3" href="$dd/d70/a01596.html#a31994942c2b84d44177c257db28cf709" title="Retrieves the PixelComponents value. " alt="" coords="409,5,599,47"/>
-</map>

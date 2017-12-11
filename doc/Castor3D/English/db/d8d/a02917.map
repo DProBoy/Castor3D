@@ -1,5 +1,8 @@
-<map id="castor3d::RenderedObject" name="castor3d::RenderedObject">
-<area shape="rect" id="node3" href="$d9/da4/a02798.html" title="Billboards list. " alt="" coords="5,169,165,196"/>
-<area shape="rect" id="node5" href="$d9/dff/a02826.html" title="Geometry handler class. " alt="" coords="190,169,327,196"/>
-<area shape="rect" id="node4" href="$d5/dd8/a02802.html" title="Billboards list. " alt="" coords="10,244,161,271"/>
+<map id="castor3d::ComputeParticleSystem" name="castor3d::ComputeParticleSystem">
+<area shape="rect" id="node2" href="$d4/d48/a02943.html" title="Particle system implementation base class. " alt="" coords="519,29,712,56"/>
+<area shape="rect" id="node3" href="$d9/da5/a02935.html" title="Particle system implementation. " alt="" coords="887,68,1057,95"/>
+<area shape="rect" id="node4" href="$d9/d08/a02911.html" title="Movable object class. " alt="" coords="533,119,698,145"/>
+<area shape="rect" id="node5" href="$da/d50/a01511.html" title="Animable public interface. " alt="" coords="286,119,421,145"/>
+<area shape="rect" id="node9" href="$d1/d13/a03339.html" title="Shader variables buffer. " alt="" coords="537,229,694,256"/>
+<area shape="rect" id="node8" href="$d9/d1f/a02035.html" title="Description of all elements in a vertex buffer. " alt="" coords="526,169,705,196"/>
 </map>

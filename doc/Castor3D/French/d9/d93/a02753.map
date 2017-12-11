@@ -1,4 +1,2 @@
-<map id="castor3d::AnimatedObject" name="castor3d::AnimatedObject">
-<area shape="rect" id="node3" href="$d7/d14/a02750.html" title="Représente les sous&#45;maillages animés. " alt="" coords="5,155,172,181"/>
-<area shape="rect" id="node4" href="$dd/deb/a02766.html" title="Représente les objets animés. " alt="" coords="197,155,383,181"/>
+<map id="castor3d::RenderDepthLayerToTexture" name="castor3d::RenderDepthLayerToTexture">
 </map>

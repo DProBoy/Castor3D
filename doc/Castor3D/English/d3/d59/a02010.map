@@ -1,2 +1,5 @@
-<map id="castor3d::GpuBufferPool" name="castor3d::GpuBufferPool">
+<map id="castor3d::Pass" name="castor3d::Pass">
+<area shape="rect" id="node3" href="$d5/d1b/a01971.html" title="Definition of a traditional (pre&#45;PBR) pass. " alt="" coords="426,5,578,32"/>
+<area shape="rect" id="node4" href="$d7/d98/a02003.html" title="Definition of a PBR Metallic/Roughness pass. " alt="" coords="407,57,597,98"/>
+<area shape="rect" id="node5" href="$df/d78/a02019.html" title="Definition of a PBR Metallic/Roughness pass. " alt="" coords="404,122,600,163"/>
 </map>

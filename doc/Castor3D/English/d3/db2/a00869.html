@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Castor3D: Z:/Projets/C++/Castor3D/source/Core/Castor3D/Src/Technique/DepthPass.hpp File Reference</title>
+<title>Castor3D: Z:/Projets/C++/Castor3D/source/Core/Castor3D/Src/State/DepthStencilState.hpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -38,7 +38,7 @@ $(function() {
 <div id="main-nav"></div>
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="../../dir_b2f33c71d4aa5e7af42a1ca61ff5af1b.html">source</a></li><li class="navelem"><a class="el" href="../../dir_1f10682fec53f0772108851bfcef2e4d.html">Core</a></li><li class="navelem"><a class="el" href="../../dir_6ad85ca7a90878938acb35a9fc6dd4fb.html">Castor3D</a></li><li class="navelem"><a class="el" href="../../dir_a9f81fd4b86714dde972610ac984a016.html">Src</a></li><li class="navelem"><a class="el" href="../../dir_68147ebbfbbd90561134b06579befa5e.html">Technique</a></li>  </ul>
+<li class="navelem"><a class="el" href="../../dir_b2f33c71d4aa5e7af42a1ca61ff5af1b.html">source</a></li><li class="navelem"><a class="el" href="../../dir_1f10682fec53f0772108851bfcef2e4d.html">Core</a></li><li class="navelem"><a class="el" href="../../dir_6ad85ca7a90878938acb35a9fc6dd4fb.html">Castor3D</a></li><li class="navelem"><a class="el" href="../../dir_a9f81fd4b86714dde972610ac984a016.html">Src</a></li><li class="navelem"><a class="el" href="../../dir_187b352b1a9496de1860313a1f8ee5b9.html">State</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -46,52 +46,28 @@ $(function() {
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a>  </div>
   <div class="headertitle">
-<div class="title">DepthPass.hpp File Reference</div>  </div>
+<div class="title">DepthStencilState.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Include dependency graph for DepthPass.hpp:</div>
+  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Include dependency graph for DepthStencilState.hpp:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="../../da/d98/a00870.png" border="0" usemap="#Z_1_2Projets_2C_09_09_2Castor3D_2source_2Core_2Castor3D_2Src_2Technique_2DepthPass_8hpp" alt=""/></div>
-<map name="Z_1_2Projets_2C_09_09_2Castor3D_2source_2Core_2Castor3D_2Src_2Technique_2DepthPass_8hpp" id="Z_1_2Projets_2C_09_09_2Castor3D_2source_2Core_2Castor3D_2Src_2Technique_2DepthPass_8hpp">
-<area shape="rect" id="node2" href="../../d8/df0/a00557.html" title="Render/RenderPass.hpp" alt="" coords="3548,109,3711,136"/>
-<area shape="rect" id="node5" href="../../dc/d19/a00515.html" title="Render/RenderInfo.hpp" alt="" coords="2213,184,2366,211"/>
-<area shape="rect" id="node26" href="../../d0/d3e/a00566.html" title="Render/RenderQueue.hpp" alt="" coords="3899,184,4069,211"/>
-<area shape="rect" id="node35" href="../../d8/d2d/a00815.html" title="Shader/Ubos/SkinningUbo.hpp" alt="" coords="2938,423,3137,449"/>
-<area shape="rect" id="node44" href="../../df/d0c/a00788.html" title="Shader/Ubos/BillboardUbo.hpp" alt="" coords="3538,266,3737,293"/>
-<area shape="rect" id="node45" href="../../da/db8/a00797.html" title="Shader/Ubos/MatrixUbo.hpp" alt="" coords="3761,266,3946,293"/>
-<area shape="rect" id="node46" href="../../df/d0e/a00800.html" title="Shader/Ubos/ModelMatrixUbo.hpp" alt="" coords="3095,266,3315,293"/>
-<area shape="rect" id="node47" href="../../d5/d72/a00803.html" title="Shader/Ubos/ModelUbo.hpp" alt="" coords="3212,348,3396,375"/>
-<area shape="rect" id="node48" href="../../d0/dad/a00806.html" title="Shader/Ubos/MorphingUbo.hpp" alt="" coords="3263,423,3465,449"/>
-<area shape="rect" id="node49" href="../../d8/db7/a00812.html" title="Shader/Ubos/SceneUbo.hpp" alt="" coords="3471,184,3657,211"/>
-<area shape="rect" id="node6" href="../../d4/d3e/a00116.html" title="Castor3DPrerequisites.hpp" alt="" coords="2342,572,2519,599"/>
-<area shape="rect" id="node15" href="../../db/d8e/a00482.html" title="Prerequisites/Castor3DPrerequisites\l_Animation.hpp" alt="" coords="1297,647,1529,688"/>
-<area shape="rect" id="node16" href="../../d6/d1a/a00485.html" title="Prerequisites/Castor3DPrerequisites\l_Camera.hpp" alt="" coords="1553,647,1785,688"/>
-<area shape="rect" id="node17" href="../../d6/d60/a00491.html" title="Prerequisites/Castor3DPrerequisites\l_Geometry.hpp" alt="" coords="1809,647,2041,688"/>
-<area shape="rect" id="node18" href="../../d5/d0f/a00494.html" title="Prerequisites/Castor3DPrerequisites\l_Light.hpp" alt="" coords="2065,647,2297,688"/>
-<area shape="rect" id="node19" href="../../d4/d1e/a00497.html" title="Prerequisites/Castor3DPrerequisites\l_Material.hpp" alt="" coords="2321,647,2553,688"/>
-<area shape="rect" id="node20" href="../../de/d4e/a00500.html" title="Prerequisites/Castor3DPrerequisites\l_Overlay.hpp" alt="" coords="2577,647,2809,688"/>
-<area shape="rect" id="node21" href="../../d4/d1f/a00506.html" title="Prerequisites/Castor3DPrerequisites\l_Scene.hpp" alt="" coords="2833,647,3065,688"/>
-<area shape="rect" id="node22" href="../../df/db6/a00509.html" title="Prerequisites/Castor3DPrerequisites\l_Shader.hpp" alt="" coords="3089,647,3321,688"/>
-<area shape="rect" id="node23" href="../../d4/de5/a00503.html" title="Prerequisites/Castor3DPrerequisites\l_Render.hpp" alt="" coords="3345,647,3577,688"/>
-<area shape="rect" id="node24" href="../../d4/ddf/a00488.html" title="Prerequisites/Castor3DPrerequisites\l_Event.hpp" alt="" coords="3601,647,3833,688"/>
-<area shape="rect" id="node27" href="../../d0/ddb/a00542.html" title="Render/RenderNode/Render\lNode.hpp" alt="" coords="2533,259,2715,300"/>
-<area shape="rect" id="node38" href="../../dc/df2/a00656.html" title="Scene/Camera.hpp" alt="" coords="3691,423,3824,449"/>
-<area shape="rect" id="node43" href="../../d4/deb/a00710.html" title="Scene/Scene.hpp" alt="" coords="4019,497,4144,524"/>
-<area shape="rect" id="node28" href="../../d9/d44/a00527.html" title="BillboardRenderNode.hpp" alt="" coords="2347,348,2515,375"/>
-<area shape="rect" id="node29" href="../../d4/d33/a00536.html" title="ObjectRenderNode.hpp" alt="" coords="2353,423,2509,449"/>
-<area shape="rect" id="node30" href="../../d3/d87/a00539.html" title="PassRenderNode.hpp" alt="" coords="2357,497,2505,524"/>
-<area shape="rect" id="node31" href="../../dd/de6/a00548.html" title="SceneRenderNode.hpp" alt="" coords="2535,497,2689,524"/>
-<area shape="rect" id="node32" href="../../da/d7e/a00530.html" title="DistanceRenderNode.hpp" alt="" coords="2533,423,2702,449"/>
-<area shape="rect" id="node33" href="../../db/d44/a00533.html" title="MorphingRenderNode.hpp" alt="" coords="2539,348,2709,375"/>
-<area shape="rect" id="node34" href="../../d9/d87/a00551.html" title="SkinningRenderNode.hpp" alt="" coords="2733,348,2901,375"/>
-<area shape="rect" id="node37" href="../../dc/df9/a00554.html" title="StaticRenderNode.hpp" alt="" coords="2120,348,2272,375"/>
-<area shape="rect" id="node36" href="../../dc/d1b/a00827.html" title="Shader/UniformBuffer.hpp" alt="" coords="3141,497,3310,524"/>
-<area shape="rect" id="node39" href="../../df/d9e/a00686.html" title="MovableObject.hpp" alt="" coords="3811,497,3943,524"/>
-<area shape="rect" id="node40" href="../../d6/de1/a00356.html" title="Miscellaneous/Frustum.hpp" alt="" coords="3334,497,3517,524"/>
-<area shape="rect" id="node42" href="../../d8/dc8/a00581.html" title="Render/Viewport.hpp" alt="" coords="3593,497,3735,524"/>
+<div class="center"><img src="../../da/d98/a00870.png" border="0" usemap="#Z_1_2Projets_2C_09_09_2Castor3D_2source_2Core_2Castor3D_2Src_2State_2DepthStencilState_8hpp" alt=""/></div>
+<map name="Z_1_2Projets_2C_09_09_2Castor3D_2source_2Core_2Castor3D_2Src_2State_2DepthStencilState_8hpp" id="Z_1_2Projets_2C_09_09_2Castor3D_2source_2Core_2Castor3D_2Src_2State_2DepthStencilState_8hpp">
+<area shape="rect" id="node2" href="../../df/dc8/a00122.html" title="Castor3DPrerequisites.hpp" alt="" coords="1530,109,1707,136"/>
+<area shape="rect" id="node12" href="../../d4/ddf/a00488.html" title="Prerequisites/Castor3DPrerequisites\l_Animation.hpp" alt="" coords="1621,184,1853,225"/>
+<area shape="rect" id="node15" href="../../d6/d60/a00491.html" title="Prerequisites/Castor3DPrerequisites\l_Camera.hpp" alt="" coords="1877,184,2109,225"/>
+<area shape="rect" id="node16" href="../../d4/d1e/a00497.html" title="Prerequisites/Castor3DPrerequisites\l_Geometry.hpp" alt="" coords="2133,184,2365,225"/>
+<area shape="rect" id="node17" href="../../de/d4e/a00500.html" title="Prerequisites/Castor3DPrerequisites\l_Light.hpp" alt="" coords="2389,184,2621,225"/>
+<area shape="rect" id="node19" href="../../d4/de5/a00503.html" title="Prerequisites/Castor3DPrerequisites\l_Material.hpp" alt="" coords="2645,184,2877,225"/>
+<area shape="rect" id="node20" href="../../d4/d1f/a00506.html" title="Prerequisites/Castor3DPrerequisites\l_Overlay.hpp" alt="" coords="2901,184,3133,225"/>
+<area shape="rect" id="node21" href="../../d4/dfb/a00512.html" title="Prerequisites/Castor3DPrerequisites\l_Scene.hpp" alt="" coords="3157,184,3389,225"/>
+<area shape="rect" id="node22" href="../../dc/d19/a00515.html" title="Prerequisites/Castor3DPrerequisites\l_Shader.hpp" alt="" coords="3413,184,3645,225"/>
+<area shape="rect" id="node23" href="../../df/db6/a00509.html" title="Prerequisites/Castor3DPrerequisites\l_Render.hpp" alt="" coords="3669,184,3901,225"/>
+<area shape="rect" id="node25" href="../../d5/d0f/a00494.html" title="Prerequisites/Castor3DPrerequisites\l_Event.hpp" alt="" coords="3925,184,4157,225"/>
+<area shape="rect" id="node13" href="../../d6/de1/a00356.html" title="Mesh/VertexGroup.hpp" alt="" coords="1563,273,1719,300"/>
 </map>
 </div>
 </div><div class="textblock"><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -99,27 +75,32 @@ $(function() {
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="../../dd/de1/a00871.png" border="0" usemap="#Z_1_2Projets_2C_09_09_2Castor3D_2source_2Core_2Castor3D_2Src_2Technique_2DepthPass_8hppdep" alt=""/></div>
-<map name="Z_1_2Projets_2C_09_09_2Castor3D_2source_2Core_2Castor3D_2Src_2Technique_2DepthPass_8hppdep" id="Z_1_2Projets_2C_09_09_2Castor3D_2source_2Core_2Castor3D_2Src_2Technique_2DepthPass_8hppdep">
-<area shape="rect" id="node2" href="../../d3/dd1/a00914.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/RenderTechnique.hpp" alt="" coords="5,109,244,165"/>
+<div class="center"><img src="../../dd/de1/a00871.png" border="0" usemap="#Z_1_2Projets_2C_09_09_2Castor3D_2source_2Core_2Castor3D_2Src_2State_2DepthStencilState_8hppdep" alt=""/></div>
+<map name="Z_1_2Projets_2C_09_09_2Castor3D_2source_2Core_2Castor3D_2Src_2State_2DepthStencilState_8hppdep" id="Z_1_2Projets_2C_09_09_2Castor3D_2source_2Core_2Castor3D_2Src_2State_2DepthStencilState_8hppdep">
+<area shape="rect" id="node2" href="../../d4/def/a00359.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Miscellaneous/ComputePipeline.hpp" alt="" coords="5,109,265,165"/>
+<area shape="rect" id="node3" href="../../d4/d9e/a00569.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Render/RenderPipeline.hpp" alt="" coords="289,109,496,165"/>
+<area shape="rect" id="node4" href="../../d9/d87/a00551.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Render/RenderNode\l/RenderNode_Render.hpp" alt="" coords="307,213,478,284"/>
 </map>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dbb/a03378.html">castor3d::DepthPass</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deferred lighting Render technique pass.  <a href="../../dd/dbb/a03378.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d0e/a03395.html">castor3d::DepthStencilState</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Depth and stencil buffers configurations class.  <a href="../../d6/d0e/a03395.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d87/a03399.html">castor3d::DepthStencilState::StencilConfiguration</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stencil function and operations description.  <a href="../../d0/d87/a03399.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:da/d40/a00946"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d40/a00946.html">castor3d</a></td></tr>
+<tr class="memitem:dc/db6/a00955"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.html">castor3d</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Dec 7 2017 09:55:56 for Castor3D by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Dec 11 2017 11:16:12 for Castor3D by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

@@ -1,5 +1,5 @@
-<map id="castor3d::PassBuffer" name="castor3d::PassBuffer">
-<area shape="rect" id="node4" href="$d4/dec/a01952.html" title="Base class of a material pass. " alt="" coords="265,115,375,142"/>
-<area shape="rect" id="node7" href="$dd/d3f/a02912.html" title="Wrapper class to select between SSBO or TBO. " alt="" coords="505,202,659,229"/>
-<area shape="rect" id="node8" href="$df/d89/a03440.html" title="Texture unit representation. " alt="" coords="247,202,393,229"/>
+<map id="castor3d::LightCategory" name="castor3d::LightCategory">
+<area shape="rect" id="node2" href="$d6/d92/a02867.html" title="Class which represents a Directional Light. " alt="" coords="5,80,175,107"/>
+<area shape="rect" id="node3" href="$d6/d1a/a02895.html" title="Class which represents a PointLight. " alt="" coords="199,80,338,107"/>
+<area shape="rect" id="node4" href="$d9/d6c/a02903.html" title="Class which represents a SpotLight. " alt="" coords="363,80,497,107"/>
 </map>

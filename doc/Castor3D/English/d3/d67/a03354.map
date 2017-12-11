@@ -1,2 +1,5 @@
-<map id="castor3d::ReflectionPass" name="castor3d::ReflectionPass">
+<map id="castor3d::ShadowMap" name="castor3d::ShadowMap">
+<area shape="rect" id="node3" href="$d9/dd9/a03359.html" title="Shadow mapping implementation for spot lights. " alt="" coords="5,155,217,181"/>
+<area shape="rect" id="node4" href="$d0/d79/a03379.html" title="Shadow mapping implementation. " alt="" coords="242,155,423,181"/>
+<area shape="rect" id="node5" href="$dc/d58/a03383.html" title="Shadow mapping implementation for spot lights. " alt="" coords="447,155,626,181"/>
 </map>

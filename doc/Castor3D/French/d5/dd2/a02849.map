@@ -1,5 +1,9 @@
-<map id="castor3d::LightCategory" name="castor3d::LightCategory">
-<area shape="rect" id="node2" href="$d3/d57/a02834.html" title="Classe representant une lumière directionnelle. " alt="" coords="5,80,175,107"/>
-<area shape="rect" id="node3" href="$d3/dee/a02862.html" title="Classe de représentation d&#39;une PointLight. " alt="" coords="199,80,338,107"/>
-<area shape="rect" id="node4" href="$d0/dee/a02870.html" title="Classe de représentation d&#39;une PointLight. " alt="" coords="363,80,497,107"/>
+<map id="castor3d::ColourSkybox" name="castor3d::ColourSkybox">
+<area shape="rect" id="node2" href="$da/dcd/a02987.html" title="Implémentation de Skybox. " alt="" coords="916,260,1040,287"/>
+<area shape="rect" id="node5" href="$d5/d55/a02719.html" title="Classe de représentation de viewport. " alt="" coords="582,77,713,104"/>
+<area shape="rect" id="node9" href="$d3/dca/a03171.html" title="Gestion du tampon de variables uniformes pour les matrices. " alt="" coords="578,260,717,287"/>
+<area shape="rect" id="node10" href="$d2/d94/a03167.html" title="Gestion du tampon de variables uniformes pour la configuration HDR. " alt="" coords="568,311,727,337"/>
+<area shape="rect" id="node12" href="$d3/de3/a02483.html" title="Contient les textures d&#39;environnement utilisées dans l&#39;IBL. " alt="" coords="261,369,403,396"/>
+<area shape="rect" id="node14" href="$d9/d1f/a02035.html" title="Description de tous les éléments dans un tampon de sommets. " alt="" coords="558,428,737,455"/>
+<area shape="rect" id="node15" href="$d7/d45/a03175.html" title="Gestion du tampon de variables uniformes pour les matrices. " alt="" coords="560,479,735,505"/>
 </map>

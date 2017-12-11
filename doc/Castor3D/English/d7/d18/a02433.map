@@ -1,3 +1,22 @@
-<map id="castor3d::TextOverlay::TextWriter" name="castor3d::TextOverlay::TextWriter">
-<area shape="rect" id="node2" href="$dc/d09/a02398.html" title="OverlayCategory loader. " alt="" coords="5,95,180,136"/>
+<map id="castor3d::OverlayRenderer" name="castor3d::OverlayRenderer">
+<area shape="rect" id="node15" href="$d8/dc9/a02671.html" title="The rendering pipeline. " alt="" coords="1422,463,1589,490"/>
+<area shape="rect" id="node26" href="$da/d9e/a03059.html" title="Base shader program implementation, used to share functions through the supported shader languages..." alt="" coords="998,311,1169,338"/>
+<area shape="rect" id="node3" href="$d7/d49/a03187.html" title="Matrices Uniform buffer management. " alt="" coords="1432,838,1579,865"/>
+<area shape="rect" id="node10" href="$da/d13/a02439.html" title="Holds the needed data to render an overlay. " alt="" coords="1749,761,1924,803"/>
+<area shape="rect" id="node6" href="$d1/d04/a02443.html" title="Holds the two geometry buffers used to render overlays. " alt="" coords="1749,1041,1924,1083"/>
+<area shape="rect" id="node7" href="$d3/dca/a03171.html" title="Matrices Uniform buffer management. " alt="" coords="2105,1133,2243,1159"/>
+<area shape="rect" id="node11" href="$d8/dd7/a02643.html" title="Helper structure used link a pass and a shader program. " alt="" coords="1415,769,1596,795"/>
+<area shape="rect" id="node13" href="$d5/db4/a02011.html" title="Base class of a material pass. " alt="" coords="1028,754,1139,781"/>
+<area shape="rect" id="node16" href="$da/dc7/a03407.html" title="Rasteriser configuration class. " alt="" coords="998,413,1169,439"/>
+<area shape="rect" id="node17" href="$d8/d1b/a02555.html" title="Pipeline flags. " alt="" coords="1004,514,1163,541"/>
+<area shape="rect" id="node19" href="$d0/d82/a02831.html" title="Billboards list. " alt="" coords="577,57,737,83"/>
+<area shape="rect" id="node20" href="$d4/d32/a02951.html" title="Handles object&#39;s visibility, and behavior with shadows. " alt="" coords="258,27,431,54"/>
+<area shape="rect" id="node22" href="$d3/de2/a02959.html" title="Scene handler class. " alt="" coords="286,107,403,134"/>
+<area shape="rect" id="node30" href="$d9/d1f/a02035.html" title="Description of all elements in a vertex buffer. " alt="" coords="568,114,747,141"/>
+<area shape="rect" id="node33" href="$d3/d0f/a02203.html" title="The submesh representation. " alt="" coords="590,630,725,657"/>
+<area shape="rect" id="node37" href="$de/d11/a03387.html" title="Blending configurations grouping class. " alt="" coords="1011,695,1155,722"/>
+<area shape="rect" id="node39" href="$df/dea/a03391.html" title="castor3d::BlendState\l::stRT_BLEND_STATE" alt="" coords="267,688,422,729"/>
+<area shape="rect" id="node40" href="$d5/dff/a03403.html" title="Multisample configurations grouping class. " alt="" coords="993,261,1174,287"/>
+<area shape="rect" id="node41" href="$d6/d0e/a03395.html" title="Depth and stencil buffers configurations class. " alt="" coords="991,565,1176,591"/>
+<area shape="rect" id="node42" href="$d0/d87/a03399.html" title="Stencil function and operations description. " alt="" coords="565,557,750,599"/>
 </map>

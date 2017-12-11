@@ -1,7 +1,4 @@
-<map id="Z:/Projets/C++/Castor3D/source/Core/Castor3D/Src/Event/UserInput/UserInputEvent.hpp" name="Z:/Projets/C++/Castor3D/source/Core/Castor3D/Src/Event/UserInput/UserInputEvent.hpp">
-<area shape="rect" id="node2" href="$d7/d9a/a00152.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Event/UserInput/KeyboardEvent.hpp" alt="" coords="5,124,263,180"/>
-<area shape="rect" id="node5" href="$d3/df8/a00155.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Event/UserInput/MouseEvent.hpp" alt="" coords="287,124,528,180"/>
-<area shape="rect" id="node6" href="$da/d1e/a00149.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Event/UserInput/HandlerEvent.hpp" alt="" coords="552,124,799,180"/>
-<area shape="rect" id="node3" href="$d9/db6/a00146.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Event/UserInput/EventHandler.hpp" alt="" coords="284,228,531,284"/>
-<area shape="rect" id="node4" href="$d6/d7d/a00161.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Event/UserInput/UserInput\lListener.hpp" alt="" coords="307,332,507,403"/>
+<map id="Z:/Projets/C++/Castor3D/source/Core/Castor3D/Src/Event/UserInput/KeyboardEvent.hpp" name="Z:/Projets/C++/Castor3D/source/Core/Castor3D/Src/Event/UserInput/KeyboardEvent.hpp">
+<area shape="rect" id="node2" href="$d7/d9a/a00152.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Event/UserInput/EventHandler.hpp" alt="" coords="11,109,257,165"/>
+<area shape="rect" id="node3" href="$dc/de6/a00167.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Event/UserInput/UserInput\lListener.hpp" alt="" coords="34,213,234,284"/>
 </map>

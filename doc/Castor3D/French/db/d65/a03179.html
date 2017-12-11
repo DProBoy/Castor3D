@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Castor3D: Liste des membres</title>
+<title>Castor3D: Référence de la classe castor3d::ModelUbo</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -38,26 +38,475 @@ $(function() {
 <div id="main-nav"></div>
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="../../da/d40/a00946.html">castor3d</a></li><li class="navelem"><a class="el" href="../../dd/d71/a03182.html">VariableTypeTraits&lt; Type, typename std::enable_if&lt; Type==UniformType::eBool||Type==UniformType::eInt||Type==UniformType::eUInt||Type==UniformType::eFloat||Type==UniformType::eDouble||Type==UniformType::eSampler &gt;::type &gt;</a></li>  </ul>
+<li class="navelem"><a class="el" href="../../dc/db6/a00955.html">castor3d</a></li><li class="navelem"><a class="el" href="../../db/d65/a03179.html">ModelUbo</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Fonctions membres publiques</a> &#124;
+<a href="#pub-static-attribs">Attributs publics statiques</a> &#124;
+<a href="../../df/d0d/a03176.html">Liste de tous les membres</a>  </div>
   <div class="headertitle">
-<div class="title">castor3d::VariableTypeTraits&lt; Type, typename std::enable_if&lt; Type==UniformType::eBool||Type==UniformType::eInt||Type==UniformType::eUInt||Type==UniformType::eFloat||Type==UniformType::eDouble||Type==UniformType::eSampler &gt;::type &gt; Liste des membres</div>  </div>
+<div class="title">Référence de la classe castor3d::ModelUbo</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Liste complète des membres de <a class="el" href="../../dd/d71/a03182.html">castor3d::VariableTypeTraits&lt; Type, typename std::enable_if&lt; Type==UniformType::eBool||Type==UniformType::eInt||Type==UniformType::eUInt||Type==UniformType::eFloat||Type==UniformType::eDouble||Type==UniformType::eSampler &gt;::type &gt;</a>, y compris les membres hérités :</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d71/a03182.html#aa98e50901b013ee61137484dd05ad467">count</a></td><td class="entry"><a class="el" href="../../dd/d71/a03182.html">castor3d::VariableTypeTraits&lt; Type, typename std::enable_if&lt; Type==UniformType::eBool||Type==UniformType::eInt||Type==UniformType::eUInt||Type==UniformType::eFloat||Type==UniformType::eDouble||Type==UniformType::eSampler &gt;::type &gt;</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d71/a03182.html#aba167fc6708ba5c07cc8dbbb1e075014">is_matrix</a></td><td class="entry"><a class="el" href="../../dd/d71/a03182.html">castor3d::VariableTypeTraits&lt; Type, typename std::enable_if&lt; Type==UniformType::eBool||Type==UniformType::eInt||Type==UniformType::eUInt||Type==UniformType::eFloat||Type==UniformType::eDouble||Type==UniformType::eSampler &gt;::type &gt;</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d71/a03182.html#a7557901f5b4d7480057b48c218a19fb6">is_one</a></td><td class="entry"><a class="el" href="../../dd/d71/a03182.html">castor3d::VariableTypeTraits&lt; Type, typename std::enable_if&lt; Type==UniformType::eBool||Type==UniformType::eInt||Type==UniformType::eUInt||Type==UniformType::eFloat||Type==UniformType::eDouble||Type==UniformType::eSampler &gt;::type &gt;</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/d71/a03182.html#a38a39b541083adb93f89be815bed1ce5">is_point</a></td><td class="entry"><a class="el" href="../../dd/d71/a03182.html">castor3d::VariableTypeTraits&lt; Type, typename std::enable_if&lt; Type==UniformType::eBool||Type==UniformType::eInt||Type==UniformType::eUInt||Type==UniformType::eFloat||Type==UniformType::eDouble||Type==UniformType::eSampler &gt;::type &gt;</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d71/a03182.html#ac8a088966c90b0fa64fef1d53ce72816">value</a></td><td class="entry"><a class="el" href="../../dd/d71/a03182.html">castor3d::VariableTypeTraits&lt; Type, typename std::enable_if&lt; Type==UniformType::eBool||Type==UniformType::eInt||Type==UniformType::eUInt||Type==UniformType::eFloat||Type==UniformType::eDouble||Type==UniformType::eSampler &gt;::type &gt;</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-</table></div><!-- contents -->
+<p>Gestion du tampon de variables uniformes pour le modèle.  
+ <a href="../../db/d65/a03179.html#details">Plus de détails...</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Fonctions membres publiques</h2></td></tr>
+<tr class="memitem:a62c3585b3413fa7a7dc5a16d9c7d109f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/dc8/a00122.html#ab7d762f315ad9902201ba70979ed2ef0">C3D_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d65/a03179.html#a62c3585b3413fa7a7dc5a16d9c7d109f">ModelUbo</a> (<a class="el" href="../../d1/de6/a01867.html">Engine</a> &amp;engine)</td></tr>
+<tr class="memdesc:a62c3585b3413fa7a7dc5a16d9c7d109f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructeur.  <a href="#a62c3585b3413fa7a7dc5a16d9c7d109f">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a62c3585b3413fa7a7dc5a16d9c7d109f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1d04343d1c1f798863275e264a72eec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/dc8/a00122.html#ab7d762f315ad9902201ba70979ed2ef0">C3D_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d65/a03179.html#ae1d04343d1c1f798863275e264a72eec">~ModelUbo</a> ()</td></tr>
+<tr class="memdesc:ae1d04343d1c1f798863275e264a72eec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructeur.  <a href="#ae1d04343d1c1f798863275e264a72eec">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ae1d04343d1c1f798863275e264a72eec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abef1e333e4df100a91c9e8ec23cea2b9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/dc8/a00122.html#ab7d762f315ad9902201ba70979ed2ef0">C3D_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d65/a03179.html#abef1e333e4df100a91c9e8ec23cea2b9">update</a> (bool p_shadowReceiver, uint32_t p_materialIndex) const</td></tr>
+<tr class="memdesc:abef1e333e4df100a91c9e8ec23cea2b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Met à jour l'UBO avec les valeurs données.  <a href="#abef1e333e4df100a91c9e8ec23cea2b9">Plus de détails...</a><br /></td></tr>
+<tr class="separator:abef1e333e4df100a91c9e8ec23cea2b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81db0f258130e31668f8185a9d1d1508"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/dc8/a00122.html#ab7d762f315ad9902201ba70979ed2ef0">C3D_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d65/a03179.html#a81db0f258130e31668f8185a9d1d1508">setEnvMapIndex</a> (uint32_t p_value)</td></tr>
+<tr class="memdesc:a81db0f258130e31668f8185a9d1d1508"><td class="mdescLeft">&#160;</td><td class="mdescRight">Définit la valeur de l'indice de la texture d'environnement.  <a href="#a81db0f258130e31668f8185a9d1d1508">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a81db0f258130e31668f8185a9d1d1508"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Constructeurs/Opérateurs d'affectation par copie/déplacement.</div></td></tr>
+<tr class="memitem:ad1d47f1e23187be6667ce79781df50e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/dc8/a00122.html#ab7d762f315ad9902201ba70979ed2ef0">C3D_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d65/a03179.html#ad1d47f1e23187be6667ce79781df50e2">ModelUbo</a> (<a class="el" href="../../db/d65/a03179.html">ModelUbo</a> const &amp;)=delete</td></tr>
+<tr class="separator:ad1d47f1e23187be6667ce79781df50e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a744b2117a52123e22414464c525a6669"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/dc8/a00122.html#ab7d762f315ad9902201ba70979ed2ef0">C3D_API</a> <a class="el" href="../../db/d65/a03179.html">ModelUbo</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d65/a03179.html#a744b2117a52123e22414464c525a6669">operator=</a> (<a class="el" href="../../db/d65/a03179.html">ModelUbo</a> const &amp;)=delete</td></tr>
+<tr class="separator:a744b2117a52123e22414464c525a6669"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac76dc37cff3276ccf97aa9557ceae3be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/dc8/a00122.html#ab7d762f315ad9902201ba70979ed2ef0">C3D_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d65/a03179.html#ac76dc37cff3276ccf97aa9557ceae3be">ModelUbo</a> (<a class="el" href="../../db/d65/a03179.html">ModelUbo</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:ac76dc37cff3276ccf97aa9557ceae3be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e61a84937f8b70e86d1c92e30ed8a06"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/dc8/a00122.html#ab7d762f315ad9902201ba70979ed2ef0">C3D_API</a> <a class="el" href="../../db/d65/a03179.html">ModelUbo</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d65/a03179.html#a4e61a84937f8b70e86d1c92e30ed8a06">operator=</a> (<a class="el" href="../../db/d65/a03179.html">ModelUbo</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a4e61a84937f8b70e86d1c92e30ed8a06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">getters.</div></td></tr>
+<tr class="memitem:ab6bbaf57a2fceb7496ae28109c4ecc77"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d13/a03339.html">UniformBuffer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d65/a03179.html#ab6bbaf57a2fceb7496ae28109c4ecc77">getUbo</a> ()</td></tr>
+<tr class="separator:ab6bbaf57a2fceb7496ae28109c4ecc77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89bb63f165792891894a5467401a67e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d13/a03339.html">UniformBuffer</a> const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d65/a03179.html#a89bb63f165792891894a5467401a67e0">getUbo</a> () const</td></tr>
+<tr class="separator:a89bb63f165792891894a5467401a67e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Attributs publics statiques</h2></td></tr>
+<tr class="memitem:aec73bd500ab2c065624d84f24df43b2c"><td class="memItemLeft" align="right" valign="top">static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d65/a03179.html#aec73bd500ab2c065624d84f24df43b2c">BindingPoint</a> = 4u</td></tr>
+<tr class="separator:aec73bd500ab2c065624d84f24df43b2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b5d38d9e9cacdea4f63f9abdf9f0288"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../df/dc8/a00122.html#ab7d762f315ad9902201ba70979ed2ef0">C3D_API</a> castor::String const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d65/a03179.html#a3b5d38d9e9cacdea4f63f9abdf9f0288">BufferModel</a></td></tr>
+<tr class="separator:a3b5d38d9e9cacdea4f63f9abdf9f0288"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a339894cd726e9c8b5cc505e73e4c5a6c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../df/dc8/a00122.html#ab7d762f315ad9902201ba70979ed2ef0">C3D_API</a> castor::String const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d65/a03179.html#a339894cd726e9c8b5cc505e73e4c5a6c">ShadowReceiver</a></td></tr>
+<tr class="separator:a339894cd726e9c8b5cc505e73e4c5a6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad144930e7b496ad372aa2462f016bdeb"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../df/dc8/a00122.html#ab7d762f315ad9902201ba70979ed2ef0">C3D_API</a> castor::String const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d65/a03179.html#ad144930e7b496ad372aa2462f016bdeb">MaterialIndex</a></td></tr>
+<tr class="separator:ad144930e7b496ad372aa2462f016bdeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a564c7ffb22c5ac366ec58f0e3aa1f87c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../df/dc8/a00122.html#ab7d762f315ad9902201ba70979ed2ef0">C3D_API</a> castor::String const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d65/a03179.html#a564c7ffb22c5ac366ec58f0e3aa1f87c">EnvironmentIndex</a></td></tr>
+<tr class="separator:a564c7ffb22c5ac366ec58f0e3aa1f87c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Description détaillée</h2>
+<div class="textblock"><p>Gestion du tampon de variables uniformes pour le modèle. </p>
+<dl class="section author"><dt>Auteur</dt><dd>Sylvain DOREMUS </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>0.10.0 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>12/04/2017 </dd></dl>
+</div><h2 class="groupheader">Documentation des constructeurs et destructeur</h2>
+<a id="ad1d47f1e23187be6667ce79781df50e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1d47f1e23187be6667ce79781df50e2">&#9670;&nbsp;</a></span>ModelUbo() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/dc8/a00122.html#ab7d762f315ad9902201ba70979ed2ef0">C3D_API</a> castor3d::ModelUbo::ModelUbo </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/d65/a03179.html">ModelUbo</a> const &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac76dc37cff3276ccf97aa9557ceae3be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac76dc37cff3276ccf97aa9557ceae3be">&#9670;&nbsp;</a></span>ModelUbo() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/dc8/a00122.html#ab7d762f315ad9902201ba70979ed2ef0">C3D_API</a> castor3d::ModelUbo::ModelUbo </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/d65/a03179.html">ModelUbo</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a62c3585b3413fa7a7dc5a16d9c7d109f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62c3585b3413fa7a7dc5a16d9c7d109f">&#9670;&nbsp;</a></span>ModelUbo() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/dc8/a00122.html#ab7d762f315ad9902201ba70979ed2ef0">C3D_API</a> castor3d::ModelUbo::ModelUbo </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d1/de6/a01867.html">Engine</a> &amp;&#160;</td>
+          <td class="paramname"><em>engine</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructeur. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">engine</td><td>Le moteur. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ae1d04343d1c1f798863275e264a72eec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1d04343d1c1f798863275e264a72eec">&#9670;&nbsp;</a></span>~ModelUbo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/dc8/a00122.html#ab7d762f315ad9902201ba70979ed2ef0">C3D_API</a> castor3d::ModelUbo::~ModelUbo </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destructeur. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentation des fonctions membres</h2>
+<a id="ab6bbaf57a2fceb7496ae28109c4ecc77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6bbaf57a2fceb7496ae28109c4ecc77">&#9670;&nbsp;</a></span>getUbo() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d1/d13/a03339.html">UniformBuffer</a>&amp; castor3d::ModelUbo::getUbo </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a89bb63f165792891894a5467401a67e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89bb63f165792891894a5467401a67e0">&#9670;&nbsp;</a></span>getUbo() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d1/d13/a03339.html">UniformBuffer</a> const&amp; castor3d::ModelUbo::getUbo </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a744b2117a52123e22414464c525a6669"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a744b2117a52123e22414464c525a6669">&#9670;&nbsp;</a></span>operator=() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/dc8/a00122.html#ab7d762f315ad9902201ba70979ed2ef0">C3D_API</a> <a class="el" href="../../db/d65/a03179.html">ModelUbo</a>&amp; castor3d::ModelUbo::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/d65/a03179.html">ModelUbo</a> const &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4e61a84937f8b70e86d1c92e30ed8a06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e61a84937f8b70e86d1c92e30ed8a06">&#9670;&nbsp;</a></span>operator=() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/dc8/a00122.html#ab7d762f315ad9902201ba70979ed2ef0">C3D_API</a> <a class="el" href="../../db/d65/a03179.html">ModelUbo</a>&amp; castor3d::ModelUbo::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/d65/a03179.html">ModelUbo</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a81db0f258130e31668f8185a9d1d1508"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81db0f258130e31668f8185a9d1d1508">&#9670;&nbsp;</a></span>setEnvMapIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/dc8/a00122.html#ab7d762f315ad9902201ba70979ed2ef0">C3D_API</a> void castor3d::ModelUbo::setEnvMapIndex </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>p_value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Définit la valeur de l'indice de la texture d'environnement. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">p_value</td><td>La nouvelle valeur. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="reference">Référencé par <a class="el" href="../../dc/db6/a00955.html#ab22015ddf9c77a1499d13b5eaa8d9f3d">castor3d::doBindPass()</a>.</p>
+<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Voici le graphe des appelants de cette fonction :</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="../../db/d65/a03179_a81db0f258130e31668f8185a9d1d1508_icgraph.png" border="0" usemap="#db/d65/a03179_a81db0f258130e31668f8185a9d1d1508_icgraph" alt=""/></div>
+<map name="db/d65/a03179_a81db0f258130e31668f8185a9d1d1508_icgraph" id="db/d65/a03179_a81db0f258130e31668f8185a9d1d1508_icgraph">
+<area shape="rect" id="node2" href="../../dc/db6/a00955.html#ab22015ddf9c77a1499d13b5eaa8d9f3d" title="castor3d::doBindPass" alt="" coords="192,13,343,39"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="abef1e333e4df100a91c9e8ec23cea2b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abef1e333e4df100a91c9e8ec23cea2b9">&#9670;&nbsp;</a></span>update()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/dc8/a00122.html#ab7d762f315ad9902201ba70979ed2ef0">C3D_API</a> void castor3d::ModelUbo::update </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>p_shadowReceiver</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>p_materialIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Met à jour l'UBO avec les valeurs données. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">p_shadowReceiver</td><td>Dit si le modèle reçoit les ombres. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">p_materialIndex</td><td>L'indice du matériau. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Documentation des données membres</h2>
+<a id="aec73bd500ab2c065624d84f24df43b2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec73bd500ab2c065624d84f24df43b2c">&#9670;&nbsp;</a></span>BindingPoint</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr uint32_t castor3d::ModelUbo::BindingPoint = 4u</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3b5d38d9e9cacdea4f63f9abdf9f0288"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b5d38d9e9cacdea4f63f9abdf9f0288">&#9670;&nbsp;</a></span>BufferModel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/dc8/a00122.html#ab7d762f315ad9902201ba70979ed2ef0">C3D_API</a> castor::String const castor3d::ModelUbo::BufferModel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Nom du frame variable buffer contenant les données de modèle. </p>
+
+</div>
+</div>
+<a id="a564c7ffb22c5ac366ec58f0e3aa1f87c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a564c7ffb22c5ac366ec58f0e3aa1f87c">&#9670;&nbsp;</a></span>EnvironmentIndex</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/dc8/a00122.html#ab7d762f315ad9902201ba70979ed2ef0">C3D_API</a> castor::String const castor3d::ModelUbo::EnvironmentIndex</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Nom de la frame variable contenant l'indice de la map d'environnement du matériau. </p>
+
+</div>
+</div>
+<a id="ad144930e7b496ad372aa2462f016bdeb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad144930e7b496ad372aa2462f016bdeb">&#9670;&nbsp;</a></span>MaterialIndex</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/dc8/a00122.html#ab7d762f315ad9902201ba70979ed2ef0">C3D_API</a> castor::String const castor3d::ModelUbo::MaterialIndex</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Nom de la frame variable contenant l'indice du matériau. </p>
+
+</div>
+</div>
+<a id="a339894cd726e9c8b5cc505e73e4c5a6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a339894cd726e9c8b5cc505e73e4c5a6c">&#9670;&nbsp;</a></span>ShadowReceiver</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/dc8/a00122.html#ab7d762f315ad9902201ba70979ed2ef0">C3D_API</a> castor::String const castor3d::ModelUbo::ShadowReceiver</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Nom de la frame variable contenant le statut de réception d'ombres. </p>
+
+</div>
+</div>
+<hr/>La documentation de cette classe a été générée à partir du fichier suivant :<ul>
+<li>Z:/Projets/C++/Castor3D/source/Core/Castor3D/Src/Shader/Ubos/<a class="el" href="../../d8/db7/a00812.html">ModelUbo.hpp</a></li>
+</ul>
+</div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Généré le Jeudi 7 Décembre 2017 09:56:14 pour Castor3D par &#160;<a href="http://www.doxygen.org/index.html">
+Généré le Lundi 11 Décembre 2017 11:16:38 pour Castor3D par &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

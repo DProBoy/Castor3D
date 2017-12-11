@@ -1,18 +1,11 @@
-<map id="castor3d::ObjectRenderNode&lt; DataTypeT, InstanceTypeT &gt;" name="castor3d::ObjectRenderNode&lt; DataTypeT, InstanceTypeT &gt;">
-<area shape="rect" id="node2" href="$d6/d33/a01992.html" title="Conteneur de buffers de géométries. " alt="" coords="1045,441,1222,468"/>
-<area shape="rect" id="node3" href="$da/dad/a02928.html" title="Implémentation de base d&#39;un programme de shader, utilisé afin d&#39;exposer les fonctions communes aux la..." alt="" coords="722,376,893,403"/>
-<area shape="rect" id="node15" href="$d1/df6/a02544.html" title="Le pipeline de rendu. " alt="" coords="1050,215,1217,241"/>
-<area shape="rect" id="node8" href="$d9/da1/a01976.html" title="Description de tous les éléments dans un tampon de sommets. " alt="" coords="292,451,471,477"/>
-<area shape="rect" id="node11" href="$d2/dab/a02516.html" title="Structure d&#39;aide utilisée pour lier une passe et un programme shader. " alt="" coords="1043,540,1224,567"/>
-<area shape="rect" id="node13" href="$d4/dec/a01952.html" title="Classe de base d&#39;une passe d&#39;un matériau. " alt="" coords="752,577,863,604"/>
-<area shape="rect" id="node16" href="$d0/ded/a03276.html" title="Classe de configuration du rasteriser. " alt="" coords="722,105,893,132"/>
-<area shape="rect" id="node17" href="$d5/d04/a02428.html" title="Indicateurs de pipeline. " alt="" coords="728,156,887,183"/>
-<area shape="rect" id="node19" href="$d3/d55/a03256.html" title="Classe regroupant les configurations de blend. " alt="" coords="735,55,879,81"/>
-<area shape="rect" id="node21" href="$d1/dda/a03260.html" title="castor3d::BlendState\l::stRT_BLEND_STATE" alt="" coords="5,65,160,106"/>
-<area shape="rect" id="node22" href="$d4/d1c/a03272.html" title="Classe regroupant les configurations de multi&#45;échantillonnage. " alt="" coords="717,324,898,351"/>
-<area shape="rect" id="node23" href="$d4/d1a/a03264.html" title="Classe de configuration des buffers de profondeur et stencil. " alt="" coords="715,273,900,300"/>
-<area shape="rect" id="node24" href="$d4/dcb/a03268.html" title="Fonction et opérations de stencil. " alt="" coords="289,159,474,201"/>
-<area shape="rect" id="node25" href="$dc/d92/a03048.html" title="Gestion du tampon de variables uniformes pour le modèle. " alt="" coords="1064,591,1203,617"/>
-<area shape="rect" id="node26" href="$df/de1/a02844.html" title="La classe de gestion de noeud de scène. " alt="" coords="1060,695,1207,721"/>
-<area shape="rect" id="node32" href="$d7/d98/a03044.html" title="Gestion du tampon de variables uniformes pour les matrices. " alt="" coords="1046,745,1221,772"/>
+<map id="castor3d::Plugin" name="castor3d::Plugin">
+<area shape="rect" id="node3" href="$d6/d9a/a02491.html" title="Classe de plug&#45;in de subdivision. " alt="" coords="423,5,578,32"/>
+<area shape="rect" id="node4" href="$d5/d56/a02495.html" title="Classe de plug&#45;in de générateur procédural. " alt="" coords="414,56,587,83"/>
+<area shape="rect" id="node5" href="$d0/d7c/a02499.html" title="Classe de plug&#45;in générique. " alt="" coords="420,107,581,133"/>
+<area shape="rect" id="node6" href="$d1/d5d/a02503.html" title="Classe de plug&#45;in d&#39;import. " alt="" coords="419,157,582,184"/>
+<area shape="rect" id="node7" href="$de/dbd/a02507.html" title="Classe de plug&#45;in de particules. " alt="" coords="421,208,581,235"/>
+<area shape="rect" id="node8" href="$d9/dce/a02519.html" title="Classe de plug&#45;in d&#39;effets post rendu. " alt="" coords="421,259,580,285"/>
+<area shape="rect" id="node9" href="$d7/d8d/a02523.html" title="Classe de plug&#45;in de rendu. " alt="" coords="417,309,585,336"/>
+<area shape="rect" id="node10" href="$d7/d7d/a02527.html" title="Classe de plug&#45;in de techniques de rendu. " alt="" coords="413,360,588,387"/>
+<area shape="rect" id="node11" href="$d9/dc8/a02531.html" title="Classe de plug&#45;in de mappage de tons. " alt="" coords="404,411,597,437"/>
 </map>

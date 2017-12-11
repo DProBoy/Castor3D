@@ -1,0 +1,7 @@
+<map id="castor3d::TextureSource::~TextureSource" name="castor3d::TextureSource::~TextureSource">
+<area shape="rect" id="node2" href="$d3/d1c/a03551.html#a8213be55227af8eaba4691f9f80d6d57" title="castor3d::TextureSource\l::getBuffer" alt="" coords="217,5,381,47"/>
+<area shape="rect" id="node3" href="$d3/d1c/a03551.html#aa63dacc9b21ec6c94ac300d62f0969c0" title="castor3d::TextureSource\l::isStatic" alt="" coords="217,71,381,112"/>
+<area shape="rect" id="node4" href="$d3/d1c/a03551.html#a40793064d1d1ee0aabf12405a03e7706" title="Resizes the source. " alt="" coords="217,136,381,177"/>
+<area shape="rect" id="node5" href="$d3/d1c/a03551.html#a6867fb9539c199b789da601bfb371299" title="sets the texture buffer. " alt="" coords="217,201,381,243"/>
+<area shape="rect" id="node6" href="$d3/d1c/a03551.html#acf06b291e453267a3c74a6b2f2c75c15" title="castor3d::TextureSource\l::toString" alt="" coords="217,267,381,308"/>
+</map>

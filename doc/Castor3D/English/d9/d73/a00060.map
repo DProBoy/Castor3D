@@ -1,15 +1,16 @@
-<map id="Z:/Projets/C++/Castor3D/source/Core/Castor3D/Src/Cache/CacheView.hpp" name="Z:/Projets/C++/Castor3D/source/Core/Castor3D/Src/Cache/CacheView.hpp">
-<area shape="rect" id="node2" href="$d9/d2e/a00056.html" title="Cache.hpp" alt="" coords="2972,109,3056,136"/>
-<area shape="rect" id="node3" href="$d4/d3e/a00116.html" title="Castor3DPrerequisites.hpp" alt="" coords="2488,184,2665,211"/>
-<area shape="rect" id="node13" href="$db/d8e/a00482.html" title="Prerequisites/Castor3DPrerequisites\l_Animation.hpp" alt="" coords="3603,259,3835,300"/>
-<area shape="rect" id="node15" href="$d6/d1a/a00485.html" title="Prerequisites/Castor3DPrerequisites\l_Camera.hpp" alt="" coords="847,259,1079,300"/>
-<area shape="rect" id="node16" href="$d6/d60/a00491.html" title="Prerequisites/Castor3DPrerequisites\l_Geometry.hpp" alt="" coords="1103,259,1335,300"/>
-<area shape="rect" id="node17" href="$d5/d0f/a00494.html" title="Prerequisites/Castor3DPrerequisites\l_Light.hpp" alt="" coords="191,259,423,300"/>
-<area shape="rect" id="node19" href="$d4/d1e/a00497.html" title="Prerequisites/Castor3DPrerequisites\l_Material.hpp" alt="" coords="1359,259,1591,300"/>
-<area shape="rect" id="node20" href="$de/d4e/a00500.html" title="Prerequisites/Castor3DPrerequisites\l_Overlay.hpp" alt="" coords="1615,259,1847,300"/>
-<area shape="rect" id="node21" href="$d4/d1f/a00506.html" title="Prerequisites/Castor3DPrerequisites\l_Scene.hpp" alt="" coords="1871,259,2103,300"/>
-<area shape="rect" id="node22" href="$df/db6/a00509.html" title="Prerequisites/Castor3DPrerequisites\l_Shader.hpp" alt="" coords="2127,259,2359,300"/>
-<area shape="rect" id="node23" href="$d4/de5/a00503.html" title="Prerequisites/Castor3DPrerequisites\l_Render.hpp" alt="" coords="2802,259,3034,300"/>
-<area shape="rect" id="node25" href="$d4/ddf/a00488.html" title="Prerequisites/Castor3DPrerequisites\l_Event.hpp" alt="" coords="3058,259,3290,300"/>
-<area shape="rect" id="node14" href="$db/d10/a00350.html" title="Mesh/VertexGroup.hpp" alt="" coords="3641,348,3797,375"/>
+<map id="Z:/Projets/C++/Castor3D/source/Core/Castor3D/Src/Cache/BillboardCache.hpp" name="Z:/Projets/C++/Castor3D/source/Core/Castor3D/Src/Cache/BillboardCache.hpp">
+<area shape="rect" id="node2" href="$df/dc8/a00122.html" title="Castor3DPrerequisites.hpp" alt="" coords="1897,259,2075,285"/>
+<area shape="rect" id="node27" href="$da/d2a/a00086.html" title="Cache/ObjectCache.hpp" alt="" coords="1019,109,1182,136"/>
+<area shape="rect" id="node12" href="$d4/ddf/a00488.html" title="Prerequisites/Castor3DPrerequisites\l_Animation.hpp" alt="" coords="3099,333,3331,375"/>
+<area shape="rect" id="node15" href="$d6/d60/a00491.html" title="Prerequisites/Castor3DPrerequisites\l_Camera.hpp" alt="" coords="1358,333,1590,375"/>
+<area shape="rect" id="node16" href="$d4/d1e/a00497.html" title="Prerequisites/Castor3DPrerequisites\l_Geometry.hpp" alt="" coords="1614,333,1846,375"/>
+<area shape="rect" id="node17" href="$de/d4e/a00500.html" title="Prerequisites/Castor3DPrerequisites\l_Light.hpp" alt="" coords="1102,333,1334,375"/>
+<area shape="rect" id="node19" href="$d4/de5/a00503.html" title="Prerequisites/Castor3DPrerequisites\l_Material.hpp" alt="" coords="2843,333,3075,375"/>
+<area shape="rect" id="node20" href="$d4/d1f/a00506.html" title="Prerequisites/Castor3DPrerequisites\l_Overlay.hpp" alt="" coords="1870,333,2102,375"/>
+<area shape="rect" id="node21" href="$d4/dfb/a00512.html" title="Prerequisites/Castor3DPrerequisites\l_Scene.hpp" alt="" coords="2126,333,2358,375"/>
+<area shape="rect" id="node22" href="$dc/d19/a00515.html" title="Prerequisites/Castor3DPrerequisites\l_Shader.hpp" alt="" coords="2382,333,2614,375"/>
+<area shape="rect" id="node23" href="$df/db6/a00509.html" title="Prerequisites/Castor3DPrerequisites\l_Render.hpp" alt="" coords="3355,333,3587,375"/>
+<area shape="rect" id="node25" href="$d5/d0f/a00494.html" title="Prerequisites/Castor3DPrerequisites\l_Event.hpp" alt="" coords="3825,333,4057,375"/>
+<area shape="rect" id="node13" href="$d6/de1/a00356.html" title="Mesh/VertexGroup.hpp" alt="" coords="3180,423,3336,449"/>
+<area shape="rect" id="node28" href="$df/d03/a00062.html" title="Cache.hpp" alt="" coords="293,184,377,211"/>
 </map>

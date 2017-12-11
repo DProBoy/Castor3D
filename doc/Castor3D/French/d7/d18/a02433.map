@@ -1,3 +1,22 @@
-<map id="castor3d::TextOverlay::TextWriter" name="castor3d::TextOverlay::TextWriter">
-<area shape="rect" id="node2" href="$dc/d09/a02398.html" title="OverlayCategory loader. " alt="" coords="5,95,180,136"/>
+<map id="castor3d::OverlayRenderer" name="castor3d::OverlayRenderer">
+<area shape="rect" id="node15" href="$d8/dc9/a02671.html" title="Le pipeline de rendu. " alt="" coords="1422,463,1589,490"/>
+<area shape="rect" id="node26" href="$da/d9e/a03059.html" title="Implémentation de base d&#39;un programme de shader, utilisé afin d&#39;exposer les fonctions communes aux la..." alt="" coords="998,311,1169,338"/>
+<area shape="rect" id="node3" href="$d7/d49/a03187.html" title="Gestion du tampon de variables uniformes pour les matrices. " alt="" coords="1432,838,1579,865"/>
+<area shape="rect" id="node10" href="$da/d13/a02439.html" title="Contient les données nécessaires au dessin d&#39;une incrustation. " alt="" coords="1749,761,1924,803"/>
+<area shape="rect" id="node6" href="$d1/d04/a02443.html" title="Contient les deux geometry buffers utilisés pour dessiner les overlays. " alt="" coords="1749,1041,1924,1083"/>
+<area shape="rect" id="node7" href="$d3/dca/a03171.html" title="Gestion du tampon de variables uniformes pour les matrices. " alt="" coords="2105,1133,2243,1159"/>
+<area shape="rect" id="node11" href="$d8/dd7/a02643.html" title="Structure d&#39;aide utilisée pour lier une passe et un programme shader. " alt="" coords="1415,769,1596,795"/>
+<area shape="rect" id="node13" href="$d5/db4/a02011.html" title="Classe de base d&#39;une passe d&#39;un matériau. " alt="" coords="1028,754,1139,781"/>
+<area shape="rect" id="node16" href="$da/dc7/a03407.html" title="Classe de configuration du rasteriser. " alt="" coords="998,413,1169,439"/>
+<area shape="rect" id="node17" href="$d8/d1b/a02555.html" title="Indicateurs de pipeline. " alt="" coords="1004,514,1163,541"/>
+<area shape="rect" id="node19" href="$d0/d82/a02831.html" title="Liste de billboards. " alt="" coords="577,57,737,83"/>
+<area shape="rect" id="node20" href="$d4/d32/a02951.html" title="Gère la visibilité de l&#39;objet, ainsi que son comportement avec les ombres. " alt="" coords="258,27,431,54"/>
+<area shape="rect" id="node22" href="$d3/de2/a02959.html" title="Classe de gestion d&#39;un scène. " alt="" coords="286,107,403,134"/>
+<area shape="rect" id="node30" href="$d9/d1f/a02035.html" title="Description de tous les éléments dans un tampon de sommets. " alt="" coords="568,114,747,141"/>
+<area shape="rect" id="node33" href="$d3/d0f/a02203.html" title="Representation d&#39;un sous&#45;maillage. " alt="" coords="590,630,725,657"/>
+<area shape="rect" id="node37" href="$de/d11/a03387.html" title="Classe regroupant les configurations de blend. " alt="" coords="1011,695,1155,722"/>
+<area shape="rect" id="node39" href="$df/dea/a03391.html" title="castor3d::BlendState\l::stRT_BLEND_STATE" alt="" coords="267,688,422,729"/>
+<area shape="rect" id="node40" href="$d5/dff/a03403.html" title="Classe regroupant les configurations de multi&#45;échantillonnage. " alt="" coords="993,261,1174,287"/>
+<area shape="rect" id="node41" href="$d6/d0e/a03395.html" title="Classe de configuration des buffers de profondeur et stencil. " alt="" coords="991,565,1176,591"/>
+<area shape="rect" id="node42" href="$d0/d87/a03399.html" title="Fonction et opérations de stencil. " alt="" coords="565,557,750,599"/>
 </map>

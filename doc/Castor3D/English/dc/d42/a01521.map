@@ -1,4 +1,4 @@
-<map id="castor3d::Interpolator&lt; Type &gt;" name="castor3d::Interpolator&lt; Type &gt;">
-<area shape="rect" id="node2" href="$dc/d2d/a01534.html" title="Partial specialisation of Interpolator, for eINTERPOLATOR_MODE_LINEAR. " alt="" coords="197,5,360,61"/>
-<area shape="rect" id="node3" href="$d7/d90/a01530.html" title="Partial specialisation of Interpolator, for eINTERPOLATOR_MODE_NONE. " alt="" coords="197,85,360,141"/>
+<map id="castor3d::BinaryWriter&lt; Animation &gt;" name="castor3d::BinaryWriter&lt; Animation &gt;">
+<area shape="rect" id="node2" href="$d7/db8/a01687.html" title="castor3d::BinaryWriterBase\l\&lt; Animation \&gt;" alt="" coords="5,95,188,136"/>
+<area shape="rect" id="node3" href="$db/d98/a01675.html" title="Binary data chunk base class. " alt="" coords="19,5,174,32"/>
 </map>

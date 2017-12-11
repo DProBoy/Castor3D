@@ -1,9 +1,9 @@
-<map id="Z:/Projets/C++/Castor3D/source/Core/Castor3D/Src/Miscellaneous/Parameter.hpp" name="Z:/Projets/C++/Castor3D/source/Core/Castor3D/Src/Miscellaneous/Parameter.hpp">
-<area shape="rect" id="node2" href="$dc/d5d/a00278.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Mesh/Importer.hpp" alt="" coords="228,109,393,165"/>
-<area shape="rect" id="node8" href="$d8/deb/a00545.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Render/RenderTarget.hpp" alt="" coords="417,109,615,165"/>
-<area shape="rect" id="node3" href="$d2/d04/a00281.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Mesh/ImporterFactory.hpp" alt="" coords="99,213,301,269"/>
-<area shape="rect" id="node7" href="$d2/dc8/a00242.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Mesh/CmshImporter.hpp" alt="" coords="325,213,517,269"/>
-<area shape="rect" id="node4" href="$df/dc8/a00122.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Engine.hpp" alt="" coords="117,317,283,373"/>
-<area shape="rect" id="node5" href="$dc/d19/a00515.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Render/RenderNode\l/RenderNode_Render.hpp" alt="" coords="5,421,176,492"/>
-<area shape="rect" id="node6" href="$d0/d82/a00857.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/Opaque/LightPass\lShadow.hpp" alt="" coords="201,421,421,492"/>
+<map id="Z:/Projets/C++/Castor3D/source/Core/Castor3D/Src/Mesh/SubmeshComponent/SubmeshComponent.hpp" name="Z:/Projets/C++/Castor3D/source/Core/Castor3D/Src/Mesh/SubmeshComponent/SubmeshComponent.hpp">
+<area shape="rect" id="node2" href="$d1/d5d/a00311.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Mesh/SubmeshComponent\l/BonesComponent.hpp" alt="" coords="5,124,212,195"/>
+<area shape="rect" id="node4" href="$dd/d4e/a00329.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Mesh/SubmeshComponent\l/InstantiationComponent.hpp" alt="" coords="236,124,443,195"/>
+<area shape="rect" id="node5" href="$d8/d23/a00326.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Mesh/SubmeshComponent\l/IndexMapping.hpp" alt="" coords="467,124,673,195"/>
+<area shape="rect" id="node8" href="$d3/d93/a00341.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Mesh/SubmeshComponent\l/MorphComponent.hpp" alt="" coords="697,124,904,195"/>
+<area shape="rect" id="node3" href="$d0/d39/a00314.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Mesh/SubmeshComponent\l/BonesInstantiationComponent.hpp" alt="" coords="107,243,331,313"/>
+<area shape="rect" id="node6" href="$d1/dc6/a00347.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Mesh/SubmeshComponent\l/TriFaceMapping.hpp" alt="" coords="411,243,617,313"/>
+<area shape="rect" id="node7" href="$dc/d84/a00338.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Mesh/SubmeshComponent\l/LinesMapping.hpp" alt="" coords="641,243,848,313"/>
 </map>

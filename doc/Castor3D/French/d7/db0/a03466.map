@@ -1,0 +1,5 @@
+<map id="castor3d::MeshLightPass" name="castor3d::MeshLightPass">
+<area shape="rect" id="node3" href="$dc/d14/a03479.html" title="Passe de lumière omnidirectionnelle. " alt="" coords="5,155,173,181"/>
+<area shape="rect" id="node4" href="$dd/d6c/a03495.html" title="Passe de lumière projecteur. " alt="" coords="197,155,363,181"/>
+<area shape="rect" id="node2" href="$d0/db9/a03435.html" title="Classe de base pour toutes les passes d&#39;éclairage. " alt="" coords="115,5,253,32"/>
+</map>

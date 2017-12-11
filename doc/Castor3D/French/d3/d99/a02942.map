@@ -1,2 +1,5 @@
-<map id="castor3d::shader::DirectionalLight" name="castor3d::shader::DirectionalLight">
+<map id="castor3d::ParticleSystemImpl" name="castor3d::ParticleSystemImpl">
+<area shape="rect" id="node2" href="$db/da5/a02919.html" title="Implémentation d&#39;un système de particules utilisant un compute shader. " alt="" coords="256,5,432,47"/>
+<area shape="rect" id="node3" href="$d6/df9/a02923.html" title="Implémentation d&#39;un système de particules CPU. " alt="" coords="248,71,440,98"/>
+<area shape="rect" id="node4" href="$df/d93/a02947.html" title="Implémentation d&#39;un système de particules utilisant le transform feedback. " alt="" coords="247,123,441,164"/>
 </map>

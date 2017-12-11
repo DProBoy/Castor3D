@@ -1,0 +1,6 @@
+<map id="castor3d::Generator::doGetThreadsCount" name="castor3d::Generator::doGetThreadsCount">
+<area shape="rect" id="node2" href="$dd/d21/a02311.html#ab1576f8c82d331b0f28a678750accb6b" title="castor3d::Generator\l::_loadImage" alt="" coords="209,5,347,47"/>
+<area shape="rect" id="node3" href="$dd/d21/a02311.html#a6691cda832fc07cf7f5c4123c80dc613" title="castor3d::Generator\l::_saveFrame" alt="" coords="209,71,347,112"/>
+<area shape="rect" id="node4" href="$dd/d21/a02311.html#a86987f700cbcbac60e9c38d8e9cbd1ab" title="castor3d::Generator\l::_subrender" alt="" coords="209,136,347,177"/>
+<area shape="rect" id="node5" href="$dc/db6/a00955.html#af3f4c431296cc7056747477f9f6f469e" title="castor3d::getCPUCount" alt="" coords="199,202,357,229"/>
+</map>

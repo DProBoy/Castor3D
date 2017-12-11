@@ -1,7 +1,0 @@
-<map id="castor::Image::Image" name="castor::Image::Image">
-<area shape="rect" id="node2" href="$d1/d3a/a01622.html#a36977aa49cfede0fb34d1dba41b6d060" title="Fills all image pixels with the given colour. " alt="" coords="218,5,339,32"/>
-<area shape="rect" id="node3" href="$d1/d3a/a01622.html#af504608405e23064d9864b389238b7de" title="Creates the image with given params. " alt="" coords="207,56,351,83"/>
-<area shape="rect" id="node4" href="$d1/d3a/a01622.html#acca9f087e000857ffde79f0403ea4e7f" title="Resizes the image to the given resolution. " alt="" coords="197,107,360,133"/>
-<area shape="rect" id="node5" href="$d1/d3a/a01622.html#a0d650604f79aa9a75f14025803bbc34b" title="Fills the wanted pixel with the given buffer. " alt="" coords="201,157,357,184"/>
-<area shape="rect" id="node6" href="$d1/d3a/a01622.html#a1dd10ee2410b11f1b29a1586a17ebb38" title="Destructor. " alt="" coords="203,208,355,235"/>
-</map>

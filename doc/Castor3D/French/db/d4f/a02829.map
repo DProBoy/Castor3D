@@ -1,2 +1,4 @@
-<map id="castor3d::Geometry::TextWriter" name="castor3d::Geometry::TextWriter">
+<map id="castor3d::BillboardBase" name="castor3d::BillboardBase">
+<area shape="rect" id="node2" href="$d4/d32/a02951.html" title="Gère la visibilité de l&#39;objet, ainsi que son comportement avec les ombres. " alt="" coords="253,31,427,58"/>
+<area shape="rect" id="node4" href="$d3/de2/a02959.html" title="Classe de gestion d&#39;un scène. " alt="" coords="281,118,399,145"/>
 </map>

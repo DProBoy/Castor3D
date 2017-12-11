@@ -1,6 +1,0 @@
-<map id="castor3d::CacheBase::lock" name="castor3d::CacheBase::lock">
-<area shape="rect" id="node2" href="$de/d3e/a01676.html#a9d8fa89aa1ea33853d74552cc8142343" title="Removes an element, given a name. " alt="" coords="200,5,363,61"/>
-<area shape="rect" id="node3" href="$de/d3e/a01676.html#a5b8853e4191f80d06633e7adc80bfad6" title="sets all the elements to be cleaned up. " alt="" coords="200,85,363,141"/>
-<area shape="rect" id="node4" href="$de/d3e/a01676.html#a37c3c620a716593723603fe85f7ce177" title="Applies a function to all the elements of this cache. " alt="" coords="200,165,363,221"/>
-<area shape="rect" id="node5" href="$de/d3e/a01676.html#aeb4864133bd71b20b4446d74ad4562ce" title="castor3d::CacheBase\l\&lt; Overlay, castor::String\l \&gt;::mergeInto" alt="" coords="200,245,363,301"/>
-</map>

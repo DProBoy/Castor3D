@@ -1,5 +1,2 @@
-<map id="castor3d::SkeletonAnimationInstanceBone" name="castor3d::SkeletonAnimationInstanceBone">
-<area shape="rect" id="node2" href="$d8/da6/a02696.html" title="Classe de représentation de choses mouvantes. " alt="" coords="939,39,1128,80"/>
-<area shape="rect" id="node4" href="$dd/d70/a01596.html" title="Classe de représentation d&#39;objets d&#39;animations de squelette. " alt="" coords="584,79,773,120"/>
-<area shape="rect" id="node8" href="$dc/d57/a01512.html" title="Classe qui gère une key frame. " alt="" coords="5,151,145,178"/>
+<map id="castor3d::RenderSystem" name="castor3d::RenderSystem">
 </map>

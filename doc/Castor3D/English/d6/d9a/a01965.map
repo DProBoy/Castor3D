@@ -1,2 +1,5 @@
-<map id="castor3d::Material" name="castor3d::Material">
+<map id="castor3d::ToneMapping" name="castor3d::ToneMapping">
+<area shape="rect" id="node6" href="$d1/d13/a03339.html" title="Shader variables buffer. " alt="" coords="301,107,459,133"/>
+<area shape="rect" id="node4" href="$d3/d80/a02559.html" title="HDR configuration (expsure and gamma correction). " alt="" coords="312,157,448,184"/>
+<area shape="rect" id="node5" href="$d3/dca/a03171.html" title="Matrices Uniform buffer management. " alt="" coords="311,208,449,235"/>
 </map>

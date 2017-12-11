@@ -1,9 +1,5 @@
-<map id="Z:/Projets/C++/Castor3D/source/Core/Castor3D/Src/Mesh/MeshFactory.hpp" name="Z:/Projets/C++/Castor3D/source/Core/Castor3D/Src/Mesh/MeshFactory.hpp">
-<area shape="rect" id="node2" href="$df/dc8/a00122.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Engine.hpp" alt="" coords="228,109,393,165"/>
-<area shape="rect" id="node5" href="$d3/d5e/a00275.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Mesh/Mesh.hpp" alt="" coords="431,109,596,165"/>
-<area shape="rect" id="node3" href="$d8/deb/a00545.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Render/RenderNode\l/RenderNode_Render.hpp" alt="" coords="5,213,176,284"/>
-<area shape="rect" id="node4" href="$d7/d92/a00887.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/Opaque/LightPass\lShadow.hpp" alt="" coords="201,213,421,284"/>
-<area shape="rect" id="node6" href="$d0/d61/a00302.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Mesh/Submesh.hpp" alt="" coords="445,221,611,277"/>
-<area shape="rect" id="node7" href="$d1/d04/a00713.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Scene/SceneFileParser.hpp" alt="" coords="422,332,634,388"/>
-<area shape="rect" id="node8" href="$d2/d94/a00716.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Scene/SceneFileParser\l_Parsers.hpp" alt="" coords="435,436,621,507"/>
+<map id="Z:/Projets/C++/Castor3D/source/Core/Castor3D/Src/Mesh/ImporterFactory.hpp" name="Z:/Projets/C++/Castor3D/source/Core/Castor3D/Src/Mesh/ImporterFactory.hpp">
+<area shape="rect" id="node2" href="$d1/d88/a00128.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Engine.hpp" alt="" coords="117,109,283,165"/>
+<area shape="rect" id="node3" href="$d9/d87/a00551.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Render/RenderNode\l/RenderNode_Render.hpp" alt="" coords="5,213,176,284"/>
+<area shape="rect" id="node4" href="$da/dd6/a00896.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/Opaque/LightPass\lShadow.hpp" alt="" coords="201,213,421,284"/>
 </map>

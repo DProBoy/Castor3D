@@ -1,3 +1,4 @@
-<map id="castor3d::Projection" name="castor3d::Projection">
-<area shape="rect" id="node2" href="$d8/d23/a02122.html" title="La catégorie de maillage est utilisée afin de créer les sommets du maillage, c&#39;est créé via la MeshFa..." alt="" coords="5,5,175,32"/>
+<map id="castor3d::VertexBuffer" name="castor3d::VertexBuffer">
+<area shape="rect" id="node2" href="$dc/d92/a02047.html" title="castor3d::CpuBuffer\l\&lt; uint8_t \&gt;" alt="" coords="31,81,167,123"/>
+<area shape="rect" id="node4" href="$d9/d1f/a02035.html" title="Description de tous les éléments dans un tampon de sommets. " alt="" coords="191,89,369,115"/>
 </map>

@@ -1,2 +1,9 @@
-<map id="castor3d::FontTexture" name="castor3d::FontTexture">
+<map id="castor3d::SubmeshComponent" name="castor3d::SubmeshComponent">
+<area shape="rect" id="node3" href="$de/d59/a02219.html" title="The submesh component used for skinning. " alt="" coords="521,5,703,32"/>
+<area shape="rect" id="node4" href="$d5/d5b/a02235.html" title="The submesh component used for instantiated submeshes with bones. " alt="" coords="519,57,705,98"/>
+<area shape="rect" id="node5" href="$d1/dda/a02255.html" title="A submesh component for faces. " alt="" coords="532,123,692,149"/>
+<area shape="rect" id="node8" href="$d3/d3a/a02259.html" title="The submesh component used for hardware instantiation. " alt="" coords="504,173,720,200"/>
+<area shape="rect" id="node9" href="$dc/db5/a02275.html" title="The submesh component used for morphing. " alt="" coords="521,224,703,251"/>
+<area shape="rect" id="node6" href="$df/d39/a02271.html" title="The submesh component for lines. " alt="" coords="774,97,934,124"/>
+<area shape="rect" id="node7" href="$dd/d29/a02283.html" title="The submesh component for triangular faces. " alt="" coords="768,148,940,175"/>
 </map>

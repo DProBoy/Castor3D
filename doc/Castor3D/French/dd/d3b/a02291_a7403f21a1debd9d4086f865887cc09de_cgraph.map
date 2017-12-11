@@ -1,0 +1,5 @@
+<map id="castor3d::Vertex::getBitangent" name="castor3d::Vertex::getBitangent">
+<area shape="rect" id="node2" href="$dc/d05/a02043.html#a2660f74882e10ad6db6858c1d76811f8" title="Récupère un pointeur constant sur le tampon de données. " alt="" coords="253,5,449,47"/>
+<area shape="rect" id="node3" href="$dd/d3b/a02291.html#a96f84a83c27e0ac21d36da36dec37869" title="Récupère la bitangente du sommet. " alt="" coords="252,71,451,98"/>
+<area shape="rect" id="node4" href="$dc/d05/a02043.html#aac50c11edcd6ea9b86a945edf30f9f62" title="Récupère un pointeur sur le tampon de données. " alt="" coords="499,71,717,98"/>
+</map>

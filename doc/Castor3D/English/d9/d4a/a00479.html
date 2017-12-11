@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Castor3D: Z:/Projets/C++/Castor3D/source/Core/Castor3D/Src/PostEffect/PostEffectFactory.hpp File Reference</title>
+<title>Castor3D: Z:/Projets/C++/Castor3D/source/Core/Castor3D/Src/Plugin/ToneMappingPlugin.hpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -38,69 +38,56 @@ $(function() {
 <div id="main-nav"></div>
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="../../dir_b2f33c71d4aa5e7af42a1ca61ff5af1b.html">source</a></li><li class="navelem"><a class="el" href="../../dir_1f10682fec53f0772108851bfcef2e4d.html">Core</a></li><li class="navelem"><a class="el" href="../../dir_6ad85ca7a90878938acb35a9fc6dd4fb.html">Castor3D</a></li><li class="navelem"><a class="el" href="../../dir_a9f81fd4b86714dde972610ac984a016.html">Src</a></li><li class="navelem"><a class="el" href="../../dir_e7313d428d663ee82848424d609d7ced.html">PostEffect</a></li>  </ul>
+<li class="navelem"><a class="el" href="../../dir_b2f33c71d4aa5e7af42a1ca61ff5af1b.html">source</a></li><li class="navelem"><a class="el" href="../../dir_1f10682fec53f0772108851bfcef2e4d.html">Core</a></li><li class="navelem"><a class="el" href="../../dir_6ad85ca7a90878938acb35a9fc6dd4fb.html">Castor3D</a></li><li class="navelem"><a class="el" href="../../dir_a9f81fd4b86714dde972610ac984a016.html">Src</a></li><li class="navelem"><a class="el" href="../../dir_bf2cd3f209b87b6810803f17728b8140.html">Plugin</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#typedef-members">Typedefs</a>  </div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#namespaces">Namespaces</a>  </div>
   <div class="headertitle">
-<div class="title">PostEffectFactory.hpp File Reference</div>  </div>
+<div class="title">ToneMappingPlugin.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Include dependency graph for PostEffectFactory.hpp:</div>
+  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Include dependency graph for ToneMappingPlugin.hpp:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="../../d9/dc5/a00480.png" border="0" usemap="#Z_1_2Projets_2C_09_09_2Castor3D_2source_2Core_2Castor3D_2Src_2PostEffect_2PostEffectFactory_8hpp" alt=""/></div>
-<map name="Z_1_2Projets_2C_09_09_2Castor3D_2source_2Core_2Castor3D_2Src_2PostEffect_2PostEffectFactory_8hpp" id="Z_1_2Projets_2C_09_09_2Castor3D_2source_2Core_2Castor3D_2Src_2PostEffect_2PostEffectFactory_8hpp">
-<area shape="rect" id="node2" href="../../d9/d34/a00476.html" title="PostEffect.hpp" alt="" coords="1519,109,1625,136"/>
-<area shape="rect" id="node3" href="../../d6/dad/a00941.html" title="Texture/TextureUnit.hpp" alt="" coords="1577,184,1737,211"/>
-<area shape="rect" id="node4" href="../../d4/d3e/a00116.html" title="Castor3DPrerequisites.hpp" alt="" coords="1655,259,1833,285"/>
-<area shape="rect" id="node14" href="../../db/d8e/a00482.html" title="Prerequisites/Castor3DPrerequisites\l_Animation.hpp" alt="" coords="1244,333,1476,375"/>
-<area shape="rect" id="node16" href="../../d6/d1a/a00485.html" title="Prerequisites/Castor3DPrerequisites\l_Camera.hpp" alt="" coords="1500,333,1732,375"/>
-<area shape="rect" id="node17" href="../../d6/d60/a00491.html" title="Prerequisites/Castor3DPrerequisites\l_Geometry.hpp" alt="" coords="1756,333,1988,375"/>
-<area shape="rect" id="node18" href="../../d5/d0f/a00494.html" title="Prerequisites/Castor3DPrerequisites\l_Light.hpp" alt="" coords="2012,333,2244,375"/>
-<area shape="rect" id="node20" href="../../d4/d1e/a00497.html" title="Prerequisites/Castor3DPrerequisites\l_Material.hpp" alt="" coords="2268,333,2500,375"/>
-<area shape="rect" id="node21" href="../../de/d4e/a00500.html" title="Prerequisites/Castor3DPrerequisites\l_Overlay.hpp" alt="" coords="2524,333,2756,375"/>
-<area shape="rect" id="node22" href="../../d4/d1f/a00506.html" title="Prerequisites/Castor3DPrerequisites\l_Scene.hpp" alt="" coords="2780,333,3012,375"/>
-<area shape="rect" id="node23" href="../../df/db6/a00509.html" title="Prerequisites/Castor3DPrerequisites\l_Shader.hpp" alt="" coords="3036,333,3268,375"/>
-<area shape="rect" id="node24" href="../../d4/de5/a00503.html" title="Prerequisites/Castor3DPrerequisites\l_Render.hpp" alt="" coords="3548,333,3780,375"/>
-<area shape="rect" id="node26" href="../../d4/ddf/a00488.html" title="Prerequisites/Castor3DPrerequisites\l_Event.hpp" alt="" coords="3292,333,3524,375"/>
-<area shape="rect" id="node15" href="../../db/d10/a00350.html" title="Mesh/VertexGroup.hpp" alt="" coords="1282,423,1438,449"/>
-</map>
-</div>
-</div><div class="textblock"><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> This graph shows which files directly or indirectly include this file:</div>
-<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="../../d3/d58/a00481.png" border="0" usemap="#Z_1_2Projets_2C_09_09_2Castor3D_2source_2Core_2Castor3D_2Src_2PostEffect_2PostEffectFactory_8hppdep" alt=""/></div>
-<map name="Z_1_2Projets_2C_09_09_2Castor3D_2source_2Core_2Castor3D_2Src_2PostEffect_2PostEffectFactory_8hppdep" id="Z_1_2Projets_2C_09_09_2Castor3D_2source_2Core_2Castor3D_2Src_2PostEffect_2PostEffectFactory_8hppdep">
-<area shape="rect" id="node2" href="../../d0/dc2/a00104.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Cache/TargetCache.hpp" alt="" coords="105,109,295,165"/>
-<area shape="rect" id="node3" href="../../df/dc8/a00122.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Engine.hpp" alt="" coords="117,213,283,269"/>
-<area shape="rect" id="node4" href="../../d8/deb/a00545.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Render/RenderNode\l/RenderNode_Render.hpp" alt="" coords="5,317,176,388"/>
-<area shape="rect" id="node5" href="../../d7/d92/a00887.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/Opaque/LightPass\lShadow.hpp" alt="" coords="201,317,421,388"/>
+<div class="center"><img src="../../d9/dc5/a00480.png" border="0" usemap="#Z_1_2Projets_2C_09_09_2Castor3D_2source_2Core_2Castor3D_2Src_2Plugin_2ToneMappingPlugin_8hpp" alt=""/></div>
+<map name="Z_1_2Projets_2C_09_09_2Castor3D_2source_2Core_2Castor3D_2Src_2Plugin_2ToneMappingPlugin_8hpp" id="Z_1_2Projets_2C_09_09_2Castor3D_2source_2Core_2Castor3D_2Src_2Plugin_2ToneMappingPlugin_8hpp">
+<area shape="rect" id="node2" href="../../d2/d9d/a00464.html" title="Plugin.hpp" alt="" coords="1523,109,1605,136"/>
+<area shape="rect" id="node3" href="../../df/dc8/a00122.html" title="Castor3DPrerequisites.hpp" alt="" coords="1530,259,1707,285"/>
+<area shape="rect" id="node28" href="../../d7/d5e/a00467.html" title="PluginException.hpp" alt="" coords="1601,184,1743,211"/>
+<area shape="rect" id="node13" href="../../d4/ddf/a00488.html" title="Prerequisites/Castor3DPrerequisites\l_Animation.hpp" alt="" coords="1621,333,1853,375"/>
+<area shape="rect" id="node16" href="../../d6/d60/a00491.html" title="Prerequisites/Castor3DPrerequisites\l_Camera.hpp" alt="" coords="1877,333,2109,375"/>
+<area shape="rect" id="node17" href="../../d4/d1e/a00497.html" title="Prerequisites/Castor3DPrerequisites\l_Geometry.hpp" alt="" coords="2133,333,2365,375"/>
+<area shape="rect" id="node18" href="../../de/d4e/a00500.html" title="Prerequisites/Castor3DPrerequisites\l_Light.hpp" alt="" coords="2389,333,2621,375"/>
+<area shape="rect" id="node20" href="../../d4/de5/a00503.html" title="Prerequisites/Castor3DPrerequisites\l_Material.hpp" alt="" coords="2645,333,2877,375"/>
+<area shape="rect" id="node21" href="../../d4/d1f/a00506.html" title="Prerequisites/Castor3DPrerequisites\l_Overlay.hpp" alt="" coords="2901,333,3133,375"/>
+<area shape="rect" id="node22" href="../../d4/dfb/a00512.html" title="Prerequisites/Castor3DPrerequisites\l_Scene.hpp" alt="" coords="3157,333,3389,375"/>
+<area shape="rect" id="node23" href="../../dc/d19/a00515.html" title="Prerequisites/Castor3DPrerequisites\l_Shader.hpp" alt="" coords="3413,333,3645,375"/>
+<area shape="rect" id="node24" href="../../df/db6/a00509.html" title="Prerequisites/Castor3DPrerequisites\l_Render.hpp" alt="" coords="3669,333,3901,375"/>
+<area shape="rect" id="node26" href="../../d5/d0f/a00494.html" title="Prerequisites/Castor3DPrerequisites\l_Event.hpp" alt="" coords="3925,333,4157,375"/>
+<area shape="rect" id="node14" href="../../d6/de1/a00356.html" title="Mesh/VertexGroup.hpp" alt="" coords="1563,423,1719,449"/>
 </map>
 </div>
 </div><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:da/d40/a00946"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d40/a00946.html">castor3d</a></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc8/a02531.html">castor3d::ToneMappingPlugin</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tone mapping plug-in class.  <a href="../../d9/dc8/a02531.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:aa7cf43199762e90b74d17ae9f84fd907"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d40/a00946.html#aa7cf43199762e90b74d17ae9f84fd907">castor3d::PostEffectFactory</a> = castor::Factory&lt; PostEffect, castor::String, std::shared_ptr&lt; PostEffect &gt;, std::function&lt; PostEffectSPtr(RenderTarget &amp;, RenderSystem &amp;, Parameters const &amp;) &gt; &gt;</td></tr>
-<tr class="memdesc:aa7cf43199762e90b74d17ae9f84fd907"><td class="mdescLeft">&#160;</td><td class="mdescRight">Post effect factory.  <a href="../../da/d40/a00946.html#aa7cf43199762e90b74d17ae9f84fd907">More...</a><br /></td></tr>
-<tr class="separator:aa7cf43199762e90b74d17ae9f84fd907"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:dc/db6/a00955"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.html">castor3d</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Dec 7 2017 09:55:53 for Castor3D by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Dec 11 2017 11:16:05 for Castor3D by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

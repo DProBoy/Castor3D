@@ -1,3 +1,6 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$d9/dc2/a03106.html" title="castor3d::shader::Shadow" alt="" coords="5,5,179,32"/>
+<area shape="rect" id="node1" href="$d2/d7a/a03115.html" title="castor3d::shader::Materials" alt="" coords="5,71,185,98"/>
+<area shape="rect" id="node2" href="$d2/df0/a03119.html" title="castor3d::shader::Legacy\lMaterials" alt="" coords="259,5,428,47"/>
+<area shape="rect" id="node3" href="$dc/d11/a03123.html" title="castor3d::shader::PbrMRMaterials" alt="" coords="233,71,453,98"/>
+<area shape="rect" id="node4" href="$d7/d2e/a03127.html" title="castor3d::shader::PbrSGMaterials" alt="" coords="234,122,453,149"/>
 </map>

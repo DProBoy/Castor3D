@@ -1,8 +1,2 @@
-<map id="castor3d::ComputeParticleSystem" name="castor3d::ComputeParticleSystem">
-<area shape="rect" id="node2" href="$d1/d19/a02812.html" title="Classe de base de l&#39;implémentation d&#39;un système de particules. " alt="" coords="519,29,712,56"/>
-<area shape="rect" id="node3" href="$df/dd0/a02804.html" title="Implémentation d&#39;un système de particules. " alt="" coords="887,68,1057,95"/>
-<area shape="rect" id="node4" href="$df/de4/a02780.html" title="Classe d&#39;objet déplaçable. " alt="" coords="533,119,698,145"/>
-<area shape="rect" id="node5" href="$d2/d48/a01472.html" title="interface publique d&#39;animable " alt="" coords="286,119,421,145"/>
-<area shape="rect" id="node9" href="$d6/d1a/a03208.html" title="Buffer de variables de shader. " alt="" coords="537,229,694,256"/>
-<area shape="rect" id="node8" href="$d9/da1/a01976.html" title="Description de tous les éléments dans un tampon de sommets. " alt="" coords="526,169,705,196"/>
+<map id="castor3d::AnimatedObjectGroup" name="castor3d::AnimatedObjectGroup">
 </map>

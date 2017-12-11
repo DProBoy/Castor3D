@@ -1,6 +1,3 @@
 <map id="Graphe hiérarchique des classes" name="Graphe hiérarchique des classes">
-<area shape="rect" id="node1" href="$d6/d2a/a03062.html" title="castor3d::shader::Lighting\lModel" alt="" coords="5,71,177,112"/>
-<area shape="rect" id="node2" href="$d8/db1/a03098.html" title="castor3d::shader::Metallic\lBrdfLightingModel" alt="" coords="244,5,416,47"/>
-<area shape="rect" id="node3" href="$d8/d4f/a03102.html" title="castor3d::shader::PhongLighting\lModel" alt="" coords="225,71,435,112"/>
-<area shape="rect" id="node4" href="$df/d64/a03110.html" title="castor3d::shader::Specular\lBrdfLightingModel" alt="" coords="241,136,419,177"/>
+<area shape="rect" id="node1" href="$da/de2/a03067.html" title="castor3d::shader::Fog" alt="" coords="5,5,155,32"/>
 </map>

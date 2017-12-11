@@ -1,0 +1,6 @@
+<map id="castor3d::Pass::getSubsurfaceScattering" name="castor3d::Pass::getSubsurfaceScattering">
+<area shape="rect" id="node2" href="$d5/db4/a02011.html#ade99e9a40e6b6433ed6bcbc6e823fad0" title="Prepares the opacity channel. " alt="" coords="255,5,432,47"/>
+<area shape="rect" id="node3" href="$d5/db4/a02011.html#aa0aa07d7e98e01823f27d1e333492859" title="Prepares a texture to be integrated to the pass. " alt="" coords="255,71,432,112"/>
+<area shape="rect" id="node4" href="$d5/db4/a02011.html#a7a9c83a1c02f598fea69edab082f8fa3" title="Reduces the texture at given channel to given pixel format. " alt="" coords="255,136,431,177"/>
+<area shape="rect" id="node5" href="$d5/db4/a02011.html#ad8e7d12c886aff346ffe111557e2ca92" title="Updates the texture flags depending on the texture units. " alt="" coords="257,201,430,243"/>
+</map>

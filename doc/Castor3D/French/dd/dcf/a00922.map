@@ -1,4 +1,4 @@
-<map id="Z:/Projets/C++/Castor3D/source/Core/Castor3D/Src/Technique/Transparent/FinalCombinePass.hpp" name="Z:/Projets/C++/Castor3D/source/Core/Castor3D/Src/Technique/Transparent/FinalCombinePass.hpp">
-<area shape="rect" id="node2" href="$d8/d38/a00926.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/Transparent\l/WeightedBlendRendering.hpp" alt="" coords="26,124,223,195"/>
-<area shape="rect" id="node3" href="$d3/dd1/a00914.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/RenderTechnique.hpp" alt="" coords="5,243,244,299"/>
+<map id="Z:/Projets/C++/Castor3D/source/Core/Castor3D/Src/Technique/Opaque/SubsurfaceScatteringPass.hpp" name="Z:/Projets/C++/Castor3D/source/Core/Castor3D/Src/Technique/Opaque/SubsurfaceScatteringPass.hpp">
+<area shape="rect" id="node2" href="$dd/d08/a00884.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/Opaque/Deferred\lRendering.hpp" alt="" coords="19,124,230,195"/>
+<area shape="rect" id="node3" href="$df/de9/a00923.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/RenderTechnique.hpp" alt="" coords="5,243,244,299"/>
 </map>

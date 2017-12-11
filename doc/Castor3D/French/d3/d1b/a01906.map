@@ -1,5 +1,3 @@
-<map id="castor3d::ToneMapping" name="castor3d::ToneMapping">
-<area shape="rect" id="node6" href="$d6/d1a/a03208.html" title="Buffer de variables de shader. " alt="" coords="301,107,459,133"/>
-<area shape="rect" id="node4" href="$da/d5c/a02432.html" title="Configuration HDR (exposition et correction gamma). " alt="" coords="312,157,448,184"/>
-<area shape="rect" id="node5" href="$de/d0b/a03040.html" title="Gestion du tampon de variables uniformes pour les matrices. " alt="" coords="311,208,449,235"/>
+<map id="castor3d::HandlerEvent" name="castor3d::HandlerEvent">
+<area shape="rect" id="node2" href="$da/d52/a01927.html" title="Description d&#39;un évènement de tpye entràe utilisateur. " alt="" coords="5,5,172,32"/>
 </map>

@@ -1,7 +1,6 @@
 <map id="Graphe hiérarchique des classes" name="Graphe hiérarchique des classes">
-<area shape="rect" id="node1" href="$df/d96/a03402.html" title="Classe de base pour toutes les passes d&#39;éclairage. " alt="" coords="5,31,144,57"/>
-<area shape="rect" id="node2" href="$d9/dc1/a03390.html" title="Passe de lumière directionnelle. " alt="" coords="192,5,391,32"/>
-<area shape="rect" id="node3" href="$d5/d85/a03434.html" title="Classe de base pour les passes d&#39;éclairage nécessitant un maillage plutôt qu&#39;un quad. " alt="" coords="206,56,377,83"/>
-<area shape="rect" id="node4" href="$d4/d60/a03446.html" title="Passe de lumière omnidirectionnelle. " alt="" coords="439,31,607,57"/>
-<area shape="rect" id="node5" href="$d3/d66/a03462.html" title="Passe de lumière projecteur. " alt="" coords="440,81,605,108"/>
+<area shape="rect" id="node1" href="$dd/db9/a02883.html" title="Contient les composantes d&#39;une lumière. " alt="" coords="5,56,165,83"/>
+<area shape="rect" id="node2" href="$d6/d92/a02867.html" title="Classe representant une lumière directionnelle. " alt="" coords="213,5,383,32"/>
+<area shape="rect" id="node3" href="$d6/d1a/a02895.html" title="Classe de représentation d&#39;une PointLight. " alt="" coords="229,56,367,83"/>
+<area shape="rect" id="node4" href="$d9/d6c/a02903.html" title="Classe de représentation d&#39;une PointLight. " alt="" coords="231,107,365,133"/>
 </map>

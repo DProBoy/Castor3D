@@ -1,15 +1,19 @@
-<map id="Z:/Projets/C++/Castor3D/source/Core/Castor3D/Src/Shader/Uniform/Uniform.hpp" name="Z:/Projets/C++/Castor3D/source/Core/Castor3D/Src/Shader/Uniform/Uniform.hpp">
-<area shape="rect" id="node2" href="$d8/d1c/a00824.html" title="UniformHelpers.hpp" alt="" coords="1743,109,1878,136"/>
-<area shape="rect" id="node3" href="$d4/d3e/a00116.html" title="Castor3DPrerequisites.hpp" alt="" coords="1650,184,1827,211"/>
-<area shape="rect" id="node13" href="$db/d8e/a00482.html" title="Prerequisites/Castor3DPrerequisites\l_Animation.hpp" alt="" coords="1623,259,1855,300"/>
-<area shape="rect" id="node15" href="$d6/d1a/a00485.html" title="Prerequisites/Castor3DPrerequisites\l_Camera.hpp" alt="" coords="1879,259,2111,300"/>
-<area shape="rect" id="node16" href="$d6/d60/a00491.html" title="Prerequisites/Castor3DPrerequisites\l_Geometry.hpp" alt="" coords="2135,259,2367,300"/>
-<area shape="rect" id="node17" href="$d5/d0f/a00494.html" title="Prerequisites/Castor3DPrerequisites\l_Light.hpp" alt="" coords="2391,259,2623,300"/>
-<area shape="rect" id="node19" href="$d4/d1e/a00497.html" title="Prerequisites/Castor3DPrerequisites\l_Material.hpp" alt="" coords="2647,259,2879,300"/>
-<area shape="rect" id="node20" href="$de/d4e/a00500.html" title="Prerequisites/Castor3DPrerequisites\l_Overlay.hpp" alt="" coords="2903,259,3135,300"/>
-<area shape="rect" id="node21" href="$d4/d1f/a00506.html" title="Prerequisites/Castor3DPrerequisites\l_Scene.hpp" alt="" coords="3159,259,3391,300"/>
-<area shape="rect" id="node22" href="$df/db6/a00509.html" title="Prerequisites/Castor3DPrerequisites\l_Shader.hpp" alt="" coords="3415,259,3647,300"/>
-<area shape="rect" id="node23" href="$d4/de5/a00503.html" title="Prerequisites/Castor3DPrerequisites\l_Render.hpp" alt="" coords="3671,259,3903,300"/>
-<area shape="rect" id="node25" href="$d4/ddf/a00488.html" title="Prerequisites/Castor3DPrerequisites\l_Event.hpp" alt="" coords="3927,259,4159,300"/>
-<area shape="rect" id="node14" href="$db/d10/a00350.html" title="Mesh/VertexGroup.hpp" alt="" coords="1661,348,1817,375"/>
+<map id="Z:/Projets/C++/Castor3D/source/Core/Castor3D/Src/Shader/Ubos/SceneUbo.hpp" name="Z:/Projets/C++/Castor3D/source/Core/Castor3D/Src/Shader/Ubos/SceneUbo.hpp">
+<area shape="rect" id="node2" href="$d3/d13/a00836.html" title="Shader/UniformBuffer.hpp" alt="" coords="1515,109,1685,136"/>
+<area shape="rect" id="node3" href="$df/dc8/a00122.html" title="Castor3DPrerequisites.hpp" alt="" coords="1565,333,1742,360"/>
+<area shape="rect" id="node28" href="$d7/d40/a00236.html" title="Mesh/Buffer/GpuBuffer.hpp" alt="" coords="1149,259,1326,285"/>
+<area shape="rect" id="node31" href="$df/de8/a00839.html" title="Shader/UniformBufferBinding.hpp" alt="" coords="1350,259,1562,285"/>
+<area shape="rect" id="node32" href="$d9/daf/a00830.html" title="Shader/Uniform/Uniform.hpp" alt="" coords="1637,184,1821,211"/>
+<area shape="rect" id="node13" href="$d4/ddf/a00488.html" title="Prerequisites/Castor3DPrerequisites\l_Animation.hpp" alt="" coords="897,408,1129,449"/>
+<area shape="rect" id="node16" href="$d6/d60/a00491.html" title="Prerequisites/Castor3DPrerequisites\l_Camera.hpp" alt="" coords="1153,408,1385,449"/>
+<area shape="rect" id="node17" href="$d4/d1e/a00497.html" title="Prerequisites/Castor3DPrerequisites\l_Geometry.hpp" alt="" coords="1409,408,1641,449"/>
+<area shape="rect" id="node18" href="$de/d4e/a00500.html" title="Prerequisites/Castor3DPrerequisites\l_Light.hpp" alt="" coords="1921,408,2153,449"/>
+<area shape="rect" id="node20" href="$d4/de5/a00503.html" title="Prerequisites/Castor3DPrerequisites\l_Material.hpp" alt="" coords="1665,408,1897,449"/>
+<area shape="rect" id="node21" href="$d4/d1f/a00506.html" title="Prerequisites/Castor3DPrerequisites\l_Overlay.hpp" alt="" coords="2177,408,2409,449"/>
+<area shape="rect" id="node22" href="$d4/dfb/a00512.html" title="Prerequisites/Castor3DPrerequisites\l_Scene.hpp" alt="" coords="2433,408,2665,449"/>
+<area shape="rect" id="node23" href="$dc/d19/a00515.html" title="Prerequisites/Castor3DPrerequisites\l_Shader.hpp" alt="" coords="2689,408,2921,449"/>
+<area shape="rect" id="node24" href="$df/db6/a00509.html" title="Prerequisites/Castor3DPrerequisites\l_Render.hpp" alt="" coords="2945,408,3177,449"/>
+<area shape="rect" id="node26" href="$d5/d0f/a00494.html" title="Prerequisites/Castor3DPrerequisites\l_Event.hpp" alt="" coords="3201,408,3433,449"/>
+<area shape="rect" id="node14" href="$d6/de1/a00356.html" title="Mesh/VertexGroup.hpp" alt="" coords="839,497,995,524"/>
+<area shape="rect" id="node33" href="$dc/d6e/a00833.html" title="UniformHelpers.hpp" alt="" coords="1650,259,1785,285"/>
 </map>

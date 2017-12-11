@@ -1,4 +1,0 @@
-<map id="castor::PoolManagedObject::operator new" name="castor::PoolManagedObject::operator new">
-<area shape="rect" id="node2" href="$d7/dbe/a02024.html#a3e06ccbd9e03844fa7961858e1a1a633" title="Alloue et construit un objet à partir de la mémoire du pool. " alt="" coords="269,5,399,47"/>
-<area shape="rect" id="node3" href="$db/d87/a02076.html#a4859cb4d26171047b7fa24be83a5e4e7" title="castor::UniqueObjectPool::get" alt="" coords="236,71,432,98"/>
-</map>

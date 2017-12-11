@@ -1,3 +1,4 @@
-<map id="castor3d::DepthPass" name="castor3d::DepthPass">
-<area shape="rect" id="node2" href="$df/d0c/a02634.html" title="Classe de base d&#39;une passe de rendu. " alt="" coords="109,80,259,107"/>
+<map id="castor3d::ShadowMapPoint" name="castor3d::ShadowMapPoint">
+<area shape="rect" id="node2" href="$d4/d90/a03355.html" title="Implémentation du mappage d&#39;ombres. " alt="" coords="98,200,249,227"/>
+<area shape="rect" id="node5" href="$d3/da4/a03571.html" title="Représentation d&#39;une unité de texture. " alt="" coords="100,89,247,115"/>
 </map>

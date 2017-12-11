@@ -1,4 +1,4 @@
-<map id="castor3d::ShaderObject" name="castor3d::ShaderObject">
-<area shape="rect" id="node2" href="$da/dad/a02928.html" title="Base shader program implementation, used to share functions through the supported shader languages..." alt="" coords="432,177,603,204"/>
-<area shape="rect" id="node7" href="$d9/da1/a01976.html" title="Description of all elements in a vertex buffer. " alt="" coords="32,283,211,309"/>
+<map id="castor3d::MovableObject::TextWriter" name="castor3d::MovableObject::TextWriter">
+<area shape="rect" id="node3" href="$d8/d87/a02839.html" title="Camera loader. " alt="" coords="5,184,156,225"/>
+<area shape="rect" id="node4" href="$de/d87/a02939.html" title="ParticleSystem loader. " alt="" coords="180,184,349,225"/>
 </map>

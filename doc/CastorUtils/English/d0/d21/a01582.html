@@ -91,6 +91,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6f9e4d860f82b74f8e2581e70d51c3e5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d16/a00029.html#a85ca3bafa261a7f2ece738b559d8bbb7">CU_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d21/a01582.html#a6f9e4d860f82b74f8e2581e70d51c3e5">BoundingBox</a> (Point3r const &amp;min, Point3r const &amp;max)</td></tr>
 <tr class="memdesc:a6f9e4d860f82b74f8e2581e70d51c3e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from min and max extents.  <a href="#a6f9e4d860f82b74f8e2581e70d51c3e5">More...</a><br /></td></tr>
 <tr class="separator:a6f9e4d860f82b74f8e2581e70d51c3e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97dc1afc1a1ec8b6dedcff6ae516ed3c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d16/a00029.html#a85ca3bafa261a7f2ece738b559d8bbb7">CU_API</a> <a class="el" href="../../d0/d21/a01582.html">BoundingBox</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d21/a01582.html#a97dc1afc1a1ec8b6dedcff6ae516ed3c">getUnion</a> (<a class="el" href="../../d0/d21/a01582.html">BoundingBox</a> const &amp;bb) const</td></tr>
+<tr class="memdesc:a97dc1afc1a1ec8b6dedcff6ae516ed3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the bounding box resulting of the union of this bounding box and given one.  <a href="#a97dc1afc1a1ec8b6dedcff6ae516ed3c">More...</a><br /></td></tr>
+<tr class="separator:a97dc1afc1a1ec8b6dedcff6ae516ed3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a406b8c4e41a9547c46a1ffa6ad774cbf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d16/a00029.html#a85ca3bafa261a7f2ece738b559d8bbb7">CU_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d21/a01582.html#a406b8c4e41a9547c46a1ffa6ad774cbf">isWithin</a> (Point3r const &amp;point) const override</td></tr>
 <tr class="memdesc:a406b8c4e41a9547c46a1ffa6ad774cbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tests if a vertex is within the container, id est inside it but not on it's limits.  <a href="#a406b8c4e41a9547c46a1ffa6ad774cbf">More...</a><br /></td></tr>
 <tr class="separator:a406b8c4e41a9547c46a1ffa6ad774cbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -103,6 +106,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4ba387ba84af9f32b06488b59ec1f2da"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d16/a00029.html#a85ca3bafa261a7f2ece738b559d8bbb7">CU_API</a> <a class="el" href="../../d0/d21/a01582.html">BoundingBox</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d21/a01582.html#a4ba387ba84af9f32b06488b59ec1f2da">getAxisAligned</a> (Matrix4x4r const &amp;transformations) const</td></tr>
 <tr class="memdesc:a4ba387ba84af9f32b06488b59ec1f2da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the axis aligned cube box for given tranformations.  <a href="#a4ba387ba84af9f32b06488b59ec1f2da">More...</a><br /></td></tr>
 <tr class="separator:a4ba387ba84af9f32b06488b59ec1f2da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec8ed7934978d09f14fe5b98bc366f67"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d16/a00029.html#a85ca3bafa261a7f2ece738b559d8bbb7">CU_API</a> Point3r&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d21/a01582.html#aec8ed7934978d09f14fe5b98bc366f67">getPositiveVertex</a> (Point3r const &amp;normal) const</td></tr>
+<tr class="memdesc:aec8ed7934978d09f14fe5b98bc366f67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the positive vertex of a direction.  <a href="#aec8ed7934978d09f14fe5b98bc366f67">More...</a><br /></td></tr>
+<tr class="separator:aec8ed7934978d09f14fe5b98bc366f67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17a58a4aa1c9461d3c87a2b150039f30"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d16/a00029.html#a85ca3bafa261a7f2ece738b559d8bbb7">CU_API</a> Point3r&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d21/a01582.html#a17a58a4aa1c9461d3c87a2b150039f30">getNegativeVertex</a> (Point3r const &amp;normal) const</td></tr>
+<tr class="memdesc:a17a58a4aa1c9461d3c87a2b150039f30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the negative vertex of a direction.  <a href="#a17a58a4aa1c9461d3c87a2b150039f30">More...</a><br /></td></tr>
+<tr class="separator:a17a58a4aa1c9461d3c87a2b150039f30"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf3743da2c7b75d03cb31d9bcf6d5826"><td class="memItemLeft" align="right" valign="top">Point3r&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d21/a01582.html#abf3743da2c7b75d03cb31d9bcf6d5826">getMin</a> () const</td></tr>
 <tr class="separator:abf3743da2c7b75d03cb31d9bcf6d5826"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a725faf7200e3eca65bb6f8c91fafe563"><td class="memItemLeft" align="right" valign="top">Point3r&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d21/a01582.html#a725faf7200e3eca65bb6f8c91fafe563">getMax</a> () const</td></tr>
@@ -381,6 +390,88 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a17a58a4aa1c9461d3c87a2b150039f30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17a58a4aa1c9461d3c87a2b150039f30">&#9670;&nbsp;</a></span>getNegativeVertex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/d16/a00029.html#a85ca3bafa261a7f2ece738b559d8bbb7">CU_API</a> Point3r castor::BoundingBox::getNegativeVertex </td>
+          <td>(</td>
+          <td class="paramtype">Point3r const &amp;&#160;</td>
+          <td class="paramname"><em>normal</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Computes the negative vertex of a direction. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">normal</td><td>The direction vector. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The position of the vertex on the box in the opposite way from the normal, while considering the center. </dd></dl>
+
+</div>
+</div>
+<a id="aec8ed7934978d09f14fe5b98bc366f67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec8ed7934978d09f14fe5b98bc366f67">&#9670;&nbsp;</a></span>getPositiveVertex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/d16/a00029.html#a85ca3bafa261a7f2ece738b559d8bbb7">CU_API</a> Point3r castor::BoundingBox::getPositiveVertex </td>
+          <td>(</td>
+          <td class="paramtype">Point3r const &amp;&#160;</td>
+          <td class="paramname"><em>normal</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Computes the positive vertex of a direction. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="../../d0/d21/a01582.html#a17a58a4aa1c9461d3c87a2b150039f30" title="Computes the negative vertex of a direction. ">getNegativeVertex</a>. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">normal</td><td>The direction vector. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The position of the vertex on the box in the same way as the normal, while considering the center. </dd></dl>
+
+</div>
+</div>
+<a id="a97dc1afc1a1ec8b6dedcff6ae516ed3c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97dc1afc1a1ec8b6dedcff6ae516ed3c">&#9670;&nbsp;</a></span>getUnion()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/d16/a00029.html#a85ca3bafa261a7f2ece738b559d8bbb7">CU_API</a> <a class="el" href="../../d0/d21/a01582.html">BoundingBox</a> castor::BoundingBox::getUnion </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d0/d21/a01582.html">BoundingBox</a> const &amp;&#160;</td>
+          <td class="paramname"><em>bb</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Computes the bounding box resulting of the union of this bounding box and given one. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">bb</td><td>The other bounding box. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The resulting bounding box. </dd></dl>
+
+</div>
+</div>
 <a id="a716ea098bd955e6cffb6898d83333839"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a716ea098bd955e6cffb6898d83333839">&#9670;&nbsp;</a></span>isOnLimits()</h2>
 
@@ -546,7 +637,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Dec 7 2017 10:19:37 for CastorUtils by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Dec 11 2017 11:16:07 for CastorUtils by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

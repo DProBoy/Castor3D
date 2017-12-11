@@ -1,5 +1,5 @@
 <map id="Graphe hiérarchique des classes" name="Graphe hiérarchique des classes">
-<area shape="rect" id="node2" href="$d7/d54/a02342.html" title="castor3d::IWindowHandle" alt="" coords="152,5,321,32"/>
-<area shape="rect" id="node3" href="$da/de5/a03170.html" title="Représentation d&#39;une variable de shader. " alt="" coords="175,56,299,83"/>
-<area shape="rect" id="node4" href="$db/df5/a02534.html" title="Représentation d&#39;une variable de shader à type variable. " alt="" coords="369,49,500,90"/>
+<area shape="rect" id="node1" href="$dc/d93/a01535.html" title="Classe modèle pour gérer les interpolations (de point, quaternion, real, ...) " alt="" coords="5,53,149,94"/>
+<area shape="rect" id="node2" href="$da/ded/a01547.html" title="Spécialisation partielle de Interpolator, pour eINTERPOLATOR_MODE_LINEAR. " alt="" coords="197,5,360,61"/>
+<area shape="rect" id="node3" href="$db/d08/a01543.html" title="Spécialisation partielle de Interpolator, pour eINTERPOLATOR_MODE_NONE. " alt="" coords="197,85,360,141"/>
 </map>

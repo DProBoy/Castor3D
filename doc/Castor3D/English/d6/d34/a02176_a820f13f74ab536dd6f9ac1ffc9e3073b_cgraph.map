@@ -1,5 +1,0 @@
-<map id="castor3d::Vertex::getPosition" name="castor3d::Vertex::getPosition">
-<area shape="rect" id="node2" href="$d6/d34/a02176.html#ac3e1c51842847d2fdf3962fd8c6ed6c7" title="Retrieves the vertex normal. " alt="" coords="247,5,432,32"/>
-<area shape="rect" id="node4" href="$d6/d34/a02176.html#afa88f676e1469d643d815dfd53b1b021" title="Retrieves the vertex position. " alt="" coords="244,56,435,83"/>
-<area shape="rect" id="node3" href="$d0/d38/a01984.html#aac50c11edcd6ea9b86a945edf30f9f62" title="Retrieves a pointer on the data buffer. " alt="" coords="483,31,701,57"/>
-</map>

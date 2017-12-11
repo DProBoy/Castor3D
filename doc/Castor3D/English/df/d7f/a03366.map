@@ -1,4 +1,4 @@
-<map id="castor3d::SpotLightPass::Program" name="castor3d::SpotLightPass::Program">
-<area shape="rect" id="node2" href="$d2/d5b/a03340.html" title="Base class for light passe programs that need a mesh instead of a quad. " alt="" coords="5,95,176,136"/>
-<area shape="rect" id="node3" href="$d0/de4/a03308.html" title="Base class for all light pass programs. " alt="" coords="21,5,160,47"/>
+<map id="castor3d::ShadowMapPassDirectional" name="castor3d::ShadowMapPassDirectional">
+<area shape="rect" id="node2" href="$d0/dbf/a03363.html" title="Shadow mapping implementation. " alt="" coords="93,155,275,181"/>
+<area shape="rect" id="node3" href="$db/d86/a02663.html" title="Render pass base class. " alt="" coords="109,80,259,107"/>
 </map>

@@ -1,6 +1,2 @@
-<map id="castor3d::RenderLoop" name="castor3d::RenderLoop">
-<area shape="rect" id="node3" href="$d1/d03/a02560.html" title="Représentation du système de rendu. " alt="" coords="713,202,879,229"/>
-<area shape="rect" id="node13" href="$d5/dc0/a02272.html" title="Classe de gestion des incrustations de debogage. " alt="" coords="377,19,544,46"/>
-<area shape="rect" id="node4" href="$d5/d2c/a02012.html" title="Implémentation d&#39;un buddy allocator. " alt="" coords="379,173,542,199"/>
-<area shape="rect" id="node8" href="$df/d4a/a02204.html" title="Contient des informations sur le GPU. " alt="" coords="373,341,548,367"/>
+<map id="castor3d::IblTextures" name="castor3d::IblTextures">
 </map>

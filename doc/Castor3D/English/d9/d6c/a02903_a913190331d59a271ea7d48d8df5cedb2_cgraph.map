@@ -1,0 +1,5 @@
+<map id="castor3d::SpotLight::createTextWriter" name="castor3d::SpotLight::createTextWriter">
+<area shape="rect" id="node2" href="$d9/d6c/a02903.html#a68099e764bacaef2aa95357d560ee38f" title="Sets attenuation components. " alt="" coords="188,5,323,47"/>
+<area shape="rect" id="node3" href="$d9/d6c/a02903.html#a617a9f687b03477211cf29b233627668" title="Sets the light cutoff. " alt="" coords="188,71,323,112"/>
+<area shape="rect" id="node4" href="$d9/d6c/a02903.html#ac401341b3aeff1ee6c1c7fff7f8bcaff" title="Sets the light exponent. " alt="" coords="188,136,323,177"/>
+</map>

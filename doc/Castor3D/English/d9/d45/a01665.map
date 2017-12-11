@@ -1,5 +1,4 @@
-<map id="castor3d::ChunkParserBase" name="castor3d::ChunkParserBase">
-<area shape="rect" id="node2" href="$de/df6/a01670.html" title="Chunk parser. " alt="" coords="239,5,425,32"/>
-<area shape="rect" id="node3" href="$d6/d26/a01678.html" title="ChunkParser specialisation for castor::Path. " alt="" coords="255,57,409,98"/>
-<area shape="rect" id="node4" href="$dc/d42/a01674.html" title="ChunkParser specialisation for castor::String. " alt="" coords="255,122,409,163"/>
+<map id="castor3d::BinaryParser&lt; SkeletonAnimationObject &gt;" name="castor3d::BinaryParser&lt; SkeletonAnimationObject &gt;">
+<area shape="rect" id="node2" href="$d2/d34/a01679.html" title="castor3d::BinaryParserBase\l\&lt; SkeletonAnimationObject \&gt;" alt="" coords="5,95,199,136"/>
+<area shape="rect" id="node3" href="$db/d98/a01675.html" title="Binary data chunk base class. " alt="" coords="25,5,179,32"/>
 </map>

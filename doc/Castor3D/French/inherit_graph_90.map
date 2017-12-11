@@ -1,3 +1,6 @@
 <map id="Graphe hiérarchique des classes" name="Graphe hiérarchique des classes">
-<area shape="rect" id="node1" href="$db/d2d/a02286.html" title="castor3d::Generator\l::Thread" alt="" coords="5,5,143,47"/>
+<area shape="rect" id="node1" href="$db/d4b/a01883.html" title="Interface représentant un évènement de frame. " alt="" coords="5,64,155,91"/>
+<area shape="rect" id="node2" href="$d9/dca/a01879.html" title="Evènement de nettoyage. " alt="" coords="203,5,393,32"/>
+<area shape="rect" id="node3" href="$d7/d30/a01891.html" title="Evènement foncteur. " alt="" coords="220,57,376,98"/>
+<area shape="rect" id="node4" href="$db/d29/a01895.html" title="Evènement d&#39;initialisation. " alt="" coords="203,123,393,149"/>
 </map>

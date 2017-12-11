@@ -1,0 +1,6 @@
+<map id="castor3d::OverlayCategory::getUV" name="castor3d::OverlayCategory::getUV">
+<area shape="rect" id="node2" href="$d8/d49/a02419.html#a00d97cfcc5cdd444b08f6390c0fb99d3" title="castor3d::OverlayCategory\l::doGetTotalSize" alt="" coords="228,5,403,47"/>
+<area shape="rect" id="node3" href="$d8/d49/a02419.html#ae619292b406856603fb5f0bdd10646c9" title="Dessine l&#39;incrustation. " alt="" coords="228,71,403,112"/>
+<area shape="rect" id="node4" href="$d8/d49/a02419.html#a7d7cbcd94285a476ca2205420ddcbc98" title="Met à jour la position de l&#39;incrustation, en prenant en compte la la position en pixel voulue..." alt="" coords="228,136,403,177"/>
+<area shape="rect" id="node5" href="$d8/d49/a02419.html#a463b4b28c5e2d0e59b54d5da7f544585" title="Met à jour la taille de l&#39;incrustation, en prenant en compte la taille en pixel voulue. " alt="" coords="228,201,403,243"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="castor3d::RenderTechniquePass" name="castor3d::RenderTechniquePass">
+<area shape="rect" id="node5" href="$d0/d4b/a03415.html" title="Classe de passe de technique de rendu de type forward. " alt="" coords="697,5,953,32"/>
+<area shape="rect" id="node6" href="$d1/def/a03475.html" title="Classe de passe de technique de rendu implémentant le Deferred lighting. " alt="" coords="748,56,903,83"/>
+<area shape="rect" id="node7" href="$d3/d52/a03535.html" title="Passe pour les noeuds transparents, utilisant le Weighted Blend OIT. " alt="" coords="736,107,915,133"/>
+<area shape="rect" id="node2" href="$db/d86/a02663.html" title="Classe de base d&#39;une passe de rendu. " alt="" coords="240,56,391,83"/>
+</map>

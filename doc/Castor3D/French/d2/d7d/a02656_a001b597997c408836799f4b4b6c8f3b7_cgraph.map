@@ -1,5 +1,0 @@
-<map id="castor3d::AnimatedObject::hasAnimation" name="castor3d::AnimatedObject::hasAnimation">
-<area shape="rect" id="node2" href="$d2/d7d/a02656.html#a55765888af5df0d35aa7a9030f6dc84d" title="Récupère une animation. " alt="" coords="227,5,400,47"/>
-<area shape="rect" id="node3" href="$d2/d7d/a02656.html#a1c375eacf4a34296dca2ca8f490761d0" title="castor3d::AnimatedObject\l::isPlayingAnimation" alt="" coords="227,71,400,112"/>
-<area shape="rect" id="node4" href="$d2/d7d/a02656.html#ac2de2fea577ebce4150fc6aff650f1f1" title="Met à jour les animations de l&#39;objet, selon le temps écoulé depuis la dernière frame. " alt="" coords="227,136,400,177"/>
-</map>

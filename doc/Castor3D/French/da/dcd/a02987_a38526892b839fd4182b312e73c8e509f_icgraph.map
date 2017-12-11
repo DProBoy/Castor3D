@@ -1,0 +1,5 @@
+<map id="castor3d::Skybox::getIbl" name="castor3d::Skybox::getIbl">
+<area shape="rect" id="node2" href="$dc/db6/a00955.html#abd81a84264085f2230d27ea6e54c5642" title="castor3d::doFillShaderPbrMaps" alt="" coords="216,5,420,32"/>
+<area shape="rect" id="node4" href="$d0/de4/a02851.html#ad617bbb014df10bd56f0d5eb09d56a59" title="Définit la couleur de la skybox. " alt="" coords="237,57,399,98"/>
+<area shape="rect" id="node3" href="$dc/db6/a00955.html#ab22015ddf9c77a1499d13b5eaa8d9f3d" title="castor3d::doBindPass" alt="" coords="468,5,619,32"/>
+</map>

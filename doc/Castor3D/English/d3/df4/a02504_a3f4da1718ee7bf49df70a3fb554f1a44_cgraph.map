@@ -1,7 +1,0 @@
-<map id="castor3d::DistanceRenderNode::render" name="castor3d::DistanceRenderNode::render">
-<area shape="rect" id="node2" href="$d6/d66/a00916.html#ac917526bf64f2d30cfc66daaee1e8c88" title="castor3d::doRenderNode" alt="" coords="225,64,391,91"/>
-<area shape="rect" id="node3" href="$d6/d66/a00916.html#a591cd57fc664f685b75d1978abf87ae9" title="castor3d::doRenderNodeNoPass" alt="" coords="439,64,649,91"/>
-<area shape="rect" id="node4" href="$d6/d66/a00916.html#a7e8b5a4d72c471002a22072958e90f67" title="castor3d::doRenderObjectNode" alt="" coords="697,5,900,32"/>
-<area shape="rect" id="node5" href="$d1/df6/a02544.html#a70d0d758e6dbe7d5ca0ddbc7c12bc7d5" title="castor3d::RenderPipeline\l::getFlags" alt="" coords="715,57,882,98"/>
-<area shape="rect" id="node6" href="$de/d38/a03064.html#abaac8919007e701bb0ff6b54cfa73f84" title="Updates the UBO from given values. " alt="" coords="722,122,875,163"/>
-</map>

@@ -1,5 +1,4 @@
-<map id="castor3d::Geometry" name="castor3d::Geometry">
-<area shape="rect" id="node2" href="$da/d61/a02878.html" title="Movable object class. " alt="" coords="117,169,282,196"/>
-<area shape="rect" id="node3" href="$de/dc6/a01502.html" title="Animable public interface. " alt="" coords="29,87,164,114"/>
-<area shape="rect" id="node6" href="$d4/db9/a02918.html" title="Handles object&#39;s visibility, and behavior with shadows. " alt="" coords="306,169,479,196"/>
+<map id="castor3d::SkeletonAnimationInstanceObject" name="castor3d::SkeletonAnimationInstanceObject">
+<area shape="rect" id="node3" title="STL iterator class. " alt="" coords="275,71,429,112"/>
+<area shape="rect" id="node4" href="$df/ddd/a01655.html" title="Class which represents the skeleton animation objects. " alt="" coords="257,136,447,177"/>
 </map>

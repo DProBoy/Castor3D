@@ -1,2 +1,4 @@
-<map id="castor3d::MovableObject::TextWriter" name="castor3d::MovableObject::TextWriter">
+<map id="castor3d::AnimatedObject" name="castor3d::AnimatedObject">
+<area shape="rect" id="node3" href="$dc/d6a/a02779.html" title="Représente les sous&#45;maillages animés. " alt="" coords="5,155,172,181"/>
+<area shape="rect" id="node4" href="$de/d05/a02795.html" title="Représente les objets animés. " alt="" coords="197,155,383,181"/>
 </map>

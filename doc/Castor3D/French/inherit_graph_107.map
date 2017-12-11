@@ -1,5 +1,4 @@
 <map id="Graphe hiérarchique des classes" name="Graphe hiérarchique des classes">
-<area shape="rect" id="node1" href="$d5/de7/a03234.html" title="Dit si un UniformType est de type matrice. " alt="" coords="5,39,160,80"/>
-<area shape="rect" id="node2" href="$d6/d19/a03242.html" title="Dit si un UniformType est de type valeur simple. " alt="" coords="211,5,353,47"/>
-<area shape="rect" id="node3" href="$df/ddd/a03238.html" title="Dit si un UniformType est de type point. " alt="" coords="208,71,356,112"/>
+<area shape="rect" id="node1" href="$dc/d93/a01535.html" title="castor3d::Interpolator\l\&lt; castor::Quaternion \&gt;" alt="" coords="5,13,159,54"/>
+<area shape="rect" id="node2" href="$d5/df4/a01551.html" title="Classe pour gérer les interpolations linéaires de Quaternion. " alt="" coords="207,5,387,61"/>
 </map>

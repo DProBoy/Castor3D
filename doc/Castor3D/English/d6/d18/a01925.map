@@ -1,4 +1,0 @@
-<map id="castor3d::RenderBuffer" name="castor3d::RenderBuffer">
-<area shape="rect" id="node2" href="$d4/dff/a01910.html" title="Render buffer receiving colour PixelComponents. " alt="" coords="5,87,196,114"/>
-<area shape="rect" id="node3" href="$dc/d18/a01914.html" title="Render buffer receiving depth and/or stencil PixelComponents. " alt="" coords="221,80,415,121"/>
-</map>

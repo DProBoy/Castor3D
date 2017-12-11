@@ -1,6 +1,6 @@
-<map id="castor3d::ObjectRenderNode&lt; DataTypeT, InstanceTypeT &gt;" name="castor3d::ObjectRenderNode&lt; DataTypeT, InstanceTypeT &gt;">
-<area shape="rect" id="node2" href="$db/d8b/a02594.html" title="Helper structure used to render billboards. " alt="" coords="253,5,456,61"/>
-<area shape="rect" id="node3" href="$d2/dca/a02606.html" title="Helper structure used to render animated submeshes. " alt="" coords="257,86,453,127"/>
-<area shape="rect" id="node4" href="$db/d99/a02626.html" title="Helper structure used to render animated submeshes. " alt="" coords="257,151,453,193"/>
-<area shape="rect" id="node5" href="$d0/d3f/a02630.html" title="Helper structure used to render static submeshes. " alt="" coords="262,217,447,258"/>
+<map id="castor3d::RenderLoop" name="castor3d::RenderLoop">
+<area shape="rect" id="node3" href="$d5/d25/a02687.html" title="The render system representation. " alt="" coords="713,202,879,229"/>
+<area shape="rect" id="node13" href="$d8/deb/a02387.html" title="Debug overlays class. " alt="" coords="377,19,544,46"/>
+<area shape="rect" id="node4" href="$d5/d14/a02071.html" title="Buddy allocator implementation. " alt="" coords="379,173,542,199"/>
+<area shape="rect" id="node8" href="$dc/d52/a02319.html" title="Holds GPU informations. " alt="" coords="373,341,548,367"/>
 </map>

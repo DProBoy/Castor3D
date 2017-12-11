@@ -1,2 +1,7 @@
-<map id="castor3d::BrdfPrefilter" name="castor3d::BrdfPrefilter">
+<map id="castor3d::PanelOverlay" name="castor3d::PanelOverlay">
+<area shape="rect" id="node2" href="$d8/d49/a02419.html" title="Holds specific members for an overlay category. " alt="" coords="1285,71,1460,98"/>
+<area shape="rect" id="node3" href="$d8/df6/a02411.html" title="The overlay class. " alt="" coords="1041,71,1164,98"/>
+<area shape="rect" id="node6" href="$d5/d25/a02687.html" title="The render system representation. " alt="" coords="723,165,889,191"/>
+<area shape="rect" id="node7" href="$d5/d14/a02071.html" title="Buddy allocator implementation. " alt="" coords="385,126,548,153"/>
+<area shape="rect" id="node11" href="$dc/d52/a02319.html" title="Holds GPU informations. " alt="" coords="379,294,554,321"/>
 </map>

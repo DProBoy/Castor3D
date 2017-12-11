@@ -1,3 +1,3 @@
-<map id="castor3d::HandlerEvent" name="castor3d::HandlerEvent">
-<area shape="rect" id="node2" href="$dd/d8e/a01898.html" title="Description of a user input event. " alt="" coords="5,5,172,32"/>
+<map id="castor3d::CleanupEvent&lt; T &gt;" name="castor3d::CleanupEvent&lt; T &gt;">
+<area shape="rect" id="node2" href="$db/d4b/a01883.html" title="The interface which represents a frame event. " alt="" coords="26,5,175,32"/>
 </map>

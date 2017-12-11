@@ -1,5 +1,0 @@
-<map id="castor3d::AnimatedSkeleton" name="castor3d::AnimatedSkeleton">
-<area shape="rect" id="node2" href="$d2/d83/a02754.html" title="Represents the animated objects. " alt="" coords="5,157,179,184"/>
-<area shape="rect" id="node4" href="$d8/de7/a02146.html" title="The skeleton, holds each bone. " alt="" coords="203,157,333,184"/>
-<area shape="rect" id="node5" href="$de/dc6/a01502.html" title="Animable public interface. " alt="" coords="201,81,335,108"/>
-</map>

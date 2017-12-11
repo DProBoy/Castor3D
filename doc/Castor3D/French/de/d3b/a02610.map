@@ -1,2 +1,4 @@
-<map id="castor3d::RenderColourToCube" name="castor3d::RenderColourToCube">
+<map id="castor3d::RenderLoop" name="castor3d::RenderLoop">
+<area shape="rect" id="node3" href="$dc/dcf/a02615.html" title="Moteur principal. " alt="" coords="5,155,192,181"/>
+<area shape="rect" id="node4" href="$da/dfd/a02619.html" title="Boucle de rendu synchrone. " alt="" coords="216,155,395,181"/>
 </map>

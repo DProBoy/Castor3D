@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Castor3D: Z:/Projets/C++/Castor3D/source/Core/Castor3D/Src/Technique/Opaque/LightPass.hpp File Reference</title>
+<title>Castor3D: Z:/Projets/C++/Castor3D/source/Core/Castor3D/Src/Technique/Opaque/DeferredRendering.hpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -44,43 +44,49 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#namespaces">Namespaces</a>  </div>
   <div class="headertitle">
-<div class="title">LightPass.hpp File Reference</div>  </div>
+<div class="title">DeferredRendering.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Include dependency graph for LightPass.hpp:</div>
+  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Include dependency graph for DeferredRendering.hpp:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="../../db/d18/a00885.png" border="0" usemap="#Z_1_2Projets_2C_09_09_2Castor3D_2source_2Core_2Castor3D_2Src_2Technique_2Opaque_2LightPass_8hpp" alt=""/></div>
-<map name="Z_1_2Projets_2C_09_09_2Castor3D_2source_2Core_2Castor3D_2Src_2Technique_2Opaque_2LightPass_8hpp" id="Z_1_2Projets_2C_09_09_2Castor3D_2source_2Core_2Castor3D_2Src_2Technique_2Opaque_2LightPass_8hpp">
-<area shape="rect" id="node2" href="../../d3/dd5/a00215.html" title="Mesh/Buffer/BufferDeclaration.hpp" alt="" coords="2455,259,2674,285"/>
-<area shape="rect" id="node28" href="../../d8/dc8/a00581.html" title="Render/Viewport.hpp" alt="" coords="2252,333,2395,360"/>
-<area shape="rect" id="node33" href="../../dc/d1b/a00827.html" title="Shader/UniformBuffer.hpp" alt="" coords="2897,184,3067,211"/>
-<area shape="rect" id="node44" href="../../da/db8/a00797.html" title="Shader/Ubos/MatrixUbo.hpp" alt="" coords="2679,109,2864,136"/>
-<area shape="rect" id="node45" href="../../d4/d45/a00791.html" title="Shader/Ubos/GpInfoUbo.hpp" alt="" coords="2889,109,3075,136"/>
-<area shape="rect" id="node3" href="../../d4/d3e/a00116.html" title="Castor3DPrerequisites.hpp" alt="" coords="2581,408,2759,435"/>
-<area shape="rect" id="node27" href="../../dc/d9a/a00218.html" title="BufferElementDeclaration.hpp" alt="" coords="2429,333,2623,360"/>
-<area shape="rect" id="node13" href="../../db/d8e/a00482.html" title="Prerequisites/Castor3DPrerequisites\l_Animation.hpp" alt="" coords="378,483,610,524"/>
-<area shape="rect" id="node15" href="../../d6/d1a/a00485.html" title="Prerequisites/Castor3DPrerequisites\l_Camera.hpp" alt="" coords="634,483,866,524"/>
-<area shape="rect" id="node16" href="../../d6/d60/a00491.html" title="Prerequisites/Castor3DPrerequisites\l_Geometry.hpp" alt="" coords="890,483,1122,524"/>
-<area shape="rect" id="node17" href="../../d5/d0f/a00494.html" title="Prerequisites/Castor3DPrerequisites\l_Light.hpp" alt="" coords="1402,483,1634,524"/>
-<area shape="rect" id="node19" href="../../d4/d1e/a00497.html" title="Prerequisites/Castor3DPrerequisites\l_Material.hpp" alt="" coords="1146,483,1378,524"/>
-<area shape="rect" id="node20" href="../../de/d4e/a00500.html" title="Prerequisites/Castor3DPrerequisites\l_Overlay.hpp" alt="" coords="1658,483,1890,524"/>
-<area shape="rect" id="node21" href="../../d4/d1f/a00506.html" title="Prerequisites/Castor3DPrerequisites\l_Scene.hpp" alt="" coords="1914,483,2146,524"/>
-<area shape="rect" id="node22" href="../../df/db6/a00509.html" title="Prerequisites/Castor3DPrerequisites\l_Shader.hpp" alt="" coords="2170,483,2402,524"/>
-<area shape="rect" id="node23" href="../../d4/de5/a00503.html" title="Prerequisites/Castor3DPrerequisites\l_Render.hpp" alt="" coords="2426,483,2658,524"/>
-<area shape="rect" id="node25" href="../../d4/ddf/a00488.html" title="Prerequisites/Castor3DPrerequisites\l_Event.hpp" alt="" coords="2682,483,2914,524"/>
-<area shape="rect" id="node14" href="../../db/d10/a00350.html" title="Mesh/VertexGroup.hpp" alt="" coords="416,572,572,599"/>
-<area shape="rect" id="node34" href="../../d1/da8/a00230.html" title="Mesh/Buffer/GpuBuffer.hpp" alt="" coords="3251,333,3428,360"/>
-<area shape="rect" id="node37" href="../../d9/daf/a00830.html" title="Shader/UniformBufferBinding.hpp" alt="" coords="3015,333,3227,360"/>
-<area shape="rect" id="node38" href="../../d6/d8b/a00821.html" title="Shader/Uniform/Uniform.hpp" alt="" coords="2890,259,3074,285"/>
-<area shape="rect" id="node39" href="../../d8/d1c/a00824.html" title="UniformHelpers.hpp" alt="" coords="2856,333,2991,360"/>
+<div class="center"><img src="../../db/d18/a00885.png" border="0" usemap="#Z_1_2Projets_2C_09_09_2Castor3D_2source_2Core_2Castor3D_2Src_2Technique_2Opaque_2DeferredRendering_8hpp" alt=""/></div>
+<map name="Z_1_2Projets_2C_09_09_2Castor3D_2source_2Core_2Castor3D_2Src_2Technique_2Opaque_2DeferredRendering_8hpp" id="Z_1_2Projets_2C_09_09_2Castor3D_2source_2Core_2Castor3D_2Src_2Technique_2Opaque_2DeferredRendering_8hpp">
+<area shape="rect" id="node2" href="../../d7/d46/a00890.html" title="Technique/Opaque/Lighting\lPass.hpp" alt="" coords="1097,124,1275,165"/>
+<area shape="rect" id="node3" href="../../d0/d85/a00908.html" title="ReflectionPass.hpp" alt="" coords="1119,213,1253,240"/>
+<area shape="rect" id="node50" href="../../d6/d82/a00920.html" title="Technique/Opaque/Subsurface\lScatteringPass.hpp" alt="" coords="1813,377,2012,419"/>
+<area shape="rect" id="node4" href="../../dc/d2c/a00893.html" title="LightPass.hpp" alt="" coords="1251,467,1356,493"/>
+<area shape="rect" id="node32" href="../../df/d0e/a00800.html" title="Shader/Ubos/GpInfoUbo.hpp" alt="" coords="1029,541,1215,568"/>
+<area shape="rect" id="node34" href="../../d3/dd1/a00914.html" title="SsaoPass.hpp" alt="" coords="1069,385,1175,411"/>
+<area shape="rect" id="node36" href="../../d7/def/a00521.html" title="Render/RenderInfo.hpp" alt="" coords="525,467,679,493"/>
+<area shape="rect" id="node39" href="../../d7/d06/a00131.html" title="EnvironmentMap/Environment\lMap.hpp" alt="" coords="1555,288,1748,329"/>
+<area shape="rect" id="node48" href="../../d6/d8b/a00821.html" title="Shader/Ubos/SceneUbo.hpp" alt="" coords="702,295,889,322"/>
+<area shape="rect" id="node49" href="../../d5/d72/a00803.html" title="Shader/Ubos/HdrConfigUbo.hpp" alt="" coords="917,295,1122,322"/>
+<area shape="rect" id="node5" href="../../dd/d52/a00221.html" title="Mesh/Buffer/BufferDeclaration.hpp" alt="" coords="1837,541,2055,568"/>
+<area shape="rect" id="node20" href="../../de/dde/a00587.html" title="Render/Viewport.hpp" alt="" coords="2181,541,2324,568"/>
+<area shape="rect" id="node25" href="../../d3/d13/a00836.html" title="Shader/UniformBuffer.hpp" alt="" coords="1403,616,1572,643"/>
+<area shape="rect" id="node31" href="../../d0/dad/a00806.html" title="Shader/Ubos/MatrixUbo.hpp" alt="" coords="1627,541,1812,568"/>
+<area shape="rect" id="node6" href="../../df/dc8/a00122.html" title="Castor3DPrerequisites.hpp" alt="" coords="1169,765,1347,792"/>
+<area shape="rect" id="node19" href="../../d5/ddf/a00224.html" title="BufferElementDeclaration.hpp" alt="" coords="1219,691,1412,717"/>
+<area shape="rect" id="node16" href="../../d4/ddf/a00488.html" title="Prerequisites/Castor3DPrerequisites\l_Animation.hpp" alt="" coords="573,840,805,881"/>
+<area shape="rect" id="node17" href="../../d6/d60/a00491.html" title="Prerequisites/Castor3DPrerequisites\l_Camera.hpp" alt="" coords="829,840,1061,881"/>
+<area shape="rect" id="node18" href="../../d4/d1e/a00497.html" title="Prerequisites/Castor3DPrerequisites\l_Geometry.hpp" alt="" coords="1085,840,1317,881"/>
+<area shape="rect" id="node26" href="../../d7/d40/a00236.html" title="Mesh/Buffer/GpuBuffer.hpp" alt="" coords="1436,691,1613,717"/>
+<area shape="rect" id="node27" href="../../df/de8/a00839.html" title="Shader/UniformBufferBinding.hpp" alt="" coords="1637,691,1849,717"/>
+<area shape="rect" id="node28" href="../../d9/daf/a00830.html" title="Shader/Uniform/Uniform.hpp" alt="" coords="959,691,1143,717"/>
+<area shape="rect" id="node35" href="../../db/dbc/a00395.html" title="Miscellaneous/SsaoConfig.hpp" alt="" coords="805,541,1005,568"/>
+<area shape="rect" id="node38" href="../../df/d39/a00950.html" title="Texture/TextureUnit.hpp" alt="" coords="1530,467,1690,493"/>
+<area shape="rect" id="node40" href="../../d0/dc4/a00443.html" title="PBR/IblTextures.hpp" alt="" coords="1647,385,1789,411"/>
+<area shape="rect" id="node44" href="../../df/d3b/a00728.html" title="Scene/SceneNode.hpp" alt="" coords="2958,616,3113,643"/>
+<area shape="rect" id="node46" href="../../d9/dce/a00944.html" title="Texture/TextureLayout.hpp" alt="" coords="1375,385,1551,411"/>
+<area shape="rect" id="node41" href="../../d4/da8/a00437.html" title="PBR/BrdfPrefilter.hpp" alt="" coords="1765,467,1911,493"/>
+<area shape="rect" id="node42" href="../../d3/def/a00446.html" title="PBR/RadianceComputer.hpp" alt="" coords="1935,467,2123,493"/>
+<area shape="rect" id="node43" href="../../de/df8/a00440.html" title="PBR/EnvironmentPrefilter.hpp" alt="" coords="2147,467,2340,493"/>
+<area shape="rect" id="node47" href="../../d6/dad/a00941.html" title="TextureImage.hpp" alt="" coords="1381,467,1506,493"/>
 </map>
 </div>
 </div><div class="textblock"><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -88,101 +94,27 @@ $(function() {
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="../../d2/dab/a00886.png" border="0" usemap="#Z_1_2Projets_2C_09_09_2Castor3D_2source_2Core_2Castor3D_2Src_2Technique_2Opaque_2LightPass_8hppdep" alt=""/></div>
-<map name="Z_1_2Projets_2C_09_09_2Castor3D_2source_2Core_2Castor3D_2Src_2Technique_2Opaque_2LightPass_8hppdep" id="Z_1_2Projets_2C_09_09_2Castor3D_2source_2Core_2Castor3D_2Src_2Technique_2Opaque_2LightPass_8hppdep">
-<area shape="rect" id="node2" href="../../d5/d69/a00878.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/Opaque/Directional\lLightPass.hpp" alt="" coords="393,228,616,299"/>
-<area shape="rect" id="node4" href="../../d3/d8a/a00899.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/Opaque/Reflection\lPass.hpp" alt="" coords="659,228,878,299"/>
-<area shape="rect" id="node8" href="../../da/d5b/a00905.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/Opaque/SsaoPass.hpp" alt="" coords="523,117,769,173"/>
-<area shape="rect" id="node9" href="../../d0/d85/a00908.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/Opaque/StencilPass.hpp" alt="" coords="169,117,427,173"/>
-<area shape="rect" id="node13" href="../../d7/d12/a00911.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/Opaque/Subsurface\lScatteringPass.hpp" alt="" coords="845,109,1071,180"/>
-<area shape="rect" id="node3" href="../../d7/d92/a00887.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/Opaque/LightPass\lShadow.hpp" alt="" coords="248,465,468,536"/>
-<area shape="rect" id="node5" href="../../d1/d93/a00875.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/Opaque/Deferred\lRendering.hpp" alt="" coords="711,465,922,536"/>
-<area shape="rect" id="node7" href="../../df/d41/a00881.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/Opaque/Lighting\lPass.hpp" alt="" coords="713,347,920,417"/>
-<area shape="rect" id="node6" href="../../d3/dd1/a00914.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/RenderTechnique.hpp" alt="" coords="697,584,936,640"/>
-<area shape="rect" id="node10" href="../../d7/d46/a00890.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/Opaque/MeshLight\lPass.hpp" alt="" coords="147,228,369,299"/>
-<area shape="rect" id="node11" href="../../da/dd6/a00896.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/Opaque/PointLight\lPass.hpp" alt="" coords="5,347,225,417"/>
-<area shape="rect" id="node12" href="../../d5/dd3/a00902.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/Opaque/SpotLight\lPass.hpp" alt="" coords="249,347,467,417"/>
+<div class="center"><img src="../../d2/dab/a00886.png" border="0" usemap="#Z_1_2Projets_2C_09_09_2Castor3D_2source_2Core_2Castor3D_2Src_2Technique_2Opaque_2DeferredRendering_8hppdep" alt=""/></div>
+<map name="Z_1_2Projets_2C_09_09_2Castor3D_2source_2Core_2Castor3D_2Src_2Technique_2Opaque_2DeferredRendering_8hppdep" id="Z_1_2Projets_2C_09_09_2Castor3D_2source_2Core_2Castor3D_2Src_2Technique_2Opaque_2DeferredRendering_8hppdep">
+<area shape="rect" id="node2" href="../../df/de9/a00923.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/RenderTechnique.hpp" alt="" coords="5,124,244,180"/>
 </map>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d96/a03402.html">castor3d::LightPass</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base class for all light passes.  <a href="../../df/d96/a03402.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d15/a03406.html">castor3d::LightPass::Program</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base class for all light pass programs.  <a href="../../d6/d15/a03406.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d42/a03419.html">castor3d::DeferredRendering</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The deferred rendering class.  <a href="../../d1/d42/a03419.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:da/d40/a00946"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d40/a00946.html">castor3d</a></td></tr>
+<tr class="memitem:dc/db6/a00955"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.html">castor3d</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:ab807b1a26d3edc7319a70f0e3a3e80cf"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d40/a00946.html#ab807b1a26d3edc7319a70f0e3a3e80cf">castor3d::GeometryPassResult</a> = std::array&lt; TextureUnitUPtr, size_t(DsTexture::eCount) &gt;</td></tr>
-<tr class="separator:ab807b1a26d3edc7319a70f0e3a3e80cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:a26cc94de349e5c40496343ae7a977d65"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d40/a00946.html#a26cc94de349e5c40496343ae7a977d65">castor3d::DsTexture</a> : uint8_t { <br />
-&#160;&#160;<a class="el" href="../../da/d40/a00946.html#a26cc94de349e5c40496343ae7a977d65a2a37044e2d0bed7cbb63527176543d73">castor3d::DsTexture::eDepth</a>, 
-<a class="el" href="../../da/d40/a00946.html#a26cc94de349e5c40496343ae7a977d65a176c19311eebcba5053e7e18a6c2943d">castor3d::DsTexture::eData1</a>, 
-<a class="el" href="../../da/d40/a00946.html#a26cc94de349e5c40496343ae7a977d65a8a7478ff5303b8a3583d0d785be98b9c">castor3d::DsTexture::eData2</a>, 
-<a class="el" href="../../da/d40/a00946.html#a26cc94de349e5c40496343ae7a977d65a4aaa1db219bf8ad8a83b6a06c45f6789">castor3d::DsTexture::eData3</a>, 
-<br />
-&#160;&#160;<a class="el" href="../../da/d40/a00946.html#a26cc94de349e5c40496343ae7a977d65a1becdb19469fbc7301a1ee56bb792c22">castor3d::DsTexture::eData4</a>, 
-<a class="el" href="../../da/d40/a00946.html#a26cc94de349e5c40496343ae7a977d65a60c22916ba359a87d83140501ea05fce">castor3d::DsTexture::eData5</a>, 
-<a class="el" href="../../da/d40/a00946.html#a26cc94de349e5c40496343ae7a977d65a6474d189730e73d39bc6cfdf6ab47b3d">castor3d::DsTexture::CASTOR_SCOPED_ENUM_BOUNDS</a> =( eDepth )
-<br />
- }<tr class="memdesc:a26cc94de349e5c40496343ae7a977d65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumerator of textures used in deferred rendering.  <a href="../../da/d40/a00946.html#a26cc94de349e5c40496343ae7a977d65">More...</a><br /></td></tr>
-</td></tr>
-<tr class="separator:a26cc94de349e5c40496343ae7a977d65"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a35ccd65212b27c10e6f243d1f4829c78"><td class="memItemLeft" align="right" valign="top">castor::String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d40/a00946.html#a35ccd65212b27c10e6f243d1f4829c78">castor3d::getTextureName</a> (DsTexture texture)</td></tr>
-<tr class="memdesc:a35ccd65212b27c10e6f243d1f4829c78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the name for given texture enum value.  <a href="../../da/d40/a00946.html#a35ccd65212b27c10e6f243d1f4829c78">More...</a><br /></td></tr>
-<tr class="separator:a35ccd65212b27c10e6f243d1f4829c78"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6fa4632c9a55ddc9afb55cafb55bb6dc"><td class="memItemLeft" align="right" valign="top">castor::PixelFormat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d40/a00946.html#a6fa4632c9a55ddc9afb55cafb55bb6dc">castor3d::getTextureFormat</a> (DsTexture texture)</td></tr>
-<tr class="memdesc:a6fa4632c9a55ddc9afb55cafb55bb6dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the pixel format for given texture enum value.  <a href="../../da/d40/a00946.html#a6fa4632c9a55ddc9afb55cafb55bb6dc">More...</a><br /></td></tr>
-<tr class="separator:a6fa4632c9a55ddc9afb55cafb55bb6dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af05865e9d87303ecdd7eea9ab2bc600b"><td class="memItemLeft" align="right" valign="top">AttachmentPoint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d40/a00946.html#af05865e9d87303ecdd7eea9ab2bc600b">castor3d::getTextureAttachmentPoint</a> (DsTexture texture)</td></tr>
-<tr class="memdesc:af05865e9d87303ecdd7eea9ab2bc600b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the attachment point for given texture enum value.  <a href="../../da/d40/a00946.html#af05865e9d87303ecdd7eea9ab2bc600b">More...</a><br /></td></tr>
-<tr class="separator:af05865e9d87303ecdd7eea9ab2bc600b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8682d24b4aca9c4c7544bfe5feaa6214"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d40/a00946.html#a8682d24b4aca9c4c7544bfe5feaa6214">castor3d::getTextureAttachmentIndex</a> (DsTexture texture)</td></tr>
-<tr class="memdesc:a8682d24b4aca9c4c7544bfe5feaa6214"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the attachment index for given texture enum value.  <a href="../../da/d40/a00946.html#a8682d24b4aca9c4c7544bfe5feaa6214">More...</a><br /></td></tr>
-<tr class="separator:a8682d24b4aca9c4c7544bfe5feaa6214"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc51e8fa3bce67f71b4370e4c8ed8cc0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d40/a00946.html#afc51e8fa3bce67f71b4370e4c8ed8cc0">castor3d::getMaxDistance</a> (LightCategory const &amp;light, castor::Point3f const &amp;attenuation)</td></tr>
-<tr class="memdesc:afc51e8fa3bce67f71b4370e4c8ed8cc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the maximum litten distance for given light and attenuation.  <a href="../../da/d40/a00946.html#afc51e8fa3bce67f71b4370e4c8ed8cc0">More...</a><br /></td></tr>
-<tr class="separator:afc51e8fa3bce67f71b4370e4c8ed8cc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5edea55945dcc33414d9b9510103ecce"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d40/a00946.html#a5edea55945dcc33414d9b9510103ecce">castor3d::getMaxDistance</a> (LightCategory const &amp;light, castor::Point3f const &amp;attenuation, float max)</td></tr>
-<tr class="memdesc:a5edea55945dcc33414d9b9510103ecce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the maximum litten distance for given light and attenuation.  <a href="../../da/d40/a00946.html#a5edea55945dcc33414d9b9510103ecce">More...</a><br /></td></tr>
-<tr class="separator:a5edea55945dcc33414d9b9510103ecce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83e42e3d8246f3c3164fce4b8a5c46b9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d40/a00946.html#a83e42e3d8246f3c3164fce4b8a5c46b9">castor3d::declareEncodeMaterial</a> (glsl::GlslWriter &amp;writer)</td></tr>
-<tr class="memdesc:a83e42e3d8246f3c3164fce4b8a5c46b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Declares the GLSL function used to encode the material specifics into a vec4.  <a href="../../da/d40/a00946.html#a83e42e3d8246f3c3164fce4b8a5c46b9">More...</a><br /></td></tr>
-<tr class="separator:a83e42e3d8246f3c3164fce4b8a5c46b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c2fc0c71d91f5208d393f5e36005c2e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d40/a00946.html#a1c2fc0c71d91f5208d393f5e36005c2e">castor3d::declareDecodeMaterial</a> (glsl::GlslWriter &amp;writer)</td></tr>
-<tr class="memdesc:a1c2fc0c71d91f5208d393f5e36005c2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Declares the GLSL function used to decode the material specifics from a vec4.  <a href="../../da/d40/a00946.html#a1c2fc0c71d91f5208d393f5e36005c2e">More...</a><br /></td></tr>
-<tr class="separator:a1c2fc0c71d91f5208d393f5e36005c2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a29038193572297763348ad729e50fd30"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d40/a00946.html#a29038193572297763348ad729e50fd30">castor3d::declareDecodeReceiver</a> (glsl::GlslWriter &amp;writer)</td></tr>
-<tr class="memdesc:a29038193572297763348ad729e50fd30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Declares the GLSL function used to decode the shadow receiver status from a vec4.  <a href="../../da/d40/a00946.html#a29038193572297763348ad729e50fd30">More...</a><br /></td></tr>
-<tr class="separator:a29038193572297763348ad729e50fd30"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9aa2b66d8ecff1bcdb0f2af911f0cc9c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d40/a00946.html#a9aa2b66d8ecff1bcdb0f2af911f0cc9c">castor3d::encodeMaterial</a> (glsl::GlslWriter &amp;writer, glsl::Int const &amp;receiver, glsl::Int const &amp;reflection, glsl::Int const &amp;refraction, glsl::Int const &amp;envMapIndex, glsl::Float const &amp;encoded)</td></tr>
-<tr class="memdesc:a9aa2b66d8ecff1bcdb0f2af911f0cc9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls the GLSL function used to encode the material specifics into a vec4.  <a href="../../da/d40/a00946.html#a9aa2b66d8ecff1bcdb0f2af911f0cc9c">More...</a><br /></td></tr>
-<tr class="separator:a9aa2b66d8ecff1bcdb0f2af911f0cc9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45d7f3b02f09320f3a86d7833762628c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d40/a00946.html#a45d7f3b02f09320f3a86d7833762628c">castor3d::decodeMaterial</a> (glsl::GlslWriter &amp;writer, glsl::Float const &amp;encoded, glsl::Int const &amp;receiver, glsl::Int const &amp;reflection, glsl::Int const &amp;refraction, glsl::Int const &amp;envMapIndex)</td></tr>
-<tr class="memdesc:a45d7f3b02f09320f3a86d7833762628c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls the GLSL function used to dencode the material specifics from a vec4.  <a href="../../da/d40/a00946.html#a45d7f3b02f09320f3a86d7833762628c">More...</a><br /></td></tr>
-<tr class="separator:a45d7f3b02f09320f3a86d7833762628c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42492ebfdb5c92eea014f7f9ecb1b8c8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d40/a00946.html#a42492ebfdb5c92eea014f7f9ecb1b8c8">castor3d::decodeReceiver</a> (glsl::GlslWriter &amp;writer, glsl::Int &amp;encoded, glsl::Int const &amp;receiver)</td></tr>
-<tr class="memdesc:a42492ebfdb5c92eea014f7f9ecb1b8c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls the GLSL function used to decode the shadow receiver status from a vec4.  <a href="../../da/d40/a00946.html#a42492ebfdb5c92eea014f7f9ecb1b8c8">More...</a><br /></td></tr>
-<tr class="separator:a42492ebfdb5c92eea014f7f9ecb1b8c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Dec 7 2017 09:55:56 for Castor3D by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Dec 11 2017 11:16:12 for Castor3D by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

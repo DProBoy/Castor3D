@@ -1,8 +1,0 @@
-<map id="castor::FileParser::getContext" name="castor::FileParser::getContext">
-<area shape="rect" id="node2" href="$d4/dd5/a01244.html#a41511021fbcadf99fc47fe6586bf2167" title="Specific cleanup. " alt="" coords="185,5,315,47"/>
-<area shape="rect" id="node3" href="$d4/dd5/a01244.html#a911806a1c4fd71143a2c11b6a63d8077" title="Function called when m_iSection is out of bounds. " alt="" coords="183,71,317,112"/>
-<area shape="rect" id="node4" href="$d4/dd5/a01244.html#ab26d9072c6dffc30a42be31e2bbee800" title="Function called when no parser is found for the line. " alt="" coords="187,136,313,177"/>
-<area shape="rect" id="node5" href="$d4/dd5/a01244.html#ac6cfae484d0198122d814af64c1990f6" title="Gives the name associated to section ID. " alt="" coords="179,201,321,243"/>
-<area shape="rect" id="node6" href="$d4/dd5/a01244.html#ac0cc76b6b6c3930b6224a716c8d9b4e2" title="Specific initialisation function. " alt="" coords="185,267,315,308"/>
-<area shape="rect" id="node7" href="$d4/dd5/a01244.html#a8f9c4ede9cb458d9c6eeadd31e06d42d" title="Function called when file parsing is completed with no error. " alt="" coords="187,332,313,373"/>
-</map>

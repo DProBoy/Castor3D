@@ -1,3 +1,5 @@
-<map id="castor3d::ShadowMapPoint" name="castor3d::ShadowMapPoint">
-<area shape="rect" id="node2" href="$da/d5b/a03322.html" title="Shadow mapping implementation. " alt="" coords="23,80,174,107"/>
+<map id="castor3d::UniformBufferBinding" name="castor3d::UniformBufferBinding">
+<area shape="rect" id="node3" href="$da/d9e/a03059.html" title="Base shader program implementation, used to share functions through the supported shader languages..." alt="" coords="436,217,607,244"/>
+<area shape="rect" id="node8" href="$d9/d1f/a02035.html" title="Description of all elements in a vertex buffer. " alt="" coords="32,283,211,309"/>
+<area shape="rect" id="node11" href="$d2/d7d/a03351.html" title="castor3d::UniformBufferBinding\l::UniformInfo" alt="" coords="21,399,221,441"/>
 </map>

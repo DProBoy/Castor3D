@@ -1,7 +1,3 @@
 <map id="Graphe hiérarchique des classes" name="Graphe hiérarchique des classes">
-<area shape="rect" id="node1" href="$d6/d15/a03406.html" title="Classe de base pour tous les programmes des passes d&#39;éclairage. " alt="" coords="5,39,144,80"/>
-<area shape="rect" id="node2" href="$d0/d2b/a03394.html" title="Programme de passe de lumière directionnelle. " alt="" coords="193,5,362,47"/>
-<area shape="rect" id="node3" href="$d6/d7f/a03438.html" title="Classe de base pour les programmes de passe d&#39;éclairage nécessitant un maillage plutôt qu&#39;un quad..." alt="" coords="192,71,363,112"/>
-<area shape="rect" id="node4" href="$d1/d82/a03450.html" title="Programme de passe de lumière omnidirectionnelle. " alt="" coords="411,37,579,79"/>
-<area shape="rect" id="node5" href="$d7/db0/a03466.html" title="Programme de passe de lumière projecteur. " alt="" coords="412,103,577,144"/>
+<area shape="rect" id="node1" href="$d2/d78/a03431.html" title="Gère les passes d&#39;éclairage. " alt="" coords="5,5,160,32"/>
 </map>

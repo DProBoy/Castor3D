@@ -49,6 +49,7 @@ $(function() {
 <a href="#pro-methods">Fonctions membres protégées</a> &#124;
 <a href="#pro-attribs">Attributs protégés</a> &#124;
 <a href="#pro-static-attribs">Attributs protégés statiques</a> &#124;
+<a href="#friends">Amis</a> &#124;
 <a href="../../dd/d48/a00995.html">Liste de tous les membres</a>  </div>
   <div class="headertitle">
 <div class="title">Référence du modèle de la classe castor::Matrix&lt; T, Columns, Rows &gt;</div>  </div>
@@ -70,18 +71,18 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Types publics</h2></td></tr>
-<tr class="memitem:a9697c4969a873d70895b415c2e16f26c"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d9/d9a/a00998.html#a275b1ac50516474c96ce4d0b684d35ee">__value_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#a9697c4969a873d70895b415c2e16f26c">value_type</a></td></tr>
-<tr class="separator:a9697c4969a873d70895b415c2e16f26c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b17cfac40ceb7696a225db44778e1d6"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d9/d9a/a00998.html#a6e3550c1f10067114a8101af3bc5c2c7">__column</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#a8b17cfac40ceb7696a225db44778e1d6">col_type</a></td></tr>
-<tr class="separator:a8b17cfac40ceb7696a225db44778e1d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a15b58b01bd5c8e1ffcc3e8cd977cb78c"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d9/d9a/a00998.html#ab6b267083eb727f7c44a0730de282abd">__const_column</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#a15b58b01bd5c8e1ffcc3e8cd977cb78c">const_col_type</a></td></tr>
-<tr class="separator:a15b58b01bd5c8e1ffcc3e8cd977cb78c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a189a2953def8b4b4558d37d074c3a2fe"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d9/d9a/a00998.html#a5aa2364a02e8683c9cecddd20f7bfe03">__row</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#a189a2953def8b4b4558d37d074c3a2fe">row_type</a></td></tr>
-<tr class="separator:a189a2953def8b4b4558d37d074c3a2fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a329890e8fc79c18fe24e6e4efeb7f016"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d9/d9a/a00998.html#a0e1c8d71656a7dd0259eae4a2ce9ef31">__transpose</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#a329890e8fc79c18fe24e6e4efeb7f016">transpose_type</a></td></tr>
-<tr class="separator:a329890e8fc79c18fe24e6e4efeb7f016"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e39383146164a45ebfef168667c51b6"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d9/d9a/a00998.html">Matrix</a>&lt; <a class="el" href="../../d9/d9a/a00998.html#a9697c4969a873d70895b415c2e16f26c">value_type</a>, Columns, Rows &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#a6e39383146164a45ebfef168667c51b6">my_type</a></td></tr>
-<tr class="separator:a6e39383146164a45ebfef168667c51b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb9f628e6d75599119dca5404578340a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#afb9f628e6d75599119dca5404578340a">value_type</a> = <a class="el" href="../../d9/d9a/a00998.html#a747e5e6d5a97943dd1ac7a0c239a63ac">__value_type</a></td></tr>
+<tr class="separator:afb9f628e6d75599119dca5404578340a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67f5c29132771750b2ae7c5812788ad0"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#a67f5c29132771750b2ae7c5812788ad0">col_type</a> = <a class="el" href="../../d9/d9a/a00998.html#acf580f185569fe00762ce15ae6e0aee9">__column</a></td></tr>
+<tr class="separator:a67f5c29132771750b2ae7c5812788ad0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32303ede711c401d401939e22e4198c4"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#a32303ede711c401d401939e22e4198c4">const_col_type</a> = <a class="el" href="../../d9/d9a/a00998.html#a41016d5f3091f6bd2e0d31b637f9ee86">__const_column</a></td></tr>
+<tr class="separator:a32303ede711c401d401939e22e4198c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcbd4c822635306a872d4a61fa7c65dd"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#adcbd4c822635306a872d4a61fa7c65dd">row_type</a> = <a class="el" href="../../d9/d9a/a00998.html#a784c2a479945c2a97bed367d6742b813">__row</a></td></tr>
+<tr class="separator:adcbd4c822635306a872d4a61fa7c65dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad27697217041697dcc43f8287a95595b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#ad27697217041697dcc43f8287a95595b">transpose_type</a> = <a class="el" href="../../d9/d9a/a00998.html#ac0a354ff8c8065852c62338bb7f6460a">__transpose</a></td></tr>
+<tr class="separator:ad27697217041697dcc43f8287a95595b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0997a6828d57728df3f7b3c15e2980f8"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#a0997a6828d57728df3f7b3c15e2980f8">my_type</a> = <a class="el" href="../../d9/d9a/a00998.html">Matrix</a>&lt; <a class="el" href="../../d9/d9a/a00998.html#afb9f628e6d75599119dca5404578340a">value_type</a>, Columns, Rows &gt;</td></tr>
+<tr class="separator:a0997a6828d57728df3f7b3c15e2980f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Fonctions membres publiques</h2></td></tr>
@@ -114,72 +115,72 @@ Fonctions membres publiques</h2></td></tr>
 <tr class="memitem:aadf1d9a0d583dedda941895f8c91f2f4"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#aadf1d9a0d583dedda941895f8c91f2f4">~Matrix</a> ()</td></tr>
 <tr class="memdesc:aadf1d9a0d583dedda941895f8c91f2f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructeur.  <a href="#aadf1d9a0d583dedda941895f8c91f2f4">Plus de détails...</a><br /></td></tr>
 <tr class="separator:aadf1d9a0d583dedda941895f8c91f2f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a16dd109b6c8a4cfc28ca7aeec27235be"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#a16dd109b6c8a4cfc28ca7aeec27235be">setRow</a> (uint32_t p_index, <a class="el" href="../../d9/d9a/a00998.html#a9697c4969a873d70895b415c2e16f26c">value_type</a> const *p_row)</td></tr>
+<tr class="memitem:a16dd109b6c8a4cfc28ca7aeec27235be"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#a16dd109b6c8a4cfc28ca7aeec27235be">setRow</a> (uint32_t p_index, <a class="el" href="../../d9/d9a/a00998.html#afb9f628e6d75599119dca5404578340a">value_type</a> const *p_row)</td></tr>
 <tr class="memdesc:a16dd109b6c8a4cfc28ca7aeec27235be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Définit les valeurs d'une ligne donnée.  <a href="#a16dd109b6c8a4cfc28ca7aeec27235be">Plus de détails...</a><br /></td></tr>
 <tr class="separator:a16dd109b6c8a4cfc28ca7aeec27235be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49feecfb26412ec5a3f8b0ecb55b987d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#a49feecfb26412ec5a3f8b0ecb55b987d">setRow</a> (uint32_t p_index, <a class="el" href="../../d0/d2b/a01010.html">Point</a>&lt; <a class="el" href="../../d9/d9a/a00998.html#a9697c4969a873d70895b415c2e16f26c">value_type</a>, Columns &gt; const &amp;p_row)</td></tr>
+<tr class="memitem:a49feecfb26412ec5a3f8b0ecb55b987d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#a49feecfb26412ec5a3f8b0ecb55b987d">setRow</a> (uint32_t p_index, <a class="el" href="../../d0/d2b/a01010.html">Point</a>&lt; <a class="el" href="../../d9/d9a/a00998.html#afb9f628e6d75599119dca5404578340a">value_type</a>, Columns &gt; const &amp;p_row)</td></tr>
 <tr class="memdesc:a49feecfb26412ec5a3f8b0ecb55b987d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Définit les valeurs d'une ligne donnée.  <a href="#a49feecfb26412ec5a3f8b0ecb55b987d">Plus de détails...</a><br /></td></tr>
 <tr class="separator:a49feecfb26412ec5a3f8b0ecb55b987d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e9d58893040bd0ab549175d09ce34bb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#a7e9d58893040bd0ab549175d09ce34bb">setRow</a> (uint32_t p_index, <a class="el" href="../../d0/daf/a00970.html">Coords</a>&lt; <a class="el" href="../../d9/d9a/a00998.html#a9697c4969a873d70895b415c2e16f26c">value_type</a>, Columns &gt; const &amp;p_row)</td></tr>
+<tr class="memitem:a7e9d58893040bd0ab549175d09ce34bb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#a7e9d58893040bd0ab549175d09ce34bb">setRow</a> (uint32_t p_index, <a class="el" href="../../d0/daf/a00970.html">Coords</a>&lt; <a class="el" href="../../d9/d9a/a00998.html#afb9f628e6d75599119dca5404578340a">value_type</a>, Columns &gt; const &amp;p_row)</td></tr>
 <tr class="memdesc:a7e9d58893040bd0ab549175d09ce34bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Définit les valeurs d'une ligne donnée.  <a href="#a7e9d58893040bd0ab549175d09ce34bb">Plus de détails...</a><br /></td></tr>
 <tr class="separator:a7e9d58893040bd0ab549175d09ce34bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a392b631c15a3f1b31ae8d9671736a9b0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d9a/a00998.html#a189a2953def8b4b4558d37d074c3a2fe">row_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#a392b631c15a3f1b31ae8d9671736a9b0">getRow</a> (uint32_t p_index) const</td></tr>
+<tr class="memitem:a392b631c15a3f1b31ae8d9671736a9b0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d9a/a00998.html#adcbd4c822635306a872d4a61fa7c65dd">row_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#a392b631c15a3f1b31ae8d9671736a9b0">getRow</a> (uint32_t p_index) const</td></tr>
 <tr class="memdesc:a392b631c15a3f1b31ae8d9671736a9b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Récupère une ligne.  <a href="#a392b631c15a3f1b31ae8d9671736a9b0">Plus de détails...</a><br /></td></tr>
 <tr class="separator:a392b631c15a3f1b31ae8d9671736a9b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7355b320f1b733ac8a59acc8389dfaa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#aa7355b320f1b733ac8a59acc8389dfaa">getRow</a> (uint32_t p_index, <a class="el" href="../../d9/d9a/a00998.html#a189a2953def8b4b4558d37d074c3a2fe">row_type</a> &amp;p_result) const</td></tr>
+<tr class="memitem:aa7355b320f1b733ac8a59acc8389dfaa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#aa7355b320f1b733ac8a59acc8389dfaa">getRow</a> (uint32_t p_index, <a class="el" href="../../d9/d9a/a00998.html#adcbd4c822635306a872d4a61fa7c65dd">row_type</a> &amp;p_result) const</td></tr>
 <tr class="memdesc:aa7355b320f1b733ac8a59acc8389dfaa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Récupère une ligne.  <a href="#aa7355b320f1b733ac8a59acc8389dfaa">Plus de détails...</a><br /></td></tr>
 <tr class="separator:aa7355b320f1b733ac8a59acc8389dfaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af27c4f3c596930b4f3e39243f1dcee8a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#af27c4f3c596930b4f3e39243f1dcee8a">setColumn</a> (uint32_t p_index, <a class="el" href="../../d9/d9a/a00998.html#a9697c4969a873d70895b415c2e16f26c">value_type</a> const *p_col)</td></tr>
+<tr class="memitem:af27c4f3c596930b4f3e39243f1dcee8a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#af27c4f3c596930b4f3e39243f1dcee8a">setColumn</a> (uint32_t p_index, <a class="el" href="../../d9/d9a/a00998.html#afb9f628e6d75599119dca5404578340a">value_type</a> const *p_col)</td></tr>
 <tr class="memdesc:af27c4f3c596930b4f3e39243f1dcee8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Définit les valeurs d'une colonne donnée.  <a href="#af27c4f3c596930b4f3e39243f1dcee8a">Plus de détails...</a><br /></td></tr>
 <tr class="separator:af27c4f3c596930b4f3e39243f1dcee8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e5403f7e36bf378aa8f334b51b2e321"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#a0e5403f7e36bf378aa8f334b51b2e321">setColumn</a> (uint32_t p_index, <a class="el" href="../../d0/d2b/a01010.html">Point</a>&lt; <a class="el" href="../../d9/d9a/a00998.html#a9697c4969a873d70895b415c2e16f26c">value_type</a>, Rows &gt; const &amp;p_col)</td></tr>
+<tr class="memitem:a0e5403f7e36bf378aa8f334b51b2e321"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#a0e5403f7e36bf378aa8f334b51b2e321">setColumn</a> (uint32_t p_index, <a class="el" href="../../d0/d2b/a01010.html">Point</a>&lt; <a class="el" href="../../d9/d9a/a00998.html#afb9f628e6d75599119dca5404578340a">value_type</a>, Rows &gt; const &amp;p_col)</td></tr>
 <tr class="memdesc:a0e5403f7e36bf378aa8f334b51b2e321"><td class="mdescLeft">&#160;</td><td class="mdescRight">Définit les valeurs d'une colonne donnée.  <a href="#a0e5403f7e36bf378aa8f334b51b2e321">Plus de détails...</a><br /></td></tr>
 <tr class="separator:a0e5403f7e36bf378aa8f334b51b2e321"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a165d66e34dc69e0849926b51c5306a1c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#a165d66e34dc69e0849926b51c5306a1c">setColumn</a> (uint32_t p_index, <a class="el" href="../../d0/daf/a00970.html">Coords</a>&lt; <a class="el" href="../../d9/d9a/a00998.html#a9697c4969a873d70895b415c2e16f26c">value_type</a> const, Rows &gt; const &amp;p_col)</td></tr>
+<tr class="memitem:a165d66e34dc69e0849926b51c5306a1c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#a165d66e34dc69e0849926b51c5306a1c">setColumn</a> (uint32_t p_index, <a class="el" href="../../d0/daf/a00970.html">Coords</a>&lt; <a class="el" href="../../d9/d9a/a00998.html#afb9f628e6d75599119dca5404578340a">value_type</a> const, Rows &gt; const &amp;p_col)</td></tr>
 <tr class="memdesc:a165d66e34dc69e0849926b51c5306a1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Définit les valeurs d'une colonne donnée.  <a href="#a165d66e34dc69e0849926b51c5306a1c">Plus de détails...</a><br /></td></tr>
 <tr class="separator:a165d66e34dc69e0849926b51c5306a1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a8b0611e674aa492237d25f5dfed908"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#a0a8b0611e674aa492237d25f5dfed908">setColumn</a> (uint32_t p_index, <a class="el" href="../../d0/daf/a00970.html">Coords</a>&lt; <a class="el" href="../../d9/d9a/a00998.html#a9697c4969a873d70895b415c2e16f26c">value_type</a>, Rows &gt; const &amp;p_col)</td></tr>
+<tr class="memitem:a0a8b0611e674aa492237d25f5dfed908"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#a0a8b0611e674aa492237d25f5dfed908">setColumn</a> (uint32_t p_index, <a class="el" href="../../d0/daf/a00970.html">Coords</a>&lt; <a class="el" href="../../d9/d9a/a00998.html#afb9f628e6d75599119dca5404578340a">value_type</a>, Rows &gt; const &amp;p_col)</td></tr>
 <tr class="memdesc:a0a8b0611e674aa492237d25f5dfed908"><td class="mdescLeft">&#160;</td><td class="mdescRight">Définit les valeurs d'une colonne donnée.  <a href="#a0a8b0611e674aa492237d25f5dfed908">Plus de détails...</a><br /></td></tr>
 <tr class="separator:a0a8b0611e674aa492237d25f5dfed908"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92e3be6bff23ebb218c98564b25b39b9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d9a/a00998.html#a15b58b01bd5c8e1ffcc3e8cd977cb78c">const_col_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#a92e3be6bff23ebb218c98564b25b39b9">getColumn</a> (uint32_t p_index) const</td></tr>
+<tr class="memitem:a92e3be6bff23ebb218c98564b25b39b9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d9a/a00998.html#a32303ede711c401d401939e22e4198c4">const_col_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#a92e3be6bff23ebb218c98564b25b39b9">getColumn</a> (uint32_t p_index) const</td></tr>
 <tr class="memdesc:a92e3be6bff23ebb218c98564b25b39b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Récupère une colonne.  <a href="#a92e3be6bff23ebb218c98564b25b39b9">Plus de détails...</a><br /></td></tr>
 <tr class="separator:a92e3be6bff23ebb218c98564b25b39b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab4ed749e1f07d9ec811f573c4a45b0a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d9a/a00998.html#a8b17cfac40ceb7696a225db44778e1d6">col_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#ab4ed749e1f07d9ec811f573c4a45b0a5">getColumn</a> (uint32_t p_index)</td></tr>
+<tr class="memitem:ab4ed749e1f07d9ec811f573c4a45b0a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d9a/a00998.html#a67f5c29132771750b2ae7c5812788ad0">col_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#ab4ed749e1f07d9ec811f573c4a45b0a5">getColumn</a> (uint32_t p_index)</td></tr>
 <tr class="memdesc:ab4ed749e1f07d9ec811f573c4a45b0a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Récupère une colonne.  <a href="#ab4ed749e1f07d9ec811f573c4a45b0a5">Plus de détails...</a><br /></td></tr>
 <tr class="separator:ab4ed749e1f07d9ec811f573c4a45b0a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9fe21bf72b0fd5487873220e404ed18b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#a9fe21bf72b0fd5487873220e404ed18b">getColumn</a> (uint32_t p_index, <a class="el" href="../../d9/d9a/a00998.html#a15b58b01bd5c8e1ffcc3e8cd977cb78c">const_col_type</a> &amp;p_result) const</td></tr>
+<tr class="memitem:a9fe21bf72b0fd5487873220e404ed18b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#a9fe21bf72b0fd5487873220e404ed18b">getColumn</a> (uint32_t p_index, <a class="el" href="../../d9/d9a/a00998.html#a32303ede711c401d401939e22e4198c4">const_col_type</a> &amp;p_result) const</td></tr>
 <tr class="memdesc:a9fe21bf72b0fd5487873220e404ed18b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Récupère une colonne.  <a href="#a9fe21bf72b0fd5487873220e404ed18b">Plus de détails...</a><br /></td></tr>
 <tr class="separator:a9fe21bf72b0fd5487873220e404ed18b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a469fdd2d37ae046c68c218f784bf6e74"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#a469fdd2d37ae046c68c218f784bf6e74">getColumn</a> (uint32_t p_index, <a class="el" href="../../d9/d9a/a00998.html#a8b17cfac40ceb7696a225db44778e1d6">col_type</a> &amp;p_result)</td></tr>
+<tr class="memitem:a469fdd2d37ae046c68c218f784bf6e74"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#a469fdd2d37ae046c68c218f784bf6e74">getColumn</a> (uint32_t p_index, <a class="el" href="../../d9/d9a/a00998.html#a67f5c29132771750b2ae7c5812788ad0">col_type</a> &amp;p_result)</td></tr>
 <tr class="memdesc:a469fdd2d37ae046c68c218f784bf6e74"><td class="mdescLeft">&#160;</td><td class="mdescRight">Récupère une colonne.  <a href="#a469fdd2d37ae046c68c218f784bf6e74">Plus de détails...</a><br /></td></tr>
 <tr class="separator:a469fdd2d37ae046c68c218f784bf6e74"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a42cdb8e7044fd1953e3ef58a543aed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d9a/a00998.html#a9697c4969a873d70895b415c2e16f26c">value_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#a2a42cdb8e7044fd1953e3ef58a543aed">valueAt</a> (uint32_t p_column, uint32_t p_row)</td></tr>
+<tr class="memitem:a2a42cdb8e7044fd1953e3ef58a543aed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d9a/a00998.html#afb9f628e6d75599119dca5404578340a">value_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#a2a42cdb8e7044fd1953e3ef58a543aed">valueAt</a> (uint32_t p_column, uint32_t p_row)</td></tr>
 <tr class="memdesc:a2a42cdb8e7044fd1953e3ef58a543aed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Récupère la valeur à la position donnée.  <a href="#a2a42cdb8e7044fd1953e3ef58a543aed">Plus de détails...</a><br /></td></tr>
 <tr class="separator:a2a42cdb8e7044fd1953e3ef58a543aed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42e635c1f3f9b66f4a98be61ffaa249a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d9a/a00998.html#a15b58b01bd5c8e1ffcc3e8cd977cb78c">const_col_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#a42e635c1f3f9b66f4a98be61ffaa249a">operator[]</a> (uint32_t p_index) const</td></tr>
+<tr class="memitem:a42e635c1f3f9b66f4a98be61ffaa249a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d9a/a00998.html#a32303ede711c401d401939e22e4198c4">const_col_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#a42e635c1f3f9b66f4a98be61ffaa249a">operator[]</a> (uint32_t p_index) const</td></tr>
 <tr class="memdesc:a42e635c1f3f9b66f4a98be61ffaa249a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Récupère la colonne à l'index donné.  <a href="#a42e635c1f3f9b66f4a98be61ffaa249a">Plus de détails...</a><br /></td></tr>
 <tr class="separator:a42e635c1f3f9b66f4a98be61ffaa249a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab1ee93ee36ca2be9d6e3f2166d143595"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d9a/a00998.html#a8b17cfac40ceb7696a225db44778e1d6">col_type</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#ab1ee93ee36ca2be9d6e3f2166d143595">operator[]</a> (uint32_t p_index)</td></tr>
+<tr class="memitem:ab1ee93ee36ca2be9d6e3f2166d143595"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d9a/a00998.html#a67f5c29132771750b2ae7c5812788ad0">col_type</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#ab1ee93ee36ca2be9d6e3f2166d143595">operator[]</a> (uint32_t p_index)</td></tr>
 <tr class="memdesc:ab1ee93ee36ca2be9d6e3f2166d143595"><td class="mdescLeft">&#160;</td><td class="mdescRight">Récupère la colonne à l'index donné.  <a href="#ab1ee93ee36ca2be9d6e3f2166d143595">Plus de détails...</a><br /></td></tr>
 <tr class="separator:ab1ee93ee36ca2be9d6e3f2166d143595"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6030c0c4c0dbc5f5cfefe72d75f115a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d9a/a00998.html#a9697c4969a873d70895b415c2e16f26c">value_type</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#a6030c0c4c0dbc5f5cfefe72d75f115a8">ptr</a> ()</td></tr>
+<tr class="memitem:a6030c0c4c0dbc5f5cfefe72d75f115a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d9a/a00998.html#afb9f628e6d75599119dca5404578340a">value_type</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#a6030c0c4c0dbc5f5cfefe72d75f115a8">ptr</a> ()</td></tr>
 <tr class="separator:a6030c0c4c0dbc5f5cfefe72d75f115a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed99cf09b5c9937152cc9e9a05090db9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d9a/a00998.html#a9697c4969a873d70895b415c2e16f26c">value_type</a> const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#aed99cf09b5c9937152cc9e9a05090db9">constPtr</a> () const</td></tr>
+<tr class="memitem:aed99cf09b5c9937152cc9e9a05090db9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d9a/a00998.html#afb9f628e6d75599119dca5404578340a">value_type</a> const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#aed99cf09b5c9937152cc9e9a05090db9">constPtr</a> () const</td></tr>
 <tr class="separator:aed99cf09b5c9937152cc9e9a05090db9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a52490a23c5d9d4294e0bf8a288ba0fc8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#a52490a23c5d9d4294e0bf8a288ba0fc8">link</a> (T *p_coords)</td></tr>
 <tr class="memdesc:a52490a23c5d9d4294e0bf8a288ba0fc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lie les données de cette matrice à celles données en paramètre.  <a href="#a52490a23c5d9d4294e0bf8a288ba0fc8">Plus de détails...</a><br /></td></tr>
 <tr class="separator:a52490a23c5d9d4294e0bf8a288ba0fc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6bc8724914a61b193a12dd5efac49065"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#a6bc8724914a61b193a12dd5efac49065">initialise</a> (<a class="el" href="../../d9/d9a/a00998.html#a9697c4969a873d70895b415c2e16f26c">value_type</a> const &amp;p_value=<a class="el" href="../../d9/d9a/a00998.html#a9697c4969a873d70895b415c2e16f26c">value_type</a>{})</td></tr>
+<tr class="memitem:a6bc8724914a61b193a12dd5efac49065"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#a6bc8724914a61b193a12dd5efac49065">initialise</a> (<a class="el" href="../../d9/d9a/a00998.html#afb9f628e6d75599119dca5404578340a">value_type</a> const &amp;p_value=<a class="el" href="../../d9/d9a/a00998.html#afb9f628e6d75599119dca5404578340a">value_type</a>{})</td></tr>
 <tr class="memdesc:a6bc8724914a61b193a12dd5efac49065"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialise la matrice comme une matrice de Jordan, avec la valeur donnée.  <a href="#a6bc8724914a61b193a12dd5efac49065">Plus de détails...</a><br /></td></tr>
 <tr class="separator:a6bc8724914a61b193a12dd5efac49065"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9bfa2d96641b8817134e2fe96035ad9b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d9a/a00998.html#a329890e8fc79c18fe24e6e4efeb7f016">transpose_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#a9bfa2d96641b8817134e2fe96035ad9b">getTransposed</a> () const</td></tr>
+<tr class="memitem:a9bfa2d96641b8817134e2fe96035ad9b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d9a/a00998.html#ad27697217041697dcc43f8287a95595b">transpose_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#a9bfa2d96641b8817134e2fe96035ad9b">getTransposed</a> () const</td></tr>
 <tr class="separator:a9bfa2d96641b8817134e2fe96035ad9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9399754433b6a3184c20a94f12f5e663"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#a9399754433b6a3184c20a94f12f5e663">getTransposed</a> (<a class="el" href="../../d9/d9a/a00998.html#a329890e8fc79c18fe24e6e4efeb7f016">transpose_type</a> &amp;p_result) const</td></tr>
+<tr class="memitem:a9399754433b6a3184c20a94f12f5e663"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#a9399754433b6a3184c20a94f12f5e663">getTransposed</a> (<a class="el" href="../../d9/d9a/a00998.html#ad27697217041697dcc43f8287a95595b">transpose_type</a> &amp;p_result) const</td></tr>
 <tr class="memdesc:a9399754433b6a3184c20a94f12f5e663"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calcule la transposée de cette matrice.  <a href="#a9399754433b6a3184c20a94f12f5e663">Plus de détails...</a><br /></td></tr>
 <tr class="separator:a9399754433b6a3184c20a94f12f5e663"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4b6f50ffa4f7f792d4f4f2ecf324649"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d9a/a00998.html#a6e39383146164a45ebfef168667c51b6">my_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#ad4b6f50ffa4f7f792d4f4f2ecf324649">getIdentity</a> () const</td></tr>
+<tr class="memitem:ad4b6f50ffa4f7f792d4f4f2ecf324649"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d9a/a00998.html#a0997a6828d57728df3f7b3c15e2980f8">my_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#ad4b6f50ffa4f7f792d4f4f2ecf324649">getIdentity</a> () const</td></tr>
 <tr class="separator:ad4b6f50ffa4f7f792d4f4f2ecf324649"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad16f62fc49696eb8fb1b2b36a34052a7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d9a/a00998.html#a9697c4969a873d70895b415c2e16f26c">value_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#ad16f62fc49696eb8fb1b2b36a34052a7">getTrace</a> () const</td></tr>
+<tr class="memitem:ad16f62fc49696eb8fb1b2b36a34052a7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d9a/a00998.html#afb9f628e6d75599119dca5404578340a">value_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#ad16f62fc49696eb8fb1b2b36a34052a7">getTrace</a> () const</td></tr>
 <tr class="separator:ad16f62fc49696eb8fb1b2b36a34052a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e958d0a71833013a559b4e4d7b659df"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#a0e958d0a71833013a559b4e4d7b659df">setIdentity</a> ()</td></tr>
 <tr class="memdesc:a0e958d0a71833013a559b4e4d7b659df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Définit cette matrice à l'identité  <a href="#a0e958d0a71833013a559b4e4d7b659df">Plus de détails...</a><br /></td></tr>
@@ -227,22 +228,22 @@ Fonctions membres publiques</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-types"></a>
 Types protégés</h2></td></tr>
-<tr class="memitem:a275b1ac50516474c96ce4d0b684d35ee"><td class="memItemLeft" align="right" valign="top">typedef T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#a275b1ac50516474c96ce4d0b684d35ee">__value_type</a></td></tr>
-<tr class="separator:a275b1ac50516474c96ce4d0b684d35ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a227df3c50ad874ba85c04d0c82ccfe8a"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d9/d9a/a00998.html">Matrix</a>&lt; <a class="el" href="../../d9/d9a/a00998.html#a275b1ac50516474c96ce4d0b684d35ee">__value_type</a>, Columns, Rows &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#a227df3c50ad874ba85c04d0c82ccfe8a">__type</a></td></tr>
-<tr class="separator:a227df3c50ad874ba85c04d0c82ccfe8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e1c8d71656a7dd0259eae4a2ce9ef31"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d9/d9a/a00998.html">Matrix</a>&lt; <a class="el" href="../../d9/d9a/a00998.html#a275b1ac50516474c96ce4d0b684d35ee">__value_type</a>, Rows, Columns &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#a0e1c8d71656a7dd0259eae4a2ce9ef31">__transpose</a></td></tr>
-<tr class="separator:a0e1c8d71656a7dd0259eae4a2ce9ef31"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5aa2364a02e8683c9cecddd20f7bfe03"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d0/d2b/a01010.html">Point</a>&lt; <a class="el" href="../../d9/d9a/a00998.html#a275b1ac50516474c96ce4d0b684d35ee">__value_type</a>, Columns &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#a5aa2364a02e8683c9cecddd20f7bfe03">__row</a></td></tr>
-<tr class="separator:a5aa2364a02e8683c9cecddd20f7bfe03"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e3550c1f10067114a8101af3bc5c2c7"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d0/daf/a00970.html">Coords</a>&lt; <a class="el" href="../../d9/d9a/a00998.html#a275b1ac50516474c96ce4d0b684d35ee">__value_type</a>, Rows &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#a6e3550c1f10067114a8101af3bc5c2c7">__column</a></td></tr>
-<tr class="separator:a6e3550c1f10067114a8101af3bc5c2c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab6b267083eb727f7c44a0730de282abd"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d0/daf/a00970.html">Coords</a>&lt; <a class="el" href="../../d9/d9a/a00998.html#a275b1ac50516474c96ce4d0b684d35ee">__value_type</a> const, Rows &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#ab6b267083eb727f7c44a0730de282abd">__const_column</a></td></tr>
-<tr class="separator:ab6b267083eb727f7c44a0730de282abd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a747e5e6d5a97943dd1ac7a0c239a63ac"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#a747e5e6d5a97943dd1ac7a0c239a63ac">__value_type</a> = T</td></tr>
+<tr class="separator:a747e5e6d5a97943dd1ac7a0c239a63ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0bd21db428fbd2d653ee168ccd635e3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#ad0bd21db428fbd2d653ee168ccd635e3">__type</a> = <a class="el" href="../../d9/d9a/a00998.html">Matrix</a>&lt; <a class="el" href="../../d9/d9a/a00998.html#a747e5e6d5a97943dd1ac7a0c239a63ac">__value_type</a>, Columns, Rows &gt;</td></tr>
+<tr class="separator:ad0bd21db428fbd2d653ee168ccd635e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0a354ff8c8065852c62338bb7f6460a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#ac0a354ff8c8065852c62338bb7f6460a">__transpose</a> = <a class="el" href="../../d9/d9a/a00998.html">Matrix</a>&lt; <a class="el" href="../../d9/d9a/a00998.html#a747e5e6d5a97943dd1ac7a0c239a63ac">__value_type</a>, Rows, Columns &gt;</td></tr>
+<tr class="separator:ac0a354ff8c8065852c62338bb7f6460a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a784c2a479945c2a97bed367d6742b813"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#a784c2a479945c2a97bed367d6742b813">__row</a> = <a class="el" href="../../d0/d2b/a01010.html">Point</a>&lt; <a class="el" href="../../d9/d9a/a00998.html#a747e5e6d5a97943dd1ac7a0c239a63ac">__value_type</a>, Columns &gt;</td></tr>
+<tr class="separator:a784c2a479945c2a97bed367d6742b813"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf580f185569fe00762ce15ae6e0aee9"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#acf580f185569fe00762ce15ae6e0aee9">__column</a> = <a class="el" href="../../d0/daf/a00970.html">Coords</a>&lt; <a class="el" href="../../d9/d9a/a00998.html#a747e5e6d5a97943dd1ac7a0c239a63ac">__value_type</a>, Rows &gt;</td></tr>
+<tr class="separator:acf580f185569fe00762ce15ae6e0aee9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41016d5f3091f6bd2e0d31b637f9ee86"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#a41016d5f3091f6bd2e0d31b637f9ee86">__const_column</a> = <a class="el" href="../../d0/daf/a00970.html">Coords</a>&lt; <a class="el" href="../../d9/d9a/a00998.html#a747e5e6d5a97943dd1ac7a0c239a63ac">__value_type</a> const, Rows &gt;</td></tr>
+<tr class="separator:a41016d5f3091f6bd2e0d31b637f9ee86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Fonctions membres protégées</h2></td></tr>
-<tr class="memitem:a10f2002fb2b3eeb7a04297cc6aed7b17"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d9a/a00998.html#a6e39383146164a45ebfef168667c51b6">my_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#a10f2002fb2b3eeb7a04297cc6aed7b17">recGetMinor</a> (uint32_t x, uint32_t y, uint32_t p_rows, uint32_t p_cols) const</td></tr>
+<tr class="memitem:a10f2002fb2b3eeb7a04297cc6aed7b17"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d9a/a00998.html#a0997a6828d57728df3f7b3c15e2980f8">my_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#a10f2002fb2b3eeb7a04297cc6aed7b17">recGetMinor</a> (uint32_t x, uint32_t y, uint32_t p_rows, uint32_t p_cols) const</td></tr>
 <tr class="separator:a10f2002fb2b3eeb7a04297cc6aed7b17"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc5b9d9df760eea78795d7009d2a34f8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#afc5b9d9df760eea78795d7009d2a34f8">doUpdateColumns</a> () const</td></tr>
 <tr class="separator:afc5b9d9df760eea78795d7009d2a34f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -251,9 +252,9 @@ Fonctions membres protégées</h2></td></tr>
 Attributs protégés</h2></td></tr>
 <tr class="memitem:a69baa09dd0cc36771bd4650de4c9dbf2"><td class="memItemLeft" align="right" valign="top">T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#a69baa09dd0cc36771bd4650de4c9dbf2">m_data</a></td></tr>
 <tr class="separator:a69baa09dd0cc36771bd4650de4c9dbf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c82f41244588ebf75b6c8c6b26b5d68"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d9a/a00998.html#a8b17cfac40ceb7696a225db44778e1d6">col_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#a8c82f41244588ebf75b6c8c6b26b5d68">m_columns</a> [Columns]</td></tr>
+<tr class="memitem:a8c82f41244588ebf75b6c8c6b26b5d68"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d9a/a00998.html#a67f5c29132771750b2ae7c5812788ad0">col_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#a8c82f41244588ebf75b6c8c6b26b5d68">m_columns</a> [Columns]</td></tr>
 <tr class="separator:a8c82f41244588ebf75b6c8c6b26b5d68"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90d5f8e62614df92512f000577c4d353"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d9a/a00998.html#a9697c4969a873d70895b415c2e16f26c">value_type</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#a90d5f8e62614df92512f000577c4d353">m_debugData</a> [Columns][Rows]</td></tr>
+<tr class="memitem:a90d5f8e62614df92512f000577c4d353"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d9a/a00998.html#afb9f628e6d75599119dca5404578340a">value_type</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#a90d5f8e62614df92512f000577c4d353">m_debugData</a> [Columns][Rows]</td></tr>
 <tr class="separator:a90d5f8e62614df92512f000577c4d353"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-attribs"></a>
@@ -262,6 +263,12 @@ Attributs protégés statiques</h2></td></tr>
 <tr class="separator:a01f754f200028a40a87b9f582a613ce9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d1cf60f437412f38ddc417d967055aa"><td class="memItemLeft" align="right" valign="top">static const std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#a5d1cf60f437412f38ddc417d967055aa">size</a> = sizeof( T ) * Rows * Columns</td></tr>
 <tr class="separator:a5d1cf60f437412f38ddc417d967055aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+Amis</h2></td></tr>
+<tr class="memitem:aecc2950843b75b014486ee8d17a5851c"><td class="memTemplParams" colspan="2">template&lt;typename U , uint32_t C, uint32_t R&gt; </td></tr>
+<tr class="memitem:aecc2950843b75b014486ee8d17a5851c"><td class="memTemplItemLeft" align="right" valign="top">class&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a00998.html#aecc2950843b75b014486ee8d17a5851c">Matrix</a></td></tr>
+<tr class="separator:aecc2950843b75b014486ee8d17a5851c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Description détaillée</h2>
 <div class="textblock"><h3>template&lt;typename T, uint32_t Columns, uint32_t Rows&gt;<br />
@@ -273,8 +280,8 @@ class castor::Matrix&lt; T, Columns, Rows &gt;</h3>
 <dl class="section date"><dt>Date</dt><dd>09/02/2010</dd></dl>
 <dl class="section remark"><dt>Remarques</dt><dd>Peut contenir n'importe quel élément qui a une castor::Policy. </dd></dl>
 </div><h2 class="groupheader">Documentation des définitions de type membres</h2>
-<a id="a6e3550c1f10067114a8101af3bc5c2c7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6e3550c1f10067114a8101af3bc5c2c7">&#9670;&nbsp;</a></span>__column</h2>
+<a id="acf580f185569fe00762ce15ae6e0aee9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf580f185569fe00762ce15ae6e0aee9">&#9670;&nbsp;</a></span>__column</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -285,7 +292,7 @@ template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="../../d0/daf/a00970.html">Coords</a>&lt; <a class="el" href="../../d9/d9a/a00998.html#a275b1ac50516474c96ce4d0b684d35ee">__value_type</a>, Rows &gt; <a class="el" href="../../d9/d9a/a00998.html">castor::Matrix</a>&lt; T, Columns, Rows &gt;::<a class="el" href="../../d9/d9a/a00998.html#a6e3550c1f10067114a8101af3bc5c2c7">__column</a></td>
+          <td class="memname">using <a class="el" href="../../d9/d9a/a00998.html">castor::Matrix</a>&lt; T, Columns, Rows &gt;::<a class="el" href="../../d9/d9a/a00998.html#acf580f185569fe00762ce15ae6e0aee9">__column</a> =  <a class="el" href="../../d0/daf/a00970.html">Coords</a>&lt; <a class="el" href="../../d9/d9a/a00998.html#a747e5e6d5a97943dd1ac7a0c239a63ac">__value_type</a>, Rows &gt;</td>
         </tr>
       </table>
   </td>
@@ -297,8 +304,8 @@ template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
 
 </div>
 </div>
-<a id="ab6b267083eb727f7c44a0730de282abd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab6b267083eb727f7c44a0730de282abd">&#9670;&nbsp;</a></span>__const_column</h2>
+<a id="a41016d5f3091f6bd2e0d31b637f9ee86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41016d5f3091f6bd2e0d31b637f9ee86">&#9670;&nbsp;</a></span>__const_column</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -309,7 +316,7 @@ template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="../../d0/daf/a00970.html">Coords</a>&lt; <a class="el" href="../../d9/d9a/a00998.html#a275b1ac50516474c96ce4d0b684d35ee">__value_type</a> const, Rows &gt; <a class="el" href="../../d9/d9a/a00998.html">castor::Matrix</a>&lt; T, Columns, Rows &gt;::<a class="el" href="../../d9/d9a/a00998.html#ab6b267083eb727f7c44a0730de282abd">__const_column</a></td>
+          <td class="memname">using <a class="el" href="../../d9/d9a/a00998.html">castor::Matrix</a>&lt; T, Columns, Rows &gt;::<a class="el" href="../../d9/d9a/a00998.html#a41016d5f3091f6bd2e0d31b637f9ee86">__const_column</a> =  <a class="el" href="../../d0/daf/a00970.html">Coords</a>&lt; <a class="el" href="../../d9/d9a/a00998.html#a747e5e6d5a97943dd1ac7a0c239a63ac">__value_type</a> const, Rows &gt;</td>
         </tr>
       </table>
   </td>
@@ -321,8 +328,8 @@ template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
 
 </div>
 </div>
-<a id="a5aa2364a02e8683c9cecddd20f7bfe03"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5aa2364a02e8683c9cecddd20f7bfe03">&#9670;&nbsp;</a></span>__row</h2>
+<a id="a784c2a479945c2a97bed367d6742b813"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a784c2a479945c2a97bed367d6742b813">&#9670;&nbsp;</a></span>__row</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -333,7 +340,7 @@ template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="../../d0/d2b/a01010.html">Point</a>&lt; <a class="el" href="../../d9/d9a/a00998.html#a275b1ac50516474c96ce4d0b684d35ee">__value_type</a>, Columns &gt; <a class="el" href="../../d9/d9a/a00998.html">castor::Matrix</a>&lt; T, Columns, Rows &gt;::<a class="el" href="../../d9/d9a/a00998.html#a5aa2364a02e8683c9cecddd20f7bfe03">__row</a></td>
+          <td class="memname">using <a class="el" href="../../d9/d9a/a00998.html">castor::Matrix</a>&lt; T, Columns, Rows &gt;::<a class="el" href="../../d9/d9a/a00998.html#a784c2a479945c2a97bed367d6742b813">__row</a> =  <a class="el" href="../../d0/d2b/a01010.html">Point</a>&lt; <a class="el" href="../../d9/d9a/a00998.html#a747e5e6d5a97943dd1ac7a0c239a63ac">__value_type</a>, Columns &gt;</td>
         </tr>
       </table>
   </td>
@@ -345,8 +352,8 @@ template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
 
 </div>
 </div>
-<a id="a0e1c8d71656a7dd0259eae4a2ce9ef31"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0e1c8d71656a7dd0259eae4a2ce9ef31">&#9670;&nbsp;</a></span>__transpose</h2>
+<a id="ac0a354ff8c8065852c62338bb7f6460a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0a354ff8c8065852c62338bb7f6460a">&#9670;&nbsp;</a></span>__transpose</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -357,7 +364,7 @@ template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="../../d9/d9a/a00998.html">Matrix</a>&lt; <a class="el" href="../../d9/d9a/a00998.html#a275b1ac50516474c96ce4d0b684d35ee">__value_type</a>, Rows, Columns &gt; <a class="el" href="../../d9/d9a/a00998.html">castor::Matrix</a>&lt; T, Columns, Rows &gt;::<a class="el" href="../../d9/d9a/a00998.html#a0e1c8d71656a7dd0259eae4a2ce9ef31">__transpose</a></td>
+          <td class="memname">using <a class="el" href="../../d9/d9a/a00998.html">castor::Matrix</a>&lt; T, Columns, Rows &gt;::<a class="el" href="../../d9/d9a/a00998.html#ac0a354ff8c8065852c62338bb7f6460a">__transpose</a> =  <a class="el" href="../../d9/d9a/a00998.html">Matrix</a>&lt; <a class="el" href="../../d9/d9a/a00998.html#a747e5e6d5a97943dd1ac7a0c239a63ac">__value_type</a>, Rows, Columns &gt;</td>
         </tr>
       </table>
   </td>
@@ -369,8 +376,8 @@ template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
 
 </div>
 </div>
-<a id="a227df3c50ad874ba85c04d0c82ccfe8a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a227df3c50ad874ba85c04d0c82ccfe8a">&#9670;&nbsp;</a></span>__type</h2>
+<a id="ad0bd21db428fbd2d653ee168ccd635e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0bd21db428fbd2d653ee168ccd635e3">&#9670;&nbsp;</a></span>__type</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -381,7 +388,7 @@ template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="../../d9/d9a/a00998.html">Matrix</a>&lt; <a class="el" href="../../d9/d9a/a00998.html#a275b1ac50516474c96ce4d0b684d35ee">__value_type</a>, Columns, Rows &gt; <a class="el" href="../../d9/d9a/a00998.html">castor::Matrix</a>&lt; T, Columns, Rows &gt;::<a class="el" href="../../d9/d9a/a00998.html#a227df3c50ad874ba85c04d0c82ccfe8a">__type</a></td>
+          <td class="memname">using <a class="el" href="../../d9/d9a/a00998.html">castor::Matrix</a>&lt; T, Columns, Rows &gt;::<a class="el" href="../../d9/d9a/a00998.html#ad0bd21db428fbd2d653ee168ccd635e3">__type</a> =  <a class="el" href="../../d9/d9a/a00998.html">Matrix</a>&lt; <a class="el" href="../../d9/d9a/a00998.html#a747e5e6d5a97943dd1ac7a0c239a63ac">__value_type</a>, Columns, Rows &gt;</td>
         </tr>
       </table>
   </td>
@@ -393,8 +400,8 @@ template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
 
 </div>
 </div>
-<a id="a275b1ac50516474c96ce4d0b684d35ee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a275b1ac50516474c96ce4d0b684d35ee">&#9670;&nbsp;</a></span>__value_type</h2>
+<a id="a747e5e6d5a97943dd1ac7a0c239a63ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a747e5e6d5a97943dd1ac7a0c239a63ac">&#9670;&nbsp;</a></span>__value_type</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -405,7 +412,7 @@ template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">typedef T <a class="el" href="../../d9/d9a/a00998.html">castor::Matrix</a>&lt; T, Columns, Rows &gt;::<a class="el" href="../../d9/d9a/a00998.html#a275b1ac50516474c96ce4d0b684d35ee">__value_type</a></td>
+          <td class="memname">using <a class="el" href="../../d9/d9a/a00998.html">castor::Matrix</a>&lt; T, Columns, Rows &gt;::<a class="el" href="../../d9/d9a/a00998.html#a747e5e6d5a97943dd1ac7a0c239a63ac">__value_type</a> =  T</td>
         </tr>
       </table>
   </td>
@@ -417,8 +424,8 @@ template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
 
 </div>
 </div>
-<a id="a8b17cfac40ceb7696a225db44778e1d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8b17cfac40ceb7696a225db44778e1d6">&#9670;&nbsp;</a></span>col_type</h2>
+<a id="a67f5c29132771750b2ae7c5812788ad0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67f5c29132771750b2ae7c5812788ad0">&#9670;&nbsp;</a></span>col_type</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -426,7 +433,7 @@ template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
 template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="../../d9/d9a/a00998.html#a6e3550c1f10067114a8101af3bc5c2c7">__column</a> <a class="el" href="../../d9/d9a/a00998.html">castor::Matrix</a>&lt; T, Columns, Rows &gt;::<a class="el" href="../../d9/d9a/a00998.html#a8b17cfac40ceb7696a225db44778e1d6">col_type</a></td>
+          <td class="memname">using <a class="el" href="../../d9/d9a/a00998.html">castor::Matrix</a>&lt; T, Columns, Rows &gt;::<a class="el" href="../../d9/d9a/a00998.html#a67f5c29132771750b2ae7c5812788ad0">col_type</a> =  <a class="el" href="../../d9/d9a/a00998.html#acf580f185569fe00762ce15ae6e0aee9">__column</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -434,8 +441,8 @@ template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
 
 </div>
 </div>
-<a id="a15b58b01bd5c8e1ffcc3e8cd977cb78c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a15b58b01bd5c8e1ffcc3e8cd977cb78c">&#9670;&nbsp;</a></span>const_col_type</h2>
+<a id="a32303ede711c401d401939e22e4198c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32303ede711c401d401939e22e4198c4">&#9670;&nbsp;</a></span>const_col_type</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -443,7 +450,7 @@ template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
 template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="../../d9/d9a/a00998.html#ab6b267083eb727f7c44a0730de282abd">__const_column</a> <a class="el" href="../../d9/d9a/a00998.html">castor::Matrix</a>&lt; T, Columns, Rows &gt;::<a class="el" href="../../d9/d9a/a00998.html#a15b58b01bd5c8e1ffcc3e8cd977cb78c">const_col_type</a></td>
+          <td class="memname">using <a class="el" href="../../d9/d9a/a00998.html">castor::Matrix</a>&lt; T, Columns, Rows &gt;::<a class="el" href="../../d9/d9a/a00998.html#a32303ede711c401d401939e22e4198c4">const_col_type</a> =  <a class="el" href="../../d9/d9a/a00998.html#a41016d5f3091f6bd2e0d31b637f9ee86">__const_column</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -451,8 +458,8 @@ template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
 
 </div>
 </div>
-<a id="a6e39383146164a45ebfef168667c51b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6e39383146164a45ebfef168667c51b6">&#9670;&nbsp;</a></span>my_type</h2>
+<a id="a0997a6828d57728df3f7b3c15e2980f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0997a6828d57728df3f7b3c15e2980f8">&#9670;&nbsp;</a></span>my_type</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -460,7 +467,7 @@ template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
 template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="../../d9/d9a/a00998.html">Matrix</a>&lt; <a class="el" href="../../d9/d9a/a00998.html#a9697c4969a873d70895b415c2e16f26c">value_type</a>, Columns, Rows &gt; <a class="el" href="../../d9/d9a/a00998.html">castor::Matrix</a>&lt; T, Columns, Rows &gt;::<a class="el" href="../../d9/d9a/a00998.html#a6e39383146164a45ebfef168667c51b6">my_type</a></td>
+          <td class="memname">using <a class="el" href="../../d9/d9a/a00998.html">castor::Matrix</a>&lt; T, Columns, Rows &gt;::<a class="el" href="../../d9/d9a/a00998.html#a0997a6828d57728df3f7b3c15e2980f8">my_type</a> =  <a class="el" href="../../d9/d9a/a00998.html">Matrix</a>&lt; <a class="el" href="../../d9/d9a/a00998.html#afb9f628e6d75599119dca5404578340a">value_type</a>, Columns, Rows &gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -468,8 +475,8 @@ template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
 
 </div>
 </div>
-<a id="a189a2953def8b4b4558d37d074c3a2fe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a189a2953def8b4b4558d37d074c3a2fe">&#9670;&nbsp;</a></span>row_type</h2>
+<a id="adcbd4c822635306a872d4a61fa7c65dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adcbd4c822635306a872d4a61fa7c65dd">&#9670;&nbsp;</a></span>row_type</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -477,7 +484,7 @@ template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
 template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="../../d9/d9a/a00998.html#a5aa2364a02e8683c9cecddd20f7bfe03">__row</a> <a class="el" href="../../d9/d9a/a00998.html">castor::Matrix</a>&lt; T, Columns, Rows &gt;::<a class="el" href="../../d9/d9a/a00998.html#a189a2953def8b4b4558d37d074c3a2fe">row_type</a></td>
+          <td class="memname">using <a class="el" href="../../d9/d9a/a00998.html">castor::Matrix</a>&lt; T, Columns, Rows &gt;::<a class="el" href="../../d9/d9a/a00998.html#adcbd4c822635306a872d4a61fa7c65dd">row_type</a> =  <a class="el" href="../../d9/d9a/a00998.html#a784c2a479945c2a97bed367d6742b813">__row</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -485,8 +492,8 @@ template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
 
 </div>
 </div>
-<a id="a329890e8fc79c18fe24e6e4efeb7f016"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a329890e8fc79c18fe24e6e4efeb7f016">&#9670;&nbsp;</a></span>transpose_type</h2>
+<a id="ad27697217041697dcc43f8287a95595b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad27697217041697dcc43f8287a95595b">&#9670;&nbsp;</a></span>transpose_type</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -494,7 +501,7 @@ template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
 template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="../../d9/d9a/a00998.html#a0e1c8d71656a7dd0259eae4a2ce9ef31">__transpose</a> <a class="el" href="../../d9/d9a/a00998.html">castor::Matrix</a>&lt; T, Columns, Rows &gt;::<a class="el" href="../../d9/d9a/a00998.html#a329890e8fc79c18fe24e6e4efeb7f016">transpose_type</a></td>
+          <td class="memname">using <a class="el" href="../../d9/d9a/a00998.html">castor::Matrix</a>&lt; T, Columns, Rows &gt;::<a class="el" href="../../d9/d9a/a00998.html#ad27697217041697dcc43f8287a95595b">transpose_type</a> =  <a class="el" href="../../d9/d9a/a00998.html#ac0a354ff8c8065852c62338bb7f6460a">__transpose</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -502,8 +509,8 @@ template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
 
 </div>
 </div>
-<a id="a9697c4969a873d70895b415c2e16f26c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9697c4969a873d70895b415c2e16f26c">&#9670;&nbsp;</a></span>value_type</h2>
+<a id="afb9f628e6d75599119dca5404578340a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb9f628e6d75599119dca5404578340a">&#9670;&nbsp;</a></span>value_type</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -511,7 +518,7 @@ template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
 template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="../../d9/d9a/a00998.html#a275b1ac50516474c96ce4d0b684d35ee">__value_type</a> <a class="el" href="../../d9/d9a/a00998.html">castor::Matrix</a>&lt; T, Columns, Rows &gt;::<a class="el" href="../../d9/d9a/a00998.html#a9697c4969a873d70895b415c2e16f26c">value_type</a></td>
+          <td class="memname">using <a class="el" href="../../d9/d9a/a00998.html">castor::Matrix</a>&lt; T, Columns, Rows &gt;::<a class="el" href="../../d9/d9a/a00998.html#afb9f628e6d75599119dca5404578340a">value_type</a> =  <a class="el" href="../../d9/d9a/a00998.html#a747e5e6d5a97943dd1ac7a0c239a63ac">__value_type</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -817,7 +824,7 @@ template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d9a/a00998.html#a9697c4969a873d70895b415c2e16f26c">value_type</a> const* <a class="el" href="../../d9/d9a/a00998.html">castor::Matrix</a>&lt; T, Columns, Rows &gt;::constPtr </td>
+          <td class="memname"><a class="el" href="../../d9/d9a/a00998.html#afb9f628e6d75599119dca5404578340a">value_type</a> const* <a class="el" href="../../d9/d9a/a00998.html">castor::Matrix</a>&lt; T, Columns, Rows &gt;::constPtr </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -869,7 +876,7 @@ template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
 template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d9a/a00998.html#a15b58b01bd5c8e1ffcc3e8cd977cb78c">const_col_type</a> <a class="el" href="../../d9/d9a/a00998.html">castor::Matrix</a>&lt; T, Columns, Rows &gt;::getColumn </td>
+          <td class="memname"><a class="el" href="../../d9/d9a/a00998.html#a32303ede711c401d401939e22e4198c4">const_col_type</a> <a class="el" href="../../d9/d9a/a00998.html">castor::Matrix</a>&lt; T, Columns, Rows &gt;::getColumn </td>
           <td>(</td>
           <td class="paramtype">uint32_t&#160;</td>
           <td class="paramname"><em>p_index</em></td><td>)</td>
@@ -898,7 +905,7 @@ template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
 template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d9a/a00998.html#a8b17cfac40ceb7696a225db44778e1d6">col_type</a> <a class="el" href="../../d9/d9a/a00998.html">castor::Matrix</a>&lt; T, Columns, Rows &gt;::getColumn </td>
+          <td class="memname"><a class="el" href="../../d9/d9a/a00998.html#a67f5c29132771750b2ae7c5812788ad0">col_type</a> <a class="el" href="../../d9/d9a/a00998.html">castor::Matrix</a>&lt; T, Columns, Rows &gt;::getColumn </td>
           <td>(</td>
           <td class="paramtype">uint32_t&#160;</td>
           <td class="paramname"><em>p_index</em></td><td>)</td>
@@ -935,7 +942,7 @@ template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d9/d9a/a00998.html#a15b58b01bd5c8e1ffcc3e8cd977cb78c">const_col_type</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d9a/a00998.html#a32303ede711c401d401939e22e4198c4">const_col_type</a> &amp;&#160;</td>
           <td class="paramname"><em>p_result</em>&#160;</td>
         </tr>
         <tr>
@@ -974,7 +981,7 @@ template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d9/d9a/a00998.html#a8b17cfac40ceb7696a225db44778e1d6">col_type</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d9a/a00998.html#a67f5c29132771750b2ae7c5812788ad0">col_type</a> &amp;&#160;</td>
           <td class="paramname"><em>p_result</em>&#160;</td>
         </tr>
         <tr>
@@ -1005,7 +1012,7 @@ template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
 template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d9a/a00998.html#a6e39383146164a45ebfef168667c51b6">my_type</a> <a class="el" href="../../d9/d9a/a00998.html">castor::Matrix</a>&lt; T, Columns, Rows &gt;::getIdentity </td>
+          <td class="memname"><a class="el" href="../../d9/d9a/a00998.html#a0997a6828d57728df3f7b3c15e2980f8">my_type</a> <a class="el" href="../../d9/d9a/a00998.html">castor::Matrix</a>&lt; T, Columns, Rows &gt;::getIdentity </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1025,7 +1032,7 @@ template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
 template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d9a/a00998.html#a189a2953def8b4b4558d37d074c3a2fe">row_type</a> <a class="el" href="../../d9/d9a/a00998.html">castor::Matrix</a>&lt; T, Columns, Rows &gt;::getRow </td>
+          <td class="memname"><a class="el" href="../../d9/d9a/a00998.html#adcbd4c822635306a872d4a61fa7c65dd">row_type</a> <a class="el" href="../../d9/d9a/a00998.html">castor::Matrix</a>&lt; T, Columns, Rows &gt;::getRow </td>
           <td>(</td>
           <td class="paramtype">uint32_t&#160;</td>
           <td class="paramname"><em>p_index</em></td><td>)</td>
@@ -1062,7 +1069,7 @@ template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d9/d9a/a00998.html#a189a2953def8b4b4558d37d074c3a2fe">row_type</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d9a/a00998.html#adcbd4c822635306a872d4a61fa7c65dd">row_type</a> &amp;&#160;</td>
           <td class="paramname"><em>p_result</em>&#160;</td>
         </tr>
         <tr>
@@ -1093,7 +1100,7 @@ template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
 template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d9a/a00998.html#a9697c4969a873d70895b415c2e16f26c">value_type</a> <a class="el" href="../../d9/d9a/a00998.html">castor::Matrix</a>&lt; T, Columns, Rows &gt;::getTrace </td>
+          <td class="memname"><a class="el" href="../../d9/d9a/a00998.html#afb9f628e6d75599119dca5404578340a">value_type</a> <a class="el" href="../../d9/d9a/a00998.html">castor::Matrix</a>&lt; T, Columns, Rows &gt;::getTrace </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1113,7 +1120,7 @@ template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
 template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d9a/a00998.html#a329890e8fc79c18fe24e6e4efeb7f016">transpose_type</a> <a class="el" href="../../d9/d9a/a00998.html">castor::Matrix</a>&lt; T, Columns, Rows &gt;::getTransposed </td>
+          <td class="memname"><a class="el" href="../../d9/d9a/a00998.html#ad27697217041697dcc43f8287a95595b">transpose_type</a> <a class="el" href="../../d9/d9a/a00998.html">castor::Matrix</a>&lt; T, Columns, Rows &gt;::getTransposed </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1135,7 +1142,7 @@ template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
         <tr>
           <td class="memname">void <a class="el" href="../../d9/d9a/a00998.html">castor::Matrix</a>&lt; T, Columns, Rows &gt;::getTransposed </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/d9a/a00998.html#a329890e8fc79c18fe24e6e4efeb7f016">transpose_type</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d9a/a00998.html#ad27697217041697dcc43f8287a95595b">transpose_type</a> &amp;&#160;</td>
           <td class="paramname"><em>p_result</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1163,8 +1170,8 @@ template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
         <tr>
           <td class="memname">void <a class="el" href="../../d9/d9a/a00998.html">castor::Matrix</a>&lt; T, Columns, Rows &gt;::initialise </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/d9a/a00998.html#a9697c4969a873d70895b415c2e16f26c">value_type</a> const &amp;&#160;</td>
-          <td class="paramname"><em>p_value</em> = <code><a class="el" href="../../d9/d9a/a00998.html#a9697c4969a873d70895b415c2e16f26c">value_type</a>{}</code></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../d9/d9a/a00998.html#afb9f628e6d75599119dca5404578340a">value_type</a> const &amp;&#160;</td>
+          <td class="paramname"><em>p_value</em> = <code><a class="el" href="../../d9/d9a/a00998.html#afb9f628e6d75599119dca5404578340a">value_type</a>{}</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1590,7 +1597,7 @@ template&lt;typename Type &gt; </div>
 template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d9a/a00998.html#a15b58b01bd5c8e1ffcc3e8cd977cb78c">const_col_type</a> <a class="el" href="../../d9/d9a/a00998.html">castor::Matrix</a>&lt; T, Columns, Rows &gt;::operator[] </td>
+          <td class="memname"><a class="el" href="../../d9/d9a/a00998.html#a32303ede711c401d401939e22e4198c4">const_col_type</a> <a class="el" href="../../d9/d9a/a00998.html">castor::Matrix</a>&lt; T, Columns, Rows &gt;::operator[] </td>
           <td>(</td>
           <td class="paramtype">uint32_t&#160;</td>
           <td class="paramname"><em>p_index</em></td><td>)</td>
@@ -1619,7 +1626,7 @@ template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
 template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d9a/a00998.html#a8b17cfac40ceb7696a225db44778e1d6">col_type</a>&amp; <a class="el" href="../../d9/d9a/a00998.html">castor::Matrix</a>&lt; T, Columns, Rows &gt;::operator[] </td>
+          <td class="memname"><a class="el" href="../../d9/d9a/a00998.html#a67f5c29132771750b2ae7c5812788ad0">col_type</a>&amp; <a class="el" href="../../d9/d9a/a00998.html">castor::Matrix</a>&lt; T, Columns, Rows &gt;::operator[] </td>
           <td>(</td>
           <td class="paramtype">uint32_t&#160;</td>
           <td class="paramname"><em>p_index</em></td><td>)</td>
@@ -1651,7 +1658,7 @@ template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d9a/a00998.html#a9697c4969a873d70895b415c2e16f26c">value_type</a>* <a class="el" href="../../d9/d9a/a00998.html">castor::Matrix</a>&lt; T, Columns, Rows &gt;::ptr </td>
+          <td class="memname"><a class="el" href="../../d9/d9a/a00998.html#afb9f628e6d75599119dca5404578340a">value_type</a>* <a class="el" href="../../d9/d9a/a00998.html">castor::Matrix</a>&lt; T, Columns, Rows &gt;::ptr </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -1679,7 +1686,7 @@ template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d9a/a00998.html#a6e39383146164a45ebfef168667c51b6">my_type</a> <a class="el" href="../../d9/d9a/a00998.html">castor::Matrix</a>&lt; T, Columns, Rows &gt;::recGetMinor </td>
+          <td class="memname"><a class="el" href="../../d9/d9a/a00998.html#a0997a6828d57728df3f7b3c15e2980f8">my_type</a> <a class="el" href="../../d9/d9a/a00998.html">castor::Matrix</a>&lt; T, Columns, Rows &gt;::recGetMinor </td>
           <td>(</td>
           <td class="paramtype">uint32_t&#160;</td>
           <td class="paramname"><em>x</em>, </td>
@@ -1734,7 +1741,7 @@ template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d9/d9a/a00998.html#a9697c4969a873d70895b415c2e16f26c">value_type</a> const *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d9a/a00998.html#afb9f628e6d75599119dca5404578340a">value_type</a> const *&#160;</td>
           <td class="paramname"><em>p_col</em>&#160;</td>
         </tr>
         <tr>
@@ -1773,7 +1780,7 @@ template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d0/d2b/a01010.html">Point</a>&lt; <a class="el" href="../../d9/d9a/a00998.html#a9697c4969a873d70895b415c2e16f26c">value_type</a>, Rows &gt; const &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d0/d2b/a01010.html">Point</a>&lt; <a class="el" href="../../d9/d9a/a00998.html#afb9f628e6d75599119dca5404578340a">value_type</a>, Rows &gt; const &amp;&#160;</td>
           <td class="paramname"><em>p_col</em>&#160;</td>
         </tr>
         <tr>
@@ -1812,7 +1819,7 @@ template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d0/daf/a00970.html">Coords</a>&lt; <a class="el" href="../../d9/d9a/a00998.html#a9697c4969a873d70895b415c2e16f26c">value_type</a> const, Rows &gt; const &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d0/daf/a00970.html">Coords</a>&lt; <a class="el" href="../../d9/d9a/a00998.html#afb9f628e6d75599119dca5404578340a">value_type</a> const, Rows &gt; const &amp;&#160;</td>
           <td class="paramname"><em>p_col</em>&#160;</td>
         </tr>
         <tr>
@@ -1851,7 +1858,7 @@ template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d0/daf/a00970.html">Coords</a>&lt; <a class="el" href="../../d9/d9a/a00998.html#a9697c4969a873d70895b415c2e16f26c">value_type</a>, Rows &gt; const &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d0/daf/a00970.html">Coords</a>&lt; <a class="el" href="../../d9/d9a/a00998.html#afb9f628e6d75599119dca5404578340a">value_type</a>, Rows &gt; const &amp;&#160;</td>
           <td class="paramname"><em>p_col</em>&#160;</td>
         </tr>
         <tr>
@@ -1911,7 +1918,7 @@ template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d9/d9a/a00998.html#a9697c4969a873d70895b415c2e16f26c">value_type</a> const *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d9a/a00998.html#afb9f628e6d75599119dca5404578340a">value_type</a> const *&#160;</td>
           <td class="paramname"><em>p_row</em>&#160;</td>
         </tr>
         <tr>
@@ -1950,7 +1957,7 @@ template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d0/d2b/a01010.html">Point</a>&lt; <a class="el" href="../../d9/d9a/a00998.html#a9697c4969a873d70895b415c2e16f26c">value_type</a>, Columns &gt; const &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d0/d2b/a01010.html">Point</a>&lt; <a class="el" href="../../d9/d9a/a00998.html#afb9f628e6d75599119dca5404578340a">value_type</a>, Columns &gt; const &amp;&#160;</td>
           <td class="paramname"><em>p_row</em>&#160;</td>
         </tr>
         <tr>
@@ -1989,7 +1996,7 @@ template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d0/daf/a00970.html">Coords</a>&lt; <a class="el" href="../../d9/d9a/a00998.html#a9697c4969a873d70895b415c2e16f26c">value_type</a>, Columns &gt; const &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d0/daf/a00970.html">Coords</a>&lt; <a class="el" href="../../d9/d9a/a00998.html#afb9f628e6d75599119dca5404578340a">value_type</a>, Columns &gt; const &amp;&#160;</td>
           <td class="paramname"><em>p_row</em>&#160;</td>
         </tr>
         <tr>
@@ -2020,7 +2027,7 @@ template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
 template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d9a/a00998.html#a9697c4969a873d70895b415c2e16f26c">value_type</a> <a class="el" href="../../d9/d9a/a00998.html">castor::Matrix</a>&lt; T, Columns, Rows &gt;::valueAt </td>
+          <td class="memname"><a class="el" href="../../d9/d9a/a00998.html#afb9f628e6d75599119dca5404578340a">value_type</a> <a class="el" href="../../d9/d9a/a00998.html">castor::Matrix</a>&lt; T, Columns, Rows &gt;::valueAt </td>
           <td>(</td>
           <td class="paramtype">uint32_t&#160;</td>
           <td class="paramname"><em>p_column</em>, </td>
@@ -2047,6 +2054,33 @@ template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Renvoie</dt><dd>La valeur. </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Documentation des fonctions amies et associées</h2>
+<a id="aecc2950843b75b014486ee8d17a5851c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aecc2950843b75b014486ee8d17a5851c">&#9670;&nbsp;</a></span>Matrix</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
+<div class="memtemplate">
+template&lt;typename U , uint32_t C, uint32_t R&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="../../d9/d9a/a00998.html">Matrix</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -2087,7 +2121,7 @@ template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d9a/a00998.html#a8b17cfac40ceb7696a225db44778e1d6">col_type</a> <a class="el" href="../../d9/d9a/a00998.html">castor::Matrix</a>&lt; T, Columns, Rows &gt;::m_columns[Columns]</td>
+          <td class="memname"><a class="el" href="../../d9/d9a/a00998.html#a67f5c29132771750b2ae7c5812788ad0">col_type</a> <a class="el" href="../../d9/d9a/a00998.html">castor::Matrix</a>&lt; T, Columns, Rows &gt;::m_columns[Columns]</td>
         </tr>
       </table>
   </td>
@@ -2136,7 +2170,7 @@ template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d9a/a00998.html#a9697c4969a873d70895b415c2e16f26c">value_type</a>* <a class="el" href="../../d9/d9a/a00998.html">castor::Matrix</a>&lt; T, Columns, Rows &gt;::m_debugData[Columns][Rows]</td>
+          <td class="memname"><a class="el" href="../../d9/d9a/a00998.html#afb9f628e6d75599119dca5404578340a">value_type</a>* <a class="el" href="../../d9/d9a/a00998.html">castor::Matrix</a>&lt; T, Columns, Rows &gt;::m_debugData[Columns][Rows]</td>
         </tr>
       </table>
   </td>
@@ -2179,7 +2213,7 @@ template&lt;typename T, uint32_t Columns, uint32_t Rows&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Généré le Jeudi 7 Décembre 2017 10:19:40 pour CastorUtils par &#160;<a href="http://www.doxygen.org/index.html">
+Généré le Lundi 11 Décembre 2017 11:16:17 pour CastorUtils par &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

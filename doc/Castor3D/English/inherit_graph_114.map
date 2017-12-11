@@ -1,7 +1,6 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$df/d96/a03402.html" title="Base class for all light passes. " alt="" coords="5,31,144,57"/>
-<area shape="rect" id="node2" href="$d9/dc1/a03390.html" title="Directional light pass. " alt="" coords="192,5,391,32"/>
-<area shape="rect" id="node3" href="$d5/d85/a03434.html" title="Base class for light passes that need a mesh instead of a quad. " alt="" coords="206,56,377,83"/>
-<area shape="rect" id="node4" href="$d4/d60/a03446.html" title="Point light pass. " alt="" coords="439,31,607,57"/>
-<area shape="rect" id="node5" href="$d3/d66/a03462.html" title="Spot light pass. " alt="" coords="440,81,605,108"/>
+<area shape="rect" id="node1" href="$dd/db9/a02883.html" title="Holds light components. " alt="" coords="5,56,165,83"/>
+<area shape="rect" id="node2" href="$d6/d92/a02867.html" title="Class which represents a Directional Light. " alt="" coords="213,5,383,32"/>
+<area shape="rect" id="node3" href="$d6/d1a/a02895.html" title="Class which represents a PointLight. " alt="" coords="229,56,367,83"/>
+<area shape="rect" id="node4" href="$d9/d6c/a02903.html" title="Class which represents a SpotLight. " alt="" coords="231,107,365,133"/>
 </map>

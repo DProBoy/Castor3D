@@ -1,2 +1,4 @@
-<map id="castor3d::Pass::TextWriter" name="castor3d::Pass::TextWriter">
+<map id="castor3d::RenderBuffer" name="castor3d::RenderBuffer">
+<area shape="rect" id="node2" href="$d4/d25/a01939.html" title="Render buffer receiving colour PixelComponents. " alt="" coords="5,87,196,114"/>
+<area shape="rect" id="node3" href="$df/dd8/a01943.html" title="Render buffer receiving depth and/or stencil PixelComponents. " alt="" coords="221,80,415,121"/>
 </map>

@@ -1,2 +1,9 @@
-<map id="castor3d::RenderWindow" name="castor3d::RenderWindow">
+<map id="castor3d::SceneRenderNodes" name="castor3d::SceneRenderNodes">
+<area shape="rect" id="node2" href="$d8/d01/a02675.html" title="castor3d::RenderNodesT\l\&lt; MorphingRenderNode,\l MorphingRenderNodesByPipelineMap \&gt;" alt="" coords="267,5,523,61"/>
+<area shape="rect" id="node3" href="$d8/d01/a02675.html" title="castor3d::RenderNodesT\l\&lt; SkinningRenderNode,\l SubmeshSkinningRenderNodesByPipelineMap \&gt;" alt="" coords="241,85,549,141"/>
+<area shape="rect" id="node4" href="$d8/d01/a02675.html" title="castor3d::RenderNodesT\l\&lt; SkinningRenderNode,\l SkinningRenderNodesByPipelineMap \&gt;" alt="" coords="269,165,522,221"/>
+<area shape="rect" id="node5" href="$d8/d01/a02675.html" title="castor3d::RenderNodesT\l\&lt; StaticRenderNode, SubmeshStatic\lRenderNodesByPipelineMap \&gt;" alt="" coords="277,245,513,301"/>
+<area shape="rect" id="node6" href="$d8/d01/a02675.html" title="castor3d::RenderNodesT\l\&lt; BillboardRenderNode,\l BillboardRenderNodesByPipelineMap \&gt;" alt="" coords="269,325,522,381"/>
+<area shape="rect" id="node7" href="$d3/de2/a02959.html" title="Scene handler class. " alt="" coords="337,405,454,432"/>
+<area shape="rect" id="node11" href="$d8/d01/a02675.html" title="castor3d::RenderNodesT\l\&lt; StaticRenderNode, StaticRender\lNodesByPipelineMap \&gt;" alt="" coords="284,456,507,512"/>
 </map>

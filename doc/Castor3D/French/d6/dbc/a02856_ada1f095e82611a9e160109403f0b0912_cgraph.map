@@ -1,7 +1,0 @@
-<map id="castor3d::Skybox::setScene" name="castor3d::Skybox::setScene">
-<area shape="rect" id="node2" href="$d6/dbc/a02856.html#ae4df9b852b0e032f7a112ea69dc2f12e" title="castor3d::Skybox::doInitialise\lEquiTexture" alt="" coords="240,5,433,47"/>
-<area shape="rect" id="node3" href="$d6/dbc/a02856.html#abed4326742a4d54bf239b0d0de7f47bc" title="castor3d::Skybox::doInitialise\lPipeline" alt="" coords="240,71,433,112"/>
-<area shape="rect" id="node4" href="$d6/dbc/a02856.html#ac1fc677fda92d52cbdf71a1431a1a713" title="castor3d::Skybox::doInitialise\lShader" alt="" coords="240,136,433,177"/>
-<area shape="rect" id="node5" href="$d6/dbc/a02856.html#a9515d5408152ed5e9fda182093e3c42b" title="castor3d::Skybox::doInitialise\lTexture" alt="" coords="240,201,433,243"/>
-<area shape="rect" id="node6" href="$d6/dbc/a02856.html#ab1891e026bb4187107893716445c0b3a" title="castor3d::Skybox::doInitialise\lVertexBuffer" alt="" coords="240,267,433,308"/>
-</map>

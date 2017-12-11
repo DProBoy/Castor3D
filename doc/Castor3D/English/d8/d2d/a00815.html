@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Castor3D: Z:/Projets/C++/Castor3D/source/Core/Castor3D/Src/Shader/Ubos/SkinningUbo.hpp File Reference</title>
+<title>Castor3D: Z:/Projets/C++/Castor3D/source/Core/Castor3D/Src/Shader/Ubos/MorphingUbo.hpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -44,35 +44,36 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#define-members">Macros</a>  </div>
   <div class="headertitle">
-<div class="title">SkinningUbo.hpp File Reference</div>  </div>
+<div class="title">MorphingUbo.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Include dependency graph for SkinningUbo.hpp:</div>
+  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Include dependency graph for MorphingUbo.hpp:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="../../d7/d60/a00816.png" border="0" usemap="#Z_1_2Projets_2C_09_09_2Castor3D_2source_2Core_2Castor3D_2Src_2Shader_2Ubos_2SkinningUbo_8hpp" alt=""/></div>
-<map name="Z_1_2Projets_2C_09_09_2Castor3D_2source_2Core_2Castor3D_2Src_2Shader_2Ubos_2SkinningUbo_8hpp" id="Z_1_2Projets_2C_09_09_2Castor3D_2source_2Core_2Castor3D_2Src_2Shader_2Ubos_2SkinningUbo_8hpp">
-<area shape="rect" id="node2" href="../../dc/d1b/a00827.html" title="Shader/UniformBuffer.hpp" alt="" coords="1515,109,1685,136"/>
-<area shape="rect" id="node3" href="../../d4/d3e/a00116.html" title="Castor3DPrerequisites.hpp" alt="" coords="1565,333,1742,360"/>
-<area shape="rect" id="node27" href="../../d1/da8/a00230.html" title="Mesh/Buffer/GpuBuffer.hpp" alt="" coords="1149,259,1326,285"/>
-<area shape="rect" id="node30" href="../../d9/daf/a00830.html" title="Shader/UniformBufferBinding.hpp" alt="" coords="1350,259,1562,285"/>
-<area shape="rect" id="node31" href="../../d6/d8b/a00821.html" title="Shader/Uniform/Uniform.hpp" alt="" coords="1637,184,1821,211"/>
-<area shape="rect" id="node13" href="../../db/d8e/a00482.html" title="Prerequisites/Castor3DPrerequisites\l_Animation.hpp" alt="" coords="897,408,1129,449"/>
-<area shape="rect" id="node15" href="../../d6/d1a/a00485.html" title="Prerequisites/Castor3DPrerequisites\l_Camera.hpp" alt="" coords="1153,408,1385,449"/>
-<area shape="rect" id="node16" href="../../d6/d60/a00491.html" title="Prerequisites/Castor3DPrerequisites\l_Geometry.hpp" alt="" coords="1409,408,1641,449"/>
-<area shape="rect" id="node17" href="../../d5/d0f/a00494.html" title="Prerequisites/Castor3DPrerequisites\l_Light.hpp" alt="" coords="1921,408,2153,449"/>
-<area shape="rect" id="node19" href="../../d4/d1e/a00497.html" title="Prerequisites/Castor3DPrerequisites\l_Material.hpp" alt="" coords="1665,408,1897,449"/>
-<area shape="rect" id="node20" href="../../de/d4e/a00500.html" title="Prerequisites/Castor3DPrerequisites\l_Overlay.hpp" alt="" coords="2177,408,2409,449"/>
-<area shape="rect" id="node21" href="../../d4/d1f/a00506.html" title="Prerequisites/Castor3DPrerequisites\l_Scene.hpp" alt="" coords="2433,408,2665,449"/>
-<area shape="rect" id="node22" href="../../df/db6/a00509.html" title="Prerequisites/Castor3DPrerequisites\l_Shader.hpp" alt="" coords="2689,408,2921,449"/>
-<area shape="rect" id="node23" href="../../d4/de5/a00503.html" title="Prerequisites/Castor3DPrerequisites\l_Render.hpp" alt="" coords="2945,408,3177,449"/>
-<area shape="rect" id="node25" href="../../d4/ddf/a00488.html" title="Prerequisites/Castor3DPrerequisites\l_Event.hpp" alt="" coords="3201,408,3433,449"/>
-<area shape="rect" id="node14" href="../../db/d10/a00350.html" title="Mesh/VertexGroup.hpp" alt="" coords="935,497,1091,524"/>
-<area shape="rect" id="node32" href="../../d8/d1c/a00824.html" title="UniformHelpers.hpp" alt="" coords="1650,259,1785,285"/>
+<div class="center"><img src="../../d7/d60/a00816.png" border="0" usemap="#Z_1_2Projets_2C_09_09_2Castor3D_2source_2Core_2Castor3D_2Src_2Shader_2Ubos_2MorphingUbo_8hpp" alt=""/></div>
+<map name="Z_1_2Projets_2C_09_09_2Castor3D_2source_2Core_2Castor3D_2Src_2Shader_2Ubos_2MorphingUbo_8hpp" id="Z_1_2Projets_2C_09_09_2Castor3D_2source_2Core_2Castor3D_2Src_2Shader_2Ubos_2MorphingUbo_8hpp">
+<area shape="rect" id="node2" href="../../d3/d13/a00836.html" title="Shader/UniformBuffer.hpp" alt="" coords="1515,109,1685,136"/>
+<area shape="rect" id="node3" href="../../df/dc8/a00122.html" title="Castor3DPrerequisites.hpp" alt="" coords="1565,333,1742,360"/>
+<area shape="rect" id="node28" href="../../d7/d40/a00236.html" title="Mesh/Buffer/GpuBuffer.hpp" alt="" coords="1149,259,1326,285"/>
+<area shape="rect" id="node31" href="../../df/de8/a00839.html" title="Shader/UniformBufferBinding.hpp" alt="" coords="1350,259,1562,285"/>
+<area shape="rect" id="node32" href="../../d9/daf/a00830.html" title="Shader/Uniform/Uniform.hpp" alt="" coords="1637,184,1821,211"/>
+<area shape="rect" id="node13" href="../../d4/ddf/a00488.html" title="Prerequisites/Castor3DPrerequisites\l_Animation.hpp" alt="" coords="897,408,1129,449"/>
+<area shape="rect" id="node16" href="../../d6/d60/a00491.html" title="Prerequisites/Castor3DPrerequisites\l_Camera.hpp" alt="" coords="1153,408,1385,449"/>
+<area shape="rect" id="node17" href="../../d4/d1e/a00497.html" title="Prerequisites/Castor3DPrerequisites\l_Geometry.hpp" alt="" coords="1409,408,1641,449"/>
+<area shape="rect" id="node18" href="../../de/d4e/a00500.html" title="Prerequisites/Castor3DPrerequisites\l_Light.hpp" alt="" coords="1921,408,2153,449"/>
+<area shape="rect" id="node20" href="../../d4/de5/a00503.html" title="Prerequisites/Castor3DPrerequisites\l_Material.hpp" alt="" coords="1665,408,1897,449"/>
+<area shape="rect" id="node21" href="../../d4/d1f/a00506.html" title="Prerequisites/Castor3DPrerequisites\l_Overlay.hpp" alt="" coords="2177,408,2409,449"/>
+<area shape="rect" id="node22" href="../../d4/dfb/a00512.html" title="Prerequisites/Castor3DPrerequisites\l_Scene.hpp" alt="" coords="2433,408,2665,449"/>
+<area shape="rect" id="node23" href="../../dc/d19/a00515.html" title="Prerequisites/Castor3DPrerequisites\l_Shader.hpp" alt="" coords="2689,408,2921,449"/>
+<area shape="rect" id="node24" href="../../df/db6/a00509.html" title="Prerequisites/Castor3DPrerequisites\l_Render.hpp" alt="" coords="2945,408,3177,449"/>
+<area shape="rect" id="node26" href="../../d5/d0f/a00494.html" title="Prerequisites/Castor3DPrerequisites\l_Event.hpp" alt="" coords="3201,408,3433,449"/>
+<area shape="rect" id="node14" href="../../d6/de1/a00356.html" title="Mesh/VertexGroup.hpp" alt="" coords="839,497,995,524"/>
+<area shape="rect" id="node33" href="../../dc/d6e/a00833.html" title="UniformHelpers.hpp" alt="" coords="1650,259,1785,285"/>
 </map>
 </div>
 </div><div class="textblock"><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -80,46 +81,80 @@ $(function() {
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="../../dc/d5e/a00817.png" border="0" usemap="#Z_1_2Projets_2C_09_09_2Castor3D_2source_2Core_2Castor3D_2Src_2Shader_2Ubos_2SkinningUbo_8hppdep" alt=""/></div>
-<map name="Z_1_2Projets_2C_09_09_2Castor3D_2source_2Core_2Castor3D_2Src_2Shader_2Ubos_2SkinningUbo_8hppdep" id="Z_1_2Projets_2C_09_09_2Castor3D_2source_2Core_2Castor3D_2Src_2Shader_2Ubos_2SkinningUbo_8hppdep">
-<area shape="rect" id="node2" href="../../d9/d87/a00551.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Render/RenderNode\l/SkinningRenderNode.hpp" alt="" coords="883,109,1055,180"/>
-<area shape="rect" id="node6" href="../../d8/df0/a00557.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Render/RenderPass.hpp" alt="" coords="935,465,1125,521"/>
-<area shape="rect" id="node3" href="../../d0/ddb/a00542.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Render/RenderNode\l/RenderNode.hpp" alt="" coords="879,228,1045,299"/>
-<area shape="rect" id="node4" href="../../d8/deb/a00545.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Render/RenderNode\l/RenderNode_Render.hpp" alt="" coords="667,347,838,417"/>
-<area shape="rect" id="node5" href="../../d0/d3e/a00566.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Render/RenderQueue.hpp" alt="" coords="863,354,1061,410"/>
-<area shape="rect" id="node7" href="../../d8/ddd/a00380.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Miscellaneous/PickingPass.hpp" alt="" coords="313,577,547,633"/>
-<area shape="rect" id="node9" href="../../df/de8/a00839.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/ShadowMap/ShadowMapPass.hpp" alt="" coords="741,577,991,633"/>
-<area shape="rect" id="node13" href="../../d3/db2/a00869.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/DepthPass.hpp" alt="" coords="1394,814,1597,870"/>
-<area shape="rect" id="node15" href="../../d4/ddc/a00917.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/RenderTechnique\lPass.hpp" alt="" coords="1501,569,1714,640"/>
-<area shape="rect" id="node8" href="../../dd/d5c/a00578.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Render/RenderWindow.hpp" alt="" coords="5,695,212,751"/>
-<area shape="rect" id="node10" href="../../d0/d11/a00842.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/ShadowMap/ShadowMapPassDirectional.hpp" alt="" coords="237,695,549,751"/>
-<area shape="rect" id="node11" href="../../d7/dcf/a00845.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/ShadowMap/ShadowMapPassPoint.hpp" alt="" coords="573,695,855,751"/>
-<area shape="rect" id="node12" href="../../d9/d30/a00848.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/ShadowMap/ShadowMapPassSpot.hpp" alt="" coords="879,695,1157,751"/>
-<area shape="rect" id="node14" href="../../d3/dd1/a00914.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/RenderTechnique.hpp" alt="" coords="1729,1044,1968,1100"/>
-<area shape="rect" id="node16" href="../../d1/d88/a00128.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/EnvironmentMap/Environment\lMapPass.hpp" alt="" coords="1233,688,1454,759"/>
-<area shape="rect" id="node17" href="../../dc/d17/a00872.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/ForwardRenderTechnique\lPass.hpp" alt="" coords="1478,688,1737,759"/>
-<area shape="rect" id="node18" href="../../dc/d2c/a00893.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/Opaque/OpaquePass.hpp" alt="" coords="1761,695,2024,751"/>
-<area shape="rect" id="node19" href="../../df/de9/a00923.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/Transparent\l/TransparentPass.hpp" alt="" coords="2049,688,2230,759"/>
-<area shape="rect" id="node20" href="../../d6/d82/a00920.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/Transparent\l/FinalCombinePass.hpp" alt="" coords="1921,807,2102,877"/>
-<area shape="rect" id="node21" href="../../d8/d38/a00926.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/Transparent\l/WeightedBlendRendering.hpp" alt="" coords="1913,925,2110,996"/>
+<div class="center"><img src="../../dc/d5e/a00817.png" border="0" usemap="#Z_1_2Projets_2C_09_09_2Castor3D_2source_2Core_2Castor3D_2Src_2Shader_2Ubos_2MorphingUbo_8hppdep" alt=""/></div>
+<map name="Z_1_2Projets_2C_09_09_2Castor3D_2source_2Core_2Castor3D_2Src_2Shader_2Ubos_2MorphingUbo_8hppdep" id="Z_1_2Projets_2C_09_09_2Castor3D_2source_2Core_2Castor3D_2Src_2Shader_2Ubos_2MorphingUbo_8hppdep">
+<area shape="rect" id="node2" href="../../dc/dae/a00563.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Render/RenderPass.hpp" alt="" coords="979,109,1169,165"/>
+<area shape="rect" id="node3" href="../../dd/df5/a00386.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Miscellaneous/PickingPass.hpp" alt="" coords="281,221,515,277"/>
+<area shape="rect" id="node5" href="../../d9/d30/a00848.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/ShadowMap/ShadowMapPass.hpp" alt="" coords="709,221,959,277"/>
+<area shape="rect" id="node9" href="../../d5/d69/a00878.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/DepthPass.hpp" alt="" coords="1394,458,1597,514"/>
+<area shape="rect" id="node11" href="../../d8/d38/a00926.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/RenderTechnique\lPass.hpp" alt="" coords="1501,213,1714,284"/>
+<area shape="rect" id="node4" href="../../d7/d21/a00584.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Render/RenderWindow.hpp" alt="" coords="5,339,212,395"/>
+<area shape="rect" id="node6" href="../../df/d4c/a00851.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/ShadowMap/ShadowMapPassDirectional.hpp" alt="" coords="237,339,549,395"/>
+<area shape="rect" id="node7" href="../../d6/d2f/a00854.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/ShadowMap/ShadowMapPassPoint.hpp" alt="" coords="573,339,855,395"/>
+<area shape="rect" id="node8" href="../../d0/d82/a00857.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/ShadowMap/ShadowMapPassSpot.hpp" alt="" coords="879,339,1157,395"/>
+<area shape="rect" id="node10" href="../../df/de9/a00923.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/RenderTechnique.hpp" alt="" coords="1729,688,1968,744"/>
+<area shape="rect" id="node12" href="../../de/d76/a00134.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/EnvironmentMap/Environment\lMapPass.hpp" alt="" coords="1233,332,1454,403"/>
+<area shape="rect" id="node13" href="../../df/d41/a00881.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/ForwardRenderTechnique\lPass.hpp" alt="" coords="1478,332,1737,403"/>
+<area shape="rect" id="node14" href="../../d5/dd3/a00902.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/Opaque/OpaquePass.hpp" alt="" coords="1761,339,2024,395"/>
+<area shape="rect" id="node15" href="../../d8/dbb/a00932.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/Transparent\l/TransparentPass.hpp" alt="" coords="2049,332,2230,403"/>
+<area shape="rect" id="node16" href="../../dc/d92/a00929.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/Transparent\l/FinalCombinePass.hpp" alt="" coords="1921,451,2102,521"/>
+<area shape="rect" id="node17" href="../../d8/d19/a00935.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/Transparent\l/WeightedBlendRendering.hpp" alt="" coords="1913,569,2110,640"/>
 </map>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d29/a03162.html">castor3d::SkinningUbo</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Matrices <a class="el" href="../../da/de5/a03170.html" title="Shader variable representation. ">Uniform</a> buffer management.  <a href="../../d8/d29/a03162.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d27/a03183.html">castor3d::MorphingUbo</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Matrices <a class="el" href="../../d5/d73/a03203.html" title="Shader variable representation. ">Uniform</a> buffer management.  <a href="../../d5/d27/a03183.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:da/d40/a00946"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d40/a00946.html">castor3d</a></td></tr>
+<tr class="memitem:dc/db6/a00955"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.html">castor3d</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a2afdeab9fdf1705d1d841a60bd1596c3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d2d/a00815.html#a2afdeab9fdf1705d1d841a60bd1596c3">UBO_MORPHING</a>(Writer,  Flags)</td></tr>
+<tr class="separator:a2afdeab9fdf1705d1d841a60bd1596c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a2afdeab9fdf1705d1d841a60bd1596c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2afdeab9fdf1705d1d841a60bd1596c3">&#9670;&nbsp;</a></span>UBO_MORPHING</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define UBO_MORPHING</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">Writer, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">Flags&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">glsl::Ubo morphing{ writer, <a class="code" href="../../d5/d27/a03183.html#a3f7a2b97987a09150d75da11bbf55d45">castor3d::MorphingUbo::BufferMorphing</a>, <a class="code" href="../../d5/d27/a03183.html#a56a19cde5c45bcd5a37019b17d22fab5">castor3d::MorphingUbo::BindingPoint</a> };\</div><div class="line">    auto c3d_time = morphing.declMember&lt; glsl::Float &gt;( <a class="code" href="../../d5/d27/a03183.html#a9bc69efb41c22e2c037db1c622071a1e">castor3d::MorphingUbo::Time</a>, checkFlag( Flags, <a class="code" href="../../dc/db6/a00955.html#a936ab837f9d458e7c234bb1ef4061cabafc8be581627b97523b9662d9eae684b0">castor3d::ProgramFlag::eMorphing</a> ) );\</div><div class="line">    morphing.end()</div><div class="ttc" id="a03183_html_a3f7a2b97987a09150d75da11bbf55d45"><div class="ttname"><a href="../../d5/d27/a03183.html#a3f7a2b97987a09150d75da11bbf55d45">castor3d::MorphingUbo::BufferMorphing</a></div><div class="ttdeci">static C3D_API castor::String const BufferMorphing</div><div class="ttdef"><b>Definition:</b> MorphingUbo.hpp:81</div></div>
+<div class="ttc" id="a03183_html_a9bc69efb41c22e2c037db1c622071a1e"><div class="ttname"><a href="../../d5/d27/a03183.html#a9bc69efb41c22e2c037db1c622071a1e">castor3d::MorphingUbo::Time</a></div><div class="ttdeci">static C3D_API castor::String const Time</div><div class="ttdef"><b>Definition:</b> MorphingUbo.hpp:84</div></div>
+<div class="ttc" id="a00955_html_a936ab837f9d458e7c234bb1ef4061cabafc8be581627b97523b9662d9eae684b0"><div class="ttname"><a href="../../dc/db6/a00955.html#a936ab837f9d458e7c234bb1ef4061cabafc8be581627b97523b9662d9eae684b0">castor3d::ProgramFlag::eMorphing</a></div></div>
+<div class="ttc" id="a03183_html_a56a19cde5c45bcd5a37019b17d22fab5"><div class="ttname"><a href="../../d5/d27/a03183.html#a56a19cde5c45bcd5a37019b17d22fab5">castor3d::MorphingUbo::BindingPoint</a></div><div class="ttdeci">static uint32_t constexpr BindingPoint</div><div class="ttdef"><b>Definition:</b> MorphingUbo.hpp:78</div></div>
+</div><!-- fragment -->
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Dec 7 2017 09:55:56 for Castor3D by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Dec 11 2017 11:16:10 for Castor3D by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

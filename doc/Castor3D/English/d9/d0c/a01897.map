@@ -1,5 +1,2 @@
-<map id="castor3d::UserInputEvent" name="castor3d::UserInputEvent">
-<area shape="rect" id="node2" href="$dc/d33/a01878.html" title="Description of a handler event. " alt="" coords="5,80,161,107"/>
-<area shape="rect" id="node3" href="$d9/dd5/a01886.html" title="Description of a keyboard event. " alt="" coords="185,80,352,107"/>
-<area shape="rect" id="node4" href="$d8/dd1/a01894.html" title="Description of a mouse event. " alt="" coords="376,80,527,107"/>
+<map id="castor3d::EventHandler" name="castor3d::EventHandler">
 </map>

@@ -1,6 +1,0 @@
-<map id="castor3d::SpecularGlossinessPassBuffer" name="castor3d::SpecularGlossinessPassBuffer">
-<area shape="rect" id="node2" href="$d2/d34/a02982.html" title="ShaderBuffer holding the Passes data. " alt="" coords="832,117,975,143"/>
-<area shape="rect" id="node4" href="$d2/d3d/a01982.html" title="Base class of a material pass. " alt="" coords="265,50,375,77"/>
-<area shape="rect" id="node8" href="$dc/de9/a03010.html" title="Wrapper class to select between SSBO or TBO. " alt="" coords="517,202,672,229"/>
-<area shape="rect" id="node9" href="$d4/d8b/a03538.html" title="Texture unit representation. " alt="" coords="247,202,393,229"/>
-</map>

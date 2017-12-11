@@ -1,6 +1,0 @@
-<map id="castor::format::indentValue" name="castor::format::indentValue">
-<area shape="rect" id="node2" href="$d8/ddd/a00380.html#ad11991b97148aca914bdcd8d7b77072b" title="Retrieves the indentation value for the given stream. " alt="" coords="232,5,395,32"/>
-<area shape="rect" id="node4" href="$d8/ddd/a00380.html#a64252245b850a1fd8c64f337aaa26c29" title="Defines the indentation value for given stream. " alt="" coords="232,56,395,83"/>
-<area shape="rect" id="node3" href="$d8/ddd/a00380.html#a4426f4004206a9086cd3093ffdc4384a" title="The stream events callback. " alt="" coords="443,5,601,32"/>
-<area shape="rect" id="node5" href="$d3/d30/a00370.html#a4319ff946f96bd187e5655395d78e54d" title="Stream operator. " alt="" coords="457,56,587,83"/>
-</map>

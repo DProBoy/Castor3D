@@ -1,2 +1,4 @@
-<map id="castor3d::Scene" name="castor3d::Scene">
+<map id="castor3d::SkeletonAnimationInstanceObject" name="castor3d::SkeletonAnimationInstanceObject">
+<area shape="rect" id="node3" href="$d3/da7/a02815.html" title="Implémentation de SkeletonAnimationObject pour les Bones. " alt="" coords="5,184,195,225"/>
+<area shape="rect" id="node4" href="$df/d37/a02823.html" title="Implémentation de SkeletonAnimationNode pour des noeuds abstraits. " alt="" coords="219,184,408,225"/>
 </map>

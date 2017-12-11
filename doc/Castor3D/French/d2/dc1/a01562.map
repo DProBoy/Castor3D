@@ -1,4 +1,3 @@
-<map id="castor3d::SkeletonAnimationBone" name="castor3d::SkeletonAnimationBone">
-<area shape="rect" id="node2" href="$dd/d70/a01596.html" title="Classe de représentation d&#39;objets d&#39;animations de squelette. " alt="" coords="584,79,773,120"/>
-<area shape="rect" id="node6" href="$dc/d57/a01512.html" title="Classe qui gère une key frame. " alt="" coords="5,151,145,178"/>
+<map id="castor3d::BinaryWriter&lt; MeshAnimation &gt;" name="castor3d::BinaryWriter&lt; MeshAnimation &gt;">
+<area shape="rect" id="node2" href="$d7/db8/a01687.html" title="castor3d::BinaryWriterBase\l\&lt; MeshAnimation \&gt;" alt="" coords="5,5,188,47"/>
 </map>

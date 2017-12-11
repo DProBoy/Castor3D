@@ -1,8 +1,0 @@
-<map id="castor::Exception" name="castor::Exception">
-<area shape="rect" id="node3" href="$d6/d80/a01076.html" title="Resource loading exception. " alt="" coords="347,5,509,32"/>
-<area shape="rect" id="node4" href="$d0/db9/a01552.html" title="Exception thrown when the user tries to retrieve a parameter of a wrong type. " alt="" coords="332,57,524,98"/>
-<area shape="rect" id="node5" href="$de/d9d/a02072.html" title="Pool exception. " alt="" coords="329,122,527,163"/>
-<area shape="rect" id="node6" href="$d0/d67/a01232.html" title="Unicity exception. " alt="" coords="346,188,510,215"/>
-<area shape="rect" id="node7" href="$d3/d92/a01796.html" title="Unsupported format exception. " alt="" coords="338,239,518,281"/>
-<area shape="rect" id="node2" title="STL class. " alt="" coords="5,129,109,156"/>
-</map>

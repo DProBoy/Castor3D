@@ -1,17 +1,21 @@
-<map id="Z:/Projets/C++/Castor3D/source/Core/Castor3D/Src/Render/RenderPass.hpp" name="Z:/Projets/C++/Castor3D/source/Core/Castor3D/Src/Render/RenderPass.hpp">
-<area shape="rect" id="node2" href="$d8/ddd/a00380.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Miscellaneous/PickingPass.hpp" alt="" coords="281,117,515,173"/>
-<area shape="rect" id="node4" href="$df/de8/a00839.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/ShadowMap/ShadowMapPass.hpp" alt="" coords="709,117,959,173"/>
-<area shape="rect" id="node8" href="$d3/db2/a00869.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/DepthPass.hpp" alt="" coords="1394,354,1597,410"/>
-<area shape="rect" id="node10" href="$d4/ddc/a00917.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/RenderTechnique\lPass.hpp" alt="" coords="1501,109,1714,180"/>
-<area shape="rect" id="node3" href="$dd/d5c/a00578.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Render/RenderWindow.hpp" alt="" coords="5,235,212,291"/>
-<area shape="rect" id="node5" href="$d0/d11/a00842.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/ShadowMap/ShadowMapPassDirectional.hpp" alt="" coords="237,235,549,291"/>
-<area shape="rect" id="node6" href="$d7/dcf/a00845.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/ShadowMap/ShadowMapPassPoint.hpp" alt="" coords="573,235,855,291"/>
-<area shape="rect" id="node7" href="$d9/d30/a00848.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/ShadowMap/ShadowMapPassSpot.hpp" alt="" coords="879,235,1157,291"/>
-<area shape="rect" id="node9" href="$d3/dd1/a00914.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/RenderTechnique.hpp" alt="" coords="1729,584,1968,640"/>
-<area shape="rect" id="node11" href="$d1/d88/a00128.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/EnvironmentMap/Environment\lMapPass.hpp" alt="" coords="1233,228,1454,299"/>
-<area shape="rect" id="node12" href="$dc/d17/a00872.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/ForwardRenderTechnique\lPass.hpp" alt="" coords="1478,228,1737,299"/>
-<area shape="rect" id="node13" href="$dc/d2c/a00893.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/Opaque/OpaquePass.hpp" alt="" coords="1761,235,2024,291"/>
-<area shape="rect" id="node14" href="$df/de9/a00923.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/Transparent\l/TransparentPass.hpp" alt="" coords="2049,228,2230,299"/>
-<area shape="rect" id="node15" href="$d6/d82/a00920.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/Transparent\l/FinalCombinePass.hpp" alt="" coords="1921,347,2102,417"/>
-<area shape="rect" id="node16" href="$d8/d38/a00926.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/Transparent\l/WeightedBlendRendering.hpp" alt="" coords="1913,465,2110,536"/>
+<map id="Z:/Projets/C++/Castor3D/source/Core/Castor3D/Src/Render/RenderNode/SkinningRenderNode.hpp" name="Z:/Projets/C++/Castor3D/source/Core/Castor3D/Src/Render/RenderNode/SkinningRenderNode.hpp">
+<area shape="rect" id="node2" href="$dd/de6/a00548.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Render/RenderNode\l/RenderNode.hpp" alt="" coords="885,124,1052,195"/>
+<area shape="rect" id="node3" href="$d9/d87/a00551.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Render/RenderNode\l/RenderNode_Render.hpp" alt="" coords="779,243,950,313"/>
+<area shape="rect" id="node4" href="$d6/d06/a00572.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Render/RenderQueue.hpp" alt="" coords="975,250,1173,306"/>
+<area shape="rect" id="node5" href="$dc/dae/a00563.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Render/RenderPass.hpp" alt="" coords="979,361,1169,417"/>
+<area shape="rect" id="node6" href="$dd/df5/a00386.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Miscellaneous/PickingPass.hpp" alt="" coords="281,473,515,529"/>
+<area shape="rect" id="node8" href="$d9/d30/a00848.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/ShadowMap/ShadowMapPass.hpp" alt="" coords="709,473,959,529"/>
+<area shape="rect" id="node12" href="$d5/d69/a00878.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/DepthPass.hpp" alt="" coords="1394,710,1597,766"/>
+<area shape="rect" id="node14" href="$d8/d38/a00926.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/RenderTechnique\lPass.hpp" alt="" coords="1501,465,1714,536"/>
+<area shape="rect" id="node7" href="$d7/d21/a00584.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Render/RenderWindow.hpp" alt="" coords="5,591,212,647"/>
+<area shape="rect" id="node9" href="$df/d4c/a00851.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/ShadowMap/ShadowMapPassDirectional.hpp" alt="" coords="237,591,549,647"/>
+<area shape="rect" id="node10" href="$d6/d2f/a00854.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/ShadowMap/ShadowMapPassPoint.hpp" alt="" coords="573,591,855,647"/>
+<area shape="rect" id="node11" href="$d0/d82/a00857.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/ShadowMap/ShadowMapPassSpot.hpp" alt="" coords="879,591,1157,647"/>
+<area shape="rect" id="node13" href="$df/de9/a00923.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/RenderTechnique.hpp" alt="" coords="1729,940,1968,996"/>
+<area shape="rect" id="node15" href="$de/d76/a00134.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/EnvironmentMap/Environment\lMapPass.hpp" alt="" coords="1233,584,1454,655"/>
+<area shape="rect" id="node16" href="$df/d41/a00881.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/ForwardRenderTechnique\lPass.hpp" alt="" coords="1478,584,1737,655"/>
+<area shape="rect" id="node17" href="$d5/dd3/a00902.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/Opaque/OpaquePass.hpp" alt="" coords="1761,591,2024,647"/>
+<area shape="rect" id="node18" href="$d8/dbb/a00932.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/Transparent\l/TransparentPass.hpp" alt="" coords="2049,584,2230,655"/>
+<area shape="rect" id="node19" href="$dc/d92/a00929.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/Transparent\l/FinalCombinePass.hpp" alt="" coords="1921,703,2102,773"/>
+<area shape="rect" id="node20" href="$d8/d19/a00935.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/Transparent\l/WeightedBlendRendering.hpp" alt="" coords="1913,821,2110,892"/>
 </map>

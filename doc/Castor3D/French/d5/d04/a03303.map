@@ -1,6 +1,0 @@
-<map id="castor3d::LightPass" name="castor3d::LightPass">
-<area shape="rect" id="node2" href="$d7/d52/a03292.html" title="Passe de lumière directionnelle. " alt="" coords="5,80,204,107"/>
-<area shape="rect" id="node3" href="$d1/d24/a03336.html" title="Classe de base pour les passes d&#39;éclairage nécessitant un maillage plutôt qu&#39;un quad. " alt="" coords="229,80,399,107"/>
-<area shape="rect" id="node4" href="$dd/d68/a03348.html" title="Passe de lumière omnidirectionnelle. " alt="" coords="134,155,302,181"/>
-<area shape="rect" id="node5" href="$d4/dd6/a03364.html" title="Passe de lumière projecteur. " alt="" coords="326,155,491,181"/>
-</map>

@@ -1,5 +1,6 @@
 <map id="Graphe hiérarchique des classes" name="Graphe hiérarchique des classes">
-<area shape="rect" id="node1" href="$da/da6/a01522.html" title="Classe modèle pour gérer les interpolations (de point, quaternion, real, ...) " alt="" coords="5,53,149,94"/>
-<area shape="rect" id="node2" href="$dc/d2d/a01534.html" title="Spécialisation partielle de Interpolator, pour eINTERPOLATOR_MODE_LINEAR. " alt="" coords="197,5,360,61"/>
-<area shape="rect" id="node3" href="$d7/d90/a01530.html" title="Spécialisation partielle de Interpolator, pour eINTERPOLATOR_MODE_NONE. " alt="" coords="197,85,360,141"/>
+<area shape="rect" id="node2" href="$d5/d63/a02123.html" title="La fabrique d&#39;importeurs. " alt="" coords="120,5,291,32"/>
+<area shape="rect" id="node3" href="$dc/d5e/a02891.html" title="La fabrique de sources lumineuse. " alt="" coords="129,56,281,83"/>
+<area shape="rect" id="node4" href="$d3/d28/a02147.html" title="La fabrique de maillages. " alt="" coords="127,107,283,133"/>
+<area shape="rect" id="node5" href="$d1/df1/a02431.html" title="La fabrique de maillages. " alt="" coords="122,157,289,184"/>
 </map>

@@ -1,5 +1,0 @@
-<map id="castor3d::ShadowMap::getTexture" name="castor3d::ShadowMap::getTexture">
-<area shape="rect" id="node2" href="$df/daa/a03316.html#a6645823e39bd402e04d1acc7a76ac867" title="Récupère la texture d&#39;une shadow map. " alt="" coords="204,5,403,61"/>
-<area shape="rect" id="node3" href="$df/d3e/a03324.html#a68e2afa2737845617404f458c8475444" title="Récupère la texture d&#39;une shadow map. " alt="" coords="211,85,395,141"/>
-<area shape="rect" id="node4" href="$d3/d5d/a03328.html#a35e027169058cb4546b9a0b14027e3fb" title="Dessine la passe d&#39;éclairage sur le tampon d&#39;image donné. " alt="" coords="211,166,395,207"/>
-</map>

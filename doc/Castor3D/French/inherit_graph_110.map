@@ -1,3 +1,5 @@
 <map id="Graphe hiérarchique des classes" name="Graphe hiérarchique des classes">
-<area shape="rect" id="node1" href="$d6/d02/a01542.html" title="Classe qui gère une key frame. " alt="" coords="5,5,145,32"/>
+<area shape="rect" id="node1" href="$de/d11/a03267.html" title="Dit si un UniformType est de type matrice. " alt="" coords="5,39,160,80"/>
+<area shape="rect" id="node2" href="$d8/dbf/a03275.html" title="Dit si un UniformType est de type valeur simple. " alt="" coords="211,5,353,47"/>
+<area shape="rect" id="node3" href="$df/d13/a03271.html" title="Dit si un UniformType est de type point. " alt="" coords="208,71,356,112"/>
 </map>

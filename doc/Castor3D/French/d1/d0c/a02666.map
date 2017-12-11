@@ -1,5 +1,2 @@
-<map id="castor3d::AnimatedSkeleton" name="castor3d::AnimatedSkeleton">
-<area shape="rect" id="node2" href="$d2/d7d/a02656.html" title="Représente les objets animés. " alt="" coords="5,157,179,184"/>
-<area shape="rect" id="node4" href="$dd/d07/a02132.html" title="Le squelette, contient chaque bone. " alt="" coords="203,157,333,184"/>
-<area shape="rect" id="node5" href="$d2/d48/a01472.html" title="interface publique d&#39;animable " alt="" coords="201,81,335,108"/>
+<map id="castor3d::RenderPassTimer" name="castor3d::RenderPassTimer">
 </map>

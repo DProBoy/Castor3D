@@ -1,7 +1,3 @@
-<map id="castor3d::RenderLoopSync" name="castor3d::RenderLoopSync">
-<area shape="rect" id="node2" href="$de/d4e/a02484.html" title="Classe de base d&#39;une boucle de rendu. " alt="" coords="1037,71,1187,98"/>
-<area shape="rect" id="node4" href="$d1/d03/a02560.html" title="Représentation du système de rendu. " alt="" coords="713,202,879,229"/>
-<area shape="rect" id="node14" href="$d5/dc0/a02272.html" title="Classe de gestion des incrustations de debogage. " alt="" coords="377,19,544,46"/>
-<area shape="rect" id="node5" href="$d5/d2c/a02012.html" title="Implémentation d&#39;un buddy allocator. " alt="" coords="379,173,542,199"/>
-<area shape="rect" id="node9" href="$df/d4a/a02204.html" title="Contient des informations sur le GPU. " alt="" coords="373,341,548,367"/>
+<map id="castor3d::DividerPlugin" name="castor3d::DividerPlugin">
+<area shape="rect" id="node2" href="$d0/d01/a02511.html" title="Classe de base des plug&#45;ins. " alt="" coords="41,80,157,107"/>
 </map>

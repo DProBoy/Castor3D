@@ -1,0 +1,6 @@
+<map id="castor3d::FrameBufferAttachment::getAttachmentIndex" name="castor3d::FrameBufferAttachment::getAttachmentIndex">
+<area shape="rect" id="node2" href="$d8/ddf/a01951.html#ae775d3df602651c1af003a92e55557ea" title="Attaches the render buffer to the frame buffer, at given attachment point. " alt="" coords="271,5,488,47"/>
+<area shape="rect" id="node3" href="$d8/ddf/a01951.html#ae2862bd6fd7252afa436b79f55f11161" title="Clears the attachment buffer. " alt="" coords="271,71,488,112"/>
+<area shape="rect" id="node4" href="$d8/ddf/a01951.html#a885185651d63b901b4a8e615894b6c4a" title="Detaches the render buffer from the frame buffer. " alt="" coords="271,136,488,177"/>
+<area shape="rect" id="node5" href="$d8/ddf/a01951.html#a251783b0485c6c52785581fdfa5382bf" title="downloads the attach content in the given buffer. " alt="" coords="271,201,488,243"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="castor3d::Animable" name="castor3d::Animable">
+<area shape="rect" id="node3" href="$d1/d90/a02127.html" title="Représentation d&#39;un maillage. " alt="" coords="445,56,557,83"/>
+<area shape="rect" id="node4" href="$d9/d08/a02911.html" title="Classe d&#39;objet déplaçable. " alt="" coords="419,107,584,133"/>
+<area shape="rect" id="node10" href="$de/d92/a02175.html" title="Le squelette, contient chaque bone. " alt="" coords="436,157,567,184"/>
+<area shape="rect" id="node5" href="$d6/d97/a02835.html" title="Liste de billboards. " alt="" coords="641,5,792,32"/>
+<area shape="rect" id="node6" href="$d0/d45/a02843.html" title="Classe de représentation de Camera. " alt="" coords="654,56,779,83"/>
+<area shape="rect" id="node7" href="$d1/d39/a02859.html" title="Classe de gestion d&#39;une géométrie affichable. " alt="" coords="648,107,785,133"/>
+<area shape="rect" id="node8" href="$d2/d80/a02875.html" title="Implémentation d&#39;une source lumineuse. " alt="" coords="663,157,771,184"/>
+<area shape="rect" id="node9" href="$d9/da5/a02935.html" title="Implémentation d&#39;un système de particules. " alt="" coords="632,208,801,235"/>
+</map>
