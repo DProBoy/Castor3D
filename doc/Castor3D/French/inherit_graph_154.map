@@ -1,3 +1,6 @@
 <map id="Graphe hiérarchique des classes" name="Graphe hiérarchique des classes">
-<area shape="rect" id="node1" href="$dd/da9/a03027.html" title="Données étendues communes aux passes. " alt="" coords="5,5,148,47"/>
+<area shape="rect" id="node1" href="$d1/d60/a03032.html" title="ShaderBuffer contenant les données des Pass. " alt="" coords="5,64,148,91"/>
+<area shape="rect" id="node2" href="$d0/d9d/a03016.html" title="SSBO contenant les données des LegacyPass. " alt="" coords="201,5,387,32"/>
+<area shape="rect" id="node3" href="$d4/dc8/a03024.html" title="SSBO contenant les données des Pass. " alt="" coords="199,57,389,98"/>
+<area shape="rect" id="node4" href="$dc/d92/a03048.html" title="SSBO contenant les données des SpecularGlossinessPbrPass. " alt="" coords="196,122,392,163"/>
 </map>

@@ -1,0 +1,7 @@
+<map id="castor3d::ObjectCacheBase::lock" name="castor3d::ObjectCacheBase::lock">
+<area shape="rect" id="node2" href="$dc/dec/a01804.html#ad58ca676bc9d2b486fd0891ceae61264" title="Ajoute un objet. " alt="" coords="239,5,428,47"/>
+<area shape="rect" id="node3" href="$dc/dec/a01804.html#af2d19098583cd5ea5b54c904d755cd0b" title="Met tous les éléments à nettoyer. " alt="" coords="241,71,426,127"/>
+<area shape="rect" id="node4" href="$dc/dec/a01804.html#ab94fbdef5e45142daf8e50cfc3363fad" title="Applique une fonction à tous les éléments de ce cache. " alt="" coords="241,151,426,207"/>
+<area shape="rect" id="node5" href="$dc/dec/a01804.html#a865e2c964c7087f25bed1be0b96b03e2" title="castor3d::ObjectCacheBase\l\&lt; Light, castor::String\l \&gt;::mergeInto" alt="" coords="241,231,426,287"/>
+<area shape="rect" id="node6" href="$dc/dec/a01804.html#a88787fe4cf13161c89b341ecc81d281e" title="Retire un objet à partir d&#39;un nom. " alt="" coords="241,311,426,367"/>
+</map>

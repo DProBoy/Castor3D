@@ -1,7 +1,0 @@
-<map id="castor3d::PanelOverlay" name="castor3d::PanelOverlay">
-<area shape="rect" id="node2" href="$d8/d49/a02419.html" title="Contient les membres spécifiques à une catégorie d&#39;incrustation. " alt="" coords="1285,71,1460,98"/>
-<area shape="rect" id="node3" href="$d8/df6/a02411.html" title="La classe d&#39;incrustation. " alt="" coords="1041,71,1164,98"/>
-<area shape="rect" id="node6" href="$d5/d25/a02687.html" title="Représentation du système de rendu. " alt="" coords="723,165,889,191"/>
-<area shape="rect" id="node7" href="$d5/d14/a02071.html" title="Implémentation d&#39;un buddy allocator. " alt="" coords="385,126,548,153"/>
-<area shape="rect" id="node11" href="$dc/d52/a02319.html" title="Contient des informations sur le GPU. " alt="" coords="379,294,554,321"/>
-</map>

@@ -12,7 +12,7 @@
 <area shape="rect" id="node22" href="$dc/d19/a00515.html" title="Prerequisites/Castor3DPrerequisites\l_Shader.hpp" alt="" coords="1251,796,1483,837"/>
 <area shape="rect" id="node23" href="$df/db6/a00509.html" title="Prerequisites/Castor3DPrerequisites\l_Render.hpp" alt="" coords="2398,796,2630,837"/>
 <area shape="rect" id="node25" href="$d5/d0f/a00494.html" title="Prerequisites/Castor3DPrerequisites\l_Event.hpp" alt="" coords="1507,796,1739,837"/>
-<area shape="rect" id="node13" href="$d6/de1/a00356.html" title="Mesh/VertexGroup.hpp" alt="" coords="653,885,809,912"/>
+<area shape="rect" id="node13" href="$d4/def/a00359.html" title="Mesh/VertexGroup.hpp" alt="" coords="653,885,809,912"/>
 <area shape="rect" id="node28" href="$df/d3b/a00728.html" title="SceneNode.hpp" alt="" coords="3943,639,4058,666"/>
 <area shape="rect" id="node30" href="$d7/d46/a00002.html" title="Animation/Animable.hpp" alt="" coords="2247,259,2410,285"/>
 <area shape="rect" id="node31" href="$dd/d32/a00041.html" title="Binary/BinaryParser.hpp" alt="" coords="1924,333,2087,360"/>
@@ -21,7 +21,7 @@
 <area shape="rect" id="node42" href="$d7/d00/a00401.html" title="Miscellaneous/Version.hpp" alt="" coords="2008,408,2187,435"/>
 <area shape="rect" id="node33" href="$d8/d41/a00038.html" title="BinaryChunk.hpp" alt="" coords="1638,483,1760,509"/>
 <area shape="rect" id="node34" href="$d6/d2d/a00047.html" title="ChunkData.hpp" alt="" coords="648,557,758,584"/>
-<area shape="rect" id="node35" href="$dd/de2/a00320.html" title="Mesh/SubmeshComponent\l/FaceIndices.hpp" alt="" coords="818,632,996,673"/>
-<area shape="rect" id="node36" href="$df/d95/a00299.html" title="Mesh/Skeleton/VertexBone\lData.hpp" alt="" coords="612,632,794,673"/>
+<area shape="rect" id="node35" href="$de/d55/a00323.html" title="Mesh/SubmeshComponent\l/FaceIndices.hpp" alt="" coords="818,632,996,673"/>
+<area shape="rect" id="node36" href="$d0/d61/a00302.html" title="Mesh/Skeleton/VertexBone\lData.hpp" alt="" coords="612,632,794,673"/>
 <area shape="rect" id="node45" href="$dc/dee/a00053.html" title="ChunkWriter.hpp" alt="" coords="1712,408,1830,435"/>
 </map>

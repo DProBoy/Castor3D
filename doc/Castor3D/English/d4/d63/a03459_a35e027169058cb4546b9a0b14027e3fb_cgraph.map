@@ -1,5 +1,0 @@
-<map id="castor3d::LightPassShadow::render" name="castor3d::LightPassShadow::render">
-<area shape="rect" id="node2" href="$d4/d90/a03355.html#aa3e3ba8f76398e864651ca41bd920d48" title="castor3d::ShadowMap\l::getDepth" alt="" coords="237,5,388,47"/>
-<area shape="rect" id="node3" href="$d4/d90/a03355.html#aabd1d9aa0e87f23ef8d1104aa95278d7" title="castor3d::ShadowMap\l::getTexture" alt="" coords="237,71,388,112"/>
-<area shape="rect" id="node4" href="$d3/da4/a03571.html#a8056557421593e2c9aac2972fa1d4c2b" title="sets the unit index. " alt="" coords="239,136,386,177"/>
-</map>

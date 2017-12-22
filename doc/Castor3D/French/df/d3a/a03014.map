@@ -1,5 +1,6 @@
-<map id="castor3d::PassBuffer" name="castor3d::PassBuffer">
-<area shape="rect" id="node2" href="$dc/d94/a02999.html" title="SSBO contenant les données des LegacyPass. " alt="" coords="201,5,387,32"/>
-<area shape="rect" id="node3" href="$db/d52/a03007.html" title="SSBO contenant les données des Pass. " alt="" coords="199,57,389,98"/>
-<area shape="rect" id="node4" href="$d4/de4/a03031.html" title="SSBO contenant les données des SpecularGlossinessPbrPass. " alt="" coords="196,122,392,163"/>
+<map id="castor3d::LegacyPassBuffer" name="castor3d::LegacyPassBuffer">
+<area shape="rect" id="node2" href="$d1/d60/a03032.html" title="ShaderBuffer contenant les données des Pass. " alt="" coords="832,117,975,143"/>
+<area shape="rect" id="node4" href="$d4/ddd/a02040.html" title="Classe de base d&#39;une passe d&#39;un matériau. " alt="" coords="265,50,375,77"/>
+<area shape="rect" id="node8" href="$d7/db8/a03060.html" title="Classe permettant de choisir entre SSBO et TBO. " alt="" coords="517,202,672,229"/>
+<area shape="rect" id="node9" href="$d9/ddd/a03616.html" title="Représentation d&#39;une unité de texture. " alt="" coords="247,202,393,229"/>
 </map>

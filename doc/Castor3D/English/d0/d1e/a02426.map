@@ -1,5 +1,2 @@
-<map id="castor3d::OverlayCategory::TextWriter" name="castor3d::OverlayCategory::TextWriter">
-<area shape="rect" id="node3" href="$db/dd4/a02383.html" title="BorderPanelOverlay loader. " alt="" coords="417,5,612,47"/>
-<area shape="rect" id="node4" href="$da/d74/a02451.html" title="PanelOverlay loader. " alt="" coords="437,71,593,112"/>
-<area shape="rect" id="node5" href="$dc/d6a/a02463.html" title="TextOverlay loader. " alt="" coords="441,136,589,177"/>
+<map id="castor3d::FontTexture" name="castor3d::FontTexture">
 </map>

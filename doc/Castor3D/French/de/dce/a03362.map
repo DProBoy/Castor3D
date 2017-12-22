@@ -1,6 +1,2 @@
-<map id="castor3d::ShadowMapPass" name="castor3d::ShadowMapPass">
-<area shape="rect" id="node5" href="$dc/d7f/a03367.html" title="Implémentation du mappage d&#39;ombres pour les lumières spot. " alt="" coords="668,5,911,32"/>
-<area shape="rect" id="node6" href="$d9/d58/a03371.html" title="Implémentation du mappage d&#39;ombres. " alt="" coords="684,56,895,83"/>
-<area shape="rect" id="node7" href="$d1/d01/a03375.html" title="Implémentation du mappage d&#39;ombres pour les lumières spot. " alt="" coords="685,107,893,133"/>
-<area shape="rect" id="node2" href="$db/d86/a02663.html" title="Classe de base d&#39;une passe de rendu. " alt="" coords="240,56,391,83"/>
+<map id="castor3d::UniformBuffer::TextWriter" name="castor3d::UniformBuffer::TextWriter">
 </map>

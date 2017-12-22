@@ -1,16 +1,23 @@
-<map id="Z:/Projets/C++/Castor3D/source/Core/Castor3D/Src/Mesh/Skeleton/BonedVertex.hpp" name="Z:/Projets/C++/Castor3D/source/Core/Castor3D/Src/Mesh/Skeleton/BonedVertex.hpp">
-<area shape="rect" id="node2" href="$d9/d01/a00227.html" title="Mesh/Buffer/BufferElement\lGroup.hpp" alt="" coords="1349,109,1525,151"/>
-<area shape="rect" id="node28" href="$df/d95/a00299.html" title="VertexBoneData.hpp" alt="" coords="1549,117,1692,143"/>
-<area shape="rect" id="node3" href="$df/dc8/a00122.html" title="Castor3DPrerequisites.hpp" alt="" coords="1532,199,1709,225"/>
-<area shape="rect" id="node13" href="$d4/ddf/a00488.html" title="Prerequisites/Castor3DPrerequisites\l_Animation.hpp" alt="" coords="1623,273,1855,315"/>
-<area shape="rect" id="node16" href="$d6/d60/a00491.html" title="Prerequisites/Castor3DPrerequisites\l_Camera.hpp" alt="" coords="1879,273,2111,315"/>
-<area shape="rect" id="node17" href="$d4/d1e/a00497.html" title="Prerequisites/Castor3DPrerequisites\l_Geometry.hpp" alt="" coords="2135,273,2367,315"/>
-<area shape="rect" id="node18" href="$de/d4e/a00500.html" title="Prerequisites/Castor3DPrerequisites\l_Light.hpp" alt="" coords="2391,273,2623,315"/>
-<area shape="rect" id="node20" href="$d4/de5/a00503.html" title="Prerequisites/Castor3DPrerequisites\l_Material.hpp" alt="" coords="2647,273,2879,315"/>
-<area shape="rect" id="node21" href="$d4/d1f/a00506.html" title="Prerequisites/Castor3DPrerequisites\l_Overlay.hpp" alt="" coords="2903,273,3135,315"/>
-<area shape="rect" id="node22" href="$d4/dfb/a00512.html" title="Prerequisites/Castor3DPrerequisites\l_Scene.hpp" alt="" coords="3159,273,3391,315"/>
-<area shape="rect" id="node23" href="$dc/d19/a00515.html" title="Prerequisites/Castor3DPrerequisites\l_Shader.hpp" alt="" coords="3415,273,3647,315"/>
-<area shape="rect" id="node24" href="$df/db6/a00509.html" title="Prerequisites/Castor3DPrerequisites\l_Render.hpp" alt="" coords="3671,273,3903,315"/>
-<area shape="rect" id="node26" href="$d5/d0f/a00494.html" title="Prerequisites/Castor3DPrerequisites\l_Event.hpp" alt="" coords="3927,273,4159,315"/>
-<area shape="rect" id="node14" href="$d6/de1/a00356.html" title="Mesh/VertexGroup.hpp" alt="" coords="1565,363,1721,389"/>
+<map id="Z:/Projets/C++/Castor3D/source/Core/Castor3D/Src/Mesh/Skeleton/Bone.hpp" name="Z:/Projets/C++/Castor3D/source/Core/Castor3D/Src/Mesh/Skeleton/Bone.hpp">
+<area shape="rect" id="node2" href="$dd/d32/a00041.html" title="Binary/BinaryParser.hpp" alt="" coords="1426,109,1589,136"/>
+<area shape="rect" id="node40" href="$d5/df9/a00044.html" title="Binary/BinaryWriter.hpp" alt="" coords="1613,109,1773,136"/>
+<area shape="rect" id="node3" href="$d5/de0/a00050.html" title="ChunkParser.hpp" alt="" coords="1234,184,1357,211"/>
+<area shape="rect" id="node38" href="$d7/d00/a00401.html" title="Miscellaneous/Version.hpp" alt="" coords="1551,184,1730,211"/>
+<area shape="rect" id="node4" href="$d8/d41/a00038.html" title="BinaryChunk.hpp" alt="" coords="1355,259,1476,285"/>
+<area shape="rect" id="node30" href="$d6/d2d/a00047.html" title="ChunkData.hpp" alt="" coords="787,333,897,360"/>
+<area shape="rect" id="node5" href="$df/dc8/a00122.html" title="Castor3DPrerequisites.hpp" alt="" coords="1597,497,1775,524"/>
+<area shape="rect" id="node15" href="$d4/ddf/a00488.html" title="Prerequisites/Castor3DPrerequisites\l_Animation.hpp" alt="" coords="495,572,727,613"/>
+<area shape="rect" id="node18" href="$d6/d60/a00491.html" title="Prerequisites/Castor3DPrerequisites\l_Camera.hpp" alt="" coords="3830,572,4062,613"/>
+<area shape="rect" id="node19" href="$d4/d1e/a00497.html" title="Prerequisites/Castor3DPrerequisites\l_Geometry.hpp" alt="" coords="802,572,1034,613"/>
+<area shape="rect" id="node20" href="$de/d4e/a00500.html" title="Prerequisites/Castor3DPrerequisites\l_Light.hpp" alt="" coords="2723,572,2955,613"/>
+<area shape="rect" id="node22" href="$d4/de5/a00503.html" title="Prerequisites/Castor3DPrerequisites\l_Material.hpp" alt="" coords="3574,572,3806,613"/>
+<area shape="rect" id="node23" href="$d4/d1f/a00506.html" title="Prerequisites/Castor3DPrerequisites\l_Overlay.hpp" alt="" coords="1314,572,1546,613"/>
+<area shape="rect" id="node24" href="$d4/dfb/a00512.html" title="Prerequisites/Castor3DPrerequisites\l_Scene.hpp" alt="" coords="1570,572,1802,613"/>
+<area shape="rect" id="node25" href="$dc/d19/a00515.html" title="Prerequisites/Castor3DPrerequisites\l_Shader.hpp" alt="" coords="1826,572,2058,613"/>
+<area shape="rect" id="node26" href="$df/db6/a00509.html" title="Prerequisites/Castor3DPrerequisites\l_Render.hpp" alt="" coords="2082,572,2314,613"/>
+<area shape="rect" id="node28" href="$d5/d0f/a00494.html" title="Prerequisites/Castor3DPrerequisites\l_Event.hpp" alt="" coords="1058,572,1290,613"/>
+<area shape="rect" id="node16" href="$d4/def/a00359.html" title="Mesh/VertexGroup.hpp" alt="" coords="132,661,288,688"/>
+<area shape="rect" id="node31" href="$de/d55/a00323.html" title="Mesh/SubmeshComponent\l/FaceIndices.hpp" alt="" coords="933,408,1111,449"/>
+<area shape="rect" id="node32" href="$d0/d61/a00302.html" title="Mesh/Skeleton/VertexBone\lData.hpp" alt="" coords="1177,408,1358,449"/>
+<area shape="rect" id="node41" href="$dc/dee/a00053.html" title="ChunkWriter.hpp" alt="" coords="1381,184,1500,211"/>
 </map>

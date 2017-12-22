@@ -45,6 +45,116 @@ $(function() {
 <div class="textblock"><h1><a class="anchor" id="intro_sec"></a>
 Suivi de versions</h1>
 <p>Cette page sert à informer des évolutions du moteur depuis les premières versions.</p>
+<h1><a class="anchor" id="version_0_10_0"></a>
+Version 0.10.0</h1>
+<h2><a class="anchor" id="feat_0_10_0"></a>
+Features</h2>
+<h3><a class="anchor" id="feat_0_10_0_cu"></a>
+CastorUtils</h3>
+<ul>
+<li>
+Renamed namespace Castor to castor. </li>
+<li>
+Added ChangeTracked and GroupChangeTracked classes, allowing to track changes to a member variable. </li>
+<li>
+Renamed CubeBox and SphereBox to BoundingBox and BoundingSphere. </li>
+<li>
+Splitted Colour in two classes: RgbColour and RgbaColour. </li>
+<li>
+PlaneEquation is no more a template class. </li>
+<li>
+Created a buddy allocator class: BuddyAllocator. </li>
+</ul>
+<h3><a class="anchor" id="feat_0_10_0_c3d"></a>
+Castor3D</h3>
+<ul>
+<li>
+Renamed namespace Castor3D to <a class="el" href="d0/d85/a00976.html">castor3d</a>. </li>
+<li>
+Fixed bounding boxes for animated meshes and skinned meshes. </li>
+<li>
+Repaired an reenabled frustum culling. </li>
+<li>
+Fixed alpha rejection. </li>
+<li>
+Emissive in a material is now stored on a single floating point (emissive maps still hold a colour though). </li>
+<li>
+Implemented Physical Based Rendering, using both metallic/roughness and specular/glossiness workflows. </li>
+<li>
+RenderPipeline now also holds the shader program. </li>
+<li>
+Implemented Screen Space Subsurface Scattering. </li>
+<li>
+The light pass result is now stored in two render targets: diffuse and specular. </li>
+<li>
+Vertex buffers now use a buddy allocated pool. </li>
+<li>
+Shadow mapping now uses variance shadow maps. </li>
+<li>
+Transparent meshes are now rendered using Weighted Blended rendering. </li>
+<li>
+Screen Space Ambiant Occlusion has been improved, using Scalable Ambiant Obscurance implementation. </li>
+<li>
+Parallax Occlusion mapping is implemented. </li>
+<li>
+Reflection and refraction mapping have been implemented. </li>
+<li>
+Deferred rendering has been fully integrated, for opaque objects rendering. </li>
+<li>
+Created components for submeshes, to move functionalities out of Submesh. </li>
+<li>
+Rendering now uses a depth prepass. </li>
+<li>
+Created ColourSkybox, to handle background colour and skyboxes in the same way. </li>
+<li>
+Created ShaderBuffer class, to be able to handle SSBOs or TBOs in a similar way, choosing the most appropriate one, depending on running machine. </li>
+</ul>
+<h3><a class="anchor" id="feat_0_10_0_gen"></a>
+Generators</h3>
+<ul>
+<li>
+Created DiamondSquareTerrain plugin. </li>
+</ul>
+<h3><a class="anchor" id="feat_0_10_0_gic"></a>
+Generic</h3>
+<ul>
+<li>
+Events from CastorGUI are now forwarded to the user. </li>
+</ul>
+<h3><a class="anchor" id="feat_0_10_0_imp"></a>
+Importers</h3>
+<ul>
+<li>
+Removed almost every importer plugin, keeping only Assimp, OBJ, and PLY importers. </li>
+</ul>
+<h3><a class="anchor" id="feat_0_10_0_gl"></a>
+RenderSystems</h3>
+<ul>
+<li>
+Updated to support the features provided by Castor3D. </li>
+</ul>
+<h3><a class="anchor" id="feat_0_10_0_pos"></a>
+PostEffects</h3>
+<ul>
+<li>
+Created SMAA post effect. </li>
+<li>
+Created Kawase Light Streaks post effect. </li>
+<li>
+Created Film Grain post effect. </li>
+</ul>
+<h3><a class="anchor" id="feat_0_10_0_tec"></a>
+Techniques</h3>
+<ul>
+<li>
+Technique plugins have been completely removed. </li>
+</ul>
+<h3><a class="anchor" id="feat_0_10_0_ton"></a>
+Tone mappings</h3>
+<ul>
+<li>
+Created Uncharted 2 tone mappings. </li>
+</ul>
 <h1><a class="anchor" id="version_0_9_0"></a>
 Version 0.9.0</h1>
 <h2><a class="anchor" id="feat_0_9_0"></a>
@@ -414,7 +524,7 @@ Suppression de la génération automatique des mipmaps. Maintenant, si l'utilisa
 <li>
 Implémentation de l'instanciation hardware des maillages. </li>
 <li>
-Modifications de <a class="el" href="d3/d0f/a02203.html" title="Representation d&#39;un sous-maillage. ">castor3d::Submesh</a> : <ul>
+Modifications de <a class="el" href="db/d14/a02232.html" title="Representation d&#39;un sous-maillage. ">castor3d::Submesh</a> : <ul>
 <li>
 Les classes Submesh et SmoothingGroup ont été fusionnées. </li>
 <li>
@@ -430,7 +540,7 @@ Modification du compte des instances, pour le rendre spécifique aux matériaux 
 </ul>
 </li>
 <li>
-Modifications de <a class="el" href="d5/db4/a02011.html" title="Classe de base d&#39;une passe d&#39;un matériau. ">castor3d::Pass</a> : <ul>
+Modifications de <a class="el" href="d4/ddd/a02040.html" title="Classe de base d&#39;une passe d&#39;un matériau. ">castor3d::Pass</a> : <ul>
 <li>
 Création d'une fonction Pass::Initialise afin que les shaders ne soient initialisés qu'une fois, et pas à chaque frame. </li>
 <li>
@@ -440,7 +550,7 @@ Réorganisation des unités de texture des passes, afin que celles associées à
 <li>
 Ajout d'une instance de BlendState dans la classe Pass et suppression de la gestion du mélange RGB/Alpha de la classe Pass. </li>
 <li>
-Modifications de <a class="el" href="d3/de2/a02959.html" title="Classe de gestion d&#39;un scène. ">castor3d::Scene</a> : <ul>
+Modifications de <a class="el" href="d3/dff/a02976.html" title="Classe de gestion d&#39;un scène. ">castor3d::Scene</a> : <ul>
 <li>
 Ajout de la possibilité d'activer ou désactiver le deferred rendering, option disponible dans les fichier cscn. </li>
 <li>
@@ -450,7 +560,7 @@ Les Submesh sont maintenant triés en fonction du matériau appliqué afin de po
 </ul>
 </li>
 <li>
-Modifications de <a class="el" href="de/dde/a02695.html" title="Classe de cible de rendu (render target) ">castor3d::RenderTarget</a> : <ul>
+Modifications de <a class="el" href="df/dc7/a02712.html" title="Classe de cible de rendu (render target) ">castor3d::RenderTarget</a> : <ul>
 <li>
 Modifié RenderTarget : elle contient maintenant son frame buffer et ce qui s'y rattache. C'est maintenant un Renderable et un TargetRenderer a donc été créé. </li>
 <li>
@@ -458,7 +568,7 @@ RenderTarget utilise maintenant RenderTechnique pour effectuer son rendu. </li>
 </ul>
 </li>
 <li>
-Modifications de <a class="el" href="d8/d0f/a02707.html" title="Implémentation d&#39;une fenêtre de rendu. ">castor3d::RenderWindow</a> : <ul>
+Modifications de <a class="el" href="d7/deb/a02724.html" title="Implémentation d&#39;une fenêtre de rendu. ">castor3d::RenderWindow</a> : <ul>
 <li>
 RenderWindow n'étend plus RenderTarget, mais en a un en membre privé. </li>
 <li>
@@ -478,7 +588,7 @@ Modification de afin de prendre en compte eFRAME_VARIABLE_TYPE. </li>
 </ul>
 </li>
 <li>
-Modifications de <a class="el" href="d1/d23/a02603.html" title="Classe contenant le contexte de rendu. ">castor3d::Context</a> <ul>
+Modifications de <a class="el" href="dc/d64/a02620.html" title="Classe contenant le contexte de rendu. ">castor3d::Context</a> <ul>
 <li>
 Suppression des méthodes Context::Enable et Context::Disable, suppression de la classe RenderState. </li>
 <li>
@@ -793,7 +903,7 @@ Correction du plantage à la fermeture de l'application lors de la suppression d
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Généré le Lundi 11 Décembre 2017 11:17:20 pour Castor3D par &#160;<a href="http://www.doxygen.org/index.html">
+Généré le Samedi 30 Décembre 2017 00:24:09 pour Castor3D par &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

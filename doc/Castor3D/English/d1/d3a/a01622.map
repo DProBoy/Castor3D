@@ -1,3 +1,4 @@
-<map id="castor3d::SkeletonAnimationKeyFrame" name="castor3d::SkeletonAnimationKeyFrame">
-<area shape="rect" id="node2" href="$d4/d62/a01531.html" title="Key frames are the frames where the animation must be at a precise state. " alt="" coords="5,13,204,39"/>
+<map id="castor3d::BinaryParser&lt; SkeletonAnimation &gt;" name="castor3d::BinaryParser&lt; SkeletonAnimation &gt;">
+<area shape="rect" id="node2" href="$d4/d26/a01700.html" title="castor3d::BinaryParserBase\l\&lt; SkeletonAnimation \&gt;" alt="" coords="5,95,191,136"/>
+<area shape="rect" id="node3" href="$d9/d49/a01696.html" title="Binary data chunk base class. " alt="" coords="21,5,175,32"/>
 </map>

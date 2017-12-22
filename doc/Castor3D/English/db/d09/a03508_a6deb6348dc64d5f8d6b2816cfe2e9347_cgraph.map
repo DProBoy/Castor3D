@@ -1,0 +1,5 @@
+<map id="castor3d::ReflectionPass::getSsao" name="castor3d::ReflectionPass::getSsao">
+<area shape="rect" id="node2" href="$d8/d2e/a03548.html#ae323b212d42ff2d16a1cf268aebd2ca0" title="castor3d::SsaoPass\l::getResult" alt="" coords="233,5,373,47"/>
+<area shape="rect" id="node3" href="$d9/ddd/a03616.html#a455370bb5d5da08745042e3503752f21" title="castor3d::TextureUnit\l::getTexture" alt="" coords="230,71,377,112"/>
+<area shape="rect" id="node4" href="$db/d09/a03508.html#af5ab1f380e066e110ef06ca354fc9947" title="Renders the reflection mapping. " alt="" coords="220,136,387,177"/>
+</map>

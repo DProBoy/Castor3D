@@ -1,10 +1,2 @@
-<map id="castor3d::MeshGenerator" name="castor3d::MeshGenerator">
-<area shape="rect" id="node2" href="$d2/d31/a02087.html" title="The cone is a basic primitive, with a parametrable number of faces. " alt="" coords="243,5,353,32"/>
-<area shape="rect" id="node3" href="$d9/d96/a02091.html" title="The cube representation. " alt="" coords="243,56,353,83"/>
-<area shape="rect" id="node4" href="$d0/d0c/a02095.html" title="The cylinder representation. " alt="" coords="235,107,361,133"/>
-<area shape="rect" id="node5" href="$d9/dff/a02099.html" title="The icosahedron representation. " alt="" coords="223,157,373,184"/>
-<area shape="rect" id="node6" href="$d2/dbe/a02103.html" title="The plane representation. " alt="" coords="241,208,355,235"/>
-<area shape="rect" id="node7" href="$db/dd4/a02107.html" title="Projection mesh representation. " alt="" coords="229,259,367,285"/>
-<area shape="rect" id="node8" href="$d4/d64/a02111.html" title="The sphere primitive. " alt="" coords="237,309,359,336"/>
-<area shape="rect" id="node9" href="$d6/df4/a02115.html" title="The torus representation. " alt="" coords="242,360,354,387"/>
+<map id="castor3d::ImporterFactory" name="castor3d::ImporterFactory">
 </map>

@@ -1,0 +1,4 @@
+<map id="castor3d::PanelOverlay::getPanelVertex" name="castor3d::PanelOverlay::getPanelVertex">
+<area shape="rect" id="node2" href="$d2/d35/a02468.html#a45b4463d769741c4b64a27bfb78fa3b1" title="Draws the overlay. " alt="" coords="209,5,365,47"/>
+<area shape="rect" id="node3" href="$d2/d35/a02468.html#a74d65c90aafa9b2a4941ff34f8426871" title="Updates the vertex buffer. " alt="" coords="209,71,365,112"/>
+</map>

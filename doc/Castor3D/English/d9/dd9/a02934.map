@@ -1,4 +1,8 @@
-<map id="castor3d::ParticleSystem" name="castor3d::ParticleSystem">
-<area shape="rect" id="node2" href="$d9/d08/a02911.html" title="Movable object class. " alt="" coords="75,155,241,181"/>
-<area shape="rect" id="node3" href="$da/d50/a01511.html" title="Animable public interface. " alt="" coords="29,80,164,107"/>
+<map id="castor3d::ComputeParticleSystem" name="castor3d::ComputeParticleSystem">
+<area shape="rect" id="node2" href="$db/d1b/a02960.html" title="Particle system implementation base class. " alt="" coords="519,29,712,56"/>
+<area shape="rect" id="node3" href="$d6/d8e/a02952.html" title="Particle system implementation. " alt="" coords="887,68,1057,95"/>
+<area shape="rect" id="node4" href="$da/dad/a02928.html" title="Movable object class. " alt="" coords="533,119,698,145"/>
+<area shape="rect" id="node5" href="$dc/d0c/a01532.html" title="Animable public interface. " alt="" coords="286,119,421,145"/>
+<area shape="rect" id="node9" href="$d6/da3/a03360.html" title="Shader variables buffer. " alt="" coords="537,229,694,256"/>
+<area shape="rect" id="node8" href="$de/def/a02064.html" title="Description of all elements in a vertex buffer. " alt="" coords="526,169,705,196"/>
 </map>

@@ -1,3 +1,6 @@
 <map id="Graphe hiérarchique des classes" name="Graphe hiérarchique des classes">
-<area shape="rect" id="node1" href="$db/d5f/a03239.html" title="Récupère le VariableType d&#39;un UniformType. " alt="" coords="5,5,332,105"/>
+<area shape="rect" id="node1" href="$d6/db0/a01948.html" title="Description d&#39;un évènement de tpye entràe utilisateur. " alt="" coords="5,56,172,83"/>
+<area shape="rect" id="node2" href="$d1/db0/a01928.html" title="Description d&#39;un évènement de gestionnaire. " alt="" coords="225,5,381,32"/>
+<area shape="rect" id="node3" href="$dd/d20/a01936.html" title="Description d&#39;un évènement clavier. " alt="" coords="220,56,387,83"/>
+<area shape="rect" id="node4" href="$db/da1/a01944.html" title="Description d&#39;un évènement de souris. " alt="" coords="228,107,379,133"/>
 </map>

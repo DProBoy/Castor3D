@@ -1,0 +1,5 @@
+<map id="castor3d::BinaryChunk::getSubChunk" name="castor3d::BinaryChunk::getSubChunk">
+<area shape="rect" id="node2" href="$d4/d26/a01700.html#ac9e1e2d6817a85d3ed9d687e46cd8a62" title="Récupère un sous&#45;chunk. " alt="" coords="208,5,408,47"/>
+<area shape="rect" id="node3" href="$d4/d26/a01700.html#a37522319f44d10afdf9b5ae0a14ead29" title="Lit le chunk d&#39;en&#45;tête. " alt="" coords="211,71,405,112"/>
+<area shape="rect" id="node4" href="$d4/d26/a01700.html#aabf36425715d1c704960f7bb03909155" title="Fonction de lecture à partir d&#39;un fichier. " alt="" coords="215,136,401,177"/>
+</map>

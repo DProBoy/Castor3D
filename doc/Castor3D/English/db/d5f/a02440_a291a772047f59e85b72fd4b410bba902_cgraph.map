@@ -1,0 +1,6 @@
+<map id="castor3d::OverlayCategory::getUV" name="castor3d::OverlayCategory::getUV">
+<area shape="rect" id="node2" href="$db/d5f/a02440.html#a00d97cfcc5cdd444b08f6390c0fb99d3" title="castor3d::OverlayCategory\l::doGetTotalSize" alt="" coords="228,5,403,47"/>
+<area shape="rect" id="node3" href="$db/d5f/a02440.html#ae619292b406856603fb5f0bdd10646c9" title="Draws the overlay. " alt="" coords="228,71,403,112"/>
+<area shape="rect" id="node4" href="$db/d5f/a02440.html#a7d7cbcd94285a476ca2205420ddcbc98" title="Updates the overlay position, taking care of wanted pixel position. " alt="" coords="228,136,403,177"/>
+<area shape="rect" id="node5" href="$db/d5f/a02440.html#a463b4b28c5e2d0e59b54d5da7f544585" title="Updates the overlay size, taking care of wanted pixel size. " alt="" coords="228,201,403,243"/>
+</map>

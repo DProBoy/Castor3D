@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Castor3D: Z:/Projets/C++/Castor3D/source/Core/Castor3D/Src/Material/Pass.hpp File Reference</title>
+<title>Castor3D: Z:/Projets/C++/Castor3D/source/Core/Castor3D/Src/Material/MetallicRoughnessPbrPass.hpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -46,67 +46,51 @@ $(function() {
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a>  </div>
   <div class="headertitle">
-<div class="title">Pass.hpp File Reference</div>  </div>
+<div class="title">MetallicRoughnessPbrPass.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Include dependency graph for Pass.hpp:</div>
+  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Include dependency graph for MetallicRoughnessPbrPass.hpp:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="../../da/de7/a00210.png" border="0" usemap="#Z_1_2Projets_2C_09_09_2Castor3D_2source_2Core_2Castor3D_2Src_2Material_2Pass_8hpp" alt=""/></div>
-<map name="Z_1_2Projets_2C_09_09_2Castor3D_2source_2Core_2Castor3D_2Src_2Material_2Pass_8hpp" id="Z_1_2Projets_2C_09_09_2Castor3D_2source_2Core_2Castor3D_2Src_2Material_2Pass_8hpp">
-<area shape="rect" id="node2" href="../../d3/dd5/a00215.html" title="SubsurfaceScattering.hpp" alt="" coords="135,109,305,136"/>
-<area shape="rect" id="node3" href="../../df/dc8/a00122.html" title="Castor3DPrerequisites.hpp" alt="" coords="2094,184,2271,211"/>
-<area shape="rect" id="node13" href="../../d4/ddf/a00488.html" title="Prerequisites/Castor3DPrerequisites\l_Animation.hpp" alt="" coords="3809,259,4041,300"/>
-<area shape="rect" id="node16" href="../../d6/d60/a00491.html" title="Prerequisites/Castor3DPrerequisites\l_Camera.hpp" alt="" coords="915,259,1147,300"/>
-<area shape="rect" id="node17" href="../../d4/d1e/a00497.html" title="Prerequisites/Castor3DPrerequisites\l_Geometry.hpp" alt="" coords="1171,259,1403,300"/>
-<area shape="rect" id="node18" href="../../de/d4e/a00500.html" title="Prerequisites/Castor3DPrerequisites\l_Light.hpp" alt="" coords="2656,259,2888,300"/>
-<area shape="rect" id="node20" href="../../d4/de5/a00503.html" title="Prerequisites/Castor3DPrerequisites\l_Material.hpp" alt="" coords="1427,259,1659,300"/>
-<area shape="rect" id="node21" href="../../d4/d1f/a00506.html" title="Prerequisites/Castor3DPrerequisites\l_Overlay.hpp" alt="" coords="1683,259,1915,300"/>
-<area shape="rect" id="node22" href="../../d4/dfb/a00512.html" title="Prerequisites/Castor3DPrerequisites\l_Scene.hpp" alt="" coords="1939,259,2171,300"/>
-<area shape="rect" id="node23" href="../../dc/d19/a00515.html" title="Prerequisites/Castor3DPrerequisites\l_Shader.hpp" alt="" coords="2195,259,2427,300"/>
-<area shape="rect" id="node24" href="../../df/db6/a00509.html" title="Prerequisites/Castor3DPrerequisites\l_Render.hpp" alt="" coords="3297,259,3529,300"/>
-<area shape="rect" id="node26" href="../../d5/d0f/a00494.html" title="Prerequisites/Castor3DPrerequisites\l_Event.hpp" alt="" coords="3553,259,3785,300"/>
-<area shape="rect" id="node14" href="../../d6/de1/a00356.html" title="Mesh/VertexGroup.hpp" alt="" coords="3805,348,3961,375"/>
-</map>
-</div>
-</div><div class="textblock"><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> This graph shows which files directly or indirectly include this file:</div>
-<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="../../dd/ded/a00211.png" border="0" usemap="#Z_1_2Projets_2C_09_09_2Castor3D_2source_2Core_2Castor3D_2Src_2Material_2Pass_8hppdep" alt=""/></div>
-<map name="Z_1_2Projets_2C_09_09_2Castor3D_2source_2Core_2Castor3D_2Src_2Material_2Pass_8hppdep" id="Z_1_2Projets_2C_09_09_2Castor3D_2source_2Core_2Castor3D_2Src_2Material_2Pass_8hppdep">
-<area shape="rect" id="node2" href="../../d3/db1/a00200.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Material/LegacyPass.hpp" alt="" coords="5,117,203,173"/>
-<area shape="rect" id="node3" href="../../d5/df1/a00206.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Material/MetallicRoughness\lPbrPass.hpp" alt="" coords="227,109,437,180"/>
-<area shape="rect" id="node4" href="../../dd/dc1/a00212.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Material/SpecularGlossiness\lPbrPass.hpp" alt="" coords="461,109,677,180"/>
-<area shape="rect" id="node5" href="../../d9/d87/a00551.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Render/RenderNode\l/RenderNode_Render.hpp" alt="" coords="701,109,872,180"/>
-<area shape="rect" id="node6" href="../../d4/dfa/a00746.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Shader/PassBuffer\l/PassBuffer.hpp" alt="" coords="896,109,1061,180"/>
-<area shape="rect" id="node7" href="../../dc/dce/a00740.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Shader/PassBuffer\l/LegacyPassBuffer.hpp" alt="" coords="677,228,843,299"/>
-<area shape="rect" id="node8" href="../../d0/d0a/a00743.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Shader/PassBuffer\l/MetallicRoughnessPassBuffer.hpp" alt="" coords="867,228,1091,299"/>
-<area shape="rect" id="node9" href="../../d5/de8/a00749.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Shader/PassBuffer\l/SpecularGlossinessPassBuffer.hpp" alt="" coords="1115,228,1346,299"/>
+<div class="center"><img src="../../da/de7/a00210.png" border="0" usemap="#Z_1_2Projets_2C_09_09_2Castor3D_2source_2Core_2Castor3D_2Src_2Material_2MetallicRoughnessPbrPass_8hpp" alt=""/></div>
+<map name="Z_1_2Projets_2C_09_09_2Castor3D_2source_2Core_2Castor3D_2Src_2Material_2MetallicRoughnessPbrPass_8hpp" id="Z_1_2Projets_2C_09_09_2Castor3D_2source_2Core_2Castor3D_2Src_2Material_2MetallicRoughnessPbrPass_8hpp">
+<area shape="rect" id="node2" href="../../dd/dc1/a00212.html" title="Material/Pass.hpp" alt="" coords="47,124,174,151"/>
+<area shape="rect" id="node3" href="../../dc/d9a/a00218.html" title="SubsurfaceScattering.hpp" alt="" coords="157,199,328,225"/>
+<area shape="rect" id="node4" href="../../df/dc8/a00122.html" title="Castor3DPrerequisites.hpp" alt="" coords="2117,273,2294,300"/>
+<area shape="rect" id="node14" href="../../d4/ddf/a00488.html" title="Prerequisites/Castor3DPrerequisites\l_Animation.hpp" alt="" coords="3832,348,4064,389"/>
+<area shape="rect" id="node17" href="../../d6/d60/a00491.html" title="Prerequisites/Castor3DPrerequisites\l_Camera.hpp" alt="" coords="937,348,1169,389"/>
+<area shape="rect" id="node18" href="../../d4/d1e/a00497.html" title="Prerequisites/Castor3DPrerequisites\l_Geometry.hpp" alt="" coords="1193,348,1425,389"/>
+<area shape="rect" id="node19" href="../../de/d4e/a00500.html" title="Prerequisites/Castor3DPrerequisites\l_Light.hpp" alt="" coords="2679,348,2911,389"/>
+<area shape="rect" id="node21" href="../../d4/de5/a00503.html" title="Prerequisites/Castor3DPrerequisites\l_Material.hpp" alt="" coords="1449,348,1681,389"/>
+<area shape="rect" id="node22" href="../../d4/d1f/a00506.html" title="Prerequisites/Castor3DPrerequisites\l_Overlay.hpp" alt="" coords="1705,348,1937,389"/>
+<area shape="rect" id="node23" href="../../d4/dfb/a00512.html" title="Prerequisites/Castor3DPrerequisites\l_Scene.hpp" alt="" coords="1961,348,2193,389"/>
+<area shape="rect" id="node24" href="../../dc/d19/a00515.html" title="Prerequisites/Castor3DPrerequisites\l_Shader.hpp" alt="" coords="2217,348,2449,389"/>
+<area shape="rect" id="node25" href="../../df/db6/a00509.html" title="Prerequisites/Castor3DPrerequisites\l_Render.hpp" alt="" coords="3320,348,3552,389"/>
+<area shape="rect" id="node27" href="../../d5/d0f/a00494.html" title="Prerequisites/Castor3DPrerequisites\l_Event.hpp" alt="" coords="3576,348,3808,389"/>
+<area shape="rect" id="node15" href="../../d4/def/a00359.html" title="Mesh/VertexGroup.hpp" alt="" coords="3827,437,3983,464"/>
 </map>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/db4/a02011.html">castor3d::Pass</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base class of a material pass.  <a href="../../d5/db4/a02011.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d99/a02032.html">castor3d::MetallicRoughnessPbrPass</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Definition of a PBR Metallic/Roughness pass.  <a href="../../d1/d99/a02032.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d0a/a02015.html">castor3d::Pass::TextWriter</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d5/db4/a02011.html" title="Base class of a material pass. ">Pass</a> loader.  <a href="../../de/d0a/a02015.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db2/a02036.html">castor3d::MetallicRoughnessPbrPass::TextWriter</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d4/ddd/a02040.html" title="Base class of a material pass. ">Pass</a> loader.  <a href="../../d7/db2/a02036.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:dc/db6/a00955"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db6/a00955.html">castor3d</a></td></tr>
+<tr class="memitem:d0/d85/a00976"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d85/a00976.html">castor3d</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Dec 11 2017 11:15:59 for Castor3D by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Dec 30 2017 00:32:13 for Castor3D by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

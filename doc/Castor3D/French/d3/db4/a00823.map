@@ -1,22 +1,3 @@
-<map id="Z:/Projets/C++/Castor3D/source/Core/Castor3D/Src/Shader/Ubos/SceneUbo.hpp" name="Z:/Projets/C++/Castor3D/source/Core/Castor3D/Src/Shader/Ubos/SceneUbo.hpp">
-<area shape="rect" id="node2" href="$d9/d87/a00551.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Render/RenderNode\l/RenderNode_Render.hpp" alt="" coords="1110,109,1281,180"/>
-<area shape="rect" id="node3" href="$dc/dae/a00563.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Render/RenderPass.hpp" alt="" coords="1305,117,1496,173"/>
-<area shape="rect" id="node17" href="$dc/d92/a00929.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/Transparent\l/FinalCombinePass.hpp" alt="" coords="2177,465,2358,536"/>
-<area shape="rect" id="node19" href="$d0/d85/a00908.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/Opaque/Reflection\lPass.hpp" alt="" coords="2305,109,2523,180"/>
-<area shape="rect" id="node4" href="$dd/df5/a00386.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Miscellaneous/PickingPass.hpp" alt="" coords="161,235,395,291"/>
-<area shape="rect" id="node6" href="$d9/d30/a00848.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/ShadowMap/ShadowMapPass.hpp" alt="" coords="741,235,991,291"/>
-<area shape="rect" id="node10" href="$d5/d69/a00878.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/DepthPass.hpp" alt="" coords="1497,473,1699,529"/>
-<area shape="rect" id="node12" href="$d8/d38/a00926.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/RenderTechnique\lPass.hpp" alt="" coords="1501,228,1714,299"/>
-<area shape="rect" id="node5" href="$d7/d21/a00584.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Render/RenderWindow.hpp" alt="" coords="5,354,212,410"/>
-<area shape="rect" id="node7" href="$df/d4c/a00851.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/ShadowMap/ShadowMapPassDirectional.hpp" alt="" coords="237,354,549,410"/>
-<area shape="rect" id="node8" href="$d6/d2f/a00854.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/ShadowMap/ShadowMapPassPoint.hpp" alt="" coords="573,354,855,410"/>
-<area shape="rect" id="node9" href="$d0/d82/a00857.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/ShadowMap/ShadowMapPassSpot.hpp" alt="" coords="879,354,1157,410"/>
-<area shape="rect" id="node11" href="$df/de9/a00923.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/RenderTechnique.hpp" alt="" coords="2083,703,2321,759"/>
-<area shape="rect" id="node13" href="$de/d76/a00134.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/EnvironmentMap/Environment\lMapPass.hpp" alt="" coords="1233,347,1454,417"/>
-<area shape="rect" id="node14" href="$df/d41/a00881.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/ForwardRenderTechnique\lPass.hpp" alt="" coords="1478,347,1737,417"/>
-<area shape="rect" id="node15" href="$d5/dd3/a00902.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/Opaque/OpaquePass.hpp" alt="" coords="1761,354,2024,410"/>
-<area shape="rect" id="node16" href="$d8/dbb/a00932.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/Transparent\l/TransparentPass.hpp" alt="" coords="2049,347,2230,417"/>
-<area shape="rect" id="node18" href="$d8/d19/a00935.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/Transparent\l/WeightedBlendRendering.hpp" alt="" coords="2103,584,2301,655"/>
-<area shape="rect" id="node20" href="$dd/d08/a00884.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/Opaque/Deferred\lRendering.hpp" alt="" coords="2305,347,2515,417"/>
-<area shape="rect" id="node21" href="$d7/d46/a00890.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Technique/Opaque/Lighting\lPass.hpp" alt="" coords="2403,228,2609,299"/>
+<map id="Z:/Projets/C++/Castor3D/source/Core/Castor3D/Src/Shader/Ubos/OverlayUbo.hpp" name="Z:/Projets/C++/Castor3D/source/Core/Castor3D/Src/Shader/Ubos/OverlayUbo.hpp">
+<area shape="rect" id="node2" href="$d4/dd3/a00428.html" title="Z:/Projets/C++/Castor3D\l/source/Core/Castor3D\l/Src/Overlay/OverlayRenderer.hpp" alt="" coords="7,109,224,165"/>
 </map>

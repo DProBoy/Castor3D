@@ -1,8 +1,0 @@
-<map id="castor3d::AnimatedMesh" name="castor3d::AnimatedMesh">
-<area shape="rect" id="node2" href="$d7/d69/a02783.html" title="Represents the animated objects. " alt="" coords="683,31,856,57"/>
-<area shape="rect" id="node9" href="$d9/d08/a02911.html" title="Movable object class. " alt="" coords="489,56,655,83"/>
-<area shape="rect" id="node4" href="$d1/d90/a02127.html" title="The mesh representation. " alt="" coords="516,157,628,184"/>
-<area shape="rect" id="node6" href="$da/d50/a01511.html" title="Animable public interface. " alt="" coords="269,68,404,95"/>
-<area shape="rect" id="node8" href="$d1/d39/a02859.html" title="Geometry handler class. " alt="" coords="880,93,1017,120"/>
-<area shape="rect" id="node10" href="$d4/d32/a02951.html" title="Handles object&#39;s visibility, and behavior with shadows. " alt="" coords="485,107,659,133"/>
-</map>

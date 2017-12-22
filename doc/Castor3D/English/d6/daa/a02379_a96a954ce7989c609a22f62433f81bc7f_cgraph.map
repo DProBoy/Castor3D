@@ -1,5 +1,0 @@
-<map id="castor3d::BorderPanelOverlay::getBorderInnerUV" name="castor3d::BorderPanelOverlay::getBorderInnerUV">
-<area shape="rect" id="node2" href="$d6/daa/a02379.html#abbf839f7c323d7bcd6fa19ca64da398c" title="Draws the overlay. " alt="" coords="248,5,443,47"/>
-<area shape="rect" id="node3" href="$d6/daa/a02379.html#a7bc7c3bffa1e93b59ca0b2352ef2ba99" title="Updates the vertex buffer. " alt="" coords="248,71,443,112"/>
-<area shape="rect" id="node4" href="$d6/daa/a02379.html#acb35e8c91102fdee3abd7abafd5f6d48" title="Updates the overlay size, taking care of wanted pixel size. " alt="" coords="248,136,443,177"/>
-</map>

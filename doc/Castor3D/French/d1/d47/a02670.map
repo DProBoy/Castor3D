@@ -1,2 +1,31 @@
-<map id="castor3d::RenderPipeline" name="castor3d::RenderPipeline">
+<map id="castor3d::SkinningRenderNode" name="castor3d::SkinningRenderNode">
+<area shape="rect" id="node2" href="$d2/d7d/a02656.html" title="Structure d&#39;aide utilisée pour le dessin d&#39;objets. " alt="" coords="1975,789,2123,816"/>
+<area shape="rect" id="node3" href="$d6/d0c/a02080.html" title="Conteneur de buffers de géométries. " alt="" coords="1625,789,1802,816"/>
+<area shape="rect" id="node4" href="$d5/d83/a03076.html" title="Implémentation de base d&#39;un programme de shader, utilisé afin d&#39;exposer les fonctions communes aux la..." alt="" coords="1203,695,1374,721"/>
+<area shape="rect" id="node16" href="$d4/dfe/a02688.html" title="Le pipeline de rendu. " alt="" coords="1630,564,1797,591"/>
+<area shape="rect" id="node9" href="$de/def/a02064.html" title="Description de tous les éléments dans un tampon de sommets. " alt="" coords="745,527,924,553"/>
+<area shape="rect" id="node12" href="$de/d7b/a02660.html" title="Structure d&#39;aide utilisée pour lier une passe et un programme shader. " alt="" coords="1623,976,1804,1003"/>
+<area shape="rect" id="node14" href="$d4/ddd/a02040.html" title="Classe de base d&#39;une passe d&#39;un matériau. " alt="" coords="1233,981,1344,1008"/>
+<area shape="rect" id="node17" href="$d5/d6b/a03428.html" title="Classe de configuration du rasteriser. " alt="" coords="1203,593,1374,620"/>
+<area shape="rect" id="node18" href="$d0/df5/a02576.html" title="Indicateurs de pipeline. " alt="" coords="1209,644,1368,671"/>
+<area shape="rect" id="node20" href="$d6/dbe/a02848.html" title="Liste de billboards. " alt="" coords="755,119,915,145"/>
+<area shape="rect" id="node21" href="$d0/d7b/a02968.html" title="Gère la visibilité de l&#39;objet, ainsi que son comportement avec les ombres. " alt="" coords="322,63,495,89"/>
+<area shape="rect" id="node49" href="$d7/d65/a02876.html" title="Classe de gestion d&#39;une géométrie affichable. " alt="" coords="1220,67,1357,93"/>
+<area shape="rect" id="node23" href="$d3/dff/a02976.html" title="Classe de gestion d&#39;un scène. " alt="" coords="350,116,467,143"/>
+<area shape="rect" id="node37" href="$d6/d5d/a02992.html" title="La classe de gestion de noeud de scène. " alt="" coords="335,728,482,755"/>
+<area shape="rect" id="node44" href="$d9/dd1/a02800.html" title="Représente les objets animés. " alt="" coords="521,5,695,32"/>
+<area shape="rect" id="node50" href="$da/dad/a02928.html" title="Classe d&#39;objet déplaçable. " alt="" coords="752,169,917,196"/>
+<area shape="rect" id="node26" href="$db/d14/a02232.html" title="Representation d&#39;un sous&#45;maillage. " alt="" coords="341,629,476,656"/>
+<area shape="rect" id="node46" href="$dc/d0c/a01532.html" title="interface publique d&#39;animable " alt="" coords="341,241,476,268"/>
+<area shape="rect" id="node30" href="$d2/d2e/a03408.html" title="Classe regroupant les configurations de blend. " alt="" coords="1217,425,1361,452"/>
+<area shape="rect" id="node32" href="$d4/d57/a03412.html" title="castor3d::BlendState\l::stRT_BLEND_STATE" alt="" coords="331,403,486,445"/>
+<area shape="rect" id="node33" href="$dc/dc7/a03424.html" title="Classe regroupant les configurations de multi&#45;échantillonnage. " alt="" coords="1198,375,1379,401"/>
+<area shape="rect" id="node34" href="$df/df7/a03416.html" title="Classe de configuration des buffers de profondeur et stencil. " alt="" coords="1196,324,1381,351"/>
+<area shape="rect" id="node35" href="$d1/d8b/a03420.html" title="Fonction et opérations de stencil. " alt="" coords="742,330,927,371"/>
+<area shape="rect" id="node36" href="$de/d3a/a03200.html" title="Gestion du tampon de variables uniformes pour le modèle. " alt="" coords="1644,1027,1783,1053"/>
+<area shape="rect" id="node41" href="$dc/ddd/a03196.html" title="Gestion du tampon de variables uniformes pour les matrices. " alt="" coords="1626,513,1801,540"/>
+<area shape="rect" id="node42" href="$d5/d2f/a03216.html" title="Gestion du tampon de variables uniformes pour les matrices. " alt="" coords="1972,840,2125,867"/>
+<area shape="rect" id="node43" href="$d1/d19/a02812.html" title="Représente les objets animés. " alt="" coords="1620,199,1807,225"/>
+<area shape="rect" id="node45" href="$df/d4a/a02204.html" title="Le squelette, contient chaque bone. " alt="" coords="997,219,1127,245"/>
+<area shape="rect" id="node47" href="$dd/d3f/a02156.html" title="Représentation d&#39;un maillage. " alt="" coords="779,279,891,305"/>
 </map>

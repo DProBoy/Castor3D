@@ -1,16 +1,15 @@
-<map id="Z:/Projets/C++/Castor3D/source/Core/Castor3D/Src/Material/SpecularGlossinessPbrPass.hpp" name="Z:/Projets/C++/Castor3D/source/Core/Castor3D/Src/Material/SpecularGlossinessPbrPass.hpp">
-<area shape="rect" id="node2" href="$d3/de5/a00209.html" title="Material/Pass.hpp" alt="" coords="50,124,177,151"/>
-<area shape="rect" id="node3" href="$d3/dd5/a00215.html" title="SubsurfaceScattering.hpp" alt="" coords="160,199,331,225"/>
-<area shape="rect" id="node4" href="$df/dc8/a00122.html" title="Castor3DPrerequisites.hpp" alt="" coords="2119,273,2297,300"/>
-<area shape="rect" id="node14" href="$d4/ddf/a00488.html" title="Prerequisites/Castor3DPrerequisites\l_Animation.hpp" alt="" coords="3835,348,4067,389"/>
-<area shape="rect" id="node17" href="$d6/d60/a00491.html" title="Prerequisites/Castor3DPrerequisites\l_Camera.hpp" alt="" coords="940,348,1172,389"/>
-<area shape="rect" id="node18" href="$d4/d1e/a00497.html" title="Prerequisites/Castor3DPrerequisites\l_Geometry.hpp" alt="" coords="1196,348,1428,389"/>
-<area shape="rect" id="node19" href="$de/d4e/a00500.html" title="Prerequisites/Castor3DPrerequisites\l_Light.hpp" alt="" coords="2681,348,2913,389"/>
-<area shape="rect" id="node21" href="$d4/de5/a00503.html" title="Prerequisites/Castor3DPrerequisites\l_Material.hpp" alt="" coords="1452,348,1684,389"/>
-<area shape="rect" id="node22" href="$d4/d1f/a00506.html" title="Prerequisites/Castor3DPrerequisites\l_Overlay.hpp" alt="" coords="1708,348,1940,389"/>
-<area shape="rect" id="node23" href="$d4/dfb/a00512.html" title="Prerequisites/Castor3DPrerequisites\l_Scene.hpp" alt="" coords="1964,348,2196,389"/>
-<area shape="rect" id="node24" href="$dc/d19/a00515.html" title="Prerequisites/Castor3DPrerequisites\l_Shader.hpp" alt="" coords="2220,348,2452,389"/>
-<area shape="rect" id="node25" href="$df/db6/a00509.html" title="Prerequisites/Castor3DPrerequisites\l_Render.hpp" alt="" coords="3323,348,3555,389"/>
-<area shape="rect" id="node27" href="$d5/d0f/a00494.html" title="Prerequisites/Castor3DPrerequisites\l_Event.hpp" alt="" coords="3579,348,3811,389"/>
-<area shape="rect" id="node15" href="$d6/de1/a00356.html" title="Mesh/VertexGroup.hpp" alt="" coords="3830,437,3986,464"/>
+<map id="Z:/Projets/C++/Castor3D/source/Core/Castor3D/Src/Material/Pass.hpp" name="Z:/Projets/C++/Castor3D/source/Core/Castor3D/Src/Material/Pass.hpp">
+<area shape="rect" id="node2" href="$dc/d9a/a00218.html" title="SubsurfaceScattering.hpp" alt="" coords="135,109,305,136"/>
+<area shape="rect" id="node3" href="$df/dc8/a00122.html" title="Castor3DPrerequisites.hpp" alt="" coords="2094,184,2271,211"/>
+<area shape="rect" id="node13" href="$d4/ddf/a00488.html" title="Prerequisites/Castor3DPrerequisites\l_Animation.hpp" alt="" coords="3809,259,4041,300"/>
+<area shape="rect" id="node16" href="$d6/d60/a00491.html" title="Prerequisites/Castor3DPrerequisites\l_Camera.hpp" alt="" coords="915,259,1147,300"/>
+<area shape="rect" id="node17" href="$d4/d1e/a00497.html" title="Prerequisites/Castor3DPrerequisites\l_Geometry.hpp" alt="" coords="1171,259,1403,300"/>
+<area shape="rect" id="node18" href="$de/d4e/a00500.html" title="Prerequisites/Castor3DPrerequisites\l_Light.hpp" alt="" coords="2656,259,2888,300"/>
+<area shape="rect" id="node20" href="$d4/de5/a00503.html" title="Prerequisites/Castor3DPrerequisites\l_Material.hpp" alt="" coords="1427,259,1659,300"/>
+<area shape="rect" id="node21" href="$d4/d1f/a00506.html" title="Prerequisites/Castor3DPrerequisites\l_Overlay.hpp" alt="" coords="1683,259,1915,300"/>
+<area shape="rect" id="node22" href="$d4/dfb/a00512.html" title="Prerequisites/Castor3DPrerequisites\l_Scene.hpp" alt="" coords="1939,259,2171,300"/>
+<area shape="rect" id="node23" href="$dc/d19/a00515.html" title="Prerequisites/Castor3DPrerequisites\l_Shader.hpp" alt="" coords="2195,259,2427,300"/>
+<area shape="rect" id="node24" href="$df/db6/a00509.html" title="Prerequisites/Castor3DPrerequisites\l_Render.hpp" alt="" coords="3297,259,3529,300"/>
+<area shape="rect" id="node26" href="$d5/d0f/a00494.html" title="Prerequisites/Castor3DPrerequisites\l_Event.hpp" alt="" coords="3553,259,3785,300"/>
+<area shape="rect" id="node14" href="$d4/def/a00359.html" title="Mesh/VertexGroup.hpp" alt="" coords="3805,348,3961,375"/>
 </map>

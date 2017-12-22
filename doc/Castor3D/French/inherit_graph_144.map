@@ -1,6 +1,7 @@
 <map id="Graphe hiérarchique des classes" name="Graphe hiérarchique des classes">
-<area shape="rect" id="node1" href="$d8/d49/a02419.html" title="Contient les membres spécifiques à une catégorie d&#39;incrustation. " alt="" coords="5,56,180,83"/>
-<area shape="rect" id="node2" href="$d6/daa/a02379.html" title="Une incrustation rectangulaire avec un bord. " alt="" coords="228,5,423,32"/>
-<area shape="rect" id="node3" href="$d8/d9a/a02447.html" title="Une simple incrustation rectangulaire. " alt="" coords="247,56,403,83"/>
-<area shape="rect" id="node4" href="$df/db6/a02455.html" title="Une incrustation avec du texte. " alt="" coords="251,107,399,133"/>
+<area shape="rect" id="node1" href="$d2/d7d/a02656.html" title="Structure d&#39;aide utilisée pour le dessin d&#39;objets. " alt="" coords="5,74,205,115"/>
+<area shape="rect" id="node2" href="$dd/d5f/a02640.html" title="Structure d&#39;aide utilisée pour le dessin des billboards. " alt="" coords="255,5,456,32"/>
+<area shape="rect" id="node3" href="$d2/d5a/a02652.html" title="Structure d&#39;aide utilisée pour le dessin des sous&#45;maillages animés. " alt="" coords="253,56,457,83"/>
+<area shape="rect" id="node4" href="$d0/d9f/a02672.html" title="Structure d&#39;aide utilisée pour le dessin des sous&#45;maillages animés. " alt="" coords="255,107,456,133"/>
+<area shape="rect" id="node5" href="$df/d97/a02676.html" title="Structure d&#39;aide utilisée pour le dessin des sous&#45;maillages non animés. " alt="" coords="263,157,448,184"/>
 </map>

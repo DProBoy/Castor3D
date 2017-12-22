@@ -1,3 +1,5 @@
-<map id="castor3d::Cache&lt; Material, castor::String &gt;" name="castor3d::Cache&lt; Material, castor::String &gt;">
-<area shape="rect" id="node2" href="$d6/d2e/a01735.html" title="castor3d::CacheBase\l\&lt; Material, castor::\lString \&gt;" alt="" coords="21,5,168,61"/>
+<map id="castor3d::ObjectCache&lt; Geometry, castor::String &gt;" name="castor3d::ObjectCache&lt; Geometry, castor::String &gt;">
+<area shape="rect" id="node2" href="$dc/dec/a01804.html" title="castor3d::ObjectCacheBase\l\&lt; Geometry, castor::String \&gt;" alt="" coords="471,54,660,95"/>
+<area shape="rect" id="node3" href="$d7/d5f/a01888.html" title="Main System. " alt="" coords="241,23,361,49"/>
+<area shape="rect" id="node5" href="$d3/dff/a02976.html" title="Scene handler class. " alt="" coords="243,107,360,133"/>
 </map>

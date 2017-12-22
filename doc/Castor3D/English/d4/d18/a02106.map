@@ -1,3 +1,4 @@
-<map id="castor3d::Projection" name="castor3d::Projection">
-<area shape="rect" id="node2" href="$dd/d99/a02151.html" title="Mesh category is used to create a mesh&#39;s vertices, it is created by MeshFactory. " alt="" coords="5,5,175,32"/>
+<map id="castor3d::VertexBuffer" name="castor3d::VertexBuffer">
+<area shape="rect" id="node2" href="$db/d87/a02076.html" title="castor3d::CpuBuffer\l\&lt; uint8_t \&gt;" alt="" coords="31,81,167,123"/>
+<area shape="rect" id="node4" href="$de/def/a02064.html" title="Description of all elements in a vertex buffer. " alt="" coords="191,89,369,115"/>
 </map>

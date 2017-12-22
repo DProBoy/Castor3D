@@ -51,7 +51,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>Plane equation.  
+<p>Plane equation implementation (ax + by + cz + d = 0).  
  <a href="../../d8/dd1/a01894.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -68,9 +68,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4ccfb906bb93aa817ac92139d972add1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d16/a00029.html#a85ca3bafa261a7f2ece738b559d8bbb7">CU_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd1/a01894.html#a4ccfb906bb93aa817ac92139d972add1">PlaneEquation</a> (Point3r const &amp;normal, <a class="el" href="../../d6/db8/a00376.html#a904540153c955d915a6e0cf69cd6c720">real</a> d)</td></tr>
 <tr class="memdesc:a4ccfb906bb93aa817ac92139d972add1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a4ccfb906bb93aa817ac92139d972add1">More...</a><br /></td></tr>
 <tr class="separator:a4ccfb906bb93aa817ac92139d972add1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a52015d276da9fee847a43e3eff749df9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d16/a00029.html#a85ca3bafa261a7f2ece738b559d8bbb7">CU_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd1/a01894.html#a52015d276da9fee847a43e3eff749df9">~PlaneEquation</a> ()</td></tr>
-<tr class="memdesc:a52015d276da9fee847a43e3eff749df9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a52015d276da9fee847a43e3eff749df9">More...</a><br /></td></tr>
-<tr class="separator:a52015d276da9fee847a43e3eff749df9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5387d6b22959a7e10d3c619f7323028c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d16/a00029.html#a85ca3bafa261a7f2ece738b559d8bbb7">CU_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd1/a01894.html#a5387d6b22959a7e10d3c619f7323028c">set</a> (Point3r const &amp;p1, Point3r const &amp;p2, Point3r const &amp;p3)</td></tr>
 <tr class="memdesc:a5387d6b22959a7e10d3c619f7323028c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute plane's equation from 3 points.  <a href="#a5387d6b22959a7e10d3c619f7323028c">More...</a><br /></td></tr>
 <tr class="separator:a5387d6b22959a7e10d3c619f7323028c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -97,6 +94,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a5fa450040c54236249778cd9f217330f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a001b84a6237b4ee8956bf824a27b8d86"><td class="memItemLeft" align="right" valign="top">Point3r const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd1/a01894.html#a001b84a6237b4ee8956bf824a27b8d86">getNormal</a> () const</td></tr>
 <tr class="separator:a001b84a6237b4ee8956bf824a27b8d86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7c2c5446e598cefee573fde54fd77f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/db8/a00376.html#a904540153c955d915a6e0cf69cd6c720">real</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd1/a01894.html#ac7c2c5446e598cefee573fde54fd77f9">getDistance</a> () const</td></tr>
+<tr class="separator:ac7c2c5446e598cefee573fde54fd77f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
@@ -108,10 +107,9 @@ Friends</h2></td></tr>
 <tr class="separator:adc3764d348029e93a024e0c11d141b5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Plane equation. </p>
+<div class="textblock"><p>Plane equation implementation (ax + by + cz + d = 0). </p>
 <dl class="section author"><dt>Author</dt><dd>Sylvain DOREMUS </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>14/02/2010</dd></dl>
-<dl class="section remark"><dt>Remarks</dt><dd>do you remember ax + by + cz + d = 0 ? </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>14/02/2010 </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aeaaf412c613039d418a58459ea9a8f71"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aeaaf412c613039d418a58459ea9a8f71">&#9670;&nbsp;</a></span>PlaneEquation() <span class="overload">[1/4]</span></h2>
@@ -250,25 +248,6 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a52015d276da9fee847a43e3eff749df9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a52015d276da9fee847a43e3eff749df9">&#9670;&nbsp;</a></span>~PlaneEquation()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d5/d16/a00029.html#a85ca3bafa261a7f2ece738b559d8bbb7">CU_API</a> castor::PlaneEquation::~PlaneEquation </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Destructor. </p>
-
-</div>
-</div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a2195d7e9e393ee6697ad50c25d695461"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2195d7e9e393ee6697ad50c25d695461">&#9670;&nbsp;</a></span>distance()</h2>
@@ -297,6 +276,34 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="ac7c2c5446e598cefee573fde54fd77f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7c2c5446e598cefee573fde54fd77f9">&#9670;&nbsp;</a></span>getDistance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d6/db8/a00376.html#a904540153c955d915a6e0cf69cd6c720">real</a> castor::PlaneEquation::getDistance </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>The plane's distance to origin. </dd></dl>
+
+<p class="reference">References <a class="el" href="../../d5/d16/a00029.html#a85ca3bafa261a7f2ece738b559d8bbb7">CU_API</a>, <a class="el" href="../../d8/dd1/a01894.html#adc3764d348029e93a024e0c11d141b5c">operator!=</a>, and <a class="el" href="../../d8/dd1/a01894.html#a8e114c24dd181e6d5cf49611316e3997">operator==</a>.</p>
+
+</div>
+</div>
 <a id="a001b84a6237b4ee8956bf824a27b8d86"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a001b84a6237b4ee8956bf824a27b8d86">&#9670;&nbsp;</a></span>getNormal()</h2>
 
@@ -320,8 +327,6 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>The plane's normal. </dd></dl>
-
-<p class="reference">References <a class="el" href="../../d5/d16/a00029.html#a85ca3bafa261a7f2ece738b559d8bbb7">CU_API</a>, <a class="el" href="../../d8/dd1/a01894.html#adc3764d348029e93a024e0c11d141b5c">operator!=</a>, and <a class="el" href="../../d8/dd1/a01894.html#a8e114c24dd181e6d5cf49611316e3997">operator==</a>.</p>
 
 </div>
 </div>
@@ -617,7 +622,7 @@ Friends</h2></td></tr>
 
 <p>Checks if this plane is different from another one. </p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/dd1/a01894.html#a001b84a6237b4ee8956bf824a27b8d86">getNormal()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/dd1/a01894.html#ac7c2c5446e598cefee573fde54fd77f9">getDistance()</a>.</p>
 
 </div>
 </div>
@@ -658,7 +663,7 @@ Friends</h2></td></tr>
 <p>Checks if this plane is equal to another one. </p>
 <dl class="section remark"><dt>Remarks</dt><dd>A plane is equal to another one if it is parallel to it and if normals and d coeff are equal </dd></dl>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/dd1/a01894.html#a001b84a6237b4ee8956bf824a27b8d86">getNormal()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/dd1/a01894.html#ac7c2c5446e598cefee573fde54fd77f9">getDistance()</a>.</p>
 
 </div>
 </div>
@@ -668,7 +673,7 @@ Friends</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Dec 11 2017 11:16:21 for CastorUtils by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Dec 30 2017 00:23:30 for CastorUtils by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

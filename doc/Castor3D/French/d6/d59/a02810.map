@@ -1,3 +1,9 @@
-<map id="castor3d::SkeletonAnimationInstance" name="castor3d::SkeletonAnimationInstance">
-<area shape="rect" id="node2" href="$d0/dda/a02799.html" title="Classe d&#39;instance d&#39;animation. " alt="" coords="7,95,193,121"/>
+<map id="castor3d::AnimatedSkeleton" name="castor3d::AnimatedSkeleton">
+<area shape="rect" id="node2" href="$d9/dd1/a02800.html" title="Représente les objets animés. " alt="" coords="683,11,856,37"/>
+<area shape="rect" id="node10" href="$da/dad/a02928.html" title="Classe d&#39;objet déplaçable. " alt="" coords="489,103,655,129"/>
+<area shape="rect" id="node4" href="$df/d4a/a02204.html" title="Le squelette, contient chaque bone. " alt="" coords="704,151,835,177"/>
+<area shape="rect" id="node5" href="$dc/d0c/a01532.html" title="interface publique d&#39;animable " alt="" coords="269,153,404,180"/>
+<area shape="rect" id="node7" href="$dd/d3f/a02156.html" title="Représentation d&#39;un maillage. " alt="" coords="516,209,628,236"/>
+<area shape="rect" id="node9" href="$d7/d65/a02876.html" title="Classe de gestion d&#39;une géométrie affichable. " alt="" coords="880,95,1017,121"/>
+<area shape="rect" id="node11" href="$d0/d7b/a02968.html" title="Gère la visibilité de l&#39;objet, ainsi que son comportement avec les ombres. " alt="" coords="485,52,659,79"/>
 </map>

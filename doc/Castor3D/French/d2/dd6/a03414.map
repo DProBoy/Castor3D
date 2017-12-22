@@ -1,4 +1,3 @@
-<map id="castor3d::ForwardRenderTechniquePass" name="castor3d::ForwardRenderTechniquePass">
-<area shape="rect" id="node2" href="$dd/da8/a03523.html" title="Classe de base d&#39;une passe de technique de rendu. " alt="" coords="79,155,289,181"/>
-<area shape="rect" id="node3" href="$db/d86/a02663.html" title="Classe de base d&#39;une passe de rendu. " alt="" coords="109,80,259,107"/>
+<map id="castor3d::DepthStencilState" name="castor3d::DepthStencilState">
+<area shape="rect" id="node2" href="$d1/d8b/a03420.html" title="Fonction et opérations de stencil. " alt="" coords="5,5,191,47"/>
 </map>

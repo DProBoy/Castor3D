@@ -1,2 +1,13 @@
-<map id="castor3d::SkeletonAnimationInstanceKeyFrame" name="castor3d::SkeletonAnimationInstanceKeyFrame">
+<map id="castor3d::MeshAnimationInstance" name="castor3d::MeshAnimationInstance">
+<area shape="rect" id="node2" href="$d4/d97/a02816.html" title="Classe d&#39;instance d&#39;animation. " alt="" coords="1223,170,1409,197"/>
+<area shape="rect" id="node4" href="$d0/da6/a01536.html" title="Classe de base des animations. " alt="" coords="932,71,1071,98"/>
+<area shape="rect" id="node20" href="$db/dfd/a01576.html" title="Classe d&#39;animation de sous&#45;maillage. " alt="" coords="1231,62,1401,89"/>
+<area shape="rect" id="node11" href="$d9/dd1/a02800.html" title="Représente les objets animés. " alt="" coords="709,290,883,317"/>
+<area shape="rect" id="node17" href="$da/dad/a02928.html" title="Classe d&#39;objet déplaçable. " alt="" coords="503,239,668,266"/>
+<area shape="rect" id="node9" title="STL iterator class. " alt="" coords="1235,119,1397,146"/>
+<area shape="rect" id="node10" href="$d3/dac/a02796.html" title="Représente les sous&#45;maillages animés. " alt="" coords="1233,271,1399,298"/>
+<area shape="rect" id="node12" href="$dd/d3f/a02156.html" title="Représentation d&#39;un maillage. " alt="" coords="529,342,641,369"/>
+<area shape="rect" id="node14" href="$dc/d0c/a01532.html" title="interface publique d&#39;animable " alt="" coords="269,290,404,317"/>
+<area shape="rect" id="node16" href="$d7/d65/a02876.html" title="Classe de gestion d&#39;une géométrie affichable. " alt="" coords="933,239,1070,266"/>
+<area shape="rect" id="node18" href="$d0/d7b/a02968.html" title="Gère la visibilité de l&#39;objet, ainsi que son comportement avec les ombres. " alt="" coords="499,122,672,149"/>
 </map>

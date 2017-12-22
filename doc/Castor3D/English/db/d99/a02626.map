@@ -1,3 +1,6 @@
-<map id="castor3d::DistanceRenderNodeBase" name="castor3d::DistanceRenderNodeBase">
-<area shape="rect" id="node2" href="$d0/d9a/a02631.html" title="Helper structure used to render objects. " alt="" coords="5,95,177,136"/>
+<map id="castor3d::RenderLoop" name="castor3d::RenderLoop">
+<area shape="rect" id="node3" href="$d4/d9d/a02704.html" title="The render system representation. " alt="" coords="713,202,879,229"/>
+<area shape="rect" id="node13" href="$d4/d2d/a02408.html" title="Debug overlays class. " alt="" coords="377,19,544,46"/>
+<area shape="rect" id="node4" href="$de/dd1/a02100.html" title="Buddy allocator implementation. " alt="" coords="379,173,542,199"/>
+<area shape="rect" id="node8" href="$da/db4/a02348.html" title="Holds GPU informations. " alt="" coords="373,341,548,367"/>
 </map>

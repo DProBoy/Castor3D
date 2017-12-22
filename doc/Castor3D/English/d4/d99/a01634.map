@@ -1,3 +1,4 @@
-<map id="castor3d::BinaryParser&lt; SkeletonAnimationKeyFrame &gt;" name="castor3d::BinaryParser&lt; SkeletonAnimationKeyFrame &gt;">
-<area shape="rect" id="node2" href="$d2/d34/a01679.html" title="castor3d::BinaryParserBase\l\&lt; SkeletonAnimationKeyFrame \&gt;" alt="" coords="5,5,220,47"/>
+<map id="castor3d::BinaryWriter&lt; SkeletonAnimationBone &gt;" name="castor3d::BinaryWriter&lt; SkeletonAnimationBone &gt;">
+<area shape="rect" id="node2" href="$de/d5c/a01708.html" title="castor3d::BinaryWriterBase\l\&lt; SkeletonAnimationBone \&gt;" alt="" coords="5,95,191,136"/>
+<area shape="rect" id="node3" href="$d9/d49/a01696.html" title="Binary data chunk base class. " alt="" coords="21,5,175,32"/>
 </map>

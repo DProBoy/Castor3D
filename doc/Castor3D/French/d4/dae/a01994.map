@@ -1,2 +1,4 @@
-<map id="castor3d::Material" name="castor3d::Material">
+<map id="castor3d::ToneMapping" name="castor3d::ToneMapping">
+<area shape="rect" id="node4" href="$d8/d2a/a03192.html" title="Gestion du tampon de variables uniformes pour les matrices. " alt="" coords="304,5,443,32"/>
+<area shape="rect" id="node5" href="$da/dfb/a03188.html" title="Gestion du tampon de variables uniformes pour la configuration HDR. " alt="" coords="467,5,626,32"/>
 </map>

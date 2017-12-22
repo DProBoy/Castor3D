@@ -1,0 +1,32 @@
+<map id="castor3d::doBindPass" name="castor3d::doBindPass">
+<area shape="rect" id="node2" href="$d9/ddd/a03616.html#a4c2b3a46cc93730681a025eae34a782a" title="Applique la texture. " alt="" coords="250,325,397,367"/>
+<area shape="rect" id="node3" href="$d4/ddd/a02040.html#a1b4f4973ab774938c3d142efeaade40e" title="Active les textures de la passe. " alt="" coords="227,391,419,418"/>
+<area shape="rect" id="node4" href="$d0/d85/a00976.html#af494884ca15f3e3573aa7de5699c5c5c" title="castor3d::doFillShaderPbrMaps" alt="" coords="221,442,425,469"/>
+<area shape="rect" id="node10" href="$dc/d28/a02584.html#af690650bda2315b2119a8ed486c46cff" title="Définit la valeur de la variable. " alt="" coords="527,683,689,724"/>
+<area shape="rect" id="node17" href="$d0/d85/a00976.html#a2cab52313bf629605f90c620c9b4d534" title="castor3d::doFillShaderShadowMaps" alt="" coords="208,791,439,818"/>
+<area shape="rect" id="node19" href="$d4/dfe/a02688.html#a70d0d758e6dbe7d5ca0ddbc7c12bc7d5" title="castor3d::RenderPipeline\l::getFlags" alt="" coords="525,748,691,789"/>
+<area shape="rect" id="node23" href="$d3/dff/a02976.html#a3834e7ef4b0854a44d38c46133b98ec6" title="castor3d::Scene::getEnvironmentMap" alt="" coords="204,842,443,869"/>
+<area shape="rect" id="node24" href="$d4/dfe/a02688.html#abc009ede93d64d64a6be03541bffe1a1" title="castor3d::RenderPipeline\l::getEnvironmentMapVariable" alt="" coords="228,893,419,935"/>
+<area shape="rect" id="node25" href="$dc/d31/a01892.html#af71f627ce5f9372c2de23e0af8f8ed98" title="castor3d::EnvironmentMap\l::getIndex" alt="" coords="235,959,411,1000"/>
+<area shape="rect" id="node26" href="$dc/d31/a01892.html#afa869b52b404e904599215f93b7f218e" title="castor3d::EnvironmentMap\l::getTexture" alt="" coords="235,1024,411,1065"/>
+<area shape="rect" id="node27" href="$d4/dfe/a02688.html#ad40622c688e0a66ec9a5461b48d8f389" title="castor3d::RenderPipeline\l::getTexturesCount" alt="" coords="240,1089,407,1131"/>
+<area shape="rect" id="node28" href="$d4/ddd/a02040.html#ae656ac3132fb4e95fa30f28381d5e421" title="castor3d::Pass::hasEnvironment\lMapping" alt="" coords="218,1155,429,1196"/>
+<area shape="rect" id="node30" href="$de/d3a/a03200.html#a81db0f258130e31668f8185a9d1d1508" title="Définit la valeur de l&#39;indice de la texture d&#39;environnement. " alt="" coords="254,1220,393,1261"/>
+<area shape="rect" id="node31" href="$d9/ddd/a03616.html#a8056557421593e2c9aac2972fa1d4c2b" title="Définit l&#39;index de l&#39;unité. " alt="" coords="250,1285,397,1327"/>
+<area shape="rect" id="node5" href="$d3/dff/a02976.html#a00de2c47e744a80a3546c51674bfbe8a" title="castor3d::Scene::getIbl" alt="" coords="530,566,686,593"/>
+<area shape="rect" id="node6" href="$d3/df4/a02504.html#a55193e25aa23894dbd2c339cf8c92a70" title="castor3d::IblTextures\l::getIrradiance" alt="" coords="537,617,679,659"/>
+<area shape="rect" id="node7" href="$d9/ddd/a03616.html#a455370bb5d5da08745042e3503752f21" title="castor3d::TextureUnit\l::getTexture" alt="" coords="535,5,681,47"/>
+<area shape="rect" id="node8" href="$d9/ddd/a03616.html#a61f27f594de56ec64b1304a04bf7e835" title="castor3d::TextureUnit\l::getSampler" alt="" coords="535,71,681,112"/>
+<area shape="rect" id="node9" href="$d4/dfe/a02688.html#a7be8c4701bff8a532629970e61fe47f9" title="castor3d::RenderPipeline\l::getIrradianceMapVariable" alt="" coords="520,136,696,177"/>
+<area shape="rect" id="node11" href="$d3/df4/a02504.html#afed1f11f45c4a5fbeeba7ffa972cecb2" title="castor3d::IblTextures\l::getPrefilteredEnvironment" alt="" coords="519,201,697,243"/>
+<area shape="rect" id="node12" href="$d4/dfe/a02688.html#a9a4b3de61e07e15327ea06d91aad1b16" title="castor3d::RenderPipeline\l::getPrefilteredMapVariable" alt="" coords="519,267,697,308"/>
+<area shape="rect" id="node13" href="$d3/dff/a02976.html#a54a1b4e8c6084463b493ef0dff8e13c9" title="castor3d::Scene::getSkybox" alt="" coords="515,333,701,359"/>
+<area shape="rect" id="node14" href="$da/d96/a03004.html#a38526892b839fd4182b312e73c8e509f" title="castor3d::Skybox::getIbl" alt="" coords="527,383,689,410"/>
+<area shape="rect" id="node15" href="$d3/df4/a02504.html#ae1e7cf0e13e49f113a7ad948d01cf33a" title="castor3d::IblTextures\l::getPrefilteredBrdf" alt="" coords="537,435,679,476"/>
+<area shape="rect" id="node16" href="$d4/dfe/a02688.html#a7aa85646f9205daccd3ef81b84eb97af" title="castor3d::RenderPipeline\l::getBrdfMapVariable" alt="" coords="525,500,691,541"/>
+<area shape="rect" id="node18" href="$d0/d85/a00976.html#a2817ed88014181a6316eeaaf35beabca" title="Récupère le type de filtrage d&#39;ombres correspondant aux indicateurs donnés. " alt="" coords="522,945,694,971"/>
+<area shape="rect" id="node20" href="$d4/dfe/a02688.html#abb3b81660e8d439629c695c8b347b12a" title="castor3d::RenderPipeline\l::getDirectionalShadowMapsVariable" alt="" coords="491,996,725,1037"/>
+<area shape="rect" id="node21" href="$d4/dfe/a02688.html#a5be1d2ed3402483535d133ce9861514b" title="castor3d::RenderPipeline\l::getSpotShadowMapsVariable" alt="" coords="508,813,708,855"/>
+<area shape="rect" id="node22" href="$d4/dfe/a02688.html#afa3b5ae21ce6b428c645bb0a3a317f1a" title="castor3d::RenderPipeline\l::getPointShadowMapsVariable" alt="" coords="507,879,709,920"/>
+<area shape="rect" id="node29" href="$d4/ddd/a02040.html#a7ce5b0e4d13f38600b9ba9bb122ce973" title="castor3d::Pass::getTexture\lFlags" alt="" coords="519,1155,697,1196"/>
+</map>

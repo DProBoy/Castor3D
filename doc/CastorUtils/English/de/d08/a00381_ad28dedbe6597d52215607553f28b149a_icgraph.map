@@ -1,0 +1,7 @@
+<map id="castor::Debug::initialise" name="castor::Debug::initialise">
+<area shape="rect" id="node2" href="$dc/d28/a02062.html#aa59c211b4111b32e9f33c7ab8daddbac" title="Constructor, initialises the pool with given elements count. " alt="" coords="212,5,385,47"/>
+<area shape="rect" id="node3" href="$d1/d0f/a01962.html#a0c187ffa08a9245b1bba554f5f45fbba" title="castor::Debug::Backtrace\l::Backtrace" alt="" coords="213,71,384,112"/>
+<area shape="rect" id="node4" href="$df/d03/a02058.html#aa223e11c8dda17a1188b39bf212e754a" title="Constructor, initialises the pool with given elements count. " alt="" coords="233,136,364,177"/>
+<area shape="rect" id="node5" href="$df/d03/a02058.html#a4d3b05384d651ca34f6b1fe4e2dccbec" title="Resets the pool. " alt="" coords="233,201,364,243"/>
+<area shape="rect" id="node6" href="$dc/d28/a02062.html#ae9766f278f47b5bf390eafad42ebdaf1" title="Resets the pool. " alt="" coords="212,267,385,308"/>
+</map>

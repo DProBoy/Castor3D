@@ -1,9 +1,2 @@
-<map id="castor3d::SubmeshComponent" name="castor3d::SubmeshComponent">
-<area shape="rect" id="node3" href="$de/d59/a02219.html" title="Le composant de sous&#45;maillage pour le skinning. " alt="" coords="521,5,703,32"/>
-<area shape="rect" id="node4" href="$d5/d5b/a02235.html" title="Le composant de sous&#45;maillage utilisé pour les sous&#45;maillages avec des bones et instanciés. " alt="" coords="519,57,705,98"/>
-<area shape="rect" id="node5" href="$d1/dda/a02255.html" title="Un composant de sous&#45;maillage pour les faces. " alt="" coords="532,123,692,149"/>
-<area shape="rect" id="node8" href="$d3/d3a/a02259.html" title="Le composant de sous&#45;maillage pour l&#39;instantiation matérielle. " alt="" coords="504,173,720,200"/>
-<area shape="rect" id="node9" href="$dc/db5/a02275.html" title="Le composant de sous&#45;maillage pour le morphing. " alt="" coords="521,224,703,251"/>
-<area shape="rect" id="node6" href="$df/d39/a02271.html" title="Composant de sous&#45;maillage pour les lignes. " alt="" coords="774,97,934,124"/>
-<area shape="rect" id="node7" href="$dd/d29/a02283.html" title="Composant de sous&#45;maillage pour les faces triangulaires. " alt="" coords="768,148,940,175"/>
+<map id="castor3d::FaceInfos::Vertex" name="castor3d::FaceInfos::Vertex">
 </map>

@@ -1,3 +1,7 @@
-<map id="castor3d::ColourSkybox" name="castor3d::ColourSkybox">
-<area shape="rect" id="node2" href="$da/dcd/a02987.html" title="Implémentation de Skybox. " alt="" coords="37,80,161,107"/>
+<map id="castor3d::BillboardList" name="castor3d::BillboardList">
+<area shape="rect" id="node2" href="$da/dad/a02928.html" title="Classe d&#39;objet déplaçable. " alt="" coords="532,56,697,83"/>
+<area shape="rect" id="node3" href="$dc/d0c/a01532.html" title="interface publique d&#39;animable " alt="" coords="273,5,407,32"/>
+<area shape="rect" id="node9" href="$d3/dff/a02976.html" title="Classe de gestion d&#39;un scène. " alt="" coords="281,177,399,204"/>
+<area shape="rect" id="node6" href="$d6/dbe/a02848.html" title="Liste de billboards. " alt="" coords="535,123,695,149"/>
+<area shape="rect" id="node7" href="$d0/d7b/a02968.html" title="Gère la visibilité de l&#39;objet, ainsi que son comportement avec les ombres. " alt="" coords="253,123,427,149"/>
 </map>

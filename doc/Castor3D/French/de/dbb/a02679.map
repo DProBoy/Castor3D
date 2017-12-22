@@ -1,0 +1,12 @@
+<map id="castor3d::RenderPass" name="castor3d::RenderPass">
+<area shape="rect" id="node4" href="$da/d75/a02372.html" title="Passe de picking, utilisant les FBO. " alt="" coords="467,56,621,83"/>
+<area shape="rect" id="node5" href="$dc/d29/a03568.html" title="Classe de base d&#39;une passe de technique de rendu. " alt="" coords="439,107,649,133"/>
+<area shape="rect" id="node10" href="$d7/d22/a03384.html" title="Implémentation du mappage d&#39;ombres. " alt="" coords="453,233,635,260"/>
+<area shape="rect" id="node6" href="$de/df8/a03432.html" title="Classe de passe de technique de rendu implémentant le Deferred lighting. " alt="" coords="753,5,897,32"/>
+<area shape="rect" id="node7" href="$d4/d87/a03436.html" title="Classe de passe de technique de rendu de type forward. " alt="" coords="697,56,953,83"/>
+<area shape="rect" id="node8" href="$d4/d5b/a03496.html" title="Classe de passe de technique de rendu implémentant le Deferred lighting. " alt="" coords="748,107,903,133"/>
+<area shape="rect" id="node9" href="$dc/dca/a03580.html" title="Passe pour les noeuds transparents, utilisant le Weighted Blend OIT. " alt="" coords="736,157,915,184"/>
+<area shape="rect" id="node11" href="$d6/d8d/a03388.html" title="Implémentation du mappage d&#39;ombres pour les lumières spot. " alt="" coords="704,208,947,235"/>
+<area shape="rect" id="node12" href="$d2/d21/a03392.html" title="Implémentation du mappage d&#39;ombres. " alt="" coords="720,259,931,285"/>
+<area shape="rect" id="node13" href="$d3/dc2/a03396.html" title="Implémentation du mappage d&#39;ombres pour les lumières spot. " alt="" coords="721,309,929,336"/>
+</map>

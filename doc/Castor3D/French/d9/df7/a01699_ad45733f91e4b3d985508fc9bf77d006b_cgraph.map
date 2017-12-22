@@ -1,6 +1,0 @@
-<map id="castor3d::ChunkParser::parse" name="castor3d::ChunkParser::parse">
-<area shape="rect" id="node2" href="$dc/dc8/a01695.html#a98e70745053499eec720fb6f8bdb283e" title="Récupère un tableau de valeurs à partir d&#39;un chunk. " alt="" coords="209,35,394,76"/>
-<area shape="rect" id="node5" href="$dc/db6/a00955.html#a064018519157c004c078783527b1c5cc" title="Met la valeur donnée en big endian. " alt="" coords="208,101,395,127"/>
-<area shape="rect" id="node3" href="$db/d98/a01675.html#aaabdd95c8c89483081b836c0011147cf" title="Vérifie que la place restante peut contenir la taille donnée. " alt="" coords="455,5,610,47"/>
-<area shape="rect" id="node4" href="$db/d98/a01675.html#ae08a4a38e6eec196ec3bbbe3b7eb0150" title="Récupère des données du chunk. " alt="" coords="443,71,623,98"/>
-</map>

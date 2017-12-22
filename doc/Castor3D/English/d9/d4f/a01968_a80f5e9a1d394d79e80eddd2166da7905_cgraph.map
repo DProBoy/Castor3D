@@ -1,0 +1,15 @@
+<map id="castor3d::FrameBuffer::isSRGB" name="castor3d::FrameBuffer::isSRGB">
+<area shape="rect" id="node2" href="$d9/d4f/a01968.html#ab273f08e9c245e29a7627568037bc572" title="Creates an attachment to a render buffer. " alt="" coords="236,5,387,47"/>
+<area shape="rect" id="node3" href="$d9/d4f/a01968.html#addf1c0b0ca6cdcc5631317fb7d1dec28" title="Creates a colour render buffer. " alt="" coords="223,71,400,112"/>
+<area shape="rect" id="node4" href="$d9/d4f/a01968.html#aaa3bbff2358c912ef7adc987cda6e2e9" title="Creates a depth/stencil render buffer. " alt="" coords="204,136,419,177"/>
+<area shape="rect" id="node5" href="$d9/d4f/a01968.html#ae2ed2da762d542125d6213de379733fd" title="Activation function, to tell the GPU it is active. " alt="" coords="236,201,387,243"/>
+<area shape="rect" id="node6" href="$d9/d4f/a01968.html#afd239411de79054845845562e30da14b" title="Blit this frame buffer into the given one. " alt="" coords="236,267,387,308"/>
+<area shape="rect" id="node7" href="$d9/d4f/a01968.html#a22cac42ebe8477b2dc30cf37439226b9" title="Clears the given buffers components. " alt="" coords="236,332,387,373"/>
+<area shape="rect" id="node8" href="$d9/d4f/a01968.html#ae58ed1df0589c470210fce2288be54d0" title="castor3d::FrameBuffer\l::doGetPixelFormat" alt="" coords="236,397,387,439"/>
+<area shape="rect" id="node9" href="$d9/d4f/a01968.html#a2532718b63fe1a821e036265efb74829" title="Blit this frame buffer into the given one. " alt="" coords="236,463,387,504"/>
+<area shape="rect" id="node10" href="$d9/d4f/a01968.html#aac26ddfe44cc5d5fadcc6b736c1a3c45" title="Deactivation function, to tell the GPU it is inactive. " alt="" coords="236,528,387,569"/>
+<area shape="rect" id="node11" href="$d9/d4f/a01968.html#a4fffed1e16610a3f358c29c426502086" title="downloads the render buffer data. " alt="" coords="236,593,387,635"/>
+<area shape="rect" id="node12" href="$d9/d4f/a01968.html#add064313113a2e30a03fa60fc525e64c" title="Checks if the FBO is complete. " alt="" coords="236,659,387,700"/>
+<area shape="rect" id="node13" href="$d9/d4f/a01968.html#ae6ecc7afe13ebecb92fa6132420e799c" title="Specifies the buffers to be drawn into. " alt="" coords="236,724,387,765"/>
+<area shape="rect" id="node14" href="$d9/d4f/a01968.html#aed9733fa2ccb638a2051af6b37d82f20" title="Specifies the color buffer source for pixels. " alt="" coords="236,789,387,831"/>
+</map>

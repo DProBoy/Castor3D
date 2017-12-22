@@ -1,0 +1,5 @@
+<map id="castor3d::MeshLightPass" name="castor3d::MeshLightPass">
+<area shape="rect" id="node3" href="$d8/d63/a03500.html" title="Point light pass. " alt="" coords="5,155,173,181"/>
+<area shape="rect" id="node4" href="$d1/dc3/a03516.html" title="Spot light pass. " alt="" coords="197,155,363,181"/>
+<area shape="rect" id="node2" href="$d6/d36/a03456.html" title="Base class for all light passes. " alt="" coords="115,5,253,32"/>
+</map>

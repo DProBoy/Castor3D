@@ -1,7 +1,0 @@
-<map id="castor3d::doRenderNodeNoPass" name="castor3d::doRenderNodeNoPass">
-<area shape="rect" id="node2" href="$dc/db6/a00955.html#a7e8b5a4d72c471002a22072958e90f67" title="castor3d::doRenderObjectNode" alt="" coords="272,5,475,32"/>
-<area shape="rect" id="node3" href="$d6/daf/a02803.html#ac6e3eb159a7383ed941851b043345c36" title="castor3d::MeshAnimationInstance\l::getAnimationSubmesh" alt="" coords="264,57,483,98"/>
-<area shape="rect" id="node4" href="$dc/d6a/a02779.html#adff0f881f03ce1c4630ca1e32a5daef2" title="castor3d::AnimatedMesh\l::getPlayingAnimation" alt="" coords="290,122,457,163"/>
-<area shape="rect" id="node5" href="$dc/d6a/a02779.html#aa1ae224138d0f001094f0d8a6ae5f3ef" title="castor3d::AnimatedMesh\l::isPlayingAnimation" alt="" coords="290,187,457,229"/>
-<area shape="rect" id="node6" href="$d5/d27/a03183.html#a6f3d2643fb437753d8e0a2ce5f4ceb19" title="Updates the UBO from given values. " alt="" coords="295,253,451,294"/>
-</map>

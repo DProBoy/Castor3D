@@ -12,7 +12,7 @@
 <area shape="rect" id="node22" href="$dc/d19/a00515.html" title="Prerequisites/Castor3DPrerequisites\l_Shader.hpp" alt="" coords="2930,661,3162,703"/>
 <area shape="rect" id="node23" href="$df/db6/a00509.html" title="Prerequisites/Castor3DPrerequisites\l_Render.hpp" alt="" coords="3828,661,4060,703"/>
 <area shape="rect" id="node25" href="$d5/d0f/a00494.html" title="Prerequisites/Castor3DPrerequisites\l_Event.hpp" alt="" coords="714,661,946,703"/>
-<area shape="rect" id="node13" href="$d6/de1/a00356.html" title="Mesh/VertexGroup.hpp" alt="" coords="2199,751,2355,777"/>
+<area shape="rect" id="node13" href="$d4/def/a00359.html" title="Mesh/VertexGroup.hpp" alt="" coords="2199,751,2355,777"/>
 <area shape="rect" id="node28" href="$dd/d32/a00041.html" title="Binary/BinaryParser.hpp" alt="" coords="1414,199,1577,225"/>
 <area shape="rect" id="node41" href="$d5/df9/a00044.html" title="Binary/BinaryWriter.hpp" alt="" coords="1601,199,1761,225"/>
 <area shape="rect" id="node43" href="$d4/dee/a00008.html" title="AnimationKeyFrame.hpp" alt="" coords="1849,505,2014,531"/>
@@ -20,7 +20,7 @@
 <area shape="rect" id="node39" href="$d7/d00/a00401.html" title="Miscellaneous/Version.hpp" alt="" coords="1578,273,1757,300"/>
 <area shape="rect" id="node30" href="$d8/d41/a00038.html" title="BinaryChunk.hpp" alt="" coords="1366,348,1487,375"/>
 <area shape="rect" id="node31" href="$d6/d2d/a00047.html" title="ChunkData.hpp" alt="" coords="743,423,854,449"/>
-<area shape="rect" id="node32" href="$dd/de2/a00320.html" title="Mesh/SubmeshComponent\l/FaceIndices.hpp" alt="" coords="1368,497,1546,539"/>
-<area shape="rect" id="node33" href="$df/d95/a00299.html" title="Mesh/Skeleton/VertexBone\lData.hpp" alt="" coords="949,497,1130,539"/>
+<area shape="rect" id="node32" href="$de/d55/a00323.html" title="Mesh/SubmeshComponent\l/FaceIndices.hpp" alt="" coords="1368,497,1546,539"/>
+<area shape="rect" id="node33" href="$d0/d61/a00302.html" title="Mesh/Skeleton/VertexBone\lData.hpp" alt="" coords="949,497,1130,539"/>
 <area shape="rect" id="node42" href="$dc/dee/a00053.html" title="ChunkWriter.hpp" alt="" coords="1400,273,1519,300"/>
 </map>

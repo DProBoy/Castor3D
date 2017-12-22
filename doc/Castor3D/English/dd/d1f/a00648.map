@@ -20,9 +20,9 @@
 <area shape="rect" id="node27" href="$dc/d19/a00515.html" title="Prerequisites/Castor3DPrerequisites\l_Shader.hpp" alt="" coords="1080,765,1312,807"/>
 <area shape="rect" id="node28" href="$df/db6/a00509.html" title="Prerequisites/Castor3DPrerequisites\l_Render.hpp" alt="" coords="2915,765,3147,807"/>
 <area shape="rect" id="node30" href="$d5/d0f/a00494.html" title="Prerequisites/Castor3DPrerequisites\l_Event.hpp" alt="" coords="3171,765,3403,807"/>
-<area shape="rect" id="node18" href="$d6/de1/a00356.html" title="Mesh/VertexGroup.hpp" alt="" coords="3506,855,3662,881"/>
-<area shape="rect" id="node33" href="$dd/de2/a00320.html" title="Mesh/SubmeshComponent\l/FaceIndices.hpp" alt="" coords="3092,601,3271,643"/>
-<area shape="rect" id="node34" href="$df/d95/a00299.html" title="Mesh/Skeleton/VertexBone\lData.hpp" alt="" coords="2887,601,3068,643"/>
+<area shape="rect" id="node18" href="$d4/def/a00359.html" title="Mesh/VertexGroup.hpp" alt="" coords="3506,855,3662,881"/>
+<area shape="rect" id="node33" href="$de/d55/a00323.html" title="Mesh/SubmeshComponent\l/FaceIndices.hpp" alt="" coords="3092,601,3271,643"/>
+<area shape="rect" id="node34" href="$d0/d61/a00302.html" title="Mesh/Skeleton/VertexBone\lData.hpp" alt="" coords="2887,601,3068,643"/>
 <area shape="rect" id="node43" href="$dc/dee/a00053.html" title="ChunkWriter.hpp" alt="" coords="3486,377,3605,404"/>
 <area shape="rect" id="node47" href="$d5/d16/a00029.html" title="Animation/Skeleton\l/SkeletonAnimationKeyFrame.hpp" alt="" coords="3301,213,3521,255"/>
 </map>

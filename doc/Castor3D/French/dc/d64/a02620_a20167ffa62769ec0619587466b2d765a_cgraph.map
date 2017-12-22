@@ -1,0 +1,9 @@
+<map id="castor3d::Context::getWindow" name="castor3d::Context::getWindow">
+<area shape="rect" id="node2" href="$dc/d64/a02620.html#afeae0bb200a86aba223b6ac756d99c5a" title="Nettoie le contexte. " alt="" coords="187,5,320,47"/>
+<area shape="rect" id="node3" href="$dc/d64/a02620.html#ad1020b7dc9b56251ef4b27c8265fa251" title="Détruit le contexte sur le GPU. " alt="" coords="187,71,320,112"/>
+<area shape="rect" id="node4" href="$dc/d64/a02620.html#a9e46743fd79f2da8aca9d28c4415ee48" title="Définit ce contexte pour ne pas être l&#39;actuel. " alt="" coords="187,136,320,177"/>
+<area shape="rect" id="node5" href="$dc/d64/a02620.html#a05dd5dca9f04e464125726b41033680d" title="Initialise le contexte. " alt="" coords="187,201,320,243"/>
+<area shape="rect" id="node6" href="$dc/d64/a02620.html#a88a9437bcacb4684a522371dcbf0ea1a" title="Met en place un barrière mémoire. " alt="" coords="187,267,320,308"/>
+<area shape="rect" id="node7" href="$dc/d64/a02620.html#a4c9bfed25494b3d29f18cecfadc68f80" title="Définit le contexte pour être celui de rendu actuel. " alt="" coords="187,332,320,373"/>
+<area shape="rect" id="node8" href="$dc/d64/a02620.html#a2efeaf6fc5f3d1457bf808417491932e" title="Echange les buffers de rendu. " alt="" coords="187,397,320,439"/>
+</map>

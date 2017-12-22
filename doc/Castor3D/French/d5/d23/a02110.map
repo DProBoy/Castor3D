@@ -1,3 +1,4 @@
-<map id="castor3d::Sphere" name="castor3d::Sphere">
-<area shape="rect" id="node2" href="$dd/d99/a02151.html" title="La catégorie de maillage est utilisée afin de créer les sommets du maillage, c&#39;est créé via la MeshFa..." alt="" coords="5,5,175,32"/>
+<map id="castor3d::CmshImporter" name="castor3d::CmshImporter">
+<area shape="rect" id="node2" href="$d2/d08/a02148.html" title="Classe de base pour l&#39;import de fichiers externes. " alt="" coords="130,95,257,121"/>
+<area shape="rect" id="node4" href="$d1/d8c/a02364.html" title="Paramètres de configuration. " alt="" coords="216,5,363,32"/>
 </map>

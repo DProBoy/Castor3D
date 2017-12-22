@@ -1,5 +1,0 @@
-<map id="castor3d::Vertex::getTangent" name="castor3d::Vertex::getTangent">
-<area shape="rect" id="node2" href="$dd/d3b/a02291.html#a96f84a83c27e0ac21d36da36dec37869" title="Retrieves the vertex bitangent. " alt="" coords="244,5,443,32"/>
-<area shape="rect" id="node4" href="$dd/d3b/a02291.html#a91c165d36edabf4670f4cae8886a02f1" title="Retrieves the vertex tangent. " alt="" coords="248,56,439,83"/>
-<area shape="rect" id="node3" href="$dc/d05/a02043.html#aac50c11edcd6ea9b86a945edf30f9f62" title="Retrieves a pointer on the data buffer. " alt="" coords="491,31,709,57"/>
-</map>

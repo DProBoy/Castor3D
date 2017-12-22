@@ -1,14 +1,14 @@
 <map id="Z:/Projets/C++/Castor3D/source/Core/Castor3D/Src/Scene/ColourSkybox.hpp" name="Z:/Projets/C++/Castor3D/source/Core/Castor3D/Src/Scene/ColourSkybox.hpp">
 <area shape="rect" id="node2" href="$d6/dc0/a00734.html" title="Scene/Skybox.hpp" alt="" coords="2757,109,2889,136"/>
-<area shape="rect" id="node3" href="$dd/d52/a00221.html" title="Mesh/Buffer/BufferDeclaration.hpp" alt="" coords="2849,333,3067,360"/>
+<area shape="rect" id="node3" href="$d5/ddf/a00224.html" title="Mesh/Buffer/BufferDeclaration.hpp" alt="" coords="2849,333,3067,360"/>
 <area shape="rect" id="node30" href="$de/dde/a00587.html" title="Render/Viewport.hpp" alt="" coords="3271,333,3413,360"/>
-<area shape="rect" id="node35" href="$d5/d72/a00803.html" title="Shader/Ubos/HdrConfigUbo.hpp" alt="" coords="2285,184,2490,211"/>
-<area shape="rect" id="node43" href="$d0/dad/a00806.html" title="Shader/Ubos/MatrixUbo.hpp" alt="" coords="2639,333,2824,360"/>
-<area shape="rect" id="node44" href="$dd/d7e/a00809.html" title="Shader/Ubos/ModelMatrixUbo.hpp" alt="" coords="2515,184,2735,211"/>
+<area shape="rect" id="node35" href="$d0/dad/a00806.html" title="Shader/Ubos/HdrConfigUbo.hpp" alt="" coords="2285,184,2490,211"/>
+<area shape="rect" id="node43" href="$dd/d7e/a00809.html" title="Shader/Ubos/MatrixUbo.hpp" alt="" coords="2639,333,2824,360"/>
+<area shape="rect" id="node44" href="$d8/db7/a00812.html" title="Shader/Ubos/ModelMatrixUbo.hpp" alt="" coords="2515,184,2735,211"/>
 <area shape="rect" id="node45" href="$d0/dc4/a00443.html" title="PBR/IblTextures.hpp" alt="" coords="3081,184,3222,211"/>
-<area shape="rect" id="node49" href="$df/d39/a00950.html" title="Texture/TextureUnit.hpp" alt="" coords="4189,333,4349,360"/>
+<area shape="rect" id="node49" href="$d0/d3c/a00971.html" title="Texture/TextureUnit.hpp" alt="" coords="4189,333,4349,360"/>
 <area shape="rect" id="node4" href="$df/dc8/a00122.html" title="Castor3DPrerequisites.hpp" alt="" coords="2509,557,2687,584"/>
-<area shape="rect" id="node29" href="$d5/ddf/a00224.html" title="BufferElementDeclaration.hpp" alt="" coords="2924,483,3117,509"/>
+<area shape="rect" id="node29" href="$d9/d01/a00227.html" title="BufferElementDeclaration.hpp" alt="" coords="2924,483,3117,509"/>
 <area shape="rect" id="node14" href="$d4/ddf/a00488.html" title="Prerequisites/Castor3DPrerequisites\l_Animation.hpp" alt="" coords="707,632,939,673"/>
 <area shape="rect" id="node17" href="$d6/d60/a00491.html" title="Prerequisites/Castor3DPrerequisites\l_Camera.hpp" alt="" coords="963,632,1195,673"/>
 <area shape="rect" id="node18" href="$d4/d1e/a00497.html" title="Prerequisites/Castor3DPrerequisites\l_Geometry.hpp" alt="" coords="1219,632,1451,673"/>
@@ -19,11 +19,11 @@
 <area shape="rect" id="node24" href="$dc/d19/a00515.html" title="Prerequisites/Castor3DPrerequisites\l_Shader.hpp" alt="" coords="2499,632,2731,673"/>
 <area shape="rect" id="node25" href="$df/db6/a00509.html" title="Prerequisites/Castor3DPrerequisites\l_Render.hpp" alt="" coords="2755,632,2987,673"/>
 <area shape="rect" id="node27" href="$d5/d0f/a00494.html" title="Prerequisites/Castor3DPrerequisites\l_Event.hpp" alt="" coords="3011,632,3243,673"/>
-<area shape="rect" id="node15" href="$d6/de1/a00356.html" title="Mesh/VertexGroup.hpp" alt="" coords="649,721,805,748"/>
-<area shape="rect" id="node36" href="$d3/d13/a00836.html" title="Shader/UniformBuffer.hpp" alt="" coords="2387,408,2556,435"/>
-<area shape="rect" id="node37" href="$d7/d40/a00236.html" title="Mesh/Buffer/GpuBuffer.hpp" alt="" coords="2383,483,2560,509"/>
-<area shape="rect" id="node39" href="$df/de8/a00839.html" title="Shader/UniformBufferBinding.hpp" alt="" coords="2636,483,2848,509"/>
-<area shape="rect" id="node40" href="$d9/daf/a00830.html" title="Shader/Uniform/Uniform.hpp" alt="" coords="1967,483,2151,509"/>
+<area shape="rect" id="node15" href="$d4/def/a00359.html" title="Mesh/VertexGroup.hpp" alt="" coords="649,721,805,748"/>
+<area shape="rect" id="node36" href="$df/de8/a00839.html" title="Shader/UniformBuffer.hpp" alt="" coords="2387,408,2556,435"/>
+<area shape="rect" id="node37" href="$d0/d27/a00239.html" title="Mesh/Buffer/GpuBuffer.hpp" alt="" coords="2383,483,2560,509"/>
+<area shape="rect" id="node39" href="$d0/d11/a00842.html" title="Shader/UniformBufferBinding.hpp" alt="" coords="2636,483,2848,509"/>
+<area shape="rect" id="node40" href="$dc/d6e/a00833.html" title="Shader/Uniform/Uniform.hpp" alt="" coords="1967,483,2151,509"/>
 <area shape="rect" id="node46" href="$d4/da8/a00437.html" title="PBR/BrdfPrefilter.hpp" alt="" coords="3079,259,3224,285"/>
 <area shape="rect" id="node47" href="$d3/def/a00446.html" title="PBR/RadianceComputer.hpp" alt="" coords="3248,259,3436,285"/>
 <area shape="rect" id="node48" href="$de/df8/a00440.html" title="PBR/EnvironmentPrefilter.hpp" alt="" coords="2861,259,3055,285"/>

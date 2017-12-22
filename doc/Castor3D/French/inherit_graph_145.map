@@ -1,3 +1,6 @@
 <map id="Graphe hiérarchique des classes" name="Graphe hiérarchique des classes">
-<area shape="rect" id="node1" href="$d5/d73/a02423.html" title="Contient les données spécifiques de sommet pour un Overlay. " alt="" coords="5,5,180,47"/>
+<area shape="rect" id="node1" href="$db/d5f/a02440.html" title="Contient les membres spécifiques à une catégorie d&#39;incrustation. " alt="" coords="5,56,180,83"/>
+<area shape="rect" id="node2" href="$d4/d41/a02400.html" title="Une incrustation rectangulaire avec un bord. " alt="" coords="228,5,423,32"/>
+<area shape="rect" id="node3" href="$d2/d35/a02468.html" title="Une simple incrustation rectangulaire. " alt="" coords="247,56,403,83"/>
+<area shape="rect" id="node4" href="$d4/d0c/a02476.html" title="Une incrustation avec du texte. " alt="" coords="251,107,399,133"/>
 </map>

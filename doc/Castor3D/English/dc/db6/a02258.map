@@ -1,3 +1,4 @@
-<map id="castor3d::InstantiationComponent" name="castor3d::InstantiationComponent">
-<area shape="rect" id="node2" href="$d2/dd2/a02279.html" title="Component for a submesh. " alt="" coords="13,80,214,107"/>
+<map id="castor3d::BinaryParser&lt; BonesComponent &gt;" name="castor3d::BinaryParser&lt; BonesComponent &gt;">
+<area shape="rect" id="node2" href="$d4/d26/a01700.html" title="castor3d::BinaryParserBase\l\&lt; BonesComponent \&gt;" alt="" coords="5,95,191,136"/>
+<area shape="rect" id="node3" href="$d9/d49/a01696.html" title="Binary data chunk base class. " alt="" coords="21,5,175,32"/>
 </map>

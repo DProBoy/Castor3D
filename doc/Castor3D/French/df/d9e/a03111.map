@@ -1,0 +1,5 @@
+<map id="castor3d::shader::LightingModel" name="castor3d::shader::LightingModel">
+<area shape="rect" id="node2" href="$d0/dcc/a03148.html" title="castor3d::shader::Metallic\lBrdfLightingModel" alt="" coords="244,5,416,47"/>
+<area shape="rect" id="node3" href="$d0/d9f/a03152.html" title="castor3d::shader::PhongLighting\lModel" alt="" coords="225,71,435,112"/>
+<area shape="rect" id="node4" href="$d8/dec/a03164.html" title="castor3d::shader::Specular\lBrdfLightingModel" alt="" coords="241,136,419,177"/>
+</map>

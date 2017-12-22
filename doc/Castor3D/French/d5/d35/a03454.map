@@ -1,0 +1,8 @@
+<map id="castor3d::LightPass" name="castor3d::LightPass">
+<area shape="rect" id="node2" href="$d0/d08/a03184.html" title="castor3d::GpInfoUbo" alt="" coords="299,17,439,44"/>
+<area shape="rect" id="node3" href="$d9/d4f/a01968.html" title="Classe de tampon d&#39;image. " alt="" coords="293,68,444,95"/>
+<area shape="rect" id="node7" href="$dc/d18/a03460.html" title="Classe de base pour tous les programmes des passes d&#39;éclairage. " alt="" coords="29,122,168,163"/>
+<area shape="rect" id="node8" href="$d7/d5f/a01888.html" title="Moteur principal. " alt="" coords="309,176,429,203"/>
+<area shape="rect" id="node10" href="$db/d9d/a01972.html" title="Description d&#39;une liaison entre un tampon d&#39;image et un tamon de rendu. " alt="" coords="260,227,477,253"/>
+<area shape="rect" id="node11" href="$d8/d2a/a03192.html" title="Gestion du tampon de variables uniformes pour les matrices. " alt="" coords="299,277,438,304"/>
+</map>

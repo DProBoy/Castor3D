@@ -624,7 +624,7 @@ et une action à la destruction.  <a href="../../d5/d16/a01154.html#details">Plu
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d55/a01638.html">PixelIterator</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd1/a01894.html">PlaneEquation</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equation de plan.  <a href="../../d8/dd1/a01894.html#details">Plus de détails...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implémentation d'une équation de plan (ax + by + cz + d = 0).  <a href="../../d8/dd1/a01894.html#details">Plus de détails...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d2b/a01010.html">Point</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Classe de points à dimensions statiques.  <a href="../../d0/d2b/a01010.html#details">Plus de détails...</a><br /></td></tr>
@@ -13387,56 +13387,8 @@ template&lt;typename T , uint32_t Count&gt; </div>
 
 </div>
 </div>
-<a id="a6cac06502aef3e58537f245c7d1e5e8e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6cac06502aef3e58537f245c7d1e5e8e">&#9670;&nbsp;</a></span>operator*() <span class="overload">[26/41]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d3/d08/a01018.html">QuaternionT</a>&lt; T &gt; castor::operator* </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d3/d08/a01018.html">QuaternionT</a>&lt; T &gt; const &amp;&#160;</td>
-          <td class="paramname"><em>p_lhs</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d3/d08/a01018.html">QuaternionT</a>&lt; T &gt; const &amp;&#160;</td>
-          <td class="paramname"><em>p_rhs</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Opérateur de multiplication. </p>
-<dl class="params"><dt>Paramètres</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">p_lhs</td><td>Le premier objet Quaternion à multiplier </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">p_rhs</td><td>Le second objet Quaternion à multiplier </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Renvoie</dt><dd>Le résultat de la multiplication </dd></dl>
-
-</div>
-</div>
 <a id="a2acb61090378a2c0a8c7b27627a3145d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2acb61090378a2c0a8c7b27627a3145d">&#9670;&nbsp;</a></span>operator*() <span class="overload">[27/41]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2acb61090378a2c0a8c7b27627a3145d">&#9670;&nbsp;</a></span>operator*() <span class="overload">[26/41]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -13494,7 +13446,7 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <a id="adfc233c529f3b86709d07a662a8e452d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adfc233c529f3b86709d07a662a8e452d">&#9670;&nbsp;</a></span>operator*() <span class="overload">[28/41]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#adfc233c529f3b86709d07a662a8e452d">&#9670;&nbsp;</a></span>operator*() <span class="overload">[27/41]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -13532,8 +13484,96 @@ template&lt;typename T , uint32_t Columns, uint32_t Rows, typename U , uint32_t 
 
 </div>
 </div>
+<a id="a6cac06502aef3e58537f245c7d1e5e8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6cac06502aef3e58537f245c7d1e5e8e">&#9670;&nbsp;</a></span>operator*() <span class="overload">[28/41]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/d08/a01018.html">QuaternionT</a>&lt; T &gt; castor::operator* </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d3/d08/a01018.html">QuaternionT</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>p_lhs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d3/d08/a01018.html">QuaternionT</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>p_rhs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Opérateur de multiplication. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">p_lhs</td><td>Le premier objet Quaternion à multiplier </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">p_rhs</td><td>Le second objet Quaternion à multiplier </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>Le résultat de la multiplication </dd></dl>
+
+</div>
+</div>
+<a id="acd78114ee78448adb81b48aaa1bdcdff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd78114ee78448adb81b48aaa1bdcdff">&#9670;&nbsp;</a></span>operator*() <span class="overload">[29/41]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , uint32_t Columns, uint32_t Rows, typename U &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/d2b/a01010.html">Point</a>&lt; T, Rows &gt; castor::operator* </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/d9a/a00998.html">Matrix</a>&lt; T, Columns, Rows &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>p_mtxA</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d0/d2b/a01010.html">Point</a>&lt; U, Columns &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>p_vector</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Opérateur de multiplication. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">p_mtxA</td><td>La matrice à multiplier </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">p_vector</td><td>Le vecteur </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>Le résultat de la multiplication </dd></dl>
+
+</div>
+</div>
 <a id="a9dc8bd803125fc730b3445d588a46179"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9dc8bd803125fc730b3445d588a46179">&#9670;&nbsp;</a></span>operator*() <span class="overload">[29/41]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9dc8bd803125fc730b3445d588a46179">&#9670;&nbsp;</a></span>operator*() <span class="overload">[30/41]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -13580,8 +13620,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="acd78114ee78448adb81b48aaa1bdcdff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd78114ee78448adb81b48aaa1bdcdff">&#9670;&nbsp;</a></span>operator*() <span class="overload">[30/41]</span></h2>
+<a id="abe30ff225d303d87a6f0c5c7cbb4d0a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe30ff225d303d87a6f0c5c7cbb4d0a7">&#9670;&nbsp;</a></span>operator*() <span class="overload">[31/41]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -13589,16 +13629,16 @@ template&lt;typename T &gt; </div>
 template&lt;typename T , uint32_t Columns, uint32_t Rows, typename U &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d0/d2b/a01010.html">Point</a>&lt; T, Rows &gt; castor::operator* </td>
+          <td class="memname"><a class="el" href="../../d0/d2b/a01010.html">Point</a>&lt; T, Columns &gt; castor::operator* </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/d9a/a00998.html">Matrix</a>&lt; T, Columns, Rows &gt; const &amp;&#160;</td>
-          <td class="paramname"><em>p_mtxA</em>, </td>
+          <td class="paramtype"><a class="el" href="../../d0/d2b/a01010.html">Point</a>&lt; T, Rows &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>p_vector</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d0/d2b/a01010.html">Point</a>&lt; U, Columns &gt; const &amp;&#160;</td>
-          <td class="paramname"><em>p_vector</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d9a/a00998.html">Matrix</a>&lt; U, Columns, Rows &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>p_mtxA</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -13611,8 +13651,8 @@ template&lt;typename T , uint32_t Columns, uint32_t Rows, typename U &gt; </div>
 <p>Opérateur de multiplication. </p>
 <dl class="params"><dt>Paramètres</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">p_mtxA</td><td>La matrice à multiplier </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">p_vector</td><td>Le vecteur </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">p_mtxA</td><td>La matrice à multiplier </td></tr>
   </table>
   </dd>
 </dl>
@@ -13620,8 +13660,45 @@ template&lt;typename T , uint32_t Columns, uint32_t Rows, typename U &gt; </div>
 
 </div>
 </div>
+<a id="ab5292558d96f7e60466baee394e05e71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5292558d96f7e60466baee394e05e71">&#9670;&nbsp;</a></span>operator*() <span class="overload">[32/41]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/d16/a00029.html#a85ca3bafa261a7f2ece738b559d8bbb7">CU_API</a> float castor::operator* </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/d6a/a01618.html">HdrColourComponent</a> const &amp;&#160;</td>
+          <td class="paramname"><em>p_lhs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d9/d6a/a01618.html">HdrColourComponent</a> const &amp;&#160;</td>
+          <td class="paramname"><em>p_rhs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Opérateur de multiplication. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">p_lhs,p_rhs</td><td>Les composantes à multiplier </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>Resultat de p_lhs * p_rhs </dd></dl>
+
+</div>
+</div>
 <a id="ae9e875a593bec96fb59b828ee5ac2a38"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae9e875a593bec96fb59b828ee5ac2a38">&#9670;&nbsp;</a></span>operator*() <span class="overload">[31/41]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9e875a593bec96fb59b828ee5ac2a38">&#9670;&nbsp;</a></span>operator*() <span class="overload">[33/41]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -13668,133 +13745,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="abe30ff225d303d87a6f0c5c7cbb4d0a7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abe30ff225d303d87a6f0c5c7cbb4d0a7">&#9670;&nbsp;</a></span>operator*() <span class="overload">[32/41]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T , uint32_t Columns, uint32_t Rows, typename U &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d0/d2b/a01010.html">Point</a>&lt; T, Columns &gt; castor::operator* </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d0/d2b/a01010.html">Point</a>&lt; T, Rows &gt; const &amp;&#160;</td>
-          <td class="paramname"><em>p_vector</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d9/d9a/a00998.html">Matrix</a>&lt; U, Columns, Rows &gt; const &amp;&#160;</td>
-          <td class="paramname"><em>p_mtxA</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Opérateur de multiplication. </p>
-<dl class="params"><dt>Paramètres</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">p_vector</td><td>Le vecteur </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">p_mtxA</td><td>La matrice à multiplier </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Renvoie</dt><dd>Le résultat de la multiplication </dd></dl>
-
-</div>
-</div>
-<a id="a96dbdd51814abd43f3e26681fadcd222"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a96dbdd51814abd43f3e26681fadcd222">&#9670;&nbsp;</a></span>operator*() <span class="overload">[33/41]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d3/d08/a01018.html">QuaternionT</a>&lt; T &gt; castor::operator* </td>
-          <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>p_lhs</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d3/d08/a01018.html">QuaternionT</a>&lt; T &gt; const &amp;&#160;</td>
-          <td class="paramname"><em>p_rhs</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Opérateur de multiplication. </p>
-<dl class="params"><dt>Paramètres</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">p_lhs</td><td>Le scalaire à multiplier </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">p_rhs</td><td>L'objet Quaternion à multiplier </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Renvoie</dt><dd>Le résultat de la multiplication </dd></dl>
-
-</div>
-</div>
-<a id="ab5292558d96f7e60466baee394e05e71"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab5292558d96f7e60466baee394e05e71">&#9670;&nbsp;</a></span>operator*() <span class="overload">[34/41]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d5/d16/a00029.html#a85ca3bafa261a7f2ece738b559d8bbb7">CU_API</a> float castor::operator* </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/d6a/a01618.html">HdrColourComponent</a> const &amp;&#160;</td>
-          <td class="paramname"><em>p_lhs</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d9/d6a/a01618.html">HdrColourComponent</a> const &amp;&#160;</td>
-          <td class="paramname"><em>p_rhs</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Opérateur de multiplication. </p>
-<dl class="params"><dt>Paramètres</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">p_lhs,p_rhs</td><td>Les composantes à multiplier </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Renvoie</dt><dd>Resultat de p_lhs * p_rhs </dd></dl>
-
-</div>
-</div>
 <a id="a489c358054eabe9864bfb289b318832f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a489c358054eabe9864bfb289b318832f">&#9670;&nbsp;</a></span>operator*() <span class="overload">[35/41]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a489c358054eabe9864bfb289b318832f">&#9670;&nbsp;</a></span>operator*() <span class="overload">[34/41]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -13846,6 +13798,54 @@ template&lt;typename T &gt; </div>
 <area shape="rect" id="node3" href="../../d4/d49/a01590.html#ad27523a047613d5a013174a61ec14ddd" title="Récupère la valeur de la composante. " alt="" coords="559,72,728,114"/>
 </map>
 </div>
+
+</div>
+</div>
+<a id="a96dbdd51814abd43f3e26681fadcd222"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96dbdd51814abd43f3e26681fadcd222">&#9670;&nbsp;</a></span>operator*() <span class="overload">[35/41]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/d08/a01018.html">QuaternionT</a>&lt; T &gt; castor::operator* </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>p_lhs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d3/d08/a01018.html">QuaternionT</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>p_rhs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Opérateur de multiplication. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">p_lhs</td><td>Le scalaire à multiplier </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">p_rhs</td><td>L'objet Quaternion à multiplier </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>Le résultat de la multiplication </dd></dl>
 
 </div>
 </div>
@@ -14840,8 +14840,47 @@ template&lt;typename T , uint32_t Count&gt; </div>
 
 </div>
 </div>
+<a id="a47f4e4b9107f5cf260768c7d88087485"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47f4e4b9107f5cf260768c7d88087485">&#9670;&nbsp;</a></span>operator+() <span class="overload">[22/33]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , uint32_t Columns, uint32_t Rows, typename U &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/d9a/a00998.html">Matrix</a>&lt; T, Columns, Rows &gt; castor::operator+ </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/d9a/a00998.html">Matrix</a>&lt; T, Columns, Rows &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>p_mtxA</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d9/d9a/a00998.html">Matrix</a>&lt; U, Columns, Rows &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>p_mtxB</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Opérateur d'addition. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">p_mtxA,p_mtxB</td><td>Les matrices à additionner </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>Le résultat de l'addition </dd></dl>
+
+</div>
+</div>
 <a id="ae8b7baa6806bd3c9c1f1547fc7c7c12c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae8b7baa6806bd3c9c1f1547fc7c7c12c">&#9670;&nbsp;</a></span>operator+() <span class="overload">[22/33]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8b7baa6806bd3c9c1f1547fc7c7c12c">&#9670;&nbsp;</a></span>operator+() <span class="overload">[23/33]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -14885,45 +14924,6 @@ template&lt;typename T &gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Renvoie</dt><dd>Le résultat de l'addtion </dd></dl>
-
-</div>
-</div>
-<a id="a47f4e4b9107f5cf260768c7d88087485"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a47f4e4b9107f5cf260768c7d88087485">&#9670;&nbsp;</a></span>operator+() <span class="overload">[23/33]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T , uint32_t Columns, uint32_t Rows, typename U &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d9/d9a/a00998.html">Matrix</a>&lt; T, Columns, Rows &gt; castor::operator+ </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/d9a/a00998.html">Matrix</a>&lt; T, Columns, Rows &gt; const &amp;&#160;</td>
-          <td class="paramname"><em>p_mtxA</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d9/d9a/a00998.html">Matrix</a>&lt; U, Columns, Rows &gt; const &amp;&#160;</td>
-          <td class="paramname"><em>p_mtxB</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Opérateur d'addition. </p>
-<dl class="params"><dt>Paramètres</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">p_mtxA,p_mtxB</td><td>Les matrices à additionner </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Renvoie</dt><dd>Le résultat de l'addition </dd></dl>
 
 </div>
 </div>
@@ -16152,8 +16152,76 @@ template&lt;typename T , uint32_t Count&gt; </div>
 
 </div>
 </div>
+<a id="a9a2c2c53c3f1b77f57645fc3e57cfbd0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a2c2c53c3f1b77f57645fc3e57cfbd0">&#9670;&nbsp;</a></span>operator-() <span class="overload">[24/38]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , uint32_t Count&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/d02/a01026.html">SquareMatrix</a>&lt; T, Count &gt; castor::operator- </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../de/d02/a01026.html">SquareMatrix</a>&lt; T, Count &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>p_matrix</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Opérateur de négation. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">p_matrix</td><td>La matrice </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>Le résultat de la négation </dd></dl>
+
+</div>
+</div>
+<a id="a2b085318f0c0a62ab3556bac9f1931a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b085318f0c0a62ab3556bac9f1931a2">&#9670;&nbsp;</a></span>operator-() <span class="overload">[25/38]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , uint32_t Columns, uint32_t Rows, typename U &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/d9a/a00998.html">Matrix</a>&lt; T, Columns, Rows &gt; castor::operator- </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/d9a/a00998.html">Matrix</a>&lt; T, Columns, Rows &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>p_mtxA</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d9/d9a/a00998.html">Matrix</a>&lt; U, Columns, Rows &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>p_mtxB</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Opérateur de soustraction. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">p_mtxA,p_mtxB</td><td>Les matrices à soustraire </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>Le résultat de la soustraction </dd></dl>
+
+</div>
+</div>
 <a id="a4de3f95c2900c79fe76eb3e9c46abe57"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4de3f95c2900c79fe76eb3e9c46abe57">&#9670;&nbsp;</a></span>operator-() <span class="overload">[24/38]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4de3f95c2900c79fe76eb3e9c46abe57">&#9670;&nbsp;</a></span>operator-() <span class="overload">[26/38]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -16193,74 +16261,6 @@ template&lt;typename T &gt; </div>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">p_lhs</td><td>Le premier objet Quaternion à soustraire </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">p_rhs</td><td>Le second objet Quaternion à soustraire </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Renvoie</dt><dd>Le résultat de la soustraction </dd></dl>
-
-</div>
-</div>
-<a id="a9a2c2c53c3f1b77f57645fc3e57cfbd0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9a2c2c53c3f1b77f57645fc3e57cfbd0">&#9670;&nbsp;</a></span>operator-() <span class="overload">[25/38]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T , uint32_t Count&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../de/d02/a01026.html">SquareMatrix</a>&lt; T, Count &gt; castor::operator- </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../de/d02/a01026.html">SquareMatrix</a>&lt; T, Count &gt; const &amp;&#160;</td>
-          <td class="paramname"><em>p_matrix</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Opérateur de négation. </p>
-<dl class="params"><dt>Paramètres</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">p_matrix</td><td>La matrice </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Renvoie</dt><dd>Le résultat de la négation </dd></dl>
-
-</div>
-</div>
-<a id="a2b085318f0c0a62ab3556bac9f1931a2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2b085318f0c0a62ab3556bac9f1931a2">&#9670;&nbsp;</a></span>operator-() <span class="overload">[26/38]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T , uint32_t Columns, uint32_t Rows, typename U &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d9/d9a/a00998.html">Matrix</a>&lt; T, Columns, Rows &gt; castor::operator- </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/d9a/a00998.html">Matrix</a>&lt; T, Columns, Rows &gt; const &amp;&#160;</td>
-          <td class="paramname"><em>p_mtxA</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d9/d9a/a00998.html">Matrix</a>&lt; U, Columns, Rows &gt; const &amp;&#160;</td>
-          <td class="paramname"><em>p_mtxB</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Opérateur de soustraction. </p>
-<dl class="params"><dt>Paramètres</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">p_mtxA,p_mtxB</td><td>Les matrices à soustraire </td></tr>
   </table>
   </dd>
 </dl>
@@ -16413,45 +16413,8 @@ template&lt;typename T , uint32_t Columns, uint32_t Rows, typename U &gt; </div>
 
 </div>
 </div>
-<a id="ae9df781e9e435f12c4d80914486a6b39"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae9df781e9e435f12c4d80914486a6b39">&#9670;&nbsp;</a></span>operator-() <span class="overload">[30/38]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d3/d08/a01018.html">QuaternionT</a>&lt; T &gt; castor::operator- </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d3/d08/a01018.html">QuaternionT</a>&lt; T &gt; const &amp;&#160;</td>
-          <td class="paramname"><em>p_quat</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Opérateur de négation. </p>
-<dl class="params"><dt>Paramètres</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">p_quat</td><td>L'objet Quaternion à négativer </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Renvoie</dt><dd>Le résultat de la négation </dd></dl>
-
-</div>
-</div>
 <a id="afbd68660cd91a8cca72d2a24cd633ee8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afbd68660cd91a8cca72d2a24cd633ee8">&#9670;&nbsp;</a></span>operator-() <span class="overload">[31/38]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#afbd68660cd91a8cca72d2a24cd633ee8">&#9670;&nbsp;</a></span>operator-() <span class="overload">[30/38]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -16488,7 +16451,7 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <a id="a4abb00231a32b69196c71667d840dab5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4abb00231a32b69196c71667d840dab5">&#9670;&nbsp;</a></span>operator-() <span class="overload">[32/38]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4abb00231a32b69196c71667d840dab5">&#9670;&nbsp;</a></span>operator-() <span class="overload">[31/38]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -16524,6 +16487,43 @@ template&lt;typename T , uint32_t Columns, uint32_t Rows, typename U &gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Renvoie</dt><dd>Le résultat de la soustraction </dd></dl>
+
+</div>
+</div>
+<a id="ae9df781e9e435f12c4d80914486a6b39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9df781e9e435f12c4d80914486a6b39">&#9670;&nbsp;</a></span>operator-() <span class="overload">[32/38]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/d08/a01018.html">QuaternionT</a>&lt; T &gt; castor::operator- </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d3/d08/a01018.html">QuaternionT</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>p_quat</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Opérateur de négation. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">p_quat</td><td>L'objet Quaternion à négativer </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>Le résultat de la négation </dd></dl>
 
 </div>
 </div>
@@ -22719,7 +22719,7 @@ template&lt;typename ComponentType &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Généré le Lundi 11 Décembre 2017 11:16:05 pour CastorUtils par &#160;<a href="http://www.doxygen.org/index.html">
+Généré le Samedi 30 Décembre 2017 00:23:18 pour CastorUtils par &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

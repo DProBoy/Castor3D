@@ -1,4 +1,4 @@
-<map id="castor3d::Camera" name="castor3d::Camera">
-<area shape="rect" id="node2" href="$d9/d08/a02911.html" title="Movable object class. " alt="" coords="75,155,241,181"/>
-<area shape="rect" id="node3" href="$da/d50/a01511.html" title="Animable public interface. " alt="" coords="29,80,164,107"/>
+<map id="castor3d::SkeletonAnimationInstanceObject" name="castor3d::SkeletonAnimationInstanceObject">
+<area shape="rect" id="node3" title="STL iterator class. " alt="" coords="275,71,429,112"/>
+<area shape="rect" id="node4" href="$de/d3e/a01676.html" title="Class which represents the skeleton animation objects. " alt="" coords="257,136,447,177"/>
 </map>

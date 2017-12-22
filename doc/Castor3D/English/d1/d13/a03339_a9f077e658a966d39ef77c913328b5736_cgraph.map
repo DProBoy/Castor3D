@@ -1,5 +1,0 @@
-<map id="castor3d::UniformBuffer::createUniform" name="castor3d::UniformBuffer::createUniform">
-<area shape="rect" id="node2" href="$d1/d13/a03339.html#a109ac7d58aa4bd53343bb3ba605bf701" title="Creates a variable of the wanted type. " alt="" coords="211,5,368,47"/>
-<area shape="rect" id="node3" href="$d1/d13/a03339.html#a9bbec0aa835a1458b56569d5ac2cd177" title="Retrieves a variable by name. " alt="" coords="211,71,368,112"/>
-<area shape="rect" id="node4" href="$d1/d13/a03339.html#ada56be13e132fa38a018869bf7d524aa" title="Removes a variable from this buffer. " alt="" coords="211,136,368,177"/>
-</map>

@@ -1,4 +1,2 @@
-<map id="castor3d::FrameBufferAttachment" name="castor3d::FrameBufferAttachment">
-<area shape="rect" id="node2" href="$dc/da8/a01959.html" title="Description d&#39;une liaison entre un tampon d&#39;image et un tampon de rendu. " alt="" coords="5,80,227,107"/>
-<area shape="rect" id="node3" href="$d3/dce/a01963.html" title="Description d&#39;une liaison entre un tampon d&#39;image et une texture. " alt="" coords="251,80,442,107"/>
+<map id="castor3d::UserInputListener" name="castor3d::UserInputListener">
 </map>

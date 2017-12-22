@@ -1,6 +1,0 @@
-<map id="castor3d::ShaderObject::getParent" name="castor3d::ShaderObject::getParent">
-<area shape="rect" id="node2" href="$d2/de4/a03047.html#ad904ed29968fd52da7578f42e5a49c33" title="Adds a uniform variable to pass to the shader objects. " alt="" coords="214,5,373,47"/>
-<area shape="rect" id="node3" href="$d2/de4/a03047.html#aa11f7728fe7633daca9b8cb496fc4d96" title="Checks for compiler errors. " alt="" coords="214,71,373,112"/>
-<area shape="rect" id="node4" href="$d2/de4/a03047.html#acc1bc55dbe5a4f300c08c0f4e6ef01f5" title="Creates a texture frame variable. " alt="" coords="214,136,373,177"/>
-<area shape="rect" id="node5" href="$d2/de4/a03047.html#a46cb75aa86c7ea545f091d9b0477ee04" title="castor3d::ShaderObject\l::doRetrieveCompilerLog" alt="" coords="212,201,375,243"/>
-</map>

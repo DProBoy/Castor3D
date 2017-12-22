@@ -665,7 +665,14 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="d7/dfb/a01966.html#a03a752a22023dea73c8fecd2ada8c9c2"><param name="Name" value="operator<<"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="d7/dfb/a01966.html#aa2dc45004a2815578fa9872786f3ecfb"><param name="Name" value="~Backtraced"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d08/a00381.html#a3b0b1e1fe7f40ba8ea3dc6b7e939fc80"><param name="Name" value="castor::Debug"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d08/a00381.html"><param name="Name" value="castor::Debug"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d08/a00381.html#a2812b37df8f7dd7faa37af43404e1859"><param name="Name" value="cleanup"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d08/a00381.html#ad28dedbe6597d52215607553f28b149a"><param name="Name" value="initialise"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d08/a00381.html#aff65f5f74efae323018494bb0fff5345"><param name="Name" value="loadModule"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d08/a00381.html#a3b0b1e1fe7f40ba8ea3dc6b7e939fc80"><param name="Name" value="operator<<"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d08/a00381.html#ad7d8d5dc2b8ddb06e71bf97224fdfd05"><param name="Name" value="unloadModule"></OBJECT>
+  </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d13/a00377.html"><param name="Name" value="castor::details"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d13/a00377.html#aad040555b20614ee1d6c31fcf5ff01b2"><param name="Name" value="BigInt"></OBJECT>
@@ -1853,6 +1860,7 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d8/dd1/a01894.html"><param name="Name" value="castor::PlaneEquation"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="d8/dd1/a01894.html#a2195d7e9e393ee6697ad50c25d695461"><param name="Name" value="distance"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d8/dd1/a01894.html#ac7c2c5446e598cefee573fde54fd77f9"><param name="Name" value="getDistance"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="d8/dd1/a01894.html#a001b84a6237b4ee8956bf824a27b8d86"><param name="Name" value="getNormal"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="d8/dd1/a01894.html#a79f9428350e0e10c8d12bd0496beebb4"><param name="Name" value="intersects"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="d8/dd1/a01894.html#a2b0e89149fe766d025bfced1cd37693b"><param name="Name" value="isParallel"></OBJECT>
@@ -1861,7 +1869,6 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="d8/dd1/a01894.html#aeaaf412c613039d418a58459ea9a8f71"><param name="Name" value="PlaneEquation"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="d8/dd1/a01894.html#a0bf4168014e30d8409fbe2af39538644"><param name="Name" value="project"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="d8/dd1/a01894.html#a5387d6b22959a7e10d3c619f7323028c"><param name="Name" value="set"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="d8/dd1/a01894.html#a52015d276da9fee847a43e3eff749df9"><param name="Name" value="~PlaneEquation"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d8/d95/a00379.html"><param name="Name" value="castor::point"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/d2b/a01010.html"><param name="Name" value="castor::Point"></OBJECT>
@@ -2064,6 +2071,9 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/d08/a01018.html#a939e30bddaae85fa3682494d2f9b6a1d"><param name="Name" value="fromMatrix"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/d08/a01018.html#a9ac8865a071af273b1a92809afaeec42"><param name="Name" value="getConjugate"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/d08/a01018.html#aca973c97b845583188ec6b478812fdd9"><param name="Name" value="getMagnitude"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/d08/a01018.html#a87e5fe4ca0bf9c75f14fe7c44c672ab9"><param name="Name" value="getPitch"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/d08/a01018.html#add2f2e17f44332b67c0f9ff365cf6a82"><param name="Name" value="getRoll"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/d08/a01018.html#ad12befc98ab295caa66d087bf01ac4a1"><param name="Name" value="getYaw"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/d08/a01018.html#a43771864df402f56ec61328c4791fd7d"><param name="Name" value="identity"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/d08/a01018.html#a8862344b00178e14e253c00461c07853"><param name="Name" value="lerp"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/d08/a01018.html#a237deb7e80e0b33f40f514a5d5933efc"><param name="Name" value="mix"></OBJECT>
@@ -2894,8 +2904,9 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d83/a01254.html#aaf865cee8a5a3647630363778df98150"><param name="Name" value="checkParams"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="de/da9/a01934.html#ac39c6e2fed27aa7b7c695c669b526b42"><param name="Name" value="clamp"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="d5/d4c/a01058.html#a82d7bd65ce626a2a8e2bae373e9ce855"><param name="Name" value="cleanup"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d08/a00381.html#a2812b37df8f7dd7faa37af43404e1859"><param name="Name" value="cleanup"></OBJECT>
   <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d08/a00381.html#a2812b37df8f7dd7faa37af43404e1859"><param name="Name" value="castor::Debug"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="d5/d4c/a01058.html#a82d7bd65ce626a2a8e2bae373e9ce855"><param name="Name" value="castor::FixedGrowingSizeMarkedMemoryData"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="d9/d8e/a01050.html#a1aa2710e9829a2dc433e04c1820b6c3d"><param name="Name" value="castor::FixedGrowingSizeMemoryData"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d57/a01054.html#a3d571ecd69b740761430f19d530bbcee"><param name="Name" value="castor::FixedSizeMarkedMemoryData"></OBJECT>
@@ -2903,6 +2914,7 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/d2d/a01606.html#a479103ee883752ae27ea5f9b146c5bda"><param name="Name" value="castor::Font::SFontImpl"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="d6/dbe/a01834.html#a5caea5705eebb56e7cd6866e88c98fce"><param name="Name" value="castor::Logger"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/df4/a01846.html#ad513b7dc5e2c9284ce7a26155fbe4b57"><param name="Name" value="castor::LoggerImpl"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d08/a00381.html#a2812b37df8f7dd7faa37af43404e1859"><param name="Name" value="Debug.hpp"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d3a/a01622.html#a7a9a3356caf6ba5c29b38929ff2bd87b"><param name="Name" value="cleanupImageLib"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="df/d88/a00962.html#a594bc83a39ca3ebbede27bfee72114a7"><param name="Name" value="clear"></OBJECT>
@@ -3204,7 +3216,14 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="d5/d54/a00938.html#ace574f5bdacee3159a1de001349b23ed"><param name="Name" value="castor::NonAlignedMemoryAllocator"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="df/d03/a02058.html#ae91569777640596c04fd8c9005e5d2bf"><param name="Name" value="castor::ObjectPool"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="df/d95/a00299.html#a3b0b1e1fe7f40ba8ea3dc6b7e939fc80"><param name="Name" value="Debug.hpp"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="df/d95/a00299.html"><param name="Name" value="Debug.hpp"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="df/d95/a00299.html#a2812b37df8f7dd7faa37af43404e1859"><param name="Name" value="cleanup"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="df/d95/a00299.html#ad28dedbe6597d52215607553f28b149a"><param name="Name" value="initialise"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="df/d95/a00299.html#aff65f5f74efae323018494bb0fff5345"><param name="Name" value="loadModule"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="df/d95/a00299.html#a3b0b1e1fe7f40ba8ea3dc6b7e939fc80"><param name="Name" value="operator<<"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="df/d95/a00299.html#ad7d8d5dc2b8ddb06e71bf97224fdfd05"><param name="Name" value="unloadModule"></OBJECT>
+  </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/d52/a00023.html#a883630661435515cc98620d8848500d8"><param name="Name" value="DECLARE_ARRAY"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="da/d1e/a00149.html#a0506dc902ae9484935a62843e5b1f8f9"><param name="Name" value="DECLARE_ATTRIBUTE_PARSER"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/d52/a00023.html#a6dd5671046f2045f4badb16e4536f088"><param name="Name" value="DECLARE_COLLECTION"></OBJECT>
@@ -3902,6 +3921,7 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/d21/a01582.html#adb50909e94aa64df84260851e5f7a1ee"><param name="Name" value="castor::BoundingBox"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d3a/a01622.html#a4c98a0bc5ac58ec79316b9208cce632f"><param name="Name" value="castor::Image"></OBJECT>
   </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d8/dd1/a01894.html#ac7c2c5446e598cefee573fde54fd77f9"><param name="Name" value="getDistance"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/db6/a01974.html#aaa06ba1e986869dc1a2df9cd6dd1f6bc"><param name="Name" value="getElapsed"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/df1/a01082.html#abfc768a522393be48398ada0fa4b587f"><param name="Name" value="getExecutableDirectory"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d09/a01118.html#ad8cab6985d3d36a306dd96e7b91bd6c7"><param name="Name" value="getExtension"></OBJECT>
@@ -4043,6 +4063,7 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="d7/d08/a00378.html#ab499d217c634a9ec47efaca3bd0d4d0d"><param name="Name" value="castor::PF"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="d7/d08/a00378.html#ab499d217c634a9ec47efaca3bd0d4d0d"><param name="Name" value="PixelFormat.hpp"></OBJECT>
   </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/d08/a01018.html#a87e5fe4ca0bf9c75f14fe7c44c672ab9"><param name="Name" value="getPitch"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d3a/a01622.html#ac22661a5cf3b64f7e2b91a5d09f98461"><param name="Name" value="getPixel"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d3a/a01622.html#ac07648d58a11615fac8101ee4a06b449"><param name="Name" value="getPixelFormat"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d3a/a01622.html#ad5af1e241ddcb1ee33d89a58f0348aa3"><param name="Name" value="getPixels"></OBJECT>
@@ -4065,6 +4086,7 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="d6/db8/a00376.html#a57b15772e8418371e0b0a0254fd8e421"><param name="Name" value="RgbaColour.hpp"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/d2f/a01586.html#a9970fce80d2b1218a3c67a25f22fc6d3"><param name="Name" value="getRadius"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/d08/a01018.html#add2f2e17f44332b67c0f9ff365cf6a82"><param name="Name" value="getRoll"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d8/ddd/a00380.html#a42dea7ab985e34e021e57043305902e9"><param name="Name" value="getRotate"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="d8/ddd/a00380.html#a42dea7ab985e34e021e57043305902e9"><param name="Name" value="castor::matrix"></OBJECT>
@@ -4176,6 +4198,7 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/d20/a01790.html#aaf51e7864545f6542253c760df09b109"><param name="Name" value="castor::Rectangle"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d56/a01818.html#a90d4cafced857f3598a87280d6e6f672"><param name="Name" value="castor::Size"></OBJECT>
   </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/d08/a01018.html#ad12befc98ab295caa66d087bf01ac4a1"><param name="Name" value="getYaw"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="da/d15/a00188.html"><param name="Name" value="Glyph.hpp"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="da/d15/a00188.html#af059b8da4d527faab0b96c98902799dd"><param name="Name" value="operator!="></OBJECT>
@@ -4263,8 +4286,9 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d07/a01146.html#a9b8952181a878bd1e30a778d1d4ca8a5"><param name="Name" value="castor::ZipArchive::ZipImpl"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d9/d2e/a00056.html#a94fdfecb4e9befa8cebfca6a04ed67b3"><param name="Name" value="init_keys"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="d5/d4c/a01058.html#a4ed136b9c7c9cfa3897e4d9621e2982e"><param name="Name" value="initialise"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d08/a00381.html#ad28dedbe6597d52215607553f28b149a"><param name="Name" value="initialise"></OBJECT>
   <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d08/a00381.html#ad28dedbe6597d52215607553f28b149a"><param name="Name" value="castor::Debug"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="d5/d4c/a01058.html#a4ed136b9c7c9cfa3897e4d9621e2982e"><param name="Name" value="castor::FixedGrowingSizeMarkedMemoryData"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="d9/d8e/a01050.html#aea4e3884a87406e6f12ecbcc0e925a20"><param name="Name" value="castor::FixedGrowingSizeMemoryData"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d57/a01054.html#af3d0289b5e6c11c64824853ab734ab3b"><param name="Name" value="castor::FixedSizeMarkedMemoryData"></OBJECT>
@@ -4275,6 +4299,7 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="d9/d9a/a00998.html#a6bc8724914a61b193a12dd5efac49065"><param name="Name" value="castor::Matrix"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d8e/a01898.html#ab3ce5f788299f6be69622dc3a338e142"><param name="Name" value="castor::PointDataHolder"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="df/dee/a01646.html#ac410099927942540cf70ed86e4d9190f"><param name="Name" value="castor::PxBufferBase"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d08/a00381.html#ad28dedbe6597d52215607553f28b149a"><param name="Name" value="Debug.hpp"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="d9/d9a/a00998.html#a6bc8724914a61b193a12dd5efac49065"><param name="Name" value="Matrix< T, Count, Count >"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d3a/a01622.html#a95eba61febc42188408dbaa33da463fc"><param name="Name" value="initialiseImageLib"></OBJECT>
@@ -4604,6 +4629,11 @@
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/def/a01594.html#a91e339187dcb6749341457d8c3bfe03b"><param name="Name" value="castor::Font"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/d2d/a01606.html#a056ca4d721386a8255b94cc3d6aa67ac"><param name="Name" value="castor::Font::SFontImpl"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d08/a00381.html#aff65f5f74efae323018494bb0fff5345"><param name="Name" value="loadModule"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d08/a00381.html#aff65f5f74efae323018494bb0fff5345"><param name="Name" value="castor::Debug"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d08/a00381.html#aff65f5f74efae323018494bb0fff5345"><param name="Name" value="Debug.hpp"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="df/d88/a00962.html#a7993f252c93ef00fb2ea91c34bb2c18d"><param name="Name" value="lock"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d6/db8/a00376.html#aae2ea0e8819a7e91b52f5f5ad9257818"><param name="Name" value="LogCallback"></OBJECT>
@@ -4983,8 +5013,8 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="df/d21/a01778.html#a0d1396e87e056cf0d4631087a8163be4"><param name="Name" value="castor::Position"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/d8b/a00059.html#af69bf0eca00f413fb4808febcbaf6f5c"><param name="Name" value="ioapi.h"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/dc4/a01990.html#aa6902d0dea7145ea246f2049ad084736"><param name="Name" value="onEnded"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/dc4/a01990.html#a3347ea1c59a3b5d22d2ec2a64a61425d"><param name="Name" value="OnEnded"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/dc4/a01990.html#aa6902d0dea7145ea246f2049ad084736"><param name="Name" value="onEnded"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="da/d73/a01090.html#a494b6d634b61bdc7fc7caed8e4fbe3f4"><param name="Name" value="opaque"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d5/dd7/a01970.html#ad1eb8ac608f7936f8e988518697f6bd4"><param name="Name" value="open"></OBJECT>
   <UL>
@@ -7023,6 +7053,11 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d7/dc5/a01242.html#af3c234ac367d119873e84a43efc73a6e"><param name="Name" value="UnicityException"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d7/d04/a01246.html#a08a56352b5e5ac67bc82e3cc58a12fca"><param name="Name" value="Unique"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d81/a01006.html#a15913e2d3131e1ad2c46a5b7455f43a3"><param name="Name" value="unlink"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d08/a00381.html#ad7d8d5dc2b8ddb06e71bf97224fdfd05"><param name="Name" value="unloadModule"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d08/a00381.html#ad7d8d5dc2b8ddb06e71bf97224fdfd05"><param name="Name" value="castor::Debug"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d08/a00381.html#ad7d8d5dc2b8ddb06e71bf97224fdfd05"><param name="Name" value="Debug.hpp"></OBJECT>
+  </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="df/d88/a00962.html#a799368e2be26eae09a4d7777db7a7983"><param name="Name" value="unlock"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d6/dbe/a01834.html#ac449b256449caee1de800c65ac1d8a12"><param name="Name" value="unregisterCallback"></OBJECT>
   <UL>
@@ -7486,7 +7521,6 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="df/d03/a02058.html#a36b6b1540993d2570fd69b0acfbf42b8"><param name="Name" value="~ObjectPool"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dd5/a01002.html#ac562a6459ab737d1ec2b4d41ac528abe"><param name="Name" value="~OwnedBy"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d81/a01006.html#a38ab42285910e2c1a128a77b10975891"><param name="Name" value="~Pixel"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="d8/dd1/a01894.html#a52015d276da9fee847a43e3eff749df9"><param name="Name" value="~PlaneEquation"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/d2b/a01010.html#a06072106554c507cafc5e7a2d49bc3e9"><param name="Name" value="~Point"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d8e/a01898.html#a33078ef2137e0dffbe9276342c2822bb"><param name="Name" value="~PointDataHolder"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d56/a01042.html#acf6f974f6b713c8f14841f934ce64058"><param name="Name" value="~PoolManagedObject"></OBJECT>

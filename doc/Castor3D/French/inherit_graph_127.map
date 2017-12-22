@@ -1,3 +1,11 @@
 <map id="Graphe hiérarchique des classes" name="Graphe hiérarchique des classes">
-<area shape="rect" id="node1" href="$d7/d45/a03175.html" title="Gestion du tampon de variables uniformes pour les matrices. " alt="" coords="5,5,180,32"/>
+<area shape="rect" id="node1" href="$dd/d09/a02180.html" title="La catégorie de maillage est utilisée afin de créer les sommets du maillage, c&#39;est créé via la MeshFa..." alt="" coords="5,183,175,209"/>
+<area shape="rect" id="node2" href="$dc/d29/a02116.html" title="Le cône est une primitive basique, avec un nombre paramétrable de faces. " alt="" coords="243,5,353,32"/>
+<area shape="rect" id="node3" href="$d3/d23/a02120.html" title="Représentation d&#39;un cube. " alt="" coords="243,56,353,83"/>
+<area shape="rect" id="node4" href="$db/d0e/a02124.html" title="Représentation d&#39;un cylindre. " alt="" coords="235,107,361,133"/>
+<area shape="rect" id="node5" href="$d1/d60/a02128.html" title="Représentation d&#39;un icosaèdre. " alt="" coords="223,157,373,184"/>
+<area shape="rect" id="node6" href="$dd/d07/a02132.html" title="Représentation d&#39;un plan. " alt="" coords="241,208,355,235"/>
+<area shape="rect" id="node7" href="$db/ddd/a02136.html" title="Représentation d&#39;une projection. " alt="" coords="229,259,367,285"/>
+<area shape="rect" id="node8" href="$de/d81/a02140.html" title="La primitive de sphère. " alt="" coords="237,309,359,336"/>
+<area shape="rect" id="node9" href="$dc/d29/a02144.html" title="Représentation d&#39;un torre. " alt="" coords="242,360,354,387"/>
 </map>

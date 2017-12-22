@@ -1,13 +1,13 @@
 <map id="Z:/Projets/C++/Castor3D/source/Core/Castor3D/Src/Render/RenderPass.hpp" name="Z:/Projets/C++/Castor3D/source/Core/Castor3D/Src/Render/RenderPass.hpp">
 <area shape="rect" id="node4" href="$d7/def/a00521.html" title="Render/RenderInfo.hpp" alt="" coords="2053,109,2206,136"/>
 <area shape="rect" id="node25" href="$d6/d06/a00572.html" title="Render/RenderQueue.hpp" alt="" coords="3900,109,4071,136"/>
-<area shape="rect" id="node34" href="$d8/d1c/a00824.html" title="Shader/Ubos/SkinningUbo.hpp" alt="" coords="2833,348,3031,375"/>
-<area shape="rect" id="node44" href="$da/db8/a00797.html" title="Shader/Ubos/BillboardUbo.hpp" alt="" coords="3417,191,3615,218"/>
-<area shape="rect" id="node45" href="$d0/dad/a00806.html" title="Shader/Ubos/MatrixUbo.hpp" alt="" coords="3639,191,3825,218"/>
-<area shape="rect" id="node46" href="$dd/d7e/a00809.html" title="Shader/Ubos/ModelMatrixUbo.hpp" alt="" coords="2950,191,3170,218"/>
-<area shape="rect" id="node47" href="$d8/db7/a00812.html" title="Shader/Ubos/ModelUbo.hpp" alt="" coords="3107,273,3291,300"/>
-<area shape="rect" id="node48" href="$d8/d2d/a00815.html" title="Shader/Ubos/MorphingUbo.hpp" alt="" coords="3245,109,3448,136"/>
-<area shape="rect" id="node49" href="$d6/d8b/a00821.html" title="Shader/Ubos/SceneUbo.hpp" alt="" coords="3472,109,3659,136"/>
+<area shape="rect" id="node34" href="$dc/d1b/a00827.html" title="Shader/Ubos/SkinningUbo.hpp" alt="" coords="2833,348,3031,375"/>
+<area shape="rect" id="node44" href="$df/d0e/a00800.html" title="Shader/Ubos/BillboardUbo.hpp" alt="" coords="3417,191,3615,218"/>
+<area shape="rect" id="node45" href="$dd/d7e/a00809.html" title="Shader/Ubos/MatrixUbo.hpp" alt="" coords="3639,191,3825,218"/>
+<area shape="rect" id="node46" href="$d8/db7/a00812.html" title="Shader/Ubos/ModelMatrixUbo.hpp" alt="" coords="2950,191,3170,218"/>
+<area shape="rect" id="node47" href="$d8/d2d/a00815.html" title="Shader/Ubos/ModelUbo.hpp" alt="" coords="3107,273,3291,300"/>
+<area shape="rect" id="node48" href="$d3/d60/a00818.html" title="Shader/Ubos/MorphingUbo.hpp" alt="" coords="3245,109,3448,136"/>
+<area shape="rect" id="node49" href="$d8/d1c/a00824.html" title="Shader/Ubos/SceneUbo.hpp" alt="" coords="3472,109,3659,136"/>
 <area shape="rect" id="node5" href="$df/dc8/a00122.html" title="Castor3DPrerequisites.hpp" alt="" coords="2182,497,2359,524"/>
 <area shape="rect" id="node14" href="$d4/ddf/a00488.html" title="Prerequisites/Castor3DPrerequisites\l_Animation.hpp" alt="" coords="1297,572,1529,613"/>
 <area shape="rect" id="node15" href="$d6/d60/a00491.html" title="Prerequisites/Castor3DPrerequisites\l_Camera.hpp" alt="" coords="1553,572,1785,613"/>
@@ -30,9 +30,9 @@
 <area shape="rect" id="node32" href="$d3/d87/a00539.html" title="MorphingRenderNode.hpp" alt="" coords="2379,273,2549,300"/>
 <area shape="rect" id="node33" href="$d8/df0/a00557.html" title="SkinningRenderNode.hpp" alt="" coords="2573,273,2741,300"/>
 <area shape="rect" id="node36" href="$d9/d19/a00560.html" title="StaticRenderNode.hpp" alt="" coords="1960,273,2112,300"/>
-<area shape="rect" id="node35" href="$d3/d13/a00836.html" title="Shader/UniformBuffer.hpp" alt="" coords="3022,423,3191,449"/>
+<area shape="rect" id="node35" href="$df/de8/a00839.html" title="Shader/UniformBuffer.hpp" alt="" coords="3022,423,3191,449"/>
 <area shape="rect" id="node38" href="$d5/d5b/a00695.html" title="MovableObject.hpp" alt="" coords="3693,423,3825,449"/>
-<area shape="rect" id="node39" href="$de/dd7/a00362.html" title="Miscellaneous/Frustum.hpp" alt="" coords="3215,423,3398,449"/>
+<area shape="rect" id="node39" href="$dd/db5/a00365.html" title="Miscellaneous/Frustum.hpp" alt="" coords="3215,423,3398,449"/>
 <area shape="rect" id="node41" href="$de/dde/a00587.html" title="Render/Viewport.hpp" alt="" coords="3474,423,3617,449"/>
 <area shape="rect" id="node43" href="$de/de1/a00065.html" title="Cache/CacheView.hpp" alt="" coords="3951,423,4105,449"/>
 </map>

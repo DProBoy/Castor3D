@@ -1,4 +1,2 @@
-<map id="castor3d::Interpolator&lt; Type &gt;" name="castor3d::Interpolator&lt; Type &gt;">
-<area shape="rect" id="node2" href="$da/ded/a01547.html" title="Spécialisation partielle de Interpolator, pour eINTERPOLATOR_MODE_LINEAR. " alt="" coords="197,5,360,61"/>
-<area shape="rect" id="node3" href="$db/d08/a01543.html" title="Spécialisation partielle de Interpolator, pour eINTERPOLATOR_MODE_NONE. " alt="" coords="197,85,360,141"/>
+<map id="castor3d::Animation" name="castor3d::Animation">
 </map>

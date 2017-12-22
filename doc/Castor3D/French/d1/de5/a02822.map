@@ -1,3 +1,5 @@
-<map id="castor3d::SkeletonAnimationInstanceNode" name="castor3d::SkeletonAnimationInstanceNode">
-<area shape="rect" id="node2" href="$d3/df5/a02827.html" title="Classe de représentation de choses mouvantes. " alt="" coords="5,95,195,136"/>
+<map id="castor3d::MeshAnimationInstanceSubmesh" name="castor3d::MeshAnimationInstanceSubmesh">
+<area shape="rect" id="node3" href="$db/d44/a02564.html" title="Classe de représentation des tampons de sous&#45;maillages d&#39;animations de maillage. " alt="" coords="628,71,821,112"/>
+<area shape="rect" id="node5" href="$db/dfd/a01608.html" title="Classe de représentation de sous&#45;maillages d&#39;animations de maillage. " alt="" coords="612,169,837,195"/>
+<area shape="rect" id="node8" href="$db/d14/a02232.html" title="Representation d&#39;un sous&#45;maillage. " alt="" coords="295,243,430,270"/>
 </map>

@@ -1,4 +1,3 @@
-<map id="castor3d::TriFaceMapping" name="castor3d::TriFaceMapping">
-<area shape="rect" id="node2" href="$d1/dda/a02255.html" title="Un composant de sous&#45;maillage pour les faces. " alt="" coords="26,155,186,181"/>
-<area shape="rect" id="node3" href="$d2/dd2/a02279.html" title="Composant pour un sous&#45;maillage. " alt="" coords="5,80,207,107"/>
+<map id="castor3d::IndexMapping" name="castor3d::IndexMapping">
+<area shape="rect" id="node2" href="$d7/d67/a02308.html" title="Composant pour un sous&#45;maillage. " alt="" coords="5,80,207,107"/>
 </map>

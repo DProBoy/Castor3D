@@ -1,2 +1,15 @@
-<map id="castor3d::RenderSystem" name="castor3d::RenderSystem">
+<map id="castor3d::RenderPipeline" name="castor3d::RenderPipeline">
+<area shape="rect" id="node13" href="$d5/d83/a03076.html" title="Implémentation de base d&#39;un programme de shader, utilisé afin d&#39;exposer les fonctions communes aux la..." alt="" coords="998,216,1169,243"/>
+<area shape="rect" id="node3" href="$d5/d6b/a03428.html" title="Classe de configuration du rasteriser. " alt="" coords="998,267,1169,293"/>
+<area shape="rect" id="node4" href="$d0/df5/a02576.html" title="Indicateurs de pipeline. " alt="" coords="1004,317,1163,344"/>
+<area shape="rect" id="node6" href="$d6/dbe/a02848.html" title="Liste de billboards. " alt="" coords="577,400,737,427"/>
+<area shape="rect" id="node7" href="$d0/d7b/a02968.html" title="Gère la visibilité de l&#39;objet, ainsi que son comportement avec les ombres. " alt="" coords="258,321,431,348"/>
+<area shape="rect" id="node9" href="$d3/dff/a02976.html" title="Classe de gestion d&#39;un scène. " alt="" coords="286,408,403,435"/>
+<area shape="rect" id="node17" href="$de/def/a02064.html" title="Description de tous les éléments dans un tampon de sommets. " alt="" coords="568,283,747,309"/>
+<area shape="rect" id="node20" href="$db/d14/a02232.html" title="Representation d&#39;un sous&#45;maillage. " alt="" coords="590,463,725,489"/>
+<area shape="rect" id="node24" href="$d2/d2e/a03408.html" title="Classe regroupant les configurations de blend. " alt="" coords="1011,595,1155,621"/>
+<area shape="rect" id="node26" href="$d4/d57/a03412.html" title="castor3d::BlendState\l::stRT_BLEND_STATE" alt="" coords="267,587,422,629"/>
+<area shape="rect" id="node27" href="$dc/dc7/a03424.html" title="Classe regroupant les configurations de multi&#45;échantillonnage. " alt="" coords="993,645,1174,672"/>
+<area shape="rect" id="node28" href="$df/df7/a03416.html" title="Classe de configuration des buffers de profondeur et stencil. " alt="" coords="991,696,1176,723"/>
+<area shape="rect" id="node29" href="$d1/d8b/a03420.html" title="Fonction et opérations de stencil. " alt="" coords="565,689,750,730"/>
 </map>

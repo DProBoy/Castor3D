@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Castor3D: Member List</title>
+<title>Castor3D: castor3d::LineariseDepthPass Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -38,24 +38,211 @@ $(function() {
 <div id="main-nav"></div>
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="../../dc/db6/a00955.html">castor3d</a></li><li class="navelem"><a class="el" href="../../d9/d1f/a03531.html">FinalCombinePass</a></li>  </ul>
+<li class="navelem"><a class="el" href="../../d0/d85/a00976.html">castor3d</a></li><li class="navelem"><a class="el" href="../../d0/d61/a03528.html">LineariseDepthPass</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="../../db/d0f/a03525.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">castor3d::FinalCombinePass Member List</div>  </div>
+<div class="title">castor3d::LineariseDepthPass Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d9/d1f/a03531.html">castor3d::FinalCombinePass</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d9/d1f/a03531.html#a31cf1938d537fb677698ebd047024fdd">FinalCombinePass</a>(Engine &amp;engine, castor::Size const &amp;size, SceneUbo &amp;sceneUbo)</td><td class="entry"><a class="el" href="../../d9/d1f/a03531.html">castor3d::FinalCombinePass</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d9/d1f/a03531.html#a8d10b242401342fe8bdbd2ab173604d3">render</a>(WeightedBlendPassResult const &amp;wbResult, FrameBuffer const &amp;frameBuffer, Camera const &amp;camera, castor::Matrix4x4r const &amp;invViewProj, castor::Matrix4x4r const &amp;invView, castor::Matrix4x4r const &amp;invProj, FogType fogType)</td><td class="entry"><a class="el" href="../../d9/d1f/a03531.html">castor3d::FinalCombinePass</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d9/d1f/a03531.html#a2784736b56017a606cf973a0f93a24f3">~FinalCombinePass</a>()</td><td class="entry"><a class="el" href="../../d9/d1f/a03531.html">castor3d::FinalCombinePass</a></td><td class="entry"></td></tr>
-</table></div><!-- contents -->
+<p>Depth linearisation pass, with mipmaps generation.  
+ <a href="../../d0/d61/a03528.html#details">More...</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:abdb869521a07a4169c1e00ea7c3d9e2c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d61/a03528.html#abdb869521a07a4169c1e00ea7c3d9e2c">LineariseDepthPass</a> (<a class="el" href="../../d7/d5f/a01888.html">Engine</a> &amp;engine, castor::Size const &amp;size, <a class="el" href="../../d8/d2a/a03192.html">MatrixUbo</a> &amp;matrixUbo, <a class="el" href="../../d6/d02/a03544.html">SsaoConfigUbo</a> &amp;ssaoConfigUbo)</td></tr>
+<tr class="memdesc:abdb869521a07a4169c1e00ea7c3d9e2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#abdb869521a07a4169c1e00ea7c3d9e2c">More...</a><br /></td></tr>
+<tr class="separator:abdb869521a07a4169c1e00ea7c3d9e2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2e0030a52ce337ec65ebac48c294156"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d61/a03528.html#ab2e0030a52ce337ec65ebac48c294156">~LineariseDepthPass</a> ()</td></tr>
+<tr class="memdesc:ab2e0030a52ce337ec65ebac48c294156"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#ab2e0030a52ce337ec65ebac48c294156">More...</a><br /></td></tr>
+<tr class="separator:ab2e0030a52ce337ec65ebac48c294156"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a631bfe52769e935cf8b91a6c2fc0785d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d61/a03528.html#a631bfe52769e935cf8b91a6c2fc0785d">linearise</a> (<a class="el" href="../../d9/ddd/a03616.html">TextureUnit</a> const &amp;depthBuffer, <a class="el" href="../../da/dd3/a02736.html">Viewport</a> const &amp;viewport)</td></tr>
+<tr class="memdesc:a631bfe52769e935cf8b91a6c2fc0785d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Linearises given depth buffer.  <a href="#a631bfe52769e935cf8b91a6c2fc0785d">More...</a><br /></td></tr>
+<tr class="separator:a631bfe52769e935cf8b91a6c2fc0785d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a323271b56eb451dc8068f7fc15ab02d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/ddd/a03616.html">TextureUnit</a> const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d61/a03528.html#a323271b56eb451dc8068f7fc15ab02d2">getResult</a> () const</td></tr>
+<tr class="separator:a323271b56eb451dc8068f7fc15ab02d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a46cae55e5cf6add6dc3c62a8c14efb44"><td class="memItemLeft" align="right" valign="top">static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d61/a03528.html#a46cae55e5cf6add6dc3c62a8c14efb44">MaxMipLevel</a> = 5u</td></tr>
+<tr class="separator:a46cae55e5cf6add6dc3c62a8c14efb44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Depth linearisation pass, with mipmaps generation. </p>
+<dl class="section author"><dt>Author</dt><dd>Sylvain DOREMUS </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>0.10.0 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>18/12/2017 </dd></dl>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="abdb869521a07a4169c1e00ea7c3d9e2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abdb869521a07a4169c1e00ea7c3d9e2c">&#9670;&nbsp;</a></span>LineariseDepthPass()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">castor3d::LineariseDepthPass::LineariseDepthPass </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d7/d5f/a01888.html">Engine</a> &amp;&#160;</td>
+          <td class="paramname"><em>engine</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">castor::Size const &amp;&#160;</td>
+          <td class="paramname"><em>size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d8/d2a/a03192.html">MatrixUbo</a> &amp;&#160;</td>
+          <td class="paramname"><em>matrixUbo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d6/d02/a03544.html">SsaoConfigUbo</a> &amp;&#160;</td>
+          <td class="paramname"><em>ssaoConfigUbo</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Constructor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">engine</td><td>The engine. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">size</td><td>The render area dimensions. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">matrixUbo</td><td>The matrices UBO. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ssaoConfigUbo</td><td>The SSAO configuration UBO. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ab2e0030a52ce337ec65ebac48c294156"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2e0030a52ce337ec65ebac48c294156">&#9670;&nbsp;</a></span>~LineariseDepthPass()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">castor3d::LineariseDepthPass::~LineariseDepthPass </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destructor. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a323271b56eb451dc8068f7fc15ab02d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a323271b56eb451dc8068f7fc15ab02d2">&#9670;&nbsp;</a></span>getResult()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/ddd/a03616.html">TextureUnit</a> const&amp; castor3d::LineariseDepthPass::getResult </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>The linearised depth buffer. </dd></dl>
+
+</div>
+</div>
+<a id="a631bfe52769e935cf8b91a6c2fc0785d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a631bfe52769e935cf8b91a6c2fc0785d">&#9670;&nbsp;</a></span>linearise()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void castor3d::LineariseDepthPass::linearise </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/ddd/a03616.html">TextureUnit</a> const &amp;&#160;</td>
+          <td class="paramname"><em>depthBuffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../da/dd3/a02736.html">Viewport</a> const &amp;&#160;</td>
+          <td class="paramname"><em>viewport</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Linearises given depth buffer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">depthBuffer</td><td>The non linearised depth buffer. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">viewport</td><td>The viewport from which clip infos are retrieved. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a46cae55e5cf6add6dc3c62a8c14efb44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46cae55e5cf6add6dc3c62a8c14efb44">&#9670;&nbsp;</a></span>MaxMipLevel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr uint32_t castor3d::LineariseDepthPass::MaxMipLevel = 5u</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>Z:/Projets/C++/Castor3D/source/Core/Castor3D/Src/Technique/Opaque/Ssao/<a class="el" href="../../d6/d82/a00920.html">LineariseDepthPass.hpp</a></li>
+</ul>
+</div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Dec 11 2017 11:16:29 for Castor3D by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Dec 30 2017 00:32:27 for Castor3D by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

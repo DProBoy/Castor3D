@@ -1,6 +1,6 @@
 <map id="Graphe hiérarchique des classes" name="Graphe hiérarchique des classes">
-<area shape="rect" id="node1" href="$dd/db9/a02883.html" title="Contient les composantes d&#39;une lumière. " alt="" coords="5,56,165,83"/>
-<area shape="rect" id="node2" href="$d6/d92/a02867.html" title="Classe representant une lumière directionnelle. " alt="" coords="213,5,383,32"/>
-<area shape="rect" id="node3" href="$d6/d1a/a02895.html" title="Classe de représentation d&#39;une PointLight. " alt="" coords="229,56,367,83"/>
-<area shape="rect" id="node4" href="$d9/d6c/a02903.html" title="Classe de représentation d&#39;une PointLight. " alt="" coords="231,107,365,133"/>
+<area shape="rect" id="node1" href="$d3/d5d/a02900.html" title="Contient les composantes d&#39;une lumière. " alt="" coords="5,56,165,83"/>
+<area shape="rect" id="node2" href="$d8/d93/a02884.html" title="Classe representant une lumière directionnelle. " alt="" coords="213,5,383,32"/>
+<area shape="rect" id="node3" href="$dd/d3f/a02912.html" title="Classe de représentation d&#39;une PointLight. " alt="" coords="229,56,367,83"/>
+<area shape="rect" id="node4" href="$d1/d77/a02920.html" title="Classe de représentation d&#39;une PointLight. " alt="" coords="231,107,365,133"/>
 </map>

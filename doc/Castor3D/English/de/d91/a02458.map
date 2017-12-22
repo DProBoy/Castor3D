@@ -1,0 +1,19 @@
+<map id="castor3d::OverlayRenderer::OverlayRenderNode" name="castor3d::OverlayRenderer::OverlayRenderNode">
+<area shape="rect" id="node2" href="$d6/d1a/a03208.html" title="Matrices Uniform buffer management. " alt="" coords="1432,35,1579,61"/>
+<area shape="rect" id="node3" href="$de/d7b/a02660.html" title="Helper structure used link a pass and a shader program. " alt="" coords="1415,85,1596,112"/>
+<area shape="rect" id="node5" href="$d4/ddd/a02040.html" title="Base class of a material pass. " alt="" coords="1028,85,1139,112"/>
+<area shape="rect" id="node7" href="$d4/dfe/a02688.html" title="The rendering pipeline. " alt="" coords="1422,495,1589,521"/>
+<area shape="rect" id="node19" href="$d5/d83/a03076.html" title="Base shader program implementation, used to share functions through the supported shader languages..." alt="" coords="998,328,1169,355"/>
+<area shape="rect" id="node9" href="$d5/d6b/a03428.html" title="Rasteriser configuration class. " alt="" coords="998,379,1169,405"/>
+<area shape="rect" id="node10" href="$d0/df5/a02576.html" title="Pipeline flags. " alt="" coords="1004,429,1163,456"/>
+<area shape="rect" id="node12" href="$d6/dbe/a02848.html" title="Billboards list. " alt="" coords="577,531,737,557"/>
+<area shape="rect" id="node13" href="$d0/d7b/a02968.html" title="Handles object&#39;s visibility, and behavior with shadows. " alt="" coords="258,444,431,471"/>
+<area shape="rect" id="node15" href="$d3/dff/a02976.html" title="Scene handler class. " alt="" coords="286,531,403,557"/>
+<area shape="rect" id="node23" href="$de/def/a02064.html" title="Description of all elements in a vertex buffer. " alt="" coords="568,413,747,440"/>
+<area shape="rect" id="node26" href="$db/d14/a02232.html" title="The submesh representation. " alt="" coords="590,581,725,608"/>
+<area shape="rect" id="node30" href="$d2/d2e/a03408.html" title="Blending configurations grouping class. " alt="" coords="1011,707,1155,733"/>
+<area shape="rect" id="node32" href="$d4/d57/a03412.html" title="castor3d::BlendState\l::stRT_BLEND_STATE" alt="" coords="267,699,422,741"/>
+<area shape="rect" id="node33" href="$dc/dc7/a03424.html" title="Multisample configurations grouping class. " alt="" coords="993,757,1174,784"/>
+<area shape="rect" id="node34" href="$df/df7/a03416.html" title="Depth and stencil buffers configurations class. " alt="" coords="991,808,1176,835"/>
+<area shape="rect" id="node35" href="$d1/d8b/a03420.html" title="Stencil function and operations description. " alt="" coords="565,801,750,842"/>
+</map>
