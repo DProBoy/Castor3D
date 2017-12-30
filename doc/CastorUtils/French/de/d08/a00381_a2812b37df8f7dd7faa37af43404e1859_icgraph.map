@@ -1,7 +1,0 @@
-<map id="castor::Debug::cleanup" name="castor::Debug::cleanup">
-<area shape="rect" id="node2" href="$d1/d0f/a01962.html#a0c187ffa08a9245b1bba554f5f45fbba" title="castor::Debug::Backtrace\l::Backtrace" alt="" coords="211,5,381,47"/>
-<area shape="rect" id="node3" href="$df/d03/a02058.html#a4d3b05384d651ca34f6b1fe4e2dccbec" title="Réinitialise le pool. " alt="" coords="231,71,361,112"/>
-<area shape="rect" id="node4" href="$dc/d28/a02062.html#ae9766f278f47b5bf390eafad42ebdaf1" title="Réinitialise le pool. " alt="" coords="209,136,383,177"/>
-<area shape="rect" id="node5" href="$dc/d28/a02062.html#a8de781212a47e7241351402a224994cf" title="Destructeur. " alt="" coords="209,201,383,243"/>
-<area shape="rect" id="node6" href="$df/d03/a02058.html#a36b6b1540993d2570fd69b0acfbf42b8" title="Destructeur. " alt="" coords="231,267,361,308"/>
-</map>

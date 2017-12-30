@@ -1,7 +1,0 @@
-<map id="castor::Debug::Backtrace::Backtrace" name="castor::Debug::Backtrace::Backtrace">
-<area shape="rect" id="node2" href="$de/d08/a00381.html#a2812b37df8f7dd7faa37af43404e1859" title="Nettoie les données de débogage. " alt="" coords="241,5,397,32"/>
-<area shape="rect" id="node3" href="$de/d08/a00381.html#ad28dedbe6597d52215607553f28b149a" title="Initialise les données de débogage. " alt="" coords="240,56,399,83"/>
-<area shape="rect" id="node4" href="$de/d08/a00381.html#aff65f5f74efae323018494bb0fff5345" title="Charge les données de débogage pour la bibliothèque donnée. " alt="" coords="231,107,408,133"/>
-<area shape="rect" id="node5" href="$de/d08/a00381.html#a3b0b1e1fe7f40ba8ea3dc6b7e939fc80" title="Transmet la pile d&#39;appels dans un flux. " alt="" coords="232,157,407,184"/>
-<area shape="rect" id="node6" href="$de/d08/a00381.html#ad7d8d5dc2b8ddb06e71bf97224fdfd05" title="Décharge les données de débogage pour la bibliothèque donnée. " alt="" coords="224,208,415,235"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="castor::PF::convertPixel" name="castor::PF::convertPixel">
-<area shape="rect" id="node2" href="$d1/d3a/a01622.html#ac22661a5cf3b64f7e2b91a5d09f98461" title="Retrieves the pixel at given coordinates. " alt="" coords="225,5,381,32"/>
-<area shape="rect" id="node3" href="$d7/d08/a00378.html#ae5743cc5e0ba74cf972c9d49f832dcf8" title="Function to define pixel depth stencil in byte. " alt="" coords="215,56,391,83"/>
-<area shape="rect" id="node4" href="$d1/d3a/a01622.html#a91d804f85e40b607aed2ffe6c5a31e17" title="set the wanted pixel to the given pixel " alt="" coords="225,107,381,133"/>
-</map>

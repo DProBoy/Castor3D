@@ -1,9 +1,0 @@
-<map id="Graphe hiérarchique des classes" name="Graphe hiérarchique des classes">
-<area shape="rect" id="node1" title="STL class. " alt="" coords="5,129,109,156"/>
-<area shape="rect" id="node2" href="$d4/d22/a01250.html" title="Classe d&#39;exceptions plus verbeuse que celles de std. " alt="" coords="157,129,281,156"/>
-<area shape="rect" id="node3" href="$d9/df5/a01086.html" title="Resource loading exception. " alt="" coords="347,5,509,32"/>
-<area shape="rect" id="node4" href="$d1/d88/a01578.html" title="Exception lancée lorsque l&#39;utilisateur se trompe de type de paramètre. " alt="" coords="332,57,524,98"/>
-<area shape="rect" id="node5" href="$d4/d18/a02106.html" title="Exception de pool. " alt="" coords="329,122,527,163"/>
-<area shape="rect" id="node6" href="$d7/dc5/a01242.html" title="Exception d&#39;unicité " alt="" coords="346,188,510,215"/>
-<area shape="rect" id="node7" href="$d0/d4f/a01830.html" title="Unsupported format exception. " alt="" coords="338,239,518,281"/>
-</map>

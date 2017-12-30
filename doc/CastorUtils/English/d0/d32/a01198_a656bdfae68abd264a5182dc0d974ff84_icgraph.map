@@ -1,5 +1,0 @@
-<map id="castor::Connection::disconnect" name="castor::Connection::disconnect">
-<area shape="rect" id="node2" href="$d4/d5d/a01202.html#a8e52846f1cf60e31158093bb023c7e5e" title="Emits the signal, calls every connected function. " alt="" coords="184,5,379,61"/>
-<area shape="rect" id="node3" href="$d0/d32/a01198.html#a796600233486f79c2ef6d4e6ee160203" title="Move assignment operator. " alt="" coords="216,86,347,127"/>
-<area shape="rect" id="node4" href="$d0/d32/a01198.html#a9c093e61652e4e0703054b960654c4fd" title="Destructor. " alt="" coords="216,151,347,193"/>
-</map>

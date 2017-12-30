@@ -1,5 +1,0 @@
-<map id="Graphe hiérarchique des classes" name="Graphe hiérarchique des classes">
-<area shape="rect" id="node1" href="$dd/d8e/a01898.html" title="Contient les coordonnées du point, peut être spécialisée, afin de personnaliser le comportement..." alt="" coords="5,23,165,65"/>
-<area shape="rect" id="node2" href="$d0/d2b/a01010.html" title="Classe de points à dimensions statiques. " alt="" coords="213,5,389,32"/>
-<area shape="rect" id="node3" href="$d0/d2b/a01010.html" title="castor::Point\&lt; T, 3 \&gt;" alt="" coords="230,56,373,83"/>
-</map>

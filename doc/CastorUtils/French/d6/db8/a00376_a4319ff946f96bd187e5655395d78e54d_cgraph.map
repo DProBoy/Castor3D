@@ -1,6 +1,0 @@
-<map id="castor::operator&lt;&lt;" name="castor::operator&lt;&lt;">
-<area shape="rect" id="node2" href="$da/da0/a02126.html#a5afe5a17a6b3259c763dd90ccf207b26" title="Récupère la valeur d&#39;indentation courante. " alt="" coords="183,5,361,47"/>
-<area shape="rect" id="node3" href="$dd/df5/a00386.html#a9b8bfa757c7cf132494416092d4db1d4" title="Initialise le flux afin de pouvoir l&#39;indenter. " alt="" coords="183,71,361,112"/>
-<area shape="rect" id="node4" href="$dd/df5/a00386.html#a64252245b850a1fd8c64f337aaa26c29" title="Définit la valeur d&#39;indentation pour le flux donné " alt="" coords="191,137,353,163"/>
-<area shape="rect" id="node5" href="$dd/df5/a00386.html#a60a3e6725baf0bb5af0ded93c311858f" title="Récupère la valeur d&#39;indentation pour le flux donné " alt="" coords="409,137,588,163"/>
-</map>

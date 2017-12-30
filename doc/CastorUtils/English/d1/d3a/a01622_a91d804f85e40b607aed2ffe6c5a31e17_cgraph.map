@@ -1,7 +1,0 @@
-<map id="castor::Image::setPixel" name="castor::Image::setPixel">
-<area shape="rect" id="node2" href="$dc/d81/a01006.html#a9006a865076535f048d8712b731e90dd" title="Retrieves the pointer on constant datas. " alt="" coords="232,5,384,32"/>
-<area shape="rect" id="node3" href="$d7/d08/a00378.html#ac35467f03d76867fa08a16f27e32408b" title="Function to perform convertion without templates. " alt="" coords="227,56,389,83"/>
-<area shape="rect" id="node4" href="$d1/d3a/a01622.html#a98e764d3d3dadc069beb51287f9a5a75" title="Retrieves the image height. " alt="" coords="226,107,390,133"/>
-<area shape="rect" id="node5" href="$d1/d3a/a01622.html#ac07648d58a11615fac8101ee4a06b449" title="Retrieves the image pixel format. " alt="" coords="209,157,407,184"/>
-<area shape="rect" id="node6" href="$d1/d3a/a01622.html#a435dbda3fae0f7e09e19351562ddd456" title="Retrieves the image width. " alt="" coords="227,208,389,235"/>
-</map>

@@ -1,4 +1,0 @@
-<map id="castor::PoolManagedObject::operator delete" name="castor::PoolManagedObject::operator delete">
-<area shape="rect" id="node2" href="$df/d03/a02058.html#ae91569777640596c04fd8c9005e5d2bf" title="Désalloue un objet (rend sa mémoire au pool). " alt="" coords="269,5,399,47"/>
-<area shape="rect" id="node3" href="$d5/d23/a02110.html#a4859cb4d26171047b7fa24be83a5e4e7" title="castor::UniqueObjectPool::get" alt="" coords="236,71,432,98"/>
-</map>

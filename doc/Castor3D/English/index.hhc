@@ -21,6 +21,10 @@
       <LI><OBJECT type="text/sitemap"><param name="Name" value="Techniques"><param name="Local" value="index.html#feat_0_10_0_tec"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="Tone mappings"><param name="Local" value="index.html#feat_0_10_0_ton"><param name="ImageNumber" value="11"></OBJECT>
       </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Fixed Bugs"><param name="Local" value="index.html#bugs_0_10_0"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Castor3D"><param name="Local" value="index.html#bugs_0_10_0_c3d"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
     </UL>
   <LI><OBJECT type="text/sitemap"><param name="Name" value="Version 0.9.0"><param name="Local" value="index.html#version_0_9_0"><param name="ImageNumber" value="1"></OBJECT>
     <UL>
