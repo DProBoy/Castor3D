@@ -166,8 +166,7 @@ The build is configurable through CMake using the following options:
 
 - **CASTOR_BUILDGRP_TONEMAPS**
 
-    Allows you to build ToneMapping plug-ins (note that LinearToneMapping is
-    always built).
+    Allows you to build ToneMapping plug-ins (note that LinearToneMapping is always built).
 
 - **CASTOR_BUILDGRP_TOOL**
 
@@ -186,6 +185,7 @@ The build is configurable through CMake using the following options:
     Enables the build of (NAME) generic plug-in.
 
 - **CASTOR_BUILD_IMPORTER_(NAME)**
+
     Enables the build of (NAME) importer plug-in.
 
 - **CASTOR_BUILD_INTEROP_(NAME)**
