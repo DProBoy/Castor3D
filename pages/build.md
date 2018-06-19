@@ -14,34 +14,30 @@ You just need to launch CMake to build your preferential project file.
 
 Tested compilers are:
 - Visual Studio 2017
-- gcc 5.3
-- gcc 6.1
+- gcc 6.3
 
 Projects
 --------
 
 **Main projects**
 
-- CastorUtils depends on FreeImage and FreeType, and Zlib.
-- Castor3D is based on CastorUtils.
-- GuiCommon depends on wxWidgets (from 2.9.5, currently 3.0).
-- CastorViewer depends on GuiCommon, Castor3D and wxWidgets.
+- CastorUtils depends on Zlib.
+- GlslWriter depends on CastorUtils.
+- Castor3D is based on CastorUtils and GlslWriter, and depends on RendererLib's Renderer.
+- GuiCommon depends on Castor3D and wxWidgets (from 2.9.5, currently 3.1).
+- CastorViewer depends on GuiCommon and wxWidgets.
 
 **Plug-ins**
 
 - Renderers
-  - GlRenderSystem depends on OpenGL (not GLU).
+  - VkRenderSystem depends on RendererLib's vk_renderer.
+  - Gl3RenderSystem depends on RendererLib's gl3_renderer.
+  - Gl4RenderSystem depends on RendererLib's gl_renderer.
 
 - Importers
-  - ASE: Depend on Castor3D.
-  - 3DS: Depend on Castor3D.
-  - LWO: Depend on Castor3D.
-  - MD2: Depend on Castor3D.
-  - MD3: Depend on Castor3D.
   - ASSIMP: Depends on Castor3D and Assimp.
-  - PLY: Depend on Castor3D. 
-  - OBJ: Depend on Castor3D. 
-  - FBX: Depend on Castor3D. 
+  - PLY: Depend on Castor3D.
+  - OBJ: Depend on Castor3D.
 
 - Dividers
   - Loop: Depend on Castor3D.
@@ -50,8 +46,12 @@ Projects
 
 - PostEffects
   - Bloom: Depend on Castor3D.
+  - FilmGrain: Depend on Castor3D.
   - GrayScale: Depend on Castor3D.
+  - LightStreaks: Depend on Castor3D.
   - FXAA: Depend on Castor3D.
+  - SMAA: Depend on Castor3D.
+  - Linear Motion Blur: Depend on Castor3D.
 
 - Generators
   - DiamondSquareTerrain: Depend on Castor3D.
@@ -64,18 +64,20 @@ Projects
   - HaarmPieterDuikerToneMapping: Depend on Castor3D.
   - HejlBurgessDawsonToneMapping: Depend on Castor3D.
   - ReinhardToneMapping: Depend on Castor3D.
+  - Uncharted2ToneMapping: Depend on Castor3D.
 
 **Test projects**
 
 - CastorTest: Base library for testing, depends on CastorUtils.
 - CastorUtilsTest: Allows you to run unit and performance tests for CastorUtils, depends on CastorUtils and CastorTest.
-- TestRenderSystem: A dummy render system plugin, used to run tests on Castor3D without any renderer, depends on Castor3D.
+- TestRenderSystem: A dummy render system plugin, used to run tests on Castor3D without any renderer, depends on Castor3D and RendererLib's TestRenderer.
 - Castor3DTest: Allows you to run unit tests for Castor3D, depends on Castor3D and CastorTest.
-- GlRenderSystemTest: Allows you to run unit tests for GlRenderSystem, depends on Castor3D, GlRenderSystem and CastorTest.
 
 **Other**
 
-- ImgConverter : Allows you to convert any image file type to XPM or ICO, depends on wxWidgets.
+- CastorMeshConverter: Depends on Castor3D and wxWidgets.
+- CastorMeshUpgrader: Depends on Castor3D and wxWidgets.
+- ImgConverter: Depends on wxWidgets.
 
 Documentation for CastorUtils and Castor3D can be generated using Doxygen.
 
@@ -126,6 +128,10 @@ The build is configurable through CMake using the following options:
 
     Enables the build of Divider plug-ins.
 
+- **CASTOR_BUILDGRP_GENERATOR**
+
+    Enables the build of Generator plug-ins.
+
 - **CASTOR_BUILDGRP_GENERIC**
 
     Enables the build of Generic plug-ins.
@@ -137,6 +143,10 @@ The build is configurable through CMake using the following options:
 - **CASTOR_BUILDGRP_INTEROP**
 
     Enables the build of Bindings.
+
+- **CASTOR_BUILDGRP_PARTICLES**
+
+    Enables the build of Particles plug-ins.
 
 - **CASTOR_BUILDGRP_POSTFX**
 
@@ -150,11 +160,6 @@ The build is configurable through CMake using the following options:
 
     Allows you to build setup projects.
 
-- **CASTOR_BUILDGRP_TECHNIQUE**
-
-    Allows you to build Technique plug-ins (note that DirectRenderTechnique is
-    always built).
-
 - **CASTOR_BUILDGRP_TEST**
 
     Allows you to build test applications.
@@ -166,11 +171,15 @@ The build is configurable through CMake using the following options:
 
 - **CASTOR_BUILDGRP_TOOL**
 
-    Enables the build of tools ()applications and tests).
+    Enables the build of tools (applications and tests).
 
 - **CASTOR_BUILD_DIVIDER_(NAME)**
 
     Enables the build of (NAME) divider plug-in.
+
+- **CASTOR_BUILD_GENERATOR_(NAME)**
+
+    Enables the build of (NAME) generator plug-in.
 
 - **CASTOR_BUILD_GENERIC_(NAME)**
 
@@ -193,10 +202,6 @@ The build is configurable through CMake using the following options:
 
 - **CASTOR_BUILD_SAMPLE_(NAME)**
 
-    Enables the build of (NAME) sample application.
-
-- **CASTOR_BUILD_TECHNIQUE_(NAME)**
-
     Enables the build of (NAME) technique plug-in.
 
 - **CASTOR_BUILD_TONEMAP_(NAME)**
@@ -206,12 +211,3 @@ The build is configurable through CMake using the following options:
 - **CASTOR_BUILD_TEST_(NAME)**
 
     Enables the build of (NAME) test application.
-
-- **CASTOR_FORCE_ALL_IMPORTERS**
-
-    Forces the build of every importer plug-in, even though AssimpImporter is
-    built.
-
-- **CASTOR_USE_SSE2**
-
-    Enables use of SSE2 instructions for Point4f and Matrix4x4f operations.

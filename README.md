@@ -4,19 +4,22 @@ Castor3D
 
 Castor3D is a 3D engine written in C++.
 It works on Windows and also on GNU/Linux.
-It uses OpenGL (with GLSL).
+It relies on RendererLib as a rendering API, allowing Vulkan, OpenGL 3.X and OpenGL 4.X.
+It is still a work in progress, feel free to contribute!
 
 Features
 --------
 
 - Deferred rendering.
-- Normal mapping
+- Normal mapping.
 - Parallax Occlusion mapping.
-- Screen Space Ambient Occlusion.
-- Shadow Mapping.
-- Reflection Mapping.
-- PBR rendering (Metallic and Specular), and Legacy rendering.
+- Screen Space Ambient Occlusion (using Scalable Ambiant Obscurance implementation).
+- Shadow Mapping (allowing to choose between Raw, PCF or Variance Shadow Maps).
+- Reflection/Refraction Mapping.
+- PBR rendering (Metallic and Specular workflows), and Legacy rendering.
 - HDR rendering with various tone mapping operators.
+- Screen Space Subsurface Scattering (without backlit transmittance yet).
+- Volumetric Light Scattering for directional light source projecting shadows.
 - Scene graph.
 - Modular architecture through plug-ins.
 - Shaders are generated automatically from material and pass configuration.
@@ -26,18 +29,14 @@ Implemented Plug-ins
 --------------------
 
 **Renderers**
-- GlRenderSystem.
+- VkRenderSystem.
+- Gl3RenderSystem.
+- Gl4RenderSystem.
 
 **Importers**
-- ASE: ASCII Scene Export mesh importer.
-- 3DS: 3D Studio mesh importer.
-- LWO: Lightwave Object mesh importer.
-- MD2: Quake II mesh importer.
-- MD3: Quake III mesh importer.
-- ASSIMP: Multiple format mesh importer, replaces the previous ones if Assimp is available.
+- ASSIMP: Multiple format mesh importer.
 - PLY: Stanford Polygon library mesh importer.
 - OBJ: Wavefront OBJ mesh importer.
-- FBX: Autodesk Maya mesh importer.
 
 **Dividers**
 - Loop subdivision surfaces.
@@ -45,11 +44,13 @@ Implemented Plug-ins
 - PN-Triangles surfaces.
 
 **PostEffects**
-- Bloom.
+- Bloom: HDR Bloom implementation.
+- FilmGrain: To display some grain on the render.
 - GrayScale.
-- FXAA anti aliasing (low quality).
-- SMAA anti aliasing (high quality, 1X and T2X supported so far).
-- Film Grain.
+- LightStreaks (using Kawase Light Streaks).
+- FXAA Antialiasing.
+- SMAA Antialiasing (1X and T2X so far).
+- Linear Motion Blur.
 
 **Generators**
 - DiamondSquareTerrain: to generate terrains inside Castor3D scenes, using diamond-quare algorithm.
@@ -62,18 +63,20 @@ Implemented Plug-ins
 - HaarmPieterDuikerToneMapping: Haarm Pieter Duiker tone mapping.
 - HejlBurgessDawsonToneMapping: Hejl Burgess Dawson tone mapping.
 - ReinhardToneMapping: Reinhard tone mapping.
+- Uncharted2ToneMapping: Uncharted 2 tone mapping.
 
 
-![Sponza](http://DragonJoker.github.com/Castor3D/img/Sponza-PBR-Bloom-small.png)
-![Cerberus](http://DragonJoker.github.com/Castor3D/img/Cerberus-PBR-small.png)
-![Park, Legacy](http://DragonJoker.github.com/Castor3D/img/Park-Legacy-small.png)
-![Park, PBR](http://DragonJoker.github.com/Castor3D/img/Park-PBR-small.png)
-![Nyra, PBR](http://DragonJoker.github.com/Castor3D/img/Nyra-PBR-MR-small.png)
+![Sponza](http://dragonjoker.github.com/Castor3D/img/Sponza-PBR-Bloom-small.png)
+![Cerberus](http://dragonjoker.github.com/Castor3D/img/Cerberus-PBR-small.png)
+![Park, Legacy](http://dragonjoker.github.com/Castor3D/img/Park-Legacy-small.png)
+![Park, PBR](http://dragonjoker.github.com/Castor3D/img/Park-PBR-small.png)
+![Nyra, PBR](http://dragonjoker.github.com/Castor3D/img/Nyra-PBR-MR-small.png)
 
 Links
 -----
 
-- [Building Castor3D](http://DragonJoker.github.com/Castor3D/pages/build)
+- [Building Castor3D](http://dragonjoker.github.com/Castor3D/pages/build)
+- API Documentation [English](http://dragonjoker.github.com/Castor3D/doc/Castor3D/English), [French](http://dragonjoker.github.com/Castor3D/doc/Castor3D/French)
 - [Playlist on YouTube](https://www.youtube.com/playlist?list=PLKA1SVXuAbMNaFbSJyAN_4yD2bzNlgES3)
 
 General Questions
