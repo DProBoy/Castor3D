@@ -66,12 +66,12 @@ Implemented Plug-ins
 - Uncharted2ToneMapping: Uncharted 2 tone mapping.
 
 
-<img alt="Sponza" src="./img/Sponza-PBR-Bloom.png" width="800px" height="450px">
-<img alt="Cerberus" src="./img/Cerberus-PBR.png" width="800px" height="450px">
-<img alt="Park, Legacy" src="./img/Park-Legacy.png" width="800px" height="450px">
-<img alt="Park, PBR" src="./img/Park-PBR.png" width="800px" height="450px">
-<img alt="Nyra, PBR" src="./img/Nyra-PBR-MR.png" width="800px" height="450px">
-<img alt="SanMiguel, PBR" src="./img/SanMiguel-PBR-SG.png" width="800px" height="450px">
+<a href="./img/Sponza-PBR-Bloom.png"><img alt="Sponza" src="./img/Sponza-PBR-Bloom-Small.png"></a>
+<a href="./img/Cerberus-PBR.png"><img alt="Cerberus" src="./img/Cerberus-PBR-Small.png"></a>
+<a href="./img/Park-Legacy.png"><img alt="Park, Legacy" src="./img/Park-Legacy-Small.png"></a>
+<a href="./img/Park-PBR.png"><img alt="Park, PBR" src="./img/Park-PBR-Small.png"></a>
+<a href="./img/Nyra-PBR-MR.png"><img alt="Nyra, PBR" src="./img/Nyra-PBR-MR-Small.png"></a>
+<a href="./img/SanMiguel-PBR-SG.png"><img alt="SanMiguel, PBR" src="./img/SanMiguel-PBR-SG-Small.png"></a>
 
 Links
 -----
