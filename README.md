@@ -66,11 +66,11 @@ Implemented Plug-ins
 - Uncharted2ToneMapping: Uncharted 2 tone mapping.
 
 
-![Sponza](http://dragonjoker.github.com/Castor3D/img/Sponza-PBR-Bloom-small.png)
-![Cerberus](http://dragonjoker.github.com/Castor3D/img/Cerberus-PBR-small.png)
-![Park, Legacy](http://dragonjoker.github.com/Castor3D/img/Park-Legacy-small.png)
-![Park, PBR](http://dragonjoker.github.com/Castor3D/img/Park-PBR-small.png)
-![Nyra, PBR](http://dragonjoker.github.com/Castor3D/img/Nyra-PBR-MR-small.png)
+![Sponza]<img src="./img/Sponza-PBR-Bloom.png" height="800px">
+![Cerberus]<img src="./img/Cerberus-PBR.png" height="800px">
+![Park, Legacy]<img src="./img/Park-Legacy.png" height="800px">
+![Park, PBR]<img src="./img/Park-PBR.png" height="800px">
+![Nyra, PBR]<img src="./img/Nyra-PBR-MR" height="800px">
 
 Links
 -----
