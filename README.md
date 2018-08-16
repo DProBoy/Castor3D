@@ -66,12 +66,12 @@ Implemented Plug-ins
 - Uncharted2ToneMapping: Uncharted 2 tone mapping.
 
 
-![Sponza]<img src="./img/Sponza-PBR-Bloom.png" height="450px">
-![Cerberus]<img src="./img/Cerberus-PBR.png" height="450px">
-![Park, Legacy]<img src="./img/Park-Legacy.png" height="450px">
-![Park, PBR]<img src="./img/Park-PBR.png" height="450px">
-![Nyra, PBR]<img src="./img/Nyra-PBR-MR.png" height="450px">
-![SanMiguel, PBR]<img src="./img/SanMiguel-PBR-SG.png" height="450px">
+<img alt="Sponza" src="./img/Sponza-PBR-Bloom.png" height="450px">
+<img alt="Cerberus" src="./img/Cerberus-PBR.png" height="450px">
+<img alt="Park, Legacy" src="./img/Park-Legacy.png" height="450px">
+<img alt="Park, PBR" src="./img/Park-PBR.png" height="450px">
+<img alt="Nyra, PBR" src="./img/Nyra-PBR-MR.png" height="450px">
+<img alt="SanMiguel, PBR" src="./img/SanMiguel-PBR-SG.png" height="450px">
 
 Links
 -----
