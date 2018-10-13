@@ -94,20 +94,19 @@ Links
 General Questions
 -----------------
 
-1. I need a feature that Castor3D do not implement, what should I do ?
+1. I need a feature that Castor3D doesn't implement, what should I do ?
   There are two ways.
-  First, Castor3D is a free software and library, so you are welcome to improve
-  it yourself ;-) !
-  Second, just ask the author :-) ! 
+  First, Castor3D is Open Source, so you are welcome to Add it yourself and build on it ;-) !
+  Or,You can just ask the author :-) ! 
 
 2. I implemented a cool feature, can I commit it ?
-  Obviously you are welcome to send the author any improvement. But obviously
-  the author is quite careful with readability, correctness and stability, 
-  and will read and check any contribution before including it.
+  Obviously you are welcome to send the author any improvement.As long as its : Readable , Correct and Stable, 
+  We will read and check any contribution before including it.
   Thus, it can take time... There are few basic rules to write contributions:
-  1. Do never change the indentation of any part of the code that's not yours.
-  2. Do never send codes without a lot of comments in (bad or good) English.
-  3. Do never send codes with obscure and/or non-English variable names.
+  a. Don't change the indentation of any part of the code that's not yours.
+  b. Don't commit uncommented code ,The comments themselves should be in english ,however , refrain from 
+  useless comments that explain WHAT the code does ,instead of WHY it does it.
+  c. Don't send code with obscure and/or non-English variable names.
 
-3. How can I ask the author ?
-  Just send a mail to <dragonjoker59@hotmail.com> !
+3. How can I contact the author ?
+  Just send an email to <dragonjoker59@hotmail.com> !
